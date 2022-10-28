@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  height: fit-content;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  background-color: #111111;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #111111;
+}
+  
+::-webkit-scrollbar-track {
+    background: #111111; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color: #242627; 
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2f3236;
+}
+
+a {
+  padding: 15px;
+  border: 0px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #1e1e1e;
+}
+
+links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  width: 80vw;
+  max-width: 1000px;
+  height: 10vh;
+}
+
+links a:hover {
+  transform: scale(1.03);
+	cursor: pointer;
+}
+
+links {
+  margin-bottom: 100px;
+}
+
+.discord {
+  background-color: #5662f6;
+}
+
+.bs {
+  background-color: #b4ddef;
+}
+
+.spotify {
+  background-color: #1ed760;
+}
+
+header {
+  margin-top: 30px;
+}
+
+header h1 {
+  display: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50vw;
+  min-width: 100px;
+  max-width: 400px;
+  border-radius: 18px;
+}
