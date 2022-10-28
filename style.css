@@ -5,14 +5,14 @@ html, body {
   width: 100%;
 }
 
+
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #ce7823, #a0550a, #9e6935, #f57d06);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
   margin: 0px;
   font-family: 'Be Vietnam Pro', sans-serif;
 }
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -24,6 +24,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -37,15 +38,53 @@ body {
   display: none;
 }
 
-a {
+header {
+  margin-top: 30px;
+}
+
+
+header h1 {
+  display: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #fff;
   padding: 15px;
+  width: fit-content;
+  border-radius: 8px;
+  background-color: #11111170;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50vw;
+  min-width: 100px;
+  max-width: 400px;
+  border-radius: 18px;
+}
+
+a {
   border: 0px;
   border-radius: 8px;
   color: #fff;
   background-color: #1e1e1e;
 }
 
-links a {
+.divider {
+  width: 95%;
+  height: 10px;
+  margin: auto;
+  border-radius: 9px;
+  background-color: #26292c;
+}
+
+#links a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,33 +99,18 @@ links a {
   height: 10vh;
 }
 
-links a:hover {
+#links a:hover {
   transform: scale(1.03);
 	cursor: pointer;
 }
 
-header {
-  margin-top: 30px;
-}
-
-header h1 {
-  display: center;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
+#linksbg {
+  width: 80vw;
+  max-width: 1000px;
+  padding: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 60px;
-  color: #fff;
-}
-
-header img {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  width: 50vw;
-  min-width: 100px;
-  max-width: 400px;
-  border-radius: 18px;
+  border-radius: 8px;
+  background-color: #11111170;
 }
