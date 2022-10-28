@@ -6,18 +6,31 @@ html, body {
 }
 
 body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
   margin: 0px;
-  background-color: #111111;
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 ::-webkit-scrollbar {
-    width: 7px;
-    background-color: #111111;
+    display: none;
 }
   
 ::-webkit-scrollbar-track {
-    background: #111111; 
+  display: none;
 }
    
 ::-webkit-scrollbar-thumb {
@@ -56,22 +69,6 @@ links a {
 links a:hover {
   transform: scale(1.03);
 	cursor: pointer;
-}
-
-links {
-  margin-bottom: 100px;
-}
-
-.discord {
-  background-color: #5662f6;
-}
-
-.bs {
-  background-color: #b4ddef;
-}
-
-.spotify {
-  background-color: #1ed760;
 }
 
 header {
