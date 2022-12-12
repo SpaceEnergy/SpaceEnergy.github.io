@@ -2,7 +2,7 @@
 * @name Beautiful Discord MK3
 * @author SkyEnergy#2948
 * @description Made by a CSS NOOB but there's ❤️ in it
-* @version 1.0.0 (beta)
+* @version 1.0.5 (beta)
 * @website https://skyenergy1.github.io
 * @source https://github.com/SkyEnergy0/Beautiful-Discord-Theme
 * @updateUrl https://skyenergy0.github.io/Beautiful-Discord-MK3/Beautiful-Discord-MK3.theme.css
@@ -63,7 +63,7 @@
 :root {
     /** Color */
     --prime-color: #FFF;
-    --sec-color: #1e1e1e;
+    --sec-color: #FFF;
 
     /** Border */
     --prime-border: 8px;
@@ -83,15 +83,6 @@
 !=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 */
 
-
-
-/*
-*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-?
-?Base
-?
-*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-*/
 
 
 /*
