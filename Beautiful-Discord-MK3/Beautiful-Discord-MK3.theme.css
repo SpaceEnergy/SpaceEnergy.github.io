@@ -5,7 +5,7 @@
 * @version 1.0.0 (beta)
 * @website https://skyenergy1.github.io
 * @source https://github.com/SkyEnergy0/Beautiful-Discord-Theme
-* @updateUrl https://raw.githubusercontent.com/SkyEnergy0/Beautiful-Discord-Theme-MK2/main/Beautiful-Discord-MK2.theme.css
+* @updateUrl https://skyenergy0.github.io/Beautiful-Discord-MK3/Beautiful-Discord-MK3.theme.css
 **/
 
 
@@ -62,7 +62,7 @@
 
 :root {
     /** Color */
-    --prime-color: #111111;
+    --prime-color: #FFF;
     --sec-color: #1e1e1e;
 
     /** Border */
