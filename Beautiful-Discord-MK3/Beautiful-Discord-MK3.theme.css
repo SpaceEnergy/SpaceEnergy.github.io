@@ -62,8 +62,8 @@
 
 :root {
     /** Color */
-    --prime-color: #FFF;
-    --sec-color: #FFF;
+    --prime-color: #111111;
+    --sec-color: #1e1e1e;
 
     /** Border */
     --prime-border: 8px;
