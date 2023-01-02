@@ -8,7 +8,6 @@ html, body, p, h1, h2, h3 {
   user-select: none;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -18,7 +17,7 @@ a {
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
   margin: 0px;
@@ -36,7 +35,6 @@ body {
 	}
 }
 
-
 .info {
   font-size: 20px;
   margin-top: 40px;
@@ -47,8 +45,21 @@ body {
   margin-bottom: 10px;
   height: 300px;
   width: 300px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
+
+
+.timer {
+  padding: 15px;
+  margin: auto;
+  margin-top: 30px;
+  width: 600px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 8px;
+  background-color:#f74843;
+}
+
 
 .divider h2 {
   padding: 20px;

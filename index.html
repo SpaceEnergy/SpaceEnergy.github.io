@@ -8,7 +8,8 @@
     <meta property="og:site_name" content="SkyLink">
     <meta property="og:url" content="https://skyenergy0.github.io">
     <meta property="og:title" content="SkyEnergy">
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1017420071020277862/1037136809546760242/NEW_SkyEnergy.png">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1051825367008153620/1058823993727131658/image.png">
+    <meta property="og:video:url" content="https://www.youtube.com/embed/7PWL8irwj4I">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="/images/avatar.png">
   </head>
@@ -17,6 +18,35 @@
     <header class="info">
       <img src="/images/avatar.png" alt="Avatar">
       <h1>SkyEnergy</h1>
+      <p>#2948</p>
+      <div class="timer">
+        <p id="textbd" style="margin-bottom: 15px; color: #333;">Countdown bis zu meinem Geburtstag</h3>
+        <h3 id="timer" style="color: #333;">
+          <script>
+            var countDownDate = new Date("Feb 8, 2023 00:00:00").getTime();
+            
+            var x = setInterval(function() {
+            
+              var now = new Date().getTime();
+            
+              var distance = countDownDate - now;
+            
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+              document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+            
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("timer").innerHTML = "🎂 Heute ist mein Geburtstag! 🎂";
+                document.getElementById("textbd").style.display = "none";
+              }
+            }, 1000);
+          </script>
+        </h3>
+      </div>
     </header>
 
     <section class="links">
@@ -35,7 +65,15 @@
         <img src="/images/discord.png" alt="Discord">
         <div>
           <h3 class="title">Discord</h3>
-          <p class="disc">Gaming Island DE</p>
+          <p class="disc">Gaming Island [GER]</p>
+        </div>
+      </div>
+
+      <div class="link" onclick="window.open('https://robertsspaceindustries.com/enlist?referral=STAR-3XMC-H92N')">
+        <img src="/images/starcitizen.png" alt="SC">
+        <div>
+          <h3 class="title">Star Citizen Referral</h3>
+          <p class="disc">STAR-3XMC-H92N</p>
         </div>
       </div>
 
@@ -53,7 +91,7 @@
       <div class="link" onclick="window.open('https://github.com/SkyEnergy0/Beautiful-Discord-Theme-MK2')">
         <img src="/images/bd-mk2.png" alt="BD-MK2">
         <div>
-          <h3 class="title">Beautiful Discord Theme MK2</h3>
+          <h3 class="title">Beautiful Discord Theme MK2 (MK3 SOON)</h3>
           <p class="disc">Made by a CSS NOOB but there's ❤️ in it</p>
         </div>
       </div>
@@ -67,14 +105,6 @@
 
       <div class="divider">
         <h2>Sonstiges</h2>
-      </div>
-
-      <div class="link" onclick="window.open('https://robertsspaceindustries.com/enlist?referral=STAR-3XMC-H92N')">
-        <img src="/images/starcitizen.png" alt="SC">
-        <div>
-          <h3 class="title">Star Citizen Referral</h3>
-          <p class="disc">STAR-3XMC-H92N</p>
-        </div>
       </div>
 
       <div class="link" onclick="window.open('https://steamcommunity.com/id/SkyEnergy/')">
