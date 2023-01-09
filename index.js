@@ -1,3 +1,6 @@
+//
+//  Timer
+//
 var countDownDate = new Date("Feb 8, 2023 00:00:00").getTime();
             
 var x = setInterval(function() {
@@ -21,7 +24,9 @@ var x = setInterval(function() {
 }, 1000);
 
 
-
+//
+//  Slider
+//
 let slideIndex = 1;
 showSlides(slideIndex);
 
