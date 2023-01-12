@@ -50,10 +50,10 @@ body {
 
 
 .timer {
-  padding: 15px;
+  padding: 20px;
   margin: auto;
   margin-top: 30px;
-  width: 650px;
+  width: 50%;
   text-align: center;
   font-size: 30px;
   border-radius: 8px;

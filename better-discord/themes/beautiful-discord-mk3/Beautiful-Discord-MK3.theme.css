@@ -1,12 +1,12 @@
 /**
 * @name Beautiful Discord MK3
-* @version 1.0.0 (alpha)
+* @version 1.0.1 (alpha)
 * @author SkyEnergy#2948
 * @authorLink https://github.com/SkyEnergy0
 * @donate https://www.buymeacoffee.com/SkyEnergy
 * @description Made by a CSS NOOB but there's ❤️ in it
 * @website https://skyenergy0.github.io
-* @source https://github.com/SkyEnergy0/Beautiful-Discord-Theme
+* @source https://github.com/SkyEnergy0/Beautiful-Discord-Theme-MK2
 **/
 
 
@@ -150,6 +150,22 @@
 =-=-=-=-=-=-=-=
 */
 
+/* Folder Open */
+.expandedFolderBackground-1kSAf6 {
+    width: 64px;
+    left: 8px;
+    bottom: 0px;
+    top: -9px;
+    border-radius: 16px;
+}
+.wrapper-38slSD {
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+.expandedFolderIconWrapper-3RwQpD {
+    background-color: #1e1e1e;
+}
+
 /* Folder Open Background */
 .expandedFolderBackground-1kSAf6, .folder-241Joy {
     background-color: #2a2a2a;
@@ -227,9 +243,17 @@
 
 /* Position */
 .wrapper-1_HaEi.guilds-2JjMmN {
+    width: 80px;
     margin-bottom: 15px;
     margin-left: 15px;
     border-radius: 8px;
+}
+.tree-3agP2X {
+    width: 80px;
+    background-color: #1e1e1e;
+}
+.wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK {
+    width: 80px;
 }
 
 /* Background */
