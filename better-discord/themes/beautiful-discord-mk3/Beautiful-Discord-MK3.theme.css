@@ -1,6 +1,6 @@
 /**
 * @name Beautiful Discord MK3
-* @version 1.0.1 (alpha)
+* @version 1.0.3 (alpha)
 * @author SkyEnergy#2948
 * @authorLink https://github.com/SkyEnergy0
 * @donate https://www.buymeacoffee.com/SkyEnergy
@@ -634,6 +634,10 @@
     background-color: #1e1e1e;
 }
 
+.channelTextArea-220_Gz .scrollableContainer-15eg7h {
+    background-color: #26292c;
+}
+
 /* Attached */
 .channelTextArea-1FufC0.channelTextArea-1VQBuV, .attachedBars-2BCP3l, .replyBar-1oi75v {
     border-radius: 8px;
@@ -672,4 +676,138 @@
 .button-cO0-d9.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F {
     border-radius: 8px;
     background-color: #5661f6;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Message action
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/*
+=-=-=-=-=-=-=-=
+?Selected
+=-=-=-=-=-=-=-=
+*/
+
+.button-3bklZh.selected-69H4ua {
+    background-color: #2a2a2a;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Emojis/Stickers/Gifs Menu
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Base Background */
+.contentWrapper-3vHNP2, .header-11eigE, .inspector-DFKXwB, .wrapper-22rqw6, .emojiPicker-6YCk8a {
+    background-color: #1b1a1a;
+}
+.emojiPicker-6YCk8a {
+    border-radius: 0px 0px 8px 8px;
+}
+.header-11eigE, .header-uVCAlo, .header-2TLOnc, .emojiPicker-6YCk8a {
+    box-shadow: none !important;
+}
+
+/* Tabs */
+.navButton-1XuvI-.navItem-3McpmW.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F {
+    background-color: #111111;
+    padding: 8px;
+    margin-top: -6px;
+    border-radius: 4px
+}
+.contentWrapper-3vHNP2 {
+    margin-top: -35px;
+    height: 108%;
+    padding-top: 20px;
+}
+.wrapper-3u51GQ, .wrapper-1NB3WY, .container-3u7RcY {
+    margin-top: 10px
+}
+.navButton-1XuvI-.navItem-3McpmW.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F:hover {
+    background-color: #242627;
+}
+.navButton-1XuvI-.navItem-3McpmW.navButtonActive-1EqC5l.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F {
+    background-color: #26292c;
+    border-radius: 4px;
+}
+
+/* Server List */
+.wrapper-22rqw6.categoryList-2qRrlj {
+    border-radius: 0px 0px 0px 8px;
+}
+
+/* Search Bar */
+.container-1SX9VC, .container-2oNtJn {
+    background-color: #26292c;
+    border-radius: 8px;
+}
+
+/* ReSizing Popout Fix */
+.drawerSizingWrapper-1txdWG {
+    min-width: 450px;
+    max-width: 1576px;
+}
+
+/* Emoji List */
+.bodyWrapper-1eSOtW {
+    background-color: #111111;
+    border-radius: var(--border-radius);
+    margin-right: 10px;
+}
+.wrapper-1NNaWG.header-1ULbqO {
+    background-color: #111111;
+}
+.emojiListRow-3hshyU {
+    justify-content: center;
+}
+.emojiItem-277VFM.emojiItemMedium-2stgkv.emojiItemSelected-2Lg50V {
+    background-color: #26292c;
+}
+
+/* Sticker List */
+.wrapper-i1awk3>.scroller-2MALzE.thin-31rlnD.scrollerBase-_bVAAt {
+    background-color: #111111;
+    margin-right: 10px;
+    border-radius: var(--border-radius);
+}
+#sticker-picker-grid .row-2mBMW2 {
+    gap:35px !important;
+    justify-content: center;
+}
+.wrapper-1NNaWG.packHeader-w9jpYl {
+    background-color: #111111;
+}
+.sticker-H2HhJD.sticker-2Yb_-L.stickerInspected-mwnU6w, .assetWrapper-2hzITV.assetWrapperMasked-1iw9lV {
+    background-color: #26292c;
+    border-radius: var(--border-radius);
+}
+
+/* GIFs List */
+.content-A8TzKf {
+    border-radius: 18px;
+    border: 10px solid #1e1e1e;
+    background-color: #111111;
+}
+.categoryFade-3RRG67, .categoryFadeBlurple-1l49_Q, .gif-2kTiNB {
+    border-radius: var(--border-radius);
+}
+.categoryText-3B1jLN {
+    height: fit-content;
+    margin: auto;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #1e1e1e;
 }
