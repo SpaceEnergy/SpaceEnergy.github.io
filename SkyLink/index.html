@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff3f5f">
+    <meta property="og:url" content="https://skyenergy0.github.io/SkyLink">
+    <meta property="og:title" content="SkyLink">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1051825367008153620/1058823993727131658/image.png">
+    <link rel="shortcut icon" href="images/avatar.png" type="image/x-icon">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script defer src="index.js"></script>
+    <title>SkyLink</title>
+  </head>
+
+  <body>
+    <header class="info">
+      <img src="images/avatar.png" alt="Avatar">
+      <h1>SkyEnergy</h1>
+      <p>#2948</p>
+      <div class="timer">
+        <p id="textbd" style="margin-bottom: 15px; color: #333;">Countdown bis zu meinem 16. Geburtstag</h3>
+        <h3 id="timer" style="color: #333;"></h3>
+        <script>
+          var countDownDate = new Date("Feb 8, 2023 00:00:00").getTime();
+            
+            var x = setInterval(function() {
+            
+              var now = new Date().getTime();
+            
+              var distance = countDownDate - now;
+            
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+              document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+            
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("timer").innerHTML = "🎂 Heute ist mein 16. Geburtstag! 🎂";
+                document.getElementById("textbd").style.display = "none";
+              }
+            }, 1000);
+        </script>
+      </div>
+    </header>
+
+    <section class="links">
+      <div class="divider">
+        <h2>Wichtig</h2>
+      </div>
+
+        <a href="/index.html" class="link">
+          <img src="images/se.png" alt="SkyHQ">
+          <div>
+            <h3 class="title">SkyHQ</h3>
+            <p class="disc">By SkyEnergy</p>
+          </div>
+        </a>
+
+        <a href="https://buymeacoffee.com/SkyEnergy" class="link">
+          <img src="images/buymeacoffee.svg" alt="Buy Me A Coffee">
+          <div>
+            <h3 class="title">Buy Me A Coffee</h3>
+          </div>
+        </a>
+        <a href="https://robertsspaceindustries.com/enlist?referral=STAR-3XMC-H92N" class="link">
+          <img src="images/starcitizen.png" alt="Star Citizen">
+          <div>
+            <h3 class="title">Star Citizen Referral</h3>
+            <p class="disc">STAR-3XMC-H92N</p>
+          </div>
+        </a>
+
+      <div class="divider">
+        <h2>Projekte</h2>
+      </div>
+
+        <a href="https://github.com/SkyEnergy0" class="link">
+          <img src="images/github.png" alt="GitHub">
+          <div>
+            <h3 class="title">GitHub</h3>
+          </div>
+        </a>
+
+        <a href="https://github.com/SkyEnergy0/Beautiful-Discord-Theme-MK2" class="link">
+          <img src="images/bd-mk2.png" alt="BD-MK2">
+          <div>
+            <h3 class="title">Beautiful Discord Theme MK2 (MK3 SOON)</h3>
+            <p class="disc">Made by a CSS NOOB but there's ❤️ in it</p>
+          </div>
+        </a>
+
+        <a href="https://drive.google.com/drive/folders/1fNS3gkPPBQLrGHueRYG6-ylSuUzAWsGZ?usp=sharing" class="link">
+          <img src="images/bsl.png" alt="BSL">
+          <div>
+            <h3 class="title">Better Steam Library</h3>
+          </div>
+        </a>
+
+      <div class="divider">
+        <h2>Sonstiges</h2>
+      </div>
+
+        <a href="https://steamcommunity.com/id/SkyEnergy/'" class="link">
+          <img src="images/steam.png" alt="Steam">
+          <div>
+            <h3 class="title">Steam</h3>
+          </div>
+        </a>
+
+        <a href="https://star-citizen.wiki/Benutzer:SkyEnergy" class="link">
+          <img src="images/SkyPico.png" alt="Wiki">
+          <div>
+            <h3 class="title">Star Citizen Wiki</h3>
+            <p class="disc">Mitarbeiter: SkyEnergy</p>
+          </div>
+        </a>
+
+      <section>
+        <div class="mySlides">
+          <a href="https://open.spotify.com/user/julien.elias.schmidt?si=5c4800fc69ba4ce0" class="link">
+            <img src="images/spotify.png" alt="Profile">
+            <div>
+              <h3 class="title">Profile</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/7i4FKdSFHOvpVXV252kWAc?si=d8f9052445ff4295" class="link">
+            <img src="images/DP.png" alt="Drift Phonk">
+            <div>
+              <h3 class="title">Drift Phonk</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/6iGgb9oPRAgVvrvTMB1R0y?si=6ea8028b5c6d4cb4" class="link">
+            <img src="images/DSDC.png" alt="Death Stranding Music Player">
+            <div>
+              <h3 class="title">Death Stranding Music Player</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/1V892B7Ujv0ng2BktJuNgE?si=027d6f722c324531" class="link">
+            <img src="images/SL.png" alt="Sludge Life">
+            <div>
+              <h3 class="title">Sludge Life</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/6COZmC558cjHk0JTWFYojU?si=c280f5b64b8948f8" class="link">
+            <img src="images/HM.png" alt="Hotline Miami">
+            <div>
+              <h3 class="title">Hotline Miami</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/3gMLa7vUMA6IEd1i0rqRht?si=267a24c6b73e411a" class="link">
+            <img src="images/HM2.png" alt="Hotline Miami 2: Wrong Number">
+            <div>
+              <h3 class="title">Hotline Miami 2: Wrong Number</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/10HotMStelAePlffM4EhVr?si=c69c8168c12c46a1" class="link">
+            <img src="images/NMS.png" alt="No Man's Sky">
+            <div>
+              <h3 class="title">No Man's Sky</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/3LV8ZAiCdqnhcMtXAwNPju?si=2899d793a2ec4d0c" class="link">
+            <img src="images/Mafia III.png" alt="Mafia III">
+            <div>
+              <h3 class="title">Mafia III</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="mySlides">
+          <a href="https://open.spotify.com/playlist/7gZW7AxzxKfhzn5Sn0Felq?si=3602d1b1114842b8" class="link">
+            <img src="images/GD.png" alt="Geometry Dash">
+            <div>
+              <h3 class="title">Geometry Dash</h3>
+              <p class="disc">Playlist</p>
+            </div>
+          </a>
+        </div>
+
+      <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+      <br>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+      </script>
+
+      </section>
+
+        <a href="https://www.deviantart.com/skyenergy0" class="link" style="margin-top: 0px;">
+          <img src="images/deviantart.png" alt="DeviantArt">
+          <div>
+            <h3 class="title">DeviantArt</h3>
+          </div>
+        </a>
+
+        <a href="https://geizhals.de/?cat=WL-2455548" class="link" style="margin-bottom: 50px;">
+          <img src="images/geizhals.png" alt="Geizhals">
+          <div>
+            <h3 class="title">PC Specs</h3>
+            <p class="disc">Geizhals</p>
+          </div>
+        </a>
+
+      </section>
+  </body>
+</html>
