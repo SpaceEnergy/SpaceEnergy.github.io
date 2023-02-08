@@ -19,33 +19,6 @@
       <img src="images/avatar.png" alt="Avatar">
       <h1>SkyEnergy</h1>
       <p>#2948</p>
-      <div class="timer">
-        <p id="textbd" style="margin-bottom: 15px; color: #333;">Countdown bis zu meinem 16. Geburtstag</h3>
-        <h3 id="timer" style="color: #333;"></h3>
-        <script>
-          var countDownDate = new Date("Feb 8, 2023 00:00:00").getTime();
-            
-            var x = setInterval(function() {
-            
-              var now = new Date().getTime();
-            
-              var distance = countDownDate - now;
-            
-              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-              document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-            
-              if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("timer").innerHTML = "🎂 Heute ist mein 16. Geburtstag! 🎂";
-                document.getElementById("textbd").style.display = "none";
-              }
-            }, 1000);
-        </script>
-      </div>
     </header>
 
     <section class="links">
@@ -53,7 +26,7 @@
         <h2>Wichtig</h2>
       </div>
 
-        <a href="/index.html" class="link">
+        <a href="https://skyenergy0.github.io" class="link">
           <img src="images/se.png" alt="SkyHQ">
           <div>
             <h3 class="title">SkyHQ</h3>
