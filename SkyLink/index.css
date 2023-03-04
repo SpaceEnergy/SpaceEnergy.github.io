@@ -20,8 +20,6 @@ body {
   margin: 0px;
   font-family: 'Be Vietnam Pro', sans-serif;
   background-color: #4800bd;
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
 }
 
 .info {
