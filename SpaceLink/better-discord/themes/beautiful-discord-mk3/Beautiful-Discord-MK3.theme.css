@@ -1,0 +1,813 @@
+/**
+* @name Beautiful Discord MK3
+* @version 1.0.3 (alpha)
+* @author SkyEnergy#2948
+* @authorLink https://github.com/SkyEnergy0
+* @donate https://www.buymeacoffee.com/SkyEnergy
+* @description Made by a CSS NOOB but there's ❤️ in it
+* @website https://skyenergy0.github.io
+* @source https://github.com/SkyEnergy0/Beautiful-Discord-Theme-MK2
+**/
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Imports
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/** Chat Bubbles */
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css');
+
+/** Icons */
+@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Root
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+:root {
+    /* Chat Bubble */
+    --chat-bubble: 1;                                           /* default: 1 */
+    --chat-bubble-border-radius: 8px;                           /* default: 8px */
+    --chat-bubble-background-color: #1e1e1e;                  /* default: #1e1e1e */
+    --chat-bubble-border-color: #1e1e1e;                      /* default: #1e1e1e */
+    --chat-bubble-code-background-color: #232527;             /* default: #232527 */
+    --chat-bubble-max-width: 90%;                               /* default: 90% */
+    --chat-bubble-box-shadow-h-offset: 0;                       /* default: 0 */
+    --chat-bubble-box-shadow-v-offset: 0px;                     /* default: 0px */
+    --chat-bubble-box-shadow-blur: 0px;                         /* default: 0px */
+    --chat-bubble-box-shadow-color-h: 0;                        /* default: 0 */
+    --chat-bubble-box-shadow-color-s: 0%;                       /* default: 0% */
+    --chat-bubble-box-shadow-color-l: 0%;                       /* default: 0% */
+    --chat-bubble-box-shadow-color-a: 0;                        /* default: 0 */
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?General
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Base
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Title Bar
+=-=-=-=-=-=-=-=
+*/
+
+.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
+    background-color: #0a0a0a;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Base Content
+=-=-=-=-=-=-=-=
+*/
+
+.base-2jDfDU {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Background
+=-=-=-=-=-=-=-=
+*/
+
+.container-1eFtFS {
+    background-color: #0a0a0a;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Server Bar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Home
+=-=-=-=-=-=-=-=
+*/
+
+/* Button */
+.tutorialContainer-1pL9QS {
+    margin-top: 10px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Folder
+=-=-=-=-=-=-=-=
+*/
+
+/* Folder Open */
+.expandedFolderBackground-1kSAf6 {
+    width: 64px;
+    left: 8px;
+    bottom: 0px;
+    top: -9px;
+    border-radius: 16px;
+}
+.wrapper-38slSD {
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+.expandedFolderIconWrapper-3RwQpD {
+    background-color: #1e1e1e;
+}
+
+/* Folder Open Background */
+.expandedFolderBackground-1kSAf6, .folder-241Joy {
+    background-color: #2a2a2a;
+}
+
+/* Folder Color */
+.closedFolderIconWrapper-3tRb2d {
+    display: none;
+}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://skyenergy0.github.io/SkyLink/better-discord/themes/beautiful-discord-mk3/icons/folder.svg) no-repeat;
+    mask: url(https://skyenergy0.github.io/SkyLink/better-discord/themes/beautiful-discord-mk3/icons/folder.svg) no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Always Buttons
+=-=-=-=-=-=-=-=
+*/
+
+/* Always Buttons */
+.scroller-3X7KbA {
+    contain: unset;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+}
+.scroller-3X7KbA::before {
+    content: "";
+    margin-bottom: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 72px;
+    height: 132px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #1e1e1e;
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB {
+    position: fixed;
+    bottom: 20px;
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK {
+    position: fixed;
+    bottom: 78px;
+    contain: none;
+    z-index: 1;
+}
+.circleIconButton-1VxDrg {
+    background-color: #111111;
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background-color: #141414;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Other
+=-=-=-=-=-=-=-=
+*/
+
+/* Position */
+.wrapper-1_HaEi.guilds-2JjMmN {
+    width: 80px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+.tree-3agP2X {
+    width: 80px;
+    background-color: #1e1e1e;
+}
+.wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK {
+    width: 80px;
+}
+
+/* Background */
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt {
+    background-color: #1e1e1e;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?User Panel
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Pannel */
+.panels-3wFtMD {
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #111111;
+}
+.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L {
+    margin-right: 1px;
+    padding-left: 0px;
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Home
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?DM Side
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Search Bar
+=-=-=-=-=-=-=-=
+*/
+
+.searchBarComponent-3N7dCG {
+    background-color: #111111 !important;
+}
+
+.searchBar-3TnChZ {
+    box-shadow: none;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Background
+=-=-=-=-=-=-=-=
+*/
+
+.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN, .sidebar-1tnWFu, .privateChannels-oVe7HL {
+    background-color: #1e1e1e;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Friends
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Nav Bar
+=-=-=-=-=-=-=-=
+*/
+
+/* Tabs */
+.container-2cd8Mz .item-3mHhwr {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #111111;
+}
+
+/* Background */
+.container-2cd8Mz .container-ZMc96U {
+    height: 55px;
+    background-color: #1e1e1e;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?List
+=-=-=-=-=-=-=-=
+*/
+
+/* Scrollbar */
+.peopleList-2VBrVI.auto-2K3UW5.scrollerBase-_bVAAt::-webkit-scrollbar-track {
+    display: none;
+}
+.peopleList-2VBrVI.auto-2K3UW5.scrollerBase-_bVAAt::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+/* Buttons */
+.actionButton-3-B2x- {
+    border-radius: 8px;
+    background-color: #111111;
+}
+
+/* Background */
+.peopleColumn-1wMU14 {
+    background-color: #181818;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Active now
+=-=-=-=-=-=-=-=
+*/
+
+/* Pannels */
+.itemCard-3Etziu.wrapper-2RrXDg.outer-2JOHae.padded-2NSY6O.interactive-2zD88a {
+    border-radius: 8px;
+    border-color: #181818;
+    background-color: #181818;
+}
+.section-3G9aLW {
+    border-radius: 8px;
+    background-color: #111111;
+}
+
+/* Empty */
+.emptyCard-KDifrB {
+    background-color: #181818;
+}
+
+/* Background */
+.container-1oAagU {
+    background-color: #1e1e1e;
+}
+.scroller-hE2gWq.thin-31rlnD.scrollerBase-_bVAAt {
+    margin: 0px;
+    border: none;
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Chat
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?General
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+=-=-=-=-=-=-=-=
+?Scrollbar
+=-=-=-=-=-=-=-=
+*/
+
+.scroller-kQBbkU::-webkit-scrollbar-track {
+    background-color: #1e1e1e;
+}
+.scroller-kQBbkU::-webkit-scrollbar-thumb {
+    background-color: #111111;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Date Line
+=-=-=-=-=-=-=-=
+*/
+
+.content-3spvdd {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #111111;
+}
+.unreadPill-3nEWYM {
+    display: none;
+}
+.hasContent-1y12-u>.content-3spvdd {
+    margin: 0 0 0 auto;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?JumpToPresentBar
+=-=-=-=-=-=-=-=
+*/
+
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #232527;
+    box-shadow: var(--elevation-high);
+    border-radius: 8px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Embeds
+=-=-=-=-=-=-=-=
+*/
+
+/* Author */
+.embedAuthorName-pGyUPR {
+    background-color: #26292c;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/* Title */
+.embedTitle-2n1pEb.embedMargin-2PsaQ4 {
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #0c0c0c;
+    width: fit-content;
+}
+
+/* Fields */
+.embedField-2kda1Q {
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #141414;
+}
+
+/* Image */
+.embedAuthorIcon-3pnkS4, .embedImage-2Ynqkh, .embedThumbnail-2nTasl .imageWrapper-oMkQl4, .embedFooterIcon-1dTZzD {
+    border-radius: 8px;
+}
+
+/* Footer */
+.embedFooterText-2Mc7H9 {
+    background-color: #26292c;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/* Border */
+.embedWrapper-1MtIDg.embedFull-1HGV2S {
+    border-radius: 8px;
+    border: 2px solid;
+}
+
+/* Background */
+.embedWrapper-1MtIDg.embedFull-1HGV2S {
+    background-color: #1b1a1a;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Background
+=-=-=-=-=-=-=-=
+*/
+
+.chatContent-3KubbW {
+    background-color: #111111;
+}
+.form-3gdLxP::before {
+    display: none;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Nav Bar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+.chat-2ZfjoI .container-ZMc96U {
+    height: 55px;
+    background-color: #1e1e1e;
+}
+.chat-2ZfjoI .children-3xh0VB::after {
+    display: none;
+}
+
+.children-3xh0VB::after {
+    display: none;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Text Input
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/*
+=-=-=-=-=-=-=-=
+?Normal
+=-=-=-=-=-=-=-=
+*/
+
+/* Background */
+.form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h.webkit-QgSAqd {
+    background-color: #1e1e1e;
+}
+
+.channelTextArea-220_Gz .scrollableContainer-15eg7h {
+    background-color: #26292c;
+}
+
+/* Attached */
+.channelTextArea-1FufC0.channelTextArea-1VQBuV, .attachedBars-2BCP3l, .replyBar-1oi75v {
+    border-radius: 8px;
+    background-color: #181818;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?No Permission
+=-=-=-=-=-=-=-=
+*/
+
+.channelTextArea-1FufC0.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv {
+    border: 3px solid #FF4747;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Announcement Follow
+=-=-=-=-=-=-=-=
+*/
+
+.wrapper-2SplAX {
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    border: 3px solid #5661f6;
+    border-radius: 8px;
+}
+
+.wrapper-2SplAX .image-3FliiM {
+    display: none;
+}
+
+.button-cO0-d9.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F {
+    border-radius: 8px;
+    background-color: #5661f6;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Message action
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/*
+=-=-=-=-=-=-=-=
+?Selected
+=-=-=-=-=-=-=-=
+*/
+
+.button-3bklZh.selected-69H4ua {
+    background-color: #2a2a2a;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Emojis/Stickers/Gifs Menu
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Base Background */
+.contentWrapper-3vHNP2, .header-11eigE, .inspector-DFKXwB, .wrapper-22rqw6, .emojiPicker-6YCk8a {
+    background-color: #1b1a1a;
+}
+.emojiPicker-6YCk8a {
+    border-radius: 0px 0px 8px 8px;
+}
+.header-11eigE, .header-uVCAlo, .header-2TLOnc, .emojiPicker-6YCk8a {
+    box-shadow: none !important;
+}
+
+/* Tabs */
+.navButton-1XuvI-.navItem-3McpmW.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F {
+    background-color: #111111;
+    padding: 8px;
+    margin-top: -6px;
+    border-radius: 4px
+}
+.contentWrapper-3vHNP2 {
+    margin-top: -35px;
+    height: 108%;
+    padding-top: 20px;
+}
+.wrapper-3u51GQ, .wrapper-1NB3WY, .container-3u7RcY {
+    margin-top: 10px
+}
+.navButton-1XuvI-.navItem-3McpmW.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F:hover {
+    background-color: #242627;
+}
+.navButton-1XuvI-.navItem-3McpmW.navButtonActive-1EqC5l.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F {
+    background-color: #26292c;
+    border-radius: 4px;
+}
+
+/* Server List */
+.wrapper-22rqw6.categoryList-2qRrlj {
+    border-radius: 0px 0px 0px 8px;
+}
+
+/* Search Bar */
+.container-1SX9VC, .container-2oNtJn {
+    background-color: #26292c;
+    border-radius: 8px;
+}
+
+/* ReSizing Popout Fix */
+.drawerSizingWrapper-1txdWG {
+    min-width: 450px;
+    max-width: 1576px;
+}
+
+/* Emoji List */
+.bodyWrapper-1eSOtW {
+    background-color: #111111;
+    border-radius: var(--border-radius);
+    margin-right: 10px;
+}
+.wrapper-1NNaWG.header-1ULbqO {
+    background-color: #111111;
+}
+.emojiListRow-3hshyU {
+    justify-content: center;
+}
+.emojiItem-277VFM.emojiItemMedium-2stgkv.emojiItemSelected-2Lg50V {
+    background-color: #26292c;
+}
+
+/* Sticker List */
+.wrapper-i1awk3>.scroller-2MALzE.thin-31rlnD.scrollerBase-_bVAAt {
+    background-color: #111111;
+    margin-right: 10px;
+    border-radius: var(--border-radius);
+}
+#sticker-picker-grid .row-2mBMW2 {
+    gap:35px !important;
+    justify-content: center;
+}
+.wrapper-1NNaWG.packHeader-w9jpYl {
+    background-color: #111111;
+}
+.sticker-H2HhJD.sticker-2Yb_-L.stickerInspected-mwnU6w, .assetWrapper-2hzITV.assetWrapperMasked-1iw9lV {
+    background-color: #26292c;
+    border-radius: var(--border-radius);
+}
+
+/* GIFs List */
+.content-A8TzKf {
+    border-radius: 18px;
+    border: 10px solid #1e1e1e;
+    background-color: #111111;
+}
+.categoryFade-3RRG67, .categoryFadeBlurple-1l49_Q, .gif-2kTiNB {
+    border-radius: var(--border-radius);
+}
+.categoryText-3B1jLN {
+    height: fit-content;
+    margin: auto;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #1e1e1e;
+}
