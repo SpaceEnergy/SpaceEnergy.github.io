@@ -11,3 +11,9 @@
 @import url("https://skyenergy0.github.io/SpaceTheme/Steam/root.css");
 @import url("https://skyenergy0.github.io/SpaceTheme/Steam/scrollbar.css");
 @import url("https://skyenergy0.github.io/SpaceTheme/Steam/navbar.css");
+
+
+/* Background */
+.steamdesktop_OuterFrame_3mz8w {
+  background-color: var(--background-color);
+}
