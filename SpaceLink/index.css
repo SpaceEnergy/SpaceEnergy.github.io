@@ -19,7 +19,7 @@ a {
 body {
   margin: 0px;
   font-family: 'Be Vietnam Pro', sans-serif;
-  background: url(/SpaceLink/images/background_filter.png) center no-repeat;
+  background: url(/SpaceLink/images/background_filter.webp) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
