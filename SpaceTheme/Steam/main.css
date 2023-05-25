@@ -1,7 +1,7 @@
 /**
 * @name 🪐Steam SpaceTheme🪐
 * @author SpaceEnergy#2948
-* @version v1.0.0
+* @version v1.0.1
 * @description SpaceTheme for Steam
 * @donate https://www.buymeacoffee.com/SkyEnergy
 * @authorLink https://github.com/SkyEnergy0
@@ -13,3 +13,9 @@
 @import url("https://skyenergy0.github.io/SpaceTheme/Steam/scrollbar.css");
 @import url("https://skyenergy0.github.io/SpaceTheme/Steam/navbar.css");
 @import url("https://skyenergy0.github.io/SpaceTheme/Steam/library.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Be Vietnam Pro', sans-serif !important;
+}
