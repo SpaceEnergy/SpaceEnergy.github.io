@@ -164,7 +164,6 @@
 .library_MainPanel_3BFcm {
     margin: 0 15px 15px 0;
     border-radius: 8px;
-    background-color: var(--3th-color);
 }
 .library_AppDetailsTransitionGroup_2Dd4T {
     border-radius: 8px;
@@ -175,8 +174,59 @@
     background: none;
     background-image: none;
 }
+.libraryhome_Container_2gSXC {
+    background: var(--3th-color);
+}
 .libraryhome_UpdatesContainer_17uEB {
     margin: 15px;
     border-radius: 8px;
     background: var(--2th-color);
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Download Page
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Base
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.downloads_DownloadsPage_1bq4x {
+    width: -webkit-fill-available;
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    background: var(--3th-color);
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Banner
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+.downloadgraph_GraphAndStats_3KDkL {
+	width: auto;
+	margin: 15px;
+	border-radius: 8px;
+}
+.downloadgraph_HeroAndLogo_3mZ2r {
+	border-radius: 8px;
 }
