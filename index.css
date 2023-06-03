@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html, body, p, h1, h2, h3 {
-  height: fit-content;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   margin: 0px;
   user-select: none;
+  overflow: hidden;
 }
 
 body {
@@ -20,31 +19,18 @@ a {
   color: #fff;
 }
 
-.marquee {
-  padding: 5px;
-  margin: 0 20px 0 20px;
-  text-align: left;
-  border-radius: 0 0 8px 8px;
-  color: #fff;
-  background: #40009D;
-}
-.marquee h2 {
-  margin-left: 50px;
-  background: linear-gradient(90deg, #878CFF 0%, #666CFF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
 nav {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: -webkit-fill-available;
   padding: 15px;
-  margin: 10px 20px 0 20px;
+  margin: 30px 30px 0 30px;
   border-radius: 8px;
   background-color: #1e1e1e;
+  -webkit-box-shadow: 0px 5px 15px 5px #210359; 
+  box-shadow: 0px 5px 15px 5px #210359;
 }
 
 nav .nav-logo { 
@@ -76,18 +62,30 @@ nav img {
   align-items: center;
   text-align: right;
   padding: 15px;
-  margin: 20px;
-  height: 79%;
+  margin: 15px;
+  height: -webkit-fill-available;
   border-radius: 8px;
   background: radial-gradient(88.5% 88.5% at 50% 50%, #170444 0%, #40009D 100%);
 }
 
 #landing h1 {
   font-weight: 900;
-  font-size: 10vh;
+  font-size: 100px;
   background: linear-gradient(90deg, #878CFF 0%, #666CFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+@media (max-width: 580px) {
+  #landing h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 380px) {
+  #landing h1 {
+    font-size: 50px;
+  }
 }
