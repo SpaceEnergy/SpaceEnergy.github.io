@@ -226,7 +226,48 @@
 	width: auto;
 	margin: 15px;
 	border-radius: 8px;
+    background: var(--2th-color);
 }
 .downloadgraph_HeroAndLogo_3mZ2r {
 	border-radius: 8px;
+    background: none !important;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Main
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.downloads_TopBar_SEmVp {
+    display: none;
+}
+
+.downloads_Section_3Mbhn {
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+}
+.downloads_Section_3Mbhn:nth-child(n+2) {
+    margin-top: 0;
+}
+
+/* Items */
+.downloads_Active_IbePL .downloads_SectionList_OINnO {
+    border: none;
+}
+
+.downloads_SectionItem_1VNuY {
+    padding: 8px 0px 8px 24px;
+    border-radius: 8px !important;
+}
+.downloads_SectionItem_1VNuY:hover {
+    background-color: #252525;
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    margin: 0 15px;
 }
