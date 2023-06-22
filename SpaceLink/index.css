@@ -42,7 +42,7 @@ body {
   padding: 20px;
   margin: auto;
   margin-top: 60px;
-  width: 30%;
+  width: 40%;
   min-width: 350px;
   text-align: center;
   border-radius: 8px;
@@ -63,12 +63,11 @@ body {
   padding: 20px;
   margin: auto;
   margin-top: 30px;
-  width: 30%;
+  width: 40%;
   min-width: 350px;
   border-radius: 8px;
   background-color: #1e1e1e;
 }
-
 .link:hover {
   transform: scale(1.01);
 }
@@ -84,19 +83,4 @@ img.shadow {
 .disc {
   margin-top: 10px;
   font-size: 18px;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #353535;
-  border-radius: 4px;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #1e1e1e;
 }
