@@ -1,0 +1,45 @@
+.customColorPicker-C_jddW {
+    border: none;
+    border-radius: 8px;
+    background: var(--color-2) !important;
+    box-shadow: none;
+}
+
+:has(.sectionsContainer-3BlPu4) .customColorPicker-C_jddW {
+    width: 283px;
+}
+:has(.sectionsContainer-3BlPu4) .layer-2BGhQ8:has(.customColorPicker-C_jddW) {
+    margin: 61px -77px 0;
+}
+:has(.customColorPicker-C_jddW) .customizationSection-IGy2fS:nth-of-type(3) {
+    padding-bottom: 346px !important;
+}
+
+:has(.colorPicker-1a1lPd) .customColorPicker-C_jddW {
+    width: 410px;
+}
+:has(.colorPicker-1a1lPd) .layer-2BGhQ8:has(.customColorPicker-C_jddW) {
+    margin: 61px -150px 0;
+}
+:has(.customColorPicker-C_jddW) .colorPicker-1a1lPd {
+    padding-bottom: 271px !important;
+}
+
+.customColorPicker-C_jddW .saturation-white {
+    border-radius: 8px;
+}
+.customColorPicker-C_jddW .saturation-black {
+    border-radius: 7px;
+}
+
+.suggestedColors-QJ7qLr {
+    flex-wrap: unset;
+}
+.suggestedColor-2q1U7c {
+    border: 2px solid var(--color-1);
+    border-radius: 8px;
+}
+.suggestedColor-2q1U7c:hover {
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+}

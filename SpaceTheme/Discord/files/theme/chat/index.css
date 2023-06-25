@@ -1,0 +1,11 @@
+.chatContent-3KubbW {
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.scroller-kQBbkU {
+    border-radius: 8px;
+}
+.form-3gdLxP::before {
+    display: none;
+}

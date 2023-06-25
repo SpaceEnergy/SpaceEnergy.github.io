@@ -1,0 +1,38 @@
+.scroller-3X7KbA {
+    contain: unset;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+}
+.scroller-3X7KbA::before {
+    content: "";
+    margin-bottom: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 80px;
+    height: 132px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: var(--color-2);
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB {
+    position: fixed;
+    bottom: 20px;
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB + 
+.listItem-3SmSlK {
+    position: fixed;
+    bottom: 78px;
+    contain: none;
+    z-index: 1;
+}
+.circleIconButton-1VxDrg {
+    background-color: var(--color-1);
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background-color: var(--color-3);
+}
+.circleIconButton-1VxDrg
+svg {
+    color: var(--accent);
+}

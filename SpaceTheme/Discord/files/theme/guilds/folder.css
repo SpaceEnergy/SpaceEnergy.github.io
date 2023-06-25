@@ -1,0 +1,35 @@
+.expandedFolderBackground-1kSAf6 {
+    width: 64px;
+    inset: -9px 8px;
+    border-radius: 16px;
+    background-color: var(--color-5);
+}
+.wrapper-38slSD {
+    margin-top: 17px 0 8px 0;
+}
+.wrapper-38slSD
+.expandedFolderBackground-1kSAf6
+.listItem-3SmSlK {
+    margin-top: 50px !important;
+}
+.expandedFolderIconWrapper-3RwQpD {
+    background-color: var(--color-2);
+}
+
+/* Folder Icon Color */
+.closedFolderIconWrapper-3tRb2d {
+    display: none;
+}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    inset: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url("https://spaceenergy.github.io/SpaceTheme/Discord/icons/folder.svg") no-repeat;
+    mask: url("https://spaceenergy.github.io/SpaceTheme/Discord/icons/folder.svg") no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
+}

@@ -1,0 +1,103 @@
+/*
+=-=-=-=-=-=-=-=
+?User Button
+=-=-=-=-=-=-=-=
+*/
+
+.container-YkUktl
+.avatarWrapper-1B9FTW {
+    padding: 5px 8px 5px 8px;
+    margin: 0 3.333px;
+    border-radius: 8px;
+    transition: background-color 0.15s ease-in-out;
+    background-color: var(--color-1);
+    cursor: pointer;
+}
+.avatarWrapper-1B9FTW:hover {
+    background-color: var(--color-3);
+}
+.hoverRoll-2XwpoF {
+    cursor: pointer;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Buttons
+=-=-=-=-=-=-=-=
+*/
+
+.container-YkUktl
+.button-12Fmur {
+    width: -webkit-fill-available;
+    margin: 0 3.333px;
+    transition: background-color 0.15s ease-in-out;
+    background-color: var(--color-3);
+}
+.container-YkUktl
+.button-12Fmur:hover {
+    background-color: var(--color-1);
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Voice
+=-=-=-=-=-=-=-=
+*/
+
+.container-1zzFcN {
+    margin-bottom: 5px !important;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+.container-1zzFcN
+.button-1EGGcP {
+    background-color: var(--color-3);
+    transition: background-color 0.15s ease-in-out;
+}
+.container-1zzFcN
+.button-1EGGcP:hover {
+    background-color: var(--color-1);
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Stream/Games
+=-=-=-=-=-=-=-=
+*/
+
+.panel-2ZFCRb {
+    padding: 12px 8px;
+    margin-bottom: -12px;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    background-color: var(--color-2) !important;
+}
+
+.panel-2ZFCRb
+.body-1FrnJD {
+    margin: 0 3.333px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Base
+=-=-=-=-=-=-=-=
+*/
+
+.panels-3wFtMD {
+    background-color: transparent !important;
+}
+.container-YkUktl {
+    display: grid;
+    height: 95px;
+    padding: 5px;
+    margin: 0 !important;
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}

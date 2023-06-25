@@ -1,0 +1,697 @@
+/**
+* @name 🪐SpaceTheme🪐
+* @author SpaceEnergy
+* @version alpha
+* @description SpaceTheme for Discord
+* @invite 7Zv8Xz3Vzn
+* @donate https://ko-fi.com/spaceenergy
+* @authorLink https://github.com/SpaceEnergy
+* @website https://spaceenergy.github.io
+**/
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Imports
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/** Chat Bubbles */
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?General
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Navbar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.container-ZMc96U {
+    height: 55px;
+    width: auto;
+    margin: 0 0 15px 15px;
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}
+.container-2cd8Mz {
+    background-color: var(--background);
+}
+
+/*! Delete */
+.chat-2ZfjoI {
+    background-color: transparent;
+}
+
+.container-ZMc96U
+.children-3xh0VB::after {
+    background: var(--color-2) !important;
+}
+
+.tabBody-2dgbAs::before {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Server Bar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Home Button
+=-=-=-=-=-=-=-=
+*/
+
+.tutorialContainer-1pL9QS {
+    margin-top: 10px;
+}
+.tutorialContainer-1pL9QS
+.childWrapper-1j_1ub {
+    background-color: var(--accent) !important;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Position
+=-=-=-=-=-=-=-=
+*/
+
+.wrapper-1_HaEi.guilds-2JjMmN {
+    width: 80px;
+    margin: 0 0 15px 15px;
+    border-radius: 8px;
+}
+.tree-3agP2X {
+    width: 80px;
+    background-color: var(--color-2);
+}
+.wrapper-1_HaEi.guilds-2JjMmN
+.listItem-3SmSlK {
+    width: 80px;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Server Channels
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background: none;
+}
+
+.wrapper-NhbLHG:hover .content-1gYQeQ {
+    background: none;
+}
+
+.emojiColorFill-3g46kH {
+    background-color: transparent !important;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Loading
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?No Internet
+=-=-=-=-=-=-=-=
+*/
+
+/* Chat */
+.wrapper-3HVHpV {
+    background-color: var(--color-1);
+}
+.wrapper-15CKyy {
+    background-color: var(--color-1);
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Button Radius
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+button {
+    border-radius: 8px !important;
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Discover
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Left Sidebar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Sidebar */
+.sidebar-1tnWFu>.thin-RnSY0a.scrollerBase-1Pkza4 {
+    margin: 0 0 15px 0;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Main Base
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Base
+=-=-=-=-=-=-=-=
+*/
+
+.pageWrapper-2PwDoS,
+.scroller-RfJjkV.thin-RnSY0a.scrollerBase-1Pkza4 {
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+}
+.scroller-3j5xK2.auto-2TJ1RH.scrollerBase-1Pkza4,
+.scroller-RfJjkV.thin-RnSY0a.scrollerBase-1Pkza4 {
+    border-radius: 8px;
+    background-color: #111111;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Banner
+=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.searchHeader-3ZIh2x,
+.headerContainer-1RYk-Y {
+    height: 200px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+}
+.searchHeader-3ZIh2x .headerImage-2D5D-v,
+.headerContainer-1RYk-Y .headerImage-1c8Lrb {
+    display: none;
+}
+
+/* Searchbar */
+.search-25t1e9 .searchBox-31Zv9h {
+    border-radius: 8px;
+    background-color: #141414;
+    box-shadow: none;
+}
+.search-25t1e9 .searchBox-31Zv9h:is(:focus, :focus-within) {
+    box-shadow: 0 0 0 3px var(--accent);
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Cards
+=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.card-2TuZPZ,
+.container-1wv6C6 {
+    height: 400px;
+    background-color: #1e1e1e !important;
+}
+
+/* Banner */
+img.splashImage-_KUn-T.splashImageHeight-1mpt3D {
+    border-radius: 8px;
+}
+.splash-1VADA3 {
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+
+/* Icon */
+.iconMask-2fMR98 {
+    background-color: var(--color-2) !important;
+}
+
+/* Action Button */
+.actionButtons-3ILsbw .wrapper-2vIMkT {
+    background-color: #2b2b2b;
+    border-radius: 8px;
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Modals
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.focusLock-bHVOlV .root-1CAIjD {
+    border-radius: 8px;
+    box-shadow: var(--background) 0 0 30px 30px;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?New Audio Divice
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/*
+=-=-=-=-=-=-=-=
+?Main
+=-=-=-=-=-=-=-=
+*/
+
+.root-1CAIjD.small-2xUY-3.fullscreenOnMobile-2971EC.rootWithShadow-2hdL2J {
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+/*
+=-=-=-=-=-=-=-=
+?Footer
+=-=-=-=-=-=-=-=
+*/
+
+/* Main */
+.footerSeparator-3U8YsT {
+    border-radius: 0 0 8px 8px;
+    background-color: var(--color-4);
+}
+
+/* Bottons */
+.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyEnd-2G0m6w.alignStretch-Uwowzr.noWrap-hBpHBz {
+    justify-content: space-between;
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Friends
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Left Sidebar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Find or start a conversation Button
+=-=-=-=-=-=-=-=
+*/
+
+.searchBarComponent-3N7dCG {
+    height: 64px !important;
+    text-align: center !important;
+    white-space: unset !important;
+    background-color: var(--color-3) !important;
+}
+.searchBar-3TnChZ {
+    height: 80px;
+    padding: 0 8px 0 8px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Module
+=-=-=-=-=-=-=-=
+*/
+
+.privateChannels-oVe7HL
+.scroller-WSmht3 {
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Background
+=-=-=-=-=-=-=-=
+*/
+
+.scroller-WSmht3 {
+    background-color: var(--color-2) !important;
+}
+.privateChannels-oVe7HL {
+    background-color: var(--background);
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Middel
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Module */
+.peopleColumn-1wMU14 {
+    margin: 0 15px 0 15px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+/* Searchbar */
+.peopleColumn-1wMU14
+.searchBar-2aylmZ {
+    height: 40px;
+    margin: 15px 15px 5px 15px;
+    border-radius: 8px;
+    background-color: var(--color-3);
+}
+
+/* Background */
+.tabBody-2dgbAs {
+    background-color: var(--background);
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Active Now
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Cards */
+.itemCard-3Etziu {
+    border: none;
+    background-color: var(--color-3);
+}
+.itemCard-3Etziu
+.section-3G9aLW {
+    background-color: var(--color-4);
+}
+.emptyCard-KDifrB {
+    background-color: var(--color-3);
+}
+
+/* Module */
+.nowPlayingColumn-1eCBCN {
+    background-color: var(--background);
+}
+.container-1oAagU {
+    border-radius: 8px;
+}
+.nowPlayingColumn-1eCBCN
+.scroller-hE2gWq {
+    border: none;
+}
+
+/* Background */
+.container-1oAagU {
+    background-color: var(--color-2);
+}
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Chat
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Channel Side
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Base
+=-=-=-=-=-=-=-=
+*/
+
+.container-1NXEtd {
+    margin: 0 0 15px 0;
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}
+.sidebar-1tnWFu {
+    background-color: transparent;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Member Side
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Base
+=-=-=-=-=-=-=-=
+*/
+
+.container-2o3qEW {
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}
+.members-3WRCEx {
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.member-2gU6Ar {
+    background-color: var(--color-2);
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Text Input
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/*
+=-=-=-=-=-=-=-=
+?Normal
+=-=-=-=-=-=-=-=
+*/
+
+/* Background */
+.form-3gdLxP
+.channelTextArea-1FufC0
+.scrollableContainer-15eg7h.webkit-QgSAqd {
+    background-color: var(--color-2);
+}
+.channelTextArea-220_Gz
+.scrollableContainer-15eg7h {
+    background-color: var(--color-5);
+}
+
+/* Attached */
+.channelTextArea-1FufC0.channelTextArea-1VQBuV,
+.attachedBars-2BCP3l,
+.replyBar-1oi75v {
+    border-radius: 8px;
+    background-color: var(--color-4);
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?No Permission
+=-=-=-=-=-=-=-=
+*/
+
+.channelTextArea-1FufC0.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv {
+    border: 3px solid #FF4747;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Announcement Follow
+=-=-=-=-=-=-=-=
+*/
+
+.wrapper-2SplAX {
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    border: 3px solid #5661f6;
+    border-radius: 8px;
+}
+
+.wrapper-2SplAX
+.image-3FliiM {
+    display: none;
+}
+
+.button-cO0-d9.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F {
+    border-radius: 8px;
+    background-color: #5661f6;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Messages
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Controls
+=-=-=-=-=-=-=-=
+*/
+
+.buttonContainer-1502pf
+.wrapper-2vIMkT {
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.buttonContainer-1502pf
+.wrapper-2vIMkT
+.button-3bklZh.selected-69H4ua {
+    background-color: var(--color-6);
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Link Popups
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?General
+=-=-=-=-=-=-=-=
+*/
+
+/* Background */
+.wrapper-1HIH0j {
+    padding: 15px;
+    margin-top: 2px;
+    max-width: 450px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+/* Server Logo */
+.theme-dark
+.guildIconImage-74OdmM {
+    border-radius: 8px !important;
+}

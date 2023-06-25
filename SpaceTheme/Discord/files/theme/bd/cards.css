@@ -1,0 +1,44 @@
+.bd-addon-list .bd-addon-card {
+    border-radius: 8px;
+    background: var(--color-2);
+}
+
+.bd-addon-list .bd-addon-header {
+    margin: 10px 10px 0;
+    border-radius: 8px;
+    background: var(--color-3);
+}
+.bd-addon-header .bd-icon {
+    height: 20px !important;
+    width: 20px !important;
+    fill: var(--accent);
+}
+
+.bd-links svg {
+    color: var(--accent);
+}
+
+.bd-controls .bd-addon-button {
+    margin: 0 2.5px;
+    padding: 5px 15px;
+    background-color: var(--color-3);
+}
+.bd-controls .bd-addon-button:hover {
+    background-color: var(--accent);
+}
+.bd-controls .bd-button-danger:hover {
+    background-color: #f04747;
+}
+
+.bd-controls .bd-addon-button svg {
+    fill: var(--accent);
+}
+.bd-controls .bd-addon-button:hover svg {
+    fill: var(--color-3);
+}
+.bd-controls .bd-button-danger svg {
+    fill: #f04747;
+}
+.bd-controls .bd-button-danger:hover svg {
+    fill: var(--color-3);
+}

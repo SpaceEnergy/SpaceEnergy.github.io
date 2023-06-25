@@ -1,0 +1,38 @@
+/*
+=-=-=-=-=-=-=-=
+?Width
+=-=-=-=-=-=-=-=
+*/
+
+.embedAuthor-TJIHp5,
+.embedDescription-1DrJxZ,
+.embedFields-2yHGHT,
+.embedFooter-3dj0UE,
+.embedMedia-1mdWSP,
+.embedProvider-1GSN0c,
+.embedTitle-2n1pEb {
+    min-width: unset;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Border
+=-=-=-=-=-=-=-=
+*/
+
+.embedWrapper-1MtIDg.embedFull-1HGV2S {
+    border-radius: 8px;
+    border: 3px solid;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Background
+=-=-=-=-=-=-=-=
+*/
+
+.embedFull-1HGV2S {
+    background: var(--color-2);
+}

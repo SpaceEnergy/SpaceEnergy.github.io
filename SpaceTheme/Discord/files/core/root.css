@@ -1,0 +1,28 @@
+:root {
+    /* Theme Settings */
+    --color-1: #111111;
+    --color-2: #1e1e1e;
+    --color-3: #141414;
+    --color-4: #181818;
+    --color-5: #26292c;
+    --color-6: #262629;
+    --accent: #666CFF;
+    --accent-2: #878CFF;
+    --background: #0a0a0a;
+
+
+    /* Chat Bubble */
+    --chat-bubble: 1;                                           /* default: 1 */
+    --chat-bubble-border-radius: 8px;                           /* default: 8px */
+    --chat-bubble-background-color: var(--color-4);             /* default: var(--color-4) */
+    --chat-bubble-border-color: var(--color-4);                 /* default: var(--color-4) */
+    --chat-bubble-code-background-color: #242627;             /* default: #232527 */
+    --chat-bubble-max-width: 100%;                              /* default: 90% */
+    --chat-bubble-box-shadow-h-offset: 0;                       /* default: 0 */
+    --chat-bubble-box-shadow-v-offset: 0;                       /* default: 0 */
+    --chat-bubble-box-shadow-blur: 0;                           /* default: 0 */
+    --chat-bubble-box-shadow-color-h: 0;                        /* default: 0 */
+    --chat-bubble-box-shadow-color-s: 0;                        /* default: 0% */
+    --chat-bubble-box-shadow-color-l: 0;                        /* default: 0% */
+    --chat-bubble-box-shadow-color-a: 0;                        /* default: 0 */
+}
