@@ -1,16 +1,14 @@
 .expandedFolderBackground-1kSAf6 {
     width: 64px;
-    inset: -9px 8px;
+    inset: -9px 8px 0;
     border-radius: 16px;
     background-color: var(--color-5);
 }
 .wrapper-38slSD {
-    margin-top: 17px 0 8px 0;
+    margin: 17px 0 8px;
 }
-.wrapper-38slSD
-.expandedFolderBackground-1kSAf6
-.listItem-3SmSlK {
-    margin-top: 50px !important;
+.wrapper-38slSD:has(.expandedFolderBackground-1kSAf6.collapsed-uGXEbi) {
+    margin: 0;
 }
 .expandedFolderIconWrapper-3RwQpD {
     background-color: var(--color-2);
