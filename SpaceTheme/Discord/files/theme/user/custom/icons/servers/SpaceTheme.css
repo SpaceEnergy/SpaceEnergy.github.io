@@ -1,3 +1,29 @@
+.content-1gYQeQ a[data-list-item-id="channels___1104518841092034631"],
+.content-1gYQeQ a[data-list-item-id="channels___1104875221472792668"],
+.content-1gYQeQ a[data-list-item-id="channels___1104561510715494463"],
+.content-1gYQeQ a[data-list-item-id="channels___1104524821909479484"],
+.content-1gYQeQ a[data-list-item-id="channels___1104518841092034630"],
+.content-1gYQeQ a[data-list-item-id="channels___1104546890806206474"],
+.content-1gYQeQ a[data-list-item-id="channels___1104516051733065901"],
+.content-1gYQeQ a[data-list-item-id="channels___1104526690719387679"],
+.content-1gYQeQ a[data-list-item-id="channels___1112389436815187979"],
+.content-1gYQeQ a[data-list-item-id="channels___1108395567354232992"],
+.content-1gYQeQ a[data-list-item-id="channels___1104552220214710282"],
+.content-1gYQeQ a[data-list-item-id="channels___1104523836302573688"],
+.content-1gYQeQ a[data-list-item-id="channels___1104523441157181511"],
+.content-1gYQeQ a[data-list-item-id="channels___1104552443221655603"],
+.content-1gYQeQ a[data-list-item-id="channels___1104552018414161981"],
+.content-1gYQeQ a[data-list-item-id="channels___1104523856846270546"],
+.content-1gYQeQ a[data-list-item-id="channels___1104523460052520980"],
+.content-1gYQeQ a[data-list-item-id="channels___1104552471831007304"],
+.content-1gYQeQ a[data-list-item-id="channels___1104552471831007304"]
+.content-1gYQeQ a[data-list-item-id="channels___1104552471831007304"]
+.content-1gYQeQ a[data-list-item-id="channels___1104552471831007304"]
+.content-1gYQeQ a[data-list-item-id="channels___1104552173695680583"] {
+    padding: 9px 0;
+}
+
+
 .content-1gYQeQ a[data-list-item-id="channels___1104518841092034631"]::before,
 .content-1gYQeQ a[data-list-item-id="channels___1104875221472792668"]::before,
 .content-1gYQeQ a[data-list-item-id="channels___1104561510715494463"]::before,
@@ -16,6 +42,9 @@
 .content-1gYQeQ a[data-list-item-id="channels___1104523856846270546"]::before,
 .content-1gYQeQ a[data-list-item-id="channels___1104523460052520980"]::before,
 .content-1gYQeQ a[data-list-item-id="channels___1104552471831007304"]::before,
+.content-1gYQeQ a[data-list-item-id="channels___1121922302800564407"]::before,
+.content-1gYQeQ a[data-list-item-id="channels___1121941078296252467"]::before,
+.content-1gYQeQ a[data-list-item-id="channels___1121922363827699762"]::before,
 .content-1gYQeQ a[data-list-item-id="channels___1104552173695680583"]::before {
     display: flex;
     justify-content: center;
@@ -27,6 +56,8 @@
     font-size: 20px;
     border-radius: 80px;
 }
+
+
 .content-1gYQeQ a[data-list-item-id="channels___1104518841092034631"]::before {
     content: "👮‍♂️";
     background-color: #0095dd40;
@@ -95,6 +126,18 @@
     content: "📑";
     background-color: #afa6b940;
 }
+.content-1gYQeQ a[data-list-item-id="channels___1121922302800564407"]::before {
+    content: "🎖️";
+    background-color: #ffb02e40;
+}
+.content-1gYQeQ a[data-list-item-id="channels___1121941078296252467"]::before {
+    content: "💎";
+    background-color: #26eafc40;
+}
+.content-1gYQeQ a[data-list-item-id="channels___1121922363827699762"]::before {
+    content: "📨";
+    background-color: #11699340;
+}
 .content-1gYQeQ a[data-list-item-id="channels___1104552173695680583"]::before {
     content: "🆘";
     background-color: #f92f6040;
@@ -119,6 +162,9 @@
 .content-1gYQeQ a[data-list-item-id="channels___1104523856846270546"] .iconContainer-21RCa3,
 .content-1gYQeQ a[data-list-item-id="channels___1104523460052520980"] .iconContainer-21RCa3,
 .content-1gYQeQ a[data-list-item-id="channels___1104552471831007304"] .iconContainer-21RCa3,
+.content-1gYQeQ a[data-list-item-id="channels___1121922302800564407"] .iconContainer-21RCa3,
+.content-1gYQeQ a[data-list-item-id="channels___1121941078296252467"] .iconContainer-21RCa3,
+.content-1gYQeQ a[data-list-item-id="channels___1121922363827699762"] .iconContainer-21RCa3,
 .content-1gYQeQ a[data-list-item-id="channels___1104552173695680583"] .iconContainer-21RCa3 {
     margin-left: 35px;
 }
