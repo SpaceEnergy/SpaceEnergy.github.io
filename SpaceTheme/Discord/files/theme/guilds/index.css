@@ -1,0 +1,43 @@
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Server Bar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Home Button
+=-=-=-=-=-=-=-=
+*/
+
+.tutorialContainer-1pL9QS {
+    margin-top: 10px;
+}
+.tutorialContainer-1pL9QS
+.childWrapper-1j_1ub {
+    background-color: var(--accent) !important;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Position
+=-=-=-=-=-=-=-=
+*/
+
+.wrapper-1_HaEi.guilds-2JjMmN {
+    width: 80px;
+    margin: 0 0 15px 15px;
+    border-radius: 8px;
+}
+.tree-3agP2X {
+    width: 80px;
+    background-color: var(--color-2);
+}
+.wrapper-1_HaEi.guilds-2JjMmN
+.listItem-3SmSlK {
+    width: 80px;
+}

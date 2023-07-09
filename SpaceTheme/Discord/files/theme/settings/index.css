@@ -1,0 +1,41 @@
+/* Background */
+.standardSidebarView-E9Pc3j {
+    background-color: var(--background);
+}
+
+/* Sidebar */
+.sidebarRegionScroller-FXiQOh {
+    margin: 0 15px 15px;
+    border-radius: 8px;
+    background: var(--color-2);
+}
+.sidebarRegionScroller-FXiQOh::-webkit-scrollbar {
+    display: none;
+}
+.sidebarRegion-1VBisG {
+    flex: 0;
+}
+.sidebar-nqHbhN {
+    min-width: 260px;
+    padding: 15px 10px 15px;
+}
+
+/* Main Content */
+.contentRegion-3HkfJJ {
+    margin: 0 15px 15px 0;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.contentRegionScroller-2_GT_N {
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+.contentRegionShownSidebar-fHXkEg {
+    justify-content: center;
+}
+.tools-kIrEGr {
+    position: fixed;
+    top: 60px;
+    right: 60px;
+}

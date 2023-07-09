@@ -1,0 +1,19 @@
+/** Chat Bubbles */
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
+
+/*
+=-=-=-=-=-=-=-=
+?Controls
+=-=-=-=-=-=-=-=
+*/
+
+.buttonContainer-1502pf
+.wrapper-2vIMkT {
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.buttonContainer-1502pf
+.wrapper-2vIMkT
+.button-3bklZh.selected-69H4ua {
+    background-color: var(--color-6);
+}

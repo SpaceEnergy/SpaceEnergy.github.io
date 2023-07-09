@@ -1,0 +1,25 @@
+:is(.member-2gU6Ar,
+    .userPopoutOuter-1OHwPL,
+    .userProfileModalOuter-2wdWjU,
+    .contents-2MsGLg,
+    .container-YkUktl,
+    .userInfo-regn9W,
+    .memberRow-1FhJgR,
+    .bannedUser-26qsXF,
+    .member-2cj2PI,
+    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/682317162010247184"]) :is(.username-3_PJ5r,
+                                                                                                             .nickname-3P1RuO,
+                                                                                                             .text-lg-semibold-UQkeZc,
+                                                                                                             .username-h_Y3Us,
+                                                                                                             .userTag-2qPxEZ,
+                                                                                                             .title-338goq,
+                                                                                                             .name-3Ksb9-,
+                                                                                                             .username-2QcOp4,
+                                                                                                             .username-3_PJ5r,
+                                                                                                             .username-oFyVdr) {
+    font-weight: 700;
+    text-decoration-color: rgba(102,108,255,1);
+    color: transparent !important;
+    background: linear-gradient(90deg, rgba(135,140,255,1) 0%, rgba(102,108,255,1) 100%);
+    -webkit-background-clip: text;
+}

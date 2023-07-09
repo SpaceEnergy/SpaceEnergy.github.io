@@ -1,3 +1,19 @@
+/* Background */
+.wrapper-1HIH0j {
+    padding: 15px;
+    margin-top: 2px;
+    max-width: 450px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+/* Logo */
+.theme-dark
+.guildIconImage-74OdmM {
+    border-radius: 8px !important;
+}
+
+/* Banner */
 .inviteSplash-2nkLRX {
     height: 100px;
     margin: -5px -5px 15px -5px;

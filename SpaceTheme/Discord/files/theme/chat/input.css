@@ -1,0 +1,59 @@
+/*
+=-=-=-=-=-=-=-=
+?Normal
+=-=-=-=-=-=-=-=
+*/
+
+/* Background */
+.form-3gdLxP
+.channelTextArea-1FufC0
+.scrollableContainer-15eg7h.webkit-QgSAqd {
+    background-color: var(--color-2);
+}
+.channelTextArea-220_Gz
+.scrollableContainer-15eg7h {
+    background-color: var(--color-5);
+}
+
+/* Attached */
+.channelTextArea-1FufC0.channelTextArea-1VQBuV,
+.attachedBars-2BCP3l,
+.replyBar-1oi75v {
+    border-radius: 8px;
+    background-color: var(--color-4);
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?No Permission
+=-=-=-=-=-=-=-=
+*/
+
+.channelTextArea-1FufC0.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv {
+    border: 3px solid #FF4747;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Announcement Follow
+=-=-=-=-=-=-=-=
+*/
+
+.wrapper-2SplAX {
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    border: 3px solid #5661f6;
+    border-radius: 8px;
+}
+
+.wrapper-2SplAX
+.image-3FliiM {
+    display: none;
+}
+
+.button-cO0-d9.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F {
+    border-radius: 8px;
+    background-color: #5661f6;
+}
