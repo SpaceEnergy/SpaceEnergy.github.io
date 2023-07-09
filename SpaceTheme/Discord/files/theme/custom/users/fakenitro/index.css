@@ -1,10 +1,10 @@
 /* Fake Nitro Request */
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .channelTextArea-1FufC0.channelTextArea-1VQBuV {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1127625796371107902"]) .channelTextArea-1FufC0.channelTextArea-1VQBuV {
     display: flex;
     flex-direction: column;
 }
 
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .channelTextArea-1VQBuV::before {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1127625796371107902"]) .channelTextArea-1VQBuV::before {
     order: -2;
     display: flex;
     padding: 10px 16px 4px;
@@ -17,19 +17,19 @@ html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732
     color: var(--header-primary);
     background: var(--color-2);
 }
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .channelTextArea-1VQBuV::after {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1127625796371107902"]) .channelTextArea-1VQBuV::after {
     order: -1;
     display: flex;
     padding: 0 16px 8px;
     font-size: 14px;
     line-height: 18px;
     white-space: pre-wrap;
-    content: "• Send the badge as a picture \a • Send your User ID with \a • Please wait at least 24 hours for requests to be fulfilled. Requests will not always be taken in instantly.";
+    content: "Soon™";
     border-radius: 0;
     color: var(--header-secondary);
     background: var(--color-2);
 }
 
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .scrollableContainer-15eg7h {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1127625796371107902"]) .scrollableContainer-15eg7h {
     border-radius: 0 0 8px 8px;
 }
