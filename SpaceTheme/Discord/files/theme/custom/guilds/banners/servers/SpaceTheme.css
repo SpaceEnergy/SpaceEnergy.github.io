@@ -6,7 +6,7 @@ html:has([data-list-item-id="channels___upcoming-events-1104516050537685144"]) .
 
 html:has([data-list-item-id="channels___upcoming-events-1104516050537685144"]) .clickable-vvKY2q::after {
     content: "";
-    background: url("https://cdn.discordapp.com/attachments/1107662579070939248/1121458280456269864/image.png") center;
+    background: url("https://cdn.discordapp.com/attachments/1107274994288959510/1127622711812837486/image.png") center;
     background-size: cover;
     height: 135px;
     width: calc(100% - 20px);
