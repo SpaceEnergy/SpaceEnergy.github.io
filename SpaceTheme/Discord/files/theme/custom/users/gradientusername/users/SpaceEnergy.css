@@ -9,7 +9,7 @@
     .memberRow-1FhJgR,
     .bannedUser-26qsXF,
     .member-2cj2PI,
-    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/682317162010247184"]) :is(.overflow-1wOqNV,
+    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/682317162010247184"]) :is(.name-2m3Cms .overflow-1wOqNV,
                                                                                                              .username-Qpc78p,
                                                                                                              .username-3_PJ5r,
                                                                                                              .nickname-3P1RuO,
