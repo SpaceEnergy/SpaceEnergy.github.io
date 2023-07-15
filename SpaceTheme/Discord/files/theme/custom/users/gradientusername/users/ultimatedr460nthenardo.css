@@ -7,7 +7,7 @@
     .memberRow-1FhJgR,
     .bannedUser-26qsXF,
     .member-2cj2PI,
-    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/682317162010247184"]) :is(.username-3_PJ5r,
+    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/770013098689953832"]) :is(.username-3_PJ5r,
                                                                                                              .nickname-3P1RuO,
                                                                                                              .text-lg-semibold-UQkeZc,
                                                                                                              .username-h_Y3Us,
@@ -18,8 +18,8 @@
                                                                                                              .username-3_PJ5r,
                                                                                                              .username-oFyVdr) {
     font-weight: 700;
-    text-decoration-color: #666cff;
+    text-decoration-color: #00f8ff;
     color: transparent !important;
-    background: linear-gradient(90deg, #878cff 0%, #666cff 100%);
+    background: linear-gradient(90deg, #00f8ff 0%, #9000ff 100%);
     -webkit-background-clip: text;
 }
