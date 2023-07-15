@@ -1,4 +1,5 @@
-/*:is(.member-2gU6Ar,
+:is(.container-32HW5s,
+    .member-2gU6Ar,
     .userPopoutOuter-1OHwPL,
     .userProfileModalOuter-2wdWjU,
     .contents-2MsGLg,
@@ -7,7 +8,8 @@
     .memberRow-1FhJgR,
     .bannedUser-26qsXF,
     .member-2cj2PI,
-    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/770013098689953832"]) :is(.username-3_PJ5r,
+    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/770013098689953832"]) :is(.overflow-1wOqNV,
+                                                                                                             .username-3_PJ5r,
                                                                                                              .nickname-3P1RuO,
                                                                                                              .text-lg-semibold-UQkeZc,
                                                                                                              .username-h_Y3Us,
@@ -17,8 +19,8 @@
                                                                                                              .username-2QcOp4,
                                                                                                              .username-oFyVdr) {
     font-weight: 700;
-    text-decoration-color: #00f8ff;
+    text-decoration-color: #666cff;
     color: transparent !important;
     background: linear-gradient(90deg, #00f8ff 0%, #9000ff 100%);
     -webkit-background-clip: text;
-}*/
+}
