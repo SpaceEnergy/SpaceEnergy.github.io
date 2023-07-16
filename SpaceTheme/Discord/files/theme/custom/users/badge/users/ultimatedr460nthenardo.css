@@ -1,0 +1,8 @@
+.userPopoutInner-nv9Y92:has([src*="https://cdn.discordapp.com/avatars/770013098689953832"]) .profileBadges-2pItdR::before {
+    content: "";
+    display: block;
+    height: 22px;
+    width: 25px;
+    background: url("https://cdn.discordapp.com/attachments/1121941720272207892/1130165954232463420/image.png") no-repeat center;
+    background-size: 22px;
+}
