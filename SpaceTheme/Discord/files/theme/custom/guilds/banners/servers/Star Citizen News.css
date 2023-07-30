@@ -1,0 +1,25 @@
+html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) .header-3OsQeK {
+    margin: 10px 10px 0;
+    background-color: unset !important;
+    box-shadow: none;
+}
+
+html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) .clickable-vvKY2q::after {
+    content: "";
+    position: relative;
+    display: flex;
+    height: 135px;
+    width: calc(100% - 20px);
+    margin: -48px 10px 0;
+    border-radius: 8px;
+    background: url("https://cdn.discordapp.com/attachments/1132352666597589012/1132353097398759517/Rectangle_290.png") center;
+    background-size: cover;
+}
+
+html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) .channelNotice-K4UfZY {
+    margin: 10px 8px 0;
+}
+
+html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) div[style="height: 12px;"] {
+    height: 5px !important;
+}
