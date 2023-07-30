@@ -308,18 +308,30 @@ img.splashImage-_KUn-T.splashImageHeight-1mpt3D {
 */
 
 .searchBarComponent-3N7dCG {
-    height: 64px !important;
+    height: 100% !important;
     text-align: center !important;
     white-space: unset !important;
     background-color: var(--color-3) !important;
 }
 .searchBar-3TnChZ {
-    height: 80px;
-    padding: 0 8px 0 8px;
+    height: 60px;
+    padding: 6px;
     border-radius: 8px;
     background-color: var(--color-2);
     box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Friends
+=-=-=-=-=-=-=-=
+*/
+
+
+.channel-1Shao0 {
+    max-width: unset;
 }
 
 

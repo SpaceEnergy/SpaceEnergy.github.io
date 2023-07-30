@@ -1,4 +1,4 @@
-.userPopoutInner-nv9Y92:has([src*="682317162010247184"]) .profileBadges-2pItdR::before {
+.userPopoutInner-nv9Y92:has([src*="avatars/682317162010247184"]) .profileBadges-2pItdR::before {
     content: "";
     display: block;
     height: 22px;

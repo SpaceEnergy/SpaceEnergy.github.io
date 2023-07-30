@@ -1,4 +1,4 @@
-.userPopoutInner-nv9Y92:has([src*="https://cdn.discordapp.com/avatars/770013098689953832"]) .profileBadges-2pItdR::before {
+.userPopoutInner-nv9Y92:has([src*="avatars/770013098689953832"]) .profileBadges-2pItdR::before {
     content: "";
     display: block;
     height: 22px;

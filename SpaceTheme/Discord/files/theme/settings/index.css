@@ -3,6 +3,12 @@
     background-color: var(--background);
 }
 
+/* Width */
+.contentColumn-1C7as6,
+.customColumn-2n-oKU {
+    max-width: 100%;
+}
+
 /* Sidebar */
 .sidebarRegionScroller-FXiQOh {
     margin: 0 15px 15px;

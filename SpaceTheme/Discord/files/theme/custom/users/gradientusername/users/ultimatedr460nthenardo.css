@@ -9,17 +9,17 @@
     .memberRow-1FhJgR,
     .bannedUser-26qsXF,
     .member-2cj2PI,
-    .inviteSettingsInviteRow-FAjfDN):has([src*="https://cdn.discordapp.com/avatars/770013098689953832"]) :is(.name-2m3Cms .overflow-1wOqNV,
-                                                                                                             .username-Qpc78p,
-                                                                                                             .username-3_PJ5r,
-                                                                                                             .nickname-3P1RuO,
-                                                                                                             .text-lg-semibold-UQkeZc,
-                                                                                                             .username-h_Y3Us,
-                                                                                                             .userTag-2qPxEZ,
-                                                                                                             .title-338goq,
-                                                                                                             .name-3Ksb9-,
-                                                                                                             .username-2QcOp4,
-                                                                                                             .username-oFyVdr) {
+    .inviteSettingsInviteRow-FAjfDN):has([src*="avatars/770013098689953832"]) :is(.name-2m3Cms .overflow-1wOqNV,
+                                                                                  .username-Qpc78p,
+                                                                                  .username-3_PJ5r,
+                                                                                  .nickname-3P1RuO,
+                                                                                  .text-lg-semibold-UQkeZc,
+                                                                                  .username-h_Y3Us,
+                                                                                  .userTag-2qPxEZ,
+                                                                                  .title-338goq,
+                                                                                  .name-3Ksb9-,
+                                                                                  .username-2QcOp4,
+                                                                                  .username-oFyVdr) {
     font-weight: 700;
     text-decoration-color: #666cff;
     color: transparent !important;
