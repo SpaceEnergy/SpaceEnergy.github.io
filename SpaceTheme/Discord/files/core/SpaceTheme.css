@@ -32,7 +32,7 @@
 .container-ZMc96U {
     height: 55px;
     width: auto;
-    margin: 0 0 15px 15px;
+    margin: 0 0 15px 0;
     border-radius: 8px;
     background-color: var(--color-2) !important;
 }
@@ -125,7 +125,7 @@
 
 /* Sidebar */
 .sidebar-1tnWFu>.thin-RnSY0a.scrollerBase-1Pkza4 {
-    margin: 0 0 15px 0;
+    margin: 0 15px 0 0;
     border-radius: 8px;
     background-color: #1e1e1e;
 }
@@ -374,7 +374,7 @@ img.splashImage-_KUn-T.splashImageHeight-1mpt3D {
 
 /* Module */
 .peopleColumn-1wMU14 {
-    margin: 0 15px 0 15px;
+    margin: 0 15px 0 0;
     border-radius: 8px;
     background-color: var(--color-2);
 }

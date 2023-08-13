@@ -1,0 +1,14 @@
+/* Browse Channels v0.1 */
+.container-2IKOsH,
+.container-2IKOsH .scrollerContainer-y16Rs9,
+.container-2IKOsH .container-1um7CU {
+    border-radius: 8px;
+    background-color: var(--color-1) !important;
+}
+.container-2IKOsH .prompt-1sE27N,
+.container-2IKOsH .channelRow-4X_3fi {
+    background-color: var(--color-2);
+}
+.optionButtonWrapper-2lbogO.selected-KQBgNS {
+    background-color: var(--color-1);
+}

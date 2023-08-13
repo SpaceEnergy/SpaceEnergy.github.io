@@ -1,0 +1,25 @@
+.container-ZMc96U {
+    height: 55px;
+    width: auto;
+    margin: 0 0 15px 0;
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}
+.container-2cd8Mz {
+    background-color: var(--background);
+}
+
+/*! Delete */
+.chat-2ZfjoI {
+    background-color: transparent;
+}
+
+.container-ZMc96U
+.children-3xh0VB::after {
+    background: var(--color-2) !important;
+}
+
+.tabBody-2dgbAs::before {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
