@@ -125,7 +125,7 @@
 
 /* Sidebar */
 .sidebar-1tnWFu>.thin-RnSY0a.scrollerBase-1Pkza4 {
-    margin: 0 15px 0 0;
+    margin: 0 0 15px;
     border-radius: 8px;
     background-color: #1e1e1e;
 }
@@ -148,7 +148,6 @@
 
 .pageWrapper-2PwDoS,
 .scroller-RfJjkV.thin-RnSY0a.scrollerBase-1Pkza4 {
-    margin: 0 0 0 15px;
     border-radius: 8px;
 }
 .scroller-3j5xK2.auto-2TJ1RH.scrollerBase-1Pkza4,
@@ -184,6 +183,9 @@
 }
 .search-25t1e9 .searchBox-31Zv9h:is(:focus, :focus-within) {
     box-shadow: 0 0 0 3px var(--accent);
+}
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
+    color: #fff;
 }
 
 

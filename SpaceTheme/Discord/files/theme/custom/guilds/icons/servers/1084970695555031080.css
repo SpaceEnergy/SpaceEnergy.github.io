@@ -19,7 +19,7 @@
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973855803711509"], 
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973896391999488"], 
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973932890837022"] {
-    padding: 9px 0;
+    padding: 9px 5px;
 }
 
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084972817717657763"]::before,
@@ -46,11 +46,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    width: 30px;
-    margin: auto 0;
+    height: 25px;
+    width: 25px;
+    margin: auto 5px;
     padding: 3px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 80px;
 }
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084972817717657763"]::before {
@@ -160,5 +160,5 @@
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973855803711509"] .iconContainer-21RCa3, 
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973896391999488"] .iconContainer-21RCa3, 
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973932890837022"] .iconContainer-21RCa3 {
-    margin-left: 35px;
+    margin-left: 33px;
 }

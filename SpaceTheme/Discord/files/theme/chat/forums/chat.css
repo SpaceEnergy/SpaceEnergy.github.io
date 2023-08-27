@@ -1,0 +1,20 @@
+.resizeHandle-PBRzPC {
+    height: 200px;
+    width: 5px;
+    margin: auto 5px;
+    border-radius: 8px;
+    background: var(--accent-2);
+}
+.resizeHandle-PBRzPC:hover {
+    background: var(--accent);
+}
+.container-3XgAHv {
+    background: var(--background);
+}
+
+.container-2o3qEW .membersWrap-3NUR2t {
+    margin: 0;
+}
+.membersWrap-3NUR2t {
+    margin: 0 0 0 15px;
+}
