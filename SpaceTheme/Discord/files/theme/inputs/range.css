@@ -1,0 +1,20 @@
+.slider-1mmyV6 .bar-2H7Q9u {
+    background: var(--color-2);
+}
+.slider-1mmyV6 .barFill-3RgCsY {
+    background: var(--accent);
+}
+
+.slider-1mmyV6 .grabber-3R-Rx9 {
+    border: none;
+    background: var(--accent-2);
+}
+
+.slider-1mmyV6 .defaultValue-1-QxQ0 .markValue-21gAVC {
+    color: var(--accent);
+}
+.slider-1mmyV6 .markDash-1ATsxA {
+    width: 4px;
+    border-radius: 8px;
+    background: var(--color-2);
+}

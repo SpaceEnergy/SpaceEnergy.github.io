@@ -8,3 +8,10 @@
 .tadaIcon-313rPm {
     display: none;
 }
+.progressBar-2yl2pi {
+    background: -webkit-gradient(linear,left top,right top,from(var(--guild-boosting-blue)),color-stop(34%,var(--guild-boosting-purple)),color-stop(67%,var(--guild-boosting-blue)),to(var(--guild-boosting-purple)));
+    background: linear-gradient(90deg,var(--guild-boosting-blue),var(--guild-boosting-purple) 34%,var(--guild-boosting-blue) 67%,var(--guild-boosting-purple));
+    background-size: 300% 100%;
+    -webkit-animation: progressPulse-2EeieX 2s linear infinite;
+    animation: progressPulse-2EeieX 2s linear infinite;
+}

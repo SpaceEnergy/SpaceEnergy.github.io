@@ -17,12 +17,32 @@
     --chat-bubble-box-shadow-color-a: 0;                        /* default: 0 */
 }
 
-/*
-=-=-=-=-=-=-=-=
-?Controls
-=-=-=-=-=-=-=-=
-*/
 
+/* Mention message */
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.mentioned-Tre-dv .contents-2MsGLg,
+.cozyMessage-1DWF9U.mentioned-Tre-dv:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    border: 2px solid #EF8D4B;
+    background: linear-gradient(0deg, rgba(239, 141, 75, 0.17) 0%, rgba(239, 141, 75, 0.17) 100%), var(--color-2);
+}
+
+/* Reply message */
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.replying-eZ7p5z .contents-2MsGLg,
+.cozyMessage-1DWF9U.replying-eZ7p5z:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *),
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.ephemeral-2nDdnn .contents-2MsGLg,
+.cozyMessage-1DWF9U.ephemeral-2nDdnn:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    border: 2px solid #4B6FEF;
+    background: linear-gradient(0deg, rgba(75, 111, 239, 0.17) 0%, rgba(75, 111, 239, 0.17) 100%), var(--color-2);
+}
+
+/* Automod message */
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ .contents-2MsGLg,
+.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    border: 2px solid #EF4B4B;
+    background: linear-gradient(0deg, rgba(239, 75, 75, 0.17) 0%, rgba(239, 75, 75, 0.17) 100%), var(--color-2);
+}
+
+
+/* Controls */
 .buttonContainer-1502pf
 .wrapper-2vIMkT {
     border-radius: 8px;
@@ -32,4 +52,41 @@
 .wrapper-2vIMkT
 .button-3bklZh.selected-69H4ua {
     background-color: var(--color-6);
+}
+
+
+/* Chat Pills */
+.divider-IqmEqJ {
+    justify-content: end;
+    height: 2px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2E2F33;
+}
+.divider-IqmEqJ.isUnread-3Lojb- {
+    background-color: #EF4B4B;
+}
+
+.content-3spvdd {
+    padding: 8px 10px;
+    border: 2px solid #2E2F33;
+    border-radius: 80px;
+    background: #1E1E1E;
+}
+
+.isUnread-3Lojb- .content-3spvdd {
+    border-color: #EF4B4B;
+}
+.isUnread-3Lojb- .endCap-2wHt31 {
+    order: 1;
+    top: -6px;
+    left: 0 ;
+    right: unset;
+    padding: 0 1px 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+.isUnread-3Lojb- .endCap-2wHt31 .unreadPillCap-2-iI4h {
+    left: unset;
+    right: -8px;
+    transform: rotate(180deg);
 }

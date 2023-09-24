@@ -13,6 +13,9 @@
 .chat-2ZfjoI {
     background-color: transparent;
 }
+.content-1jQy2l:before {
+    display: none;
+}
 
 .container-ZMc96U
 .children-3xh0VB::after {
@@ -22,4 +25,29 @@
 .tabBody-2dgbAs::before {
     box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+
+/* Nav toolbar buttons */
+.title-31SJ6t .toolbar-3_r2xA .iconWrapper-2awDjA {
+    height: unset;
+    margin: 5px 2.5px;
+    padding: 5px 18px;
+    border-radius: 8px;
+    background-color: var(--color-3);
+}
+
+.search-39IXmY {
+    margin: 0;
+}
+.searchBar-jGtisZ {
+    width: auto;
+    height: unset;
+    margin: 5px 2.5px;
+    padding: 5px 18px;
+    border-radius: 8px;
+    background-color: var(--color-3);
+}
+.DraftEditor-root {
+    width: 0px;
 }

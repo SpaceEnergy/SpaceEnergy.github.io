@@ -3,7 +3,7 @@
     margin: 0 15px 15px;
     padding-top: 0;
     border-radius: 8px;
-    background-color: #1e1e1e;
+    background-color: var(--color-2);
 }
 .container-2RRFHK {
     display: none;
