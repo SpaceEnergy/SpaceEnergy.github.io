@@ -18,12 +18,7 @@
 }
 
 /* Home Icon */
-.wrapper-3kah-n[data-list-item-id="guildsnav___home"]{
-    background: var(--home-icon);
-    background-size: 48px;
-}
-.childWrapper-1j_1ub {
-    background-color: none;
+.wrapper-3kah-n[data-list-item-id="guildsnav___home"] .childWrapper-1j_1ub {
     background: var(--home-icon);
     background-size: 48px;
 }
