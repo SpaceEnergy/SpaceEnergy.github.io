@@ -23,7 +23,9 @@
     background-size: 48px;
 }
 .childWrapper-1j_1ub {
-    background: none;
+    background-color: none;
+    background: var(--home-icon);
+    background-size: 48px;
 }
 .childWrapper-1j_1ub svg {
     display: none;
