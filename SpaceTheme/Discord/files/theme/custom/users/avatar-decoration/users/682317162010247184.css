@@ -1,0 +1,75 @@
+/* Base */
+:is(.avatarWrapper-1B9FTW,
+    .userInfo-2WpsYG,
+    .channel-1Shao0,
+    .memberInner--L4X2b,
+    .member-2cj2PI,
+    .bannedUser-1IrKtC,
+    .auditLog-1NVAY0,
+    .userPopoutInner-nv9Y92,
+    .accountProfileCard-lbN7n-,
+    .transition-3ij7TS,
+    .userProfileModalInner-3dx9L9):has([src*="avatars/682317162010247184"], [style*="avatars/682317162010247184"]) :is(.wrapper-3Un6-K,
+                                                                                                                       .wrapper-3mYmFS,
+                                                                                                                       .avatarUploaderNormal-2m2hFm)::before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: var(--custom-avatar-avatar-decoration-border-position);
+    left: var(--custom-avatar-avatar-decoration-border-position);
+    background: url("https://cdn.discordapp.com/avatar-decoration-presets/a_c7e1751e8122f1b475cb3006966fb28c.png") no-repeat center;
+}
+
+/* 38px/32px avatar */
+:is(.avatarWrapper-1B9FTW,
+    .userInfo-2WpsYG,
+    .channel-1Shao0,
+    .memberInner--L4X2b):has([src*="avatars/682317162010247184"]) .wrapper-3Un6-K::before {
+    height: 38px;
+    width: 38px;
+    background-size: 38px;
+}
+
+/* 48px/40px avatar */
+:is(.member-2cj2PI,
+    .bannedUser-1IrKtC,
+    .auditLog-1NVAY0):has([src*="avatars/682317162010247184"]) .wrapper-3Un6-K::before {
+    height: 48px;
+    width: 48px;
+    background-size: 48px;
+}
+
+/* 96px/80px avatar */
+:is(.userPopoutInner-nv9Y92,
+    .accountProfileCard-lbN7n-,
+    .voiceCallWrapper-3UtDiC):has([src*="avatars/682317162010247184"], [style*="avatars/682317162010247184"]) :is(.wrapper-3Un6-K,
+                                                                                                                  .wrapper-3mYmFS,
+                                                                                                                  .avatarUploaderNormal-2m2hFm)::before {
+    height: 96px;
+    width: 96px;
+    background-size: 96px;
+}
+
+/* 144px/120px avatar */
+:is(.userProfileModalInner-3dx9L9):has([src*="avatars/682317162010247184"]) .wrapper-3Un6-K::before {
+    height: 144px;
+    width: 144px;
+    background-size: 144px;
+}
+
+/* Messages */
+.message-2CShn3 .contents-2MsGLg:has([src*="avatars/682317162010247184"])::before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 12px;
+    height: 48px;
+    width: 48px;
+    margin-top: -2px;
+    background: url("https://cdn.discordapp.com/avatar-decoration-presets/a_c7e1751e8122f1b475cb3006966fb28c.png") no-repeat center;
+    background-size: 48px;
+    pointer-events: none;
+}
+.message-2CShn3 .contents-2MsGLg .avatar-2e8lTP {
+    z-index: unset;
+}

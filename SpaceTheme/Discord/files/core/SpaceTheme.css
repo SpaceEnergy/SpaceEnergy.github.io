@@ -20,6 +20,16 @@
 */
 
 
+/* Home Icon */
+.childWrapper-1j_1ub {
+    background: var(--home-icon);
+    background-size: 48px;
+}
+.childWrapper-1j_1ub svg {
+    display: none;
+}
+
+
 /*
 *=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 ?
@@ -461,6 +471,9 @@ img.splashImage-_KUn-T.splashImageHeight-1mpt3D {
 }
 .peopleListItem-u6dGxF .actions-2ZgdH4 .actionButton-3-B2x- {
     margin: 0;
+}
+.peopleListItem-u6dGxF .actions-2ZgdH4 .actionButton-3-B2x-:nth-of-type(2) {
+    margin-left: 5px;
 }
 .peopleListItem-u6dGxF .actionButton-3-B2x- {
     width: 100%;

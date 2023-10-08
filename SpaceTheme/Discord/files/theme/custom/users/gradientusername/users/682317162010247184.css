@@ -23,6 +23,8 @@
     font-weight: 700;
     text-decoration-color: #878cff;
     color: transparent !important;
-    background: linear-gradient(90deg, #878cff 0%, #666cff 100%);
+    background: linear-gradient(90deg,#878cff,#666cff 34%,#878cff 67%,#666cff);
+    background-size: 300% 100%;
     -webkit-background-clip: text;
+    animation: progressPulse-2EeieX 2s linear infinite;
 }

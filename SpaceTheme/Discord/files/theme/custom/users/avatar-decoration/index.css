@@ -1,0 +1,35 @@
+/* Avatar Decorations Request */
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1158268197275967518"]) .form-3gdLxP .channelTextArea-1FufC0.channelTextArea-1VQBuV {
+    display: flex;
+    flex-direction: column;
+}
+
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1158268197275967518"]) .form-3gdLxP .channelTextArea-1VQBuV::before {
+    order: -2;
+    display: flex;
+    padding: 10px 16px 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    white-space: pre-wrap;
+    content: "Request Avatar Decoration:";
+    border-radius: 8px 8px 0 0;
+    color: var(--header-primary);
+    background: var(--color-2);
+}
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1158268197275967518"]) .form-3gdLxP .channelTextArea-1VQBuV::after {
+    order: -1;
+    display: flex;
+    padding: 0 16px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: pre-wrap;
+    content: "• Search the Nitro Store for a decoration and tell me the name. \a • If it is intended for a bot then please tag the bot with <@ID> e.g. \"<@1127646567197843456>\". \a • Please wait at least 24 hours for requests to be fulfilled. Requests will not always be taken in instantly.";
+    border-radius: 0;
+    color: var(--header-secondary);
+    background: var(--color-2);
+}
+
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1158268197275967518"]) .form-3gdLxP .scrollableContainer-15eg7h {
+    border-radius: 0 0 8px 8px;
+}
