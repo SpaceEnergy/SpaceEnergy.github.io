@@ -1,8 +1,10 @@
 /* Base */
 .invite-3uuHYQ {
     height: fit-content;
+    min-width: 500px;
     margin-top: 2.5px;
     padding: 28px 10px 10px;
+    border: none;
     border-radius: 8px;
     background-color: #000 !important;
 }
@@ -45,7 +47,7 @@
 /* Text */
 .details-1nO3iV,
 .state-3Nm83F {
-    max-width: 310px;
+    max-width: 356px;
     white-space: unset;
 }
 .details-1nO3iV {
