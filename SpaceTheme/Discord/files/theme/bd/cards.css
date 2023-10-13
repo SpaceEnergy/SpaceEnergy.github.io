@@ -1,4 +1,5 @@
 .bd-addon-list .bd-addon-card {
+    margin: 0;
     border-radius: 8px;
     background: var(--color-2);
 }
