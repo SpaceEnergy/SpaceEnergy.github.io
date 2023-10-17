@@ -4,8 +4,7 @@
 =-=-=-=-=-=-=-=
 */
 
-.container-YkUktl
-.avatarWrapper-1B9FTW {
+.container-1CH86i .avatarWrapper-12uuu4 {
     padding: 5px 8px 5px 8px;
     margin: 0 3.333px;
     border-radius: 8px;
@@ -13,7 +12,7 @@
     background-color: var(--color-1);
     cursor: pointer;
 }
-.avatarWrapper-1B9FTW:hover {
+.avatarWrapper-12uuu4:hover {
     background-color: var(--color-3);
 }
 .hoverRoll-2XwpoF {
@@ -27,15 +26,13 @@
 =-=-=-=-=-=-=-=
 */
 
-.container-YkUktl
-.button-12Fmur {
+.container-1CH86i .button-12Fmur {
     width: -webkit-fill-available;
     margin: 0 3.333px;
     transition: background-color 0.15s ease-in-out;
     background-color: var(--color-3);
 }
-.container-YkUktl
-.button-12Fmur:hover {
+.container-1CH86i .button-12Fmur:hover {
     background-color: var(--color-1);
 }
 
@@ -46,20 +43,18 @@
 =-=-=-=-=-=-=-=
 */
 
-.container-1zzFcN {
+.container-1CH86i {
     margin-bottom: 5px !important;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
-.container-1zzFcN
-.button-1EGGcP {
+.container-1CH86i .button-1EGGcP {
     background-color: var(--color-3);
     transition: background-color 0.15s ease-in-out;
 }
-.container-1zzFcN
-.button-1EGGcP:hover {
+.container-1CH86i .button-1EGGcP:hover {
     background-color: var(--color-1);
 }
 
@@ -78,8 +73,7 @@
     background-color: var(--color-2) !important;
 }
 
-.panel-2ZFCRb
-.body-1FrnJD {
+.panel-2ZFCRb .body-1FrnJD {
     margin: 0 3.333px;
 }
 
@@ -93,7 +87,7 @@
 .panels-3wFtMD {
     background-color: transparent !important;
 }
-.container-YkUktl {
+.container-1CH86i {
     display: grid;
     height: 95px;
     padding: 5px;

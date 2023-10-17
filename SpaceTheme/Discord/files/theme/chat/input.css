@@ -1,39 +1,61 @@
 /*Normal*/
-.form-3gdLxP
-.channelTextArea-1FufC0
-.scrollableContainer-15eg7h.webkit-QgSAqd {
+.form-3qe0Ni .channelTextArea-1deLlK .scrollableContainer-15eg7h {
+    background-color: var(--color-1);
+}
+.form-3qe0Ni .channelTextArea-1deLlK .scrollableContainer-15eg7h .inner-NQg18Y {
+    border-radius: 8px;
     background-color: var(--color-2);
 }
-.channelTextArea-220_Gz
-.scrollableContainer-15eg7h {
-    background-color: var(--color-5);
+.form-3qe0Ni .channelTextArea-1deLlK .scrollableContainer-15eg7h .divider-2rZFJK {
+    display: none;
 }
-.channelTextArea-1FufC0.channelTextArea-1VQBuV,
-.attachedBars-2BCP3l,
-.replyBar-1oi75v {
+.channelTextArea-1deLlK .channelAttachmentArea-HwpkuQ {
+    margin: 0 0 2.5px;
     border-radius: 8px;
-    background-color: var(--color-4);
+    background-color: var(--color-2);
+}
+.replyBar-1oi75v {
+    margin: 0 0 2.5px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.attachedBars-2BCP3l {
+    border-radius: 0;
+    background: var(--color-1);
+}
+.clipContainer-31nYlH {
+    padding: 0;
 }
 
 
 /*No Permission*/
-.channelTextArea-1FufC0.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv {
+.channelTextArea-1deLlK.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv {
+    padding-left: 5px;
     border: 3px solid #FF4747;
+}
+.channelTextArea-1deLlK {
+    background-color: var(--color-2);
+}
+.channelTextArea-1deLlK.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv .scrollableContainer-15eg7h {
+    opacity: 1;
+    background-color: transparent;
+}
+.channelTextArea-1deLlK.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv .attachButton-_ACFSu {
+    display: none;
 }
 
 
 /*Announcement Follow*/
-.wrapper-2SplAX {
+.wrapper-IjGAlW {
     padding-top: 11.5px;
     padding-bottom: 11.5px;
     border: 3px solid #5661f6;
     border-radius: 8px;
 }
-.wrapper-2SplAX
-.image-3FliiM {
+.wrapper-IjGAlW .image-15uDsn {
     display: none;
 }
-.button-cO0-d9.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F {
+.wrapper-IjGAlW .buttonContainer-1OlVVX .button-1F0CyK {
     border-radius: 8px;
     background-color: #5661f6;
 }

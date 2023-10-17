@@ -1,10 +1,18 @@
-.chatContent-3KubbW {
+.chat-9g_3Xj {
+    background-color: transparent;
+}
+.content-18rAwf:before {
+    display: none;
+}
+
+
+.chatContent-2O4SXb {
     border-radius: 8px;
     background-color: var(--color-1);
 }
 .scroller-kQBbkU {
     border-radius: 8px;
 }
-.form-3gdLxP::before {
+.form-3qe0Ni::before {
     display: none;
 }
