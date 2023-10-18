@@ -1,4 +1,4 @@
-.typeWindows-2-g3UY {
+.titleBar-3AIemB {
     height: 24px;
     padding-top: 10px;
     margin-top: 0px;
@@ -6,10 +6,10 @@
 }
 
 /* Logo */
-.wordmarkWindows-2dq6rw svg {
+.wordmark-3wYFg6 svg {
 	display: none;
 }
-.wordmarkWindows-2dq6rw::before {
+.wordmark-3wYFg6::before {
 	content: 'Space';
     position: relative;
     top: 6px;
@@ -18,7 +18,7 @@
 	font-weight: 500;
     color: var(--accent-2) ;
 }
-.wordmarkWindows-2dq6rw::after {
+.wordmark-3wYFg6::after {
 	content: 'Theme';
     position: relative;
     top: 6px;
@@ -29,18 +29,17 @@
 }
 
 /* Close/Maximize/Minimize Buttons */
-.winButton-3UMjdg {
+.winButton-3SigSb {
     height: 33.333332px;
     width: 40px;
     top: -10px;
 }
-.winButton-3UMjdg
-svg {
+.winButton-3SigSb svg {
     color: var(--accent);
 }
-.winButtonClose-3Q8ZH5:hover {
+.winButtonClose-23zAIt:hover {
     background-color: var(--accent);
 }
-.winButtonClose-3Q8ZH5:hover svg {
+.winButtonClose-23zAIt:hover svg {
     color: var(--background);
 }
