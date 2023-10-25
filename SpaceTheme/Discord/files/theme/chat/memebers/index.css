@@ -1,26 +1,26 @@
-.container_b2ce9c {
+.container-2vWgD2 {
     width: 260px;
     margin: 0 0 0 15px;
     border-radius: 8px;
     background-color: var(--color-2) !important;
 }
-:has(.container__8ee50) .membersWrap__90226 {
+.membersWrap-3GwLFp {
     min-width: 260px;
     margin: 0 0 0 15px;
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.members__9f47b {
+.members-2y1nVj {
     width: 260px;
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.member_aa4760 {
+.member-2gU6Ar {
     max-width: 260px;
     background-color: unset;
 }
 
-.membersGroup__85843 {
+.membersGroup-2YoqY- {
     height: fit-content;
     padding-top: 15px;
 }

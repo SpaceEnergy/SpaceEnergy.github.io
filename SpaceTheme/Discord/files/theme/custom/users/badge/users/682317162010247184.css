@@ -1,6 +1,6 @@
-:is(.userPopoutInner_f545a3,
-    .userProfileModalInner__7c87d):has([src*="avatars/682317162010247184"]) :is(.profileBadges__7a7cb,
-                                                                                .badgeList_c193e3)::before {
+:is(.userPopoutInner-nv9Y92,
+    .userProfileModalInner-3dx9L9):has([src*="avatars/682317162010247184"]) :is(.profileBadges-2pItdR,
+                                                                                .badgeList-2aoHPw)::before {
     content: "";
     display: block;
     height: 22px;

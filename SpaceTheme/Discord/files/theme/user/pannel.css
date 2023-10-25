@@ -4,7 +4,7 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_ca50b9 .avatarWrapper_ba5175 {
+.container-1CH86i .avatarWrapper-12uuu4 {
     padding: 5px 8px 5px 8px;
     margin: 0 3.333px;
     border-radius: 8px;
@@ -12,10 +12,10 @@
     background-color: var(--color-1);
     cursor: pointer;
 }
-.avatarWrapper_ba5175:hover {
+.avatarWrapper-12uuu4:hover {
     background-color: var(--color-3);
 }
-.hoverRoll__041cb {
+.hoverRoll-2XwpoF {
     cursor: pointer;
 }
 
@@ -26,13 +26,13 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_ca50b9 .button__4f306 {
+.container-1CH86i .button-12Fmur {
     width: -webkit-fill-available;
     margin: 0 3.333px;
     transition: background-color 0.15s ease-in-out;
     background-color: var(--color-3);
 }
-.container_ca50b9 .button__4f306:hover {
+.container-1CH86i .button-12Fmur:hover {
     background-color: var(--color-1) !important;
 }
 
@@ -43,18 +43,18 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_d667ff {
+.container-2NLBJg {
     margin-bottom: 5px !important;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
-.container_d667ff .button__66e8c {
+.container-2NLBJg .button-2gNyE9 {
     background-color: var(--color-3);
     transition: background-color 0.15s ease-in-out;
 }
-.container_d667ff .button__66e8c:hover {
+.container-2NLBJg .button-2gNyE9:hover {
     background-color: var(--color-1);
 }
 
@@ -65,7 +65,7 @@
 =-=-=-=-=-=-=-=
 */
 
-.panel_bd8c76 {
+.panel-ufc1-o {
     padding: 12px 8px;
     margin-bottom: -12px;
     border: none;
@@ -73,7 +73,7 @@
     background-color: var(--color-2) !important;
 }
 
-.panel_bd8c76 .body__709f6 {
+.panel-ufc1-o .body-OADsbV {
     margin: 0 3.333px;
 }
 
@@ -84,10 +84,10 @@
 =-=-=-=-=-=-=-=
 */
 
-.panels__58331 {
+.panels-3wFtMD {
     background-color: transparent !important;
 }
-.container_ca50b9 {
+.container-1CH86i {
     display: grid;
     height: 95px;
     padding: 5px;

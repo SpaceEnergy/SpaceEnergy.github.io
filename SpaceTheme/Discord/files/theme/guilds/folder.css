@@ -1,24 +1,24 @@
-.expandedFolderBackground__1bec6 {
+.expandedFolderBackground-1kSAf6 {
     width: 64px;
     inset: -9px 8px 0;
     border-radius: 16px;
     background-color: var(--color-5);
 }
-.wrapper_ed1dea {
+.wrapper-38slSD {
     margin: 17px 0 8px;
 }
-.wrapper_ed1dea:has(.expandedFolderBackground__1bec6.collapsed__0a270) {
+.wrapper-38slSD:has(.expandedFolderBackground-1kSAf6.collapsed-uGXEbi) {
     margin: 0;
 }
-.expandedFolderIconWrapper__458cf {
+.expandedFolderIconWrapper-3RwQpD {
     background-color: var(--color-2);
 }
 
 /* Folder Icon Color */
-.closedFolderIconWrapper__7321f {
+.closedFolderIconWrapper-3tRb2d {
     display: none;
 }
-.folderIconWrapper__72239:not([style=""])::before {
+.folderIconWrapper-1oRIZr:not([style=""])::before {
     position: absolute;
     content: "";
     width: 18px;
@@ -26,7 +26,7 @@
     inset: 0;
     margin: auto;
     background-color: inherit;
-    -webkit-mask: url("https://spaceenergy.github.io/SpaceTheme/Discord/files/src/icons/folder.svg") no-repeat;
+    -webkit-mask: url("https://spaceenergy.github.io/SpaceTheme/Discord/src/files/icons/folder.svg") no-repeat;
     mask: url("https://spaceenergy.github.io/SpaceTheme/Discord/files/src/icons/folder.svg") no-repeat;
     transform: scale(1.3335);
     filter: brightness(1.5) saturate(1.5);

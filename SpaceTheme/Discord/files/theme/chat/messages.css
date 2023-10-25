@@ -19,17 +19,16 @@
 
 
 /* Edited message date */
-.timestamp_cdbd93:not(.timestampInline__470e0, .timestampVisibleOnHover_e8cc6d) time::after {
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
     content: " (" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
 }
-.edited_b20dd9:not(.message-translate-indicator) {
+.edited-1v5nT8:not(.message-translate-indicator) {
     display: none;
 }
 
 
-/*TODO: When Message Bubbles fixed fix this code */
 /* Mention message */
 .groupStart-3Mlgv1.cozyMessage-1DWF9U.mentioned-Tre-dv .contents-2MsGLg,
 .cozyMessage-1DWF9U.mentioned-Tre-dv:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
@@ -55,38 +54,41 @@
 
 
 /* Controls */
-.buttonContainer_dd4b62 .wrapper_c727b6 {
+.buttonContainer-1502pf
+.wrapper-2vIMkT {
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.buttonContainer_dd4b62 .wrapper_c727b6 .button_d553e5.selected__63428 {
+.buttonContainer-1502pf
+.wrapper-2vIMkT
+.button-3bklZh.selected-69H4ua {
     background-color: var(--color-6);
 }
 
 
 /* Chat Pills */
-.divider__8cf56 {
+.divider-IqmEqJ {
     justify-content: end;
     height: 2px;
     border: none;
     border-radius: 8px;
     background-color: #2E2F33;
 }
-.divider__8cf56.isUnread__6f880 {
+.divider-IqmEqJ.isUnread-3Lojb- {
     background-color: #EF4B4B;
 }
 
-.content_d67847 {
+.content-3spvdd {
     padding: 8px 10px;
     border: 2px solid #2E2F33;
     border-radius: 80px;
     background: #1E1E1E;
 }
 
-.isUnread__6f880 .content_d67847 {
+.isUnread-3Lojb- .content-3spvdd {
     border-color: #EF4B4B;
 }
-.isUnread__6f880 .endCap__95d53 {
+.isUnread-3Lojb- .endCap-2wHt31 {
     order: 1;
     top: -6px;
     left: 0 ;
@@ -94,7 +96,7 @@
     padding: 0 1px 0 4px;
     border-radius: 4px 0 0 4px;
 }
-.isUnread__6f880 .endCap__95d53 .unreadPillCap__96b8d {
+.isUnread-3Lojb- .endCap-2wHt31 .unreadPillCap-2-iI4h {
     left: unset;
     right: -8px;
     transform: rotate(180deg);
