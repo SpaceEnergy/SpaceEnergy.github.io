@@ -4,13 +4,14 @@
 =-=-=-=-=-=-=-=
 */
 
-.embedAuthor-TJIHp5,
-.embedDescription-1DrJxZ,
-.embedFields-2yHGHT,
-.embedFooter-3dj0UE,
-.embedMedia-1mdWSP,
-.embedProvider-1GSN0c,
-.embedTitle-2n1pEb {
+.embedAuthor_cb4bfc,
+.embedProvider_cfa718,
+.embedTitle__31740,
+.embedDescription__33443,
+.embedFields__51397,
+.embedMedia_b473d2,
+.embedThumbnail__468e1,
+.embedFooter_a8f9aa {
     min-width: unset;
 }
 
@@ -21,7 +22,7 @@
 =-=-=-=-=-=-=-=
 */
 
-.embedWrapper-1MtIDg.embedFull-1HGV2S {
+.embedWrapper_c143d9.embedFull__8dc21 {
     border-radius: 8px;
     border: 3px solid;
 }
@@ -33,6 +34,6 @@
 =-=-=-=-=-=-=-=
 */
 
-.embedFull-1HGV2S {
+.embedFull__8dc21 {
     background: var(--color-2);
 }

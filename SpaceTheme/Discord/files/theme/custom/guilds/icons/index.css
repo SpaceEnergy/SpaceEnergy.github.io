@@ -1,10 +1,10 @@
 /* Icon Request */
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .form-3gdLxP .channelTextArea-1FufC0.channelTextArea-1VQBuV {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .form-3qe0Ni .channelTextArea-1deLlK .scrollableContainer-15eg7h {
     display: flex;
     flex-direction: column;
 }
 
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .form-3gdLxP .channelTextArea-1VQBuV::before {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .form-3qe0Ni .channelTextArea-1deLlK .scrollableContainer-15eg7h::before {
     order: -2;
     display: flex;
     padding: 10px 16px 4px;
@@ -17,7 +17,7 @@ html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732
     color: var(--header-primary);
     background: var(--color-2);
 }
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .form-3gdLxP .channelTextArea-1VQBuV::after {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .form-3qe0Ni .channelTextArea-1deLlK .scrollableContainer-15eg7h::after {
     order: -1;
     display: flex;
     padding: 0 16px 8px;
@@ -30,6 +30,6 @@ html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732
     background: var(--color-2);
 }
 
-html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"]) .form-3gdLxP .scrollableContainer-15eg7h {
+html:has(.modeSelected-3DmyhH [data-list-item-id="channels___1126871300661575732"], .scrollableContainer-15eg7h::after) .form-3qe0Ni .inner-NQg18Y {
     border-radius: 0 0 8px 8px;
 }

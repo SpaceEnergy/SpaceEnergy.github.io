@@ -46,13 +46,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25px;
-    width: 25px;
+    height: 26px;
+    width: 26px;
     margin: auto 5px;
     padding: 3px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 80px;
 }
+
+
+
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084972817717657763"]::before {
     content: "👮‍♂️";
     background-color: #0095dd40;
@@ -160,5 +163,5 @@
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973855803711509"] .iconContainer-21RCa3, 
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973896391999488"] .iconContainer-21RCa3, 
 .containerDefault-YUSmu3 a[data-list-item-id="channels___1084973932890837022"] .iconContainer-21RCa3 {
-    margin-left: 33px;
+    margin-left: 37px;
 }

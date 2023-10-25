@@ -1,4 +1,6 @@
-.userPopoutInner-nv9Y92:has([src*="avatars/770013098689953832"]) .profileBadges-2pItdR::before {
+:is(.userPopoutInner_f545a3,
+    .userProfileModalInner__7c87d):has([src*="avatars/770013098689953832"]) :is(.profileBadges__7a7cb,
+                                                                                .badgeList_c193e3)::before {
     content: "";
     display: block;
     height: 22px;

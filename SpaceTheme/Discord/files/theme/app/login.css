@@ -1,12 +1,12 @@
-.characterBackground-1BPOOJ {
+.characterBackground__2820f {
     background-color: var(--background);
 }
-.artwork-L5TAwQ {
+.artwork__8fc92 {
     display: none;
 }
 
 
-.authBox-1HR6Ha {
+.authBox__7196a {
     height: 425px;
     width: 850px;
     padding: 15px;
@@ -15,49 +15,49 @@
     box-shadow: 0px 5px 26px 5px #000;
 }
 
-.authBox-1HR6Ha .centeringWrapper-dGnJPQ,
-.authBox-1HR6Ha .centeringWrapper-dGnJPQ .flex-2S1XBF {
+.authBox__7196a .centeringWrapper__319b0,
+.authBox__7196a .centeringWrapper__319b0 .flex_f5fbb7 {
     height: 100%;
 }
 
 
-.mainLoginContainer-wHmAjP {
+.mainLoginContainer__58502 {
     height: calc(425px - 50px);
     margin-right: 15px;
 }
-.authBox-1HR6Ha .header-6M5OpB {
+.authBox__7196a .header_feace3 {
     align-items: start;
 }
 
-.authBox-1HR6Ha .input-3O04eu {
+.authBox__7196a .input_d266e7 {
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
-.authBox-1HR6Ha .linkButton-2ax8wP.marginBottom20-315RVT {
+.authBox__7196a .linkButton_ba7970.marginBottom20__64605 {
     margin-bottom: 64px;
 }
 
 
-.authBox-1HR6Ha .verticalSeparator-2r9gHa {
+.authBox__7196a .verticalSeparator_af74b3 {
     display: none;
 }
 
 
-.qrLogin-1ejtpI {
+.qrLogin_ce8b2d {
     height: calc(425px - 30px);
     width: 270px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
-.qrCodeContainer-1qlybH {
+.qrCodeContainer__52c91 {
     margin-bottom: 15px;
 }
-.qrCode-2R7t9S {
+.qrCode_bef5bf {
     border-radius: 8px !important;
 }
 
-.qrLoginInner-1phtZ_ .title-3FQ39e {
+.qrLoginInner__86510 .title__0a681 {
     margin: 0 8px 8px;
 }

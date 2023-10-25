@@ -1,48 +1,48 @@
-.customColorPicker-C_jddW {
+.customColorPicker__3cb6a {
     border: none;
     border-radius: 8px;
     background: var(--color-2) !important;
     box-shadow: none;
 }
 
-:has(.sectionsContainer-3BlPu4) .customColorPicker-C_jddW {
+:has(.sectionsContainer_a37883) .customColorPicker__3cb6a {
     width: 283px;
 }
-:has(.sectionsContainer-3BlPu4) .layer-2BGhQ8:has(.customColorPicker-C_jddW) {
+:has(.sectionsContainer_a37883) .layer_ec16dd:has(.customColorPicker__3cb6a) {
     margin: 61px -77px 0;
 }
-:has(.customColorPicker-C_jddW) .customizationSection-IGy2fS:has(.colorSwatch-2UxEuG) {
+:has(.customColorPicker__3cb6a) .customizationSection__16fec:has(.colorSwatch__5f5b9) {
     padding-bottom: 346px !important;
 }
 
-:has(.colorPicker-1a1lPd) .customColorPicker-C_jddW {
+:has(.colorPicker-1a1lPd) .customColorPicker__3cb6a {
     width: 410px;
 }
-:has(.colorPicker-1a1lPd) .layer-2BGhQ8:has(.customColorPicker-C_jddW) {
+:has(.colorPicker-1a1lPd) .layer_ec16dd:has(.customColorPicker__3cb6a) {
     margin: 61px -150px 0;
 }
-:has(.customColorPicker-C_jddW) .colorPicker-1a1lPd {
+:has(.customColorPicker__3cb6a) .colorPicker_d98650 {
     padding-bottom: 271px !important;
 }
 
-.saturation-CLQHFD>div {
+.saturation__35997>div {
     border-radius: 8px;
 }
-.customColorPicker-C_jddW .saturation-white {
+.customColorPicker__3cb6a .saturation-white {
     border-radius: 8px;
 }
-.customColorPicker-C_jddW .saturation-black {
+.customColorPicker__3cb6a .saturation-black {
     border-radius: 7px;
 }
 
-.suggestedColors-QJ7qLr {
+.suggestedColors_b91083 {
     flex-wrap: unset;
 }
-.suggestedColor-2q1U7c {
+.suggestedColor__34249 {
     border: 2px solid var(--color-1);
     border-radius: 8px;
 }
-.suggestedColor-2q1U7c:hover {
+.suggestedColor__34249:hover {
     border: 2px solid var(--accent);
     border-radius: 8px;
 }

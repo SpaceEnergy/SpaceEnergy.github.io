@@ -1,20 +1,23 @@
-.resizeHandle-PBRzPC {
+.resizeHandle_f1a098 {
     height: 200px;
     width: 5px;
     margin: auto 5px;
     border-radius: 8px;
     background: var(--accent-2);
 }
-.resizeHandle-PBRzPC:hover {
+.resizeHandle_f1a098:hover {
     background: var(--accent);
 }
-.container-3XgAHv {
+.container_def45c {
     background: var(--background);
 }
 
-.container-2o3qEW .membersWrap-3NUR2t {
-    margin: 0;
+.container__8ee50 {
+    margin: 10px 15px 10px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-2);
 }
-.membersWrap-3NUR2t {
-    margin: 0 0 0 15px;
+.content__1a4fe .divider_ffec75 {
+    display: none;
 }

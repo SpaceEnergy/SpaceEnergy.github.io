@@ -1,30 +1,30 @@
-.children-2C96Ex .connection-YOVI9j,
-.children-2C96Ex .connectContainer-1hylYM {
+.children_b15c64 .connectContainer__8050b,
+.children_b15c64 .connection_fff5f6 {
     border-radius: 8px;
     background: var(--color-2);
 }
 
-.children-2C96Ex .connectionsContainer-3wRUc6 {
+.children_b15c64 .connectionsContainer_ec9a62 {
     gap: 10px;
 }
-.children-2C96Ex .connectionsContainer-3wRUc6 .accountButtonInner-33vCDY {
+.children_b15c64 .connectionsContainer_ec9a62 .accountButtonInner__80e3a {
     border-radius: 8px;
     background-color: var(--color-3);
 }
 
-.children-2C96Ex .connectionList-11Q_X- {
+.children_b15c64 .connectionList__7b310 {
     grid: auto-flow dense/repeat(auto-fit,minmax(40rem,1fr));
     grid-auto-rows: minmax(3rem,auto);
     grid-gap: 15px;
 }
 
-.children-2C96Ex .connectionHeader-Ixbb1s {
+.children_b15c64 .connectionHeader__3c82d {
     margin: 10px 10px 0;
     border-radius: 8px;
     background: var(--color-3);
 }
 
-.children-2C96Ex .metadataContainer-35U-On {
+.children_b15c64 .metadataContainer__7b316 {
     margin:  10px 15px 0;
     border-radius: 8px;
     background: var(--color-3);

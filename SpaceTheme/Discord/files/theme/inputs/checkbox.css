@@ -1,24 +1,24 @@
 .bd-switch .bd-switch-body,
-.container-1QtPKm {
+.container__871ba {
     background-color: var(--color-2) !important;
 }
 
 .bd-switch input:checked + .bd-switch-body,
-.container-1QtPKm.checked-16gMAN {
+.container__871ba.checked__6bdb0 {
     background-color: var(--accent) !important;
 }
 
 .bd-switch .bd-switch-handle,
-.container-1QtPKm > svg > rect {
+.container__871ba > svg > rect {
     fill: black !important;
 }
 
 .bd-switch input:checked + .bd-switch-body .bd-switch-handle,
-.container-1QtPKm.checked-16gMAN > svg > rect {
+.container__871ba.checked__6bdb0 > svg > rect {
     fill: black !important;
 }
 
 .bd-switch .bd-switch-symbol path,
-.container-1QtPKm > svg > svg > path {
+.container__871ba > svg > svg > path {
     display: none;
 }

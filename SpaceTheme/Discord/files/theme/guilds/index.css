@@ -13,16 +13,16 @@
 =-=-=-=-=-=-=-=
 */
 
-.tutorialContainer-1pL9QS {
+.tutorialContainer__890ea {
     margin-top: 10px;
 }
 
 /* Home Icon */
-.wrapper-3kah-n[data-list-item-id="guildsnav___home"] .childWrapper-1j_1ub {
-    background: var(--home-icon);
-    background-size: 48px;
+.wrapper_d281dd[data-list-item-id="guildsnav___home"] .childWrapper__01b9c {
+    background: var(--home-icon) no-repeat center !important;
+    background-size: cover !important;
 }
-.childWrapper-1j_1ub svg {
+.wrapper_d281dd[data-list-item-id="guildsnav___home"] .childWrapper__01b9c svg {
     display: none;
 }
 
@@ -33,16 +33,15 @@
 =-=-=-=-=-=-=-=
 */
 
-.wrapper-1_HaEi.guilds-2JjMmN {
+.wrapper_a7e7a8.guilds__2b93a {
     width: 80px;
     margin: 0 0 15px 15px;
     border-radius: 8px;
 }
-.tree-3agP2X {
+.tree__7a511 {
     width: 80px;
     background-color: var(--color-2);
 }
-.wrapper-1_HaEi.guilds-2JjMmN
-.listItem-3SmSlK {
+.wrapper_a7e7a8.guilds__2b93a .listItem_fa7b36 {
     width: 80px;
 }
