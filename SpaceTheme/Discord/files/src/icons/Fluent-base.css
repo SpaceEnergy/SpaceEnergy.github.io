@@ -108,7 +108,7 @@
 
 .secured-2wavXv:before {
 	content: " ";
-	background: url(/Discord/files/icons/src/24/lock_closed.svg) 50% no-repeat;
+	background: url(/Discord/files/src/icons/src/24/lock_closed.svg) 50% no-repeat;
 	filter: invert(85%) sepia(6%) saturate(4015%) hue-rotate(78deg) brightness(85%) contrast(93%);
 	width: 9px;
 	height: 12px;
@@ -125,7 +125,7 @@
 }
 
 .warnIcon-3ly1wg {
-	background-image: url(/Discord/files/icons/src/24/info.svg);
+	background-image: url(/Discord/files/src/icons/src/24/info.svg);
 	filter: invert(76%) sepia(69%) saturate(2337%) hue-rotate(345deg) brightness(99%) contrast(97%);
 }
 
@@ -165,7 +165,7 @@
 
 /* Permission Check */
 .permissionCheckmark-ji-OoY {
-	background: url(/Discord/files/icons/src/20/checkmark_circle.svg) no-repeat;
+	background: url(/Discord/files/src/icons/src/20/checkmark_circle.svg) no-repeat;
 	filter: invert(55%) sepia(9%) saturate(2732%) hue-rotate(86deg) brightness(97%) contrast(84%);
 }
 
@@ -361,7 +361,7 @@
 }
 
 .closeButton-30b1gR {
-	background: url(/Discord/files/icons/src/24/dismiss_circle.svg) no-repeat;
+	background: url(/Discord/files/src/icons/src/24/dismiss_circle.svg) no-repeat;
 	background-position: 50% 50%;
 	background-size: 24px 24px;
 	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(254deg) brightness(103%) contrast(102%);
@@ -796,16 +796,16 @@
 
 .emptyChannelIcon-1YdEz2 {
 	background-color: #fff;
-	background-image: url(/Discord/files/icons/src/48/number_symbol.svg);
+	background-image: url(/Discord/files/src/icons/src/48/number_symbol.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 }
 
 .emptyChannelIcon-1YdEz2.locked-29sj8C {
-	background-image: url(/Discord/files/icons/src/48/lock_channel.svg);
+	background-image: url(/Discord/files/src/icons/src/48/lock_channel.svg);
 }
 
 .emptyChannelIcon-1YdEz2.voiceChat-30r0jZ {
-	background-image: url(/Discord/files/icons/src/48/comment.svg);
+	background-image: url(/Discord/files/src/icons/src/48/comment.svg);
 }
 
 /* Locked channels */
@@ -1018,7 +1018,7 @@
 }
 
 .theme-dark .previewImage-2SFTiM {
-	background-image: url("/Discord/files/icons/src/48/video.svg");
+	background-image: url("/Discord/files/src/icons/src/48/video.svg");
 	background-size: 75%;
 	margin-left: 45px;
 	margin-bottom: 45px;
@@ -1330,7 +1330,7 @@
 
 .theme-dark .imageUploaderIcon-2OHmFu {
 	background-color: #DEDEDE;
-	background-image: url("/Discord/files/icons/src/24/image_add.svg");
+	background-image: url("/Discord/files/src/icons/src/24/image_add.svg");
 	background-size: 75%;
 	background-position: 45%;
 }
@@ -1477,13 +1477,13 @@
 
 /* Default */
 .icon-2bPCaV.unknown-1HSceW {
-	background-image: url(/Discord/files/icons/src/48/document.svg);
+	background-image: url(/Discord/files/src/icons/src/48/document.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(200%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.unknown-3ClW7Z {
-	background-image: url(/Discord/files/icons/src/48/document.svg);
+	background-image: url(/Discord/files/src/icons/src/48/document.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(150%);
@@ -1493,18 +1493,18 @@
 .audioMetadata-1Hrt8T:before {
 	width: 37px;
 	height: 44px;
-	background-image: url(/Discord/files/icons/src/32/speaker_2.svg);
+	background-image: url(/Discord/files/src/icons/src/32/speaker_2.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 }
 
 .icon-2bPCaV.audio-bZBBRF {
-	background-image: url(/Discord/files/icons/src/48/speaker_2.svg);
+	background-image: url(/Discord/files/src/icons/src/48/speaker_2.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(200%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.audio-YC1s9s {
-	background-image: url(/Discord/files/icons/src/48/speaker_2.svg);
+	background-image: url(/Discord/files/src/icons/src/48/speaker_2.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(150%);
@@ -1512,13 +1512,13 @@
 
 /* MP4 Icon */
 .icon-2bPCaV.video-qa3DnY {
-	background-image: url(/Discord/files/icons/src/20/video_clip.svg);
+	background-image: url(/Discord/files/src/icons/src/20/video_clip.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.video-L7uQxc {
-	background-image: url(/Discord/files/icons/src/20/video_clip.svg);
+	background-image: url(/Discord/files/src/icons/src/20/video_clip.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
@@ -1526,13 +1526,13 @@
 
 /* Text File */
 .icon-2bPCaV.document-3AUmU1 {
-	background-image: url(/Discord/files/icons/src/20/document_text.svg);
+	background-image: url(/Discord/files/src/icons/src/20/document_text.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.document-1u6V3N {
-	background-image: url(/Discord/files/icons/src/20/document_text.svg);
+	background-image: url(/Discord/files/src/icons/src/20/document_text.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
@@ -1540,13 +1540,13 @@
 
 /* ZIP Icon */
 .icon-2bPCaV.archive-1zydwk {
-	background-image: url(/Discord/files/icons/src/20/folder_zip.svg);
+	background-image: url(/Discord/files/src/icons/src/20/folder_zip.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.archive-2bNoJA {
-	background-image: url(/Discord/files/icons/src/20/folder_zip.svg);
+	background-image: url(/Discord/files/src/icons/src/20/folder_zip.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
@@ -1554,13 +1554,13 @@
 
 /* HTML Icon */
 .icon-2bPCaV.webcode-3EYK4X {
-	background-image: url(/Discord/files/icons/src/20/code.svg);
+	background-image: url(/Discord/files/src/icons/src/20/code.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.webcode-18ObW7 {
-	background-image: url(/Discord/files/icons/src/20/code.svg);
+	background-image: url(/Discord/files/src/icons/src/20/code.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
@@ -1568,13 +1568,13 @@
 
 /* Code Icon */
 .icon-2bPCaV.code-1hTP09 {
-	background-image: url(/Discord/files/icons/src/20/braces.svg);
+	background-image: url(/Discord/files/src/icons/src/20/braces.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.code-rRQnfi {
-	background-image: url(/Discord/files/icons/src/20/braces.svg);
+	background-image: url(/Discord/files/src/icons/src/20/braces.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
@@ -1582,13 +1582,13 @@
 
 /* PDF Icon */
 .icon-2bPCaV.acrobat-3i7zSC {
-	background-image: url(/Discord/files/icons/src/20/document_pdf.svg);
+	background-image: url(/Discord/files/src/icons/src/20/document_pdf.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.acrobat-2-m_um {
-	background-image: url(/Discord/files/icons/src/20/document_pdf.svg);
+	background-image: url(/Discord/files/src/icons/src/20/document_pdf.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);

@@ -29,165 +29,165 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
 	background: currentColor;
 	z-index: 2;
-	-webkit-mask: url(/Discord/files/icons/src/24/question_circle.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/question_circle.svg) center/contain no-repeat;
 }
 
 /* USER */
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My Account-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My-Account-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/person.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/person.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Profile Customization-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Profile-Customization-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/edit.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/edit.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy & Safety-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy-&-Safety-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MODERATION-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/shield_lock.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/shield_lock.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized Apps-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized-Apps-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="WIDGET-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/apps.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/apps.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="sessions-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/phone_desktop.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/phone_desktop.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Connections-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/plug_connected.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/plug_connected.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="friend-requests-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/person_add.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/person_add.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Subscriptions-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/star.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/star.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Premium-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/premium.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/premium.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord-Nitro-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/nitro.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/nitro.svg) center/contain no-repeat;
 	/* TODO */
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro-Server-Boost-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_PREMIUM-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/boost.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/boost.svg) center/contain no-repeat;
 	/* TODO */
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library Inventory-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library-Inventory-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/gift.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/gift.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Billing-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/receipt.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/receipt.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Appearance-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/paint_bucket.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/paint_bucket.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Accessibility-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/accessibility.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/accessibility.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice & Video-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice-&-Video-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/mic.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/mic.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text & Images-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text-&-Images-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/image.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/image.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Notifications-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/alert.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/alert.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Keybinds-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/keyboard.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/keyboard.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Language-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/local_language.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/local_language.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Windows-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/window.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/window.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer Mode-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer Mode-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer-Mode-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/live.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/live.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Advanced-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/wrench.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/wrench.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="activity-privacy-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/16/games_lock.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/16/games_lock.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game Activity-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game-Activity-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/games.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/games.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Overlay-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/picture_in_picture.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/picture_in_picture.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ChangeLog-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change Log-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change-Log-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/20/text_bullet_list_square_clock.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/20/text_bullet_list_square_clock.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad Online-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad-Online-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/hypesquad.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/hypesquad.svg) center/contain no-repeat;
 	/* TODO */
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Experiments-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/beaker.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/beaker.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Developer Options-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Developer-Options-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/code.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/code.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hotspot Options-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hotspot-Options-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/communication.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/communication.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Dismissible Content Options-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Dismissible-Content-Options-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/dismiss_circle.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/dismiss_circle.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="payment-flow-modals-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="payment-flow-modals-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/payment.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/payment.svg) center/contain no-repeat;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before,
@@ -196,27 +196,27 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="lightcord-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="core-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Settings-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/settings.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/settings.svg) center/contain no-repeat;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-emotes-tab::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Emotes-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="EMOJI-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/emoji.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/emoji.svg) center/contain no-repeat;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-customcss-tab::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="CustomCSS-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/code.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/code.svg) center/contain no-repeat;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-plugins-tab::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Plugins-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-moduleManager-plugins-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/puzzle_piece.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/puzzle_piece.svg) center/contain no-repeat;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before,
@@ -224,7 +224,7 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-moduleManager-themes-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Themes-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="theme-toggler-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/paint_brush.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/paint_brush.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PluginRepo-tab" i]::before {
@@ -236,7 +236,7 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-updater-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/arrow_download.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/arrow_download.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="bdCompat-tab" i]::before {
@@ -244,7 +244,7 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Logout-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/20/door_arrow_right.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/20/door_arrow_right.svg) center/contain no-repeat;
 }
 
 .item-3XjbnG [d='M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11.991L11.708 16.706L10.292 15.294L12.582 13H5V20C5 21.103 5.897 22 7 22H18C19.103 22 20 21.103 20 20V4C20 2.898 19.103 2 18 2Z'] {
@@ -254,57 +254,57 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 /* SERVER */
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="OVERVIEW-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="accountinfo-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/info.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/info.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ROLES-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PERMISSIONS-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/flag.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/flag.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="STICKERS-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/sticker.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/sticker.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="SOUNDBOARD-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/speaker_2.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/speaker_2.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="guild_automod-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/shield_task.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/shield_task.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="guild_automod_message_filter-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/comment_multiple_checkmark.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/comment_multiple_checkmark.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="AUDIT_LOG-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/clipboard_text_ltr.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/clipboard_text_ltr.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="INTEGRATIONS-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="status-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/bot.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/bot.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_TEMPLATES-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/textbox.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/textbox.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="vanity_url-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/link.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/link.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="COMMUNITY-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/people_community.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/people_community.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="text_in_voice-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/comment.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/comment.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ANALYTICS-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/data_trending.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/data_trending.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PARTNER-tab" i]::before {
@@ -313,19 +313,19 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MEMBER_VERIFICATION-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/book.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/book.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="DISCOVERY-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/compass_northwest.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/compass_northwest.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="COMMUNITY_WELCOME-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/megaphone.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/megaphone.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="onboarding_prompts-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/handshake.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/handshake.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="THREADS-tab" i]::before {
@@ -334,28 +334,28 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="role_subscriptions-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/premium.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/premium.svg) center/contain no-repeat;
 	/* TODO */
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MEMBERS-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/people.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/people.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="INSTANT_INVITES-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/person_add.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/person_add.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="BANS-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/person_prohibited.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/person_prohibited.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="app_directory-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/apps_add_in.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/apps_add_in.svg) center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="DELETE-tab" i]::before {
-	-webkit-mask: url(/Discord/files/icons/src/24/delete.svg) center/contain no-repeat;
+	-webkit-mask: url(/Discord/files/src/icons/src/24/delete.svg) center/contain no-repeat;
 }
 
 .item-3XjbnG [d='M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z'],
