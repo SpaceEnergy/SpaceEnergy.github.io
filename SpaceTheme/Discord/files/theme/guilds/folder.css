@@ -10,12 +10,12 @@
 .wrapper_ed1dea:has(.expandedFolderBackground__1bec6.collapsed__0a270) {
     margin: 0;
 }
-.expandedFolderBackground__1bec6 {
+.expandedFolderIconWrapper__458cf {
     background-color: var(--color-2);
 }
 
 /* Folder Icon Color */
-.expandedFolderIconWrapper__458cf {
+.closedFolderIconWrapper__7321f {
     display: none;
 }
 .folderIconWrapper__72239:not([style=""])::before {
