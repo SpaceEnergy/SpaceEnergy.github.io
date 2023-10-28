@@ -19,13 +19,25 @@
 
 
 /* Edited message date */
-.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+.timestamp_cdbd93:not(.timestampInline__470e0, .timestampVisibleOnHover_e8cc6d) time::after {
     content: " (" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
 }
-.edited-1v5nT8:not(.message-translate-indicator) {
+.edited_b20dd9:not(.message-translate-indicator) {
     display: none;
+}
+
+
+/* No Internet */
+.wrapper__3d460 {
+    background-color: unset;
+}
+.wrapper_b8c724 {
+    background-color: var(--color-1);
+}
+.wrapper__5c5cd {
+    background-color: var(--color-1);
 }
 
 
@@ -54,41 +66,38 @@
 
 
 /* Controls */
-.buttonContainer-1502pf
-.wrapper-2vIMkT {
+.buttonContainer_dd4b62 .wrapper_c727b6 {
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.buttonContainer-1502pf
-.wrapper-2vIMkT
-.button-3bklZh.selected-69H4ua {
+.buttonContainer-1502pfb .wrapper_c727b6 .button_d553e5.selected__63428 {
     background-color: var(--color-6);
 }
 
 
 /* Chat Pills */
-.divider-IqmEqJ {
+.divider__8cf56 {
     justify-content: end;
     height: 2px;
     border: none;
     border-radius: 8px;
     background-color: #2E2F33;
 }
-.divider-IqmEqJ.isUnread-3Lojb- {
+.divider__8cf56.isUnread__6f880 {
     background-color: #EF4B4B;
 }
 
-.content-3spvdd {
+.content_d67847 {
     padding: 8px 10px;
     border: 2px solid #2E2F33;
     border-radius: 80px;
     background: #1E1E1E;
 }
 
-.isUnread-3Lojb- .content-3spvdd {
+.isUnread__6f880 .content_d67847 {
     border-color: #EF4B4B;
 }
-.isUnread-3Lojb- .endCap-2wHt31 {
+.isUnread__6f880 .endCap__95d53 {
     order: 1;
     top: -6px;
     left: 0 ;
@@ -96,7 +105,7 @@
     padding: 0 1px 0 4px;
     border-radius: 4px 0 0 4px;
 }
-.isUnread-3Lojb- .endCap-2wHt31 .unreadPillCap-2-iI4h {
+.isUnread__6f880 .endCap__95d53 .unreadPillCap__96b8d {
     left: unset;
     right: -8px;
     transform: rotate(180deg);

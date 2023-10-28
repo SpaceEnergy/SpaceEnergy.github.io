@@ -1,17 +1,16 @@
-.container-2giAcK {
+.container__4f639 {
     padding: 0 0 5px 8px;
 }
-.bar-H6j3_Q {
+.bar_ef682d {
     height: 6px;
     border-radius: 8px;
 }
-.tadaIcon-313rPm {
+.tadaIcon__3b97b {
     display: none;
 }
-.progressBar-2yl2pi {
+.progressBar_db0972 {
     background: -webkit-gradient(linear,left top,right top,from(var(--guild-boosting-blue)),color-stop(34%,var(--guild-boosting-purple)),color-stop(67%,var(--guild-boosting-blue)),to(var(--guild-boosting-purple)));
     background: linear-gradient(90deg,var(--guild-boosting-blue),var(--guild-boosting-purple) 34%,var(--guild-boosting-blue) 67%,var(--guild-boosting-purple));
     background-size: 300% 100%;
-    -webkit-animation: progressPulse-2EeieX 2s linear infinite;
-    animation: progressPulse-2EeieX 2s linear infinite;
+    animation: progressPulse__594fa 2s linear infinite;
 }

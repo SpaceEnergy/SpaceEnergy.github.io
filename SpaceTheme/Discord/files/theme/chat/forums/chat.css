@@ -1,23 +1,25 @@
-.resizeHandle-2F4Beb {
+.resizeHandle_f1a098 {
     height: 200px;
     width: 5px;
     margin: auto 5px;
     border-radius: 8px;
     background: var(--accent-2);
+    transition: height 0.3s ease-in-out;
 }
-.resizeHandle-2F4Beb:hover {
+.resizeHandle_f1a098:hover {
+    height: 210px;
     background: var(--accent);
 }
-.container-3s2w-i {
+.container_def45c {
     background: var(--background);
 }
 
-.container-3YcgdM {
+.container__8ee50 {
     margin: 10px 15px 10px 30px;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.container-3s2w-i .divider-AZrXIA {
+.divider_ffec75 {
     display: none;
 }

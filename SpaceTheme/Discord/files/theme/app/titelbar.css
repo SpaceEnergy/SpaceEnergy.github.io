@@ -1,4 +1,4 @@
-.titleBar-3AIemB {
+.titleBar__01af6.withFrame__485f4 {
     height: 24px;
     padding-top: 10px;
     margin-top: 0px;
@@ -6,10 +6,10 @@
 }
 
 /* Logo */
-.wordmark-3wYFg6 svg {
+.wordmark__0d178 svg {
 	display: none;
 }
-.wordmark-3wYFg6::before {
+.wordmark__0d178::before {
 	content: 'Space';
     position: relative;
     top: 6px;
@@ -18,7 +18,7 @@
 	font-weight: 500;
     color: var(--accent-2) ;
 }
-.wordmark-3wYFg6::after {
+.wordmark__0d178::after {
 	content: 'Theme';
     position: relative;
     top: 6px;
@@ -29,17 +29,17 @@
 }
 
 /* Close/Maximize/Minimize Buttons */
-.winButton-3SigSb {
+.titleBar__01af6 .winButton__88672 {
     height: 33.333332px;
     width: 40px;
     top: -10px;
 }
-.winButton-3SigSb svg {
+.winButton__88672 svg {
     color: var(--accent);
 }
-.winButtonClose-23zAIt:hover {
+.winButtonClose__73489:hover {
     background-color: var(--accent);
 }
-.winButtonClose-23zAIt:hover svg {
+.winButtonClose__73489:hover svg {
     color: var(--background);
 }

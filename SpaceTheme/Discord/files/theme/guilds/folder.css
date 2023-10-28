@@ -1,24 +1,24 @@
-.expandedFolderBackground-1kSAf6 {
+.expandedFolderBackground__1bec6 {
     width: 64px;
     inset: -9px 8px 0;
     border-radius: 16px;
     background-color: var(--color-5);
 }
-.wrapper-38slSD {
+.wrapper_ed1dea {
     margin: 17px 0 8px;
 }
-.wrapper-38slSD:has(.expandedFolderBackground-1kSAf6.collapsed-uGXEbi) {
+.wrapper_ed1dea:has(.expandedFolderBackground__1bec6.collapsed__0a270) {
     margin: 0;
 }
-.expandedFolderIconWrapper-3RwQpD {
+.expandedFolderBackground__1bec6 {
     background-color: var(--color-2);
 }
 
 /* Folder Icon Color */
-.closedFolderIconWrapper-3tRb2d {
+.expandedFolderIconWrapper__458cf {
     display: none;
 }
-.folderIconWrapper-1oRIZr:not([style=""])::before {
+.folderIconWrapper__72239:not([style=""])::before {
     position: absolute;
     content: "";
     width: 18px;

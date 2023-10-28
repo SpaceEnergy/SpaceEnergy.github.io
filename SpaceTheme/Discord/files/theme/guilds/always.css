@@ -1,9 +1,9 @@
-.scroller-3X7KbA {
+.guilds__2b93a .scroller__3d071 {
     contain: unset;
     margin-bottom: 50px;
     padding-bottom: 80px;
 }
-.scroller-3X7KbA::before {
+.guilds__2b93a .scroller__3d071::before {
     content: "";
     margin-bottom: 15px;
     position: fixed;
@@ -14,24 +14,23 @@
     background-color: var(--color-2);
     z-index: 1;
 }
-.tutorialContainer-2jwoiB {
+.tutorialContainer_dc6fde {
     position: fixed;
     bottom: 20px;
     z-index: 1;
 }
-.tutorialContainer-2jwoiB + 
-.listItem-3SmSlK {
+.tutorialContainer_dc6fde + .listItem_fa7b36 {
     position: fixed;
     bottom: 78px;
     contain: none;
     z-index: 1;
 }
-.circleIconButton-1VxDrg {
+.circleIconButton_d8df29 {
     background-color: var(--color-1);
 }
-.circleIconButton-1VxDrg.selected-2r1Hvo {
+.circleIconButton_d8df29.selected__5250e {
     background-color: var(--color-3);
 }
-.circleIconButton-1VxDrg svg {
+.circleIconButton_d8df29 svg {
     color: var(--accent);
 }
