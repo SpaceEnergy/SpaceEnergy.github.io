@@ -1,10 +1,10 @@
-html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) .header__104ca {
+html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1084970695555031080"]) .header__104ca {
     margin: 10px 10px 0;
     background-color: unset !important;
     box-shadow: none;
 }
 
-html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) .clickable__2d589::after {
+html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1084970695555031080"]) .clickable__2d589::after {
     content: "";
     position: relative;
     display: flex;
@@ -16,10 +16,10 @@ html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) .
     background-size: cover;
 }
 
-html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) .channelNotice__8f7b2 {
+html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1084970695555031080"]) .channelNotice__8f7b2 {
     margin: 10px 8px 0;
 }
 
-html:has([data-list-item-id="channels___upcoming-events-1084970695555031080"]) div[style="height: 12px;"] {
+html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1084970695555031080"]) div[style="height: 12px;"] {
     height: 5px !important;
 }
