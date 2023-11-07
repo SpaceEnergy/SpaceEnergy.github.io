@@ -16,7 +16,7 @@
     position: absolute;
     top: var(--custom-avatar-avatar-decoration-border-position);
     left: var(--custom-avatar-avatar-decoration-border-position);
-    background: url("https://cdn.discordapp.com/avatar-decoration-presets/a_50939e8f95b0ddfa596809480b0eb3e1.png") no-repeat center;
+    background: url("https://cdn.discordapp.com/avatar-decoration-presets/a_c7e1751e8122f1b475cb3006966fb28c.png") no-repeat center;
 }
 
 /* 38px/32px avatar */
@@ -64,7 +64,7 @@
     height: 48px;
     width: 48px;
     margin-top: -2px;
-    background: url("https://cdn.discordapp.com/avatar-decoration-presets/a_50939e8f95b0ddfa596809480b0eb3e1.png") no-repeat center;
+    background: url("https://cdn.discordapp.com/avatar-decoration-presets/a_c7e1751e8122f1b475cb3006966fb28c.png") no-repeat center;
     background-size: 48px;
     pointer-events: none;
 }
