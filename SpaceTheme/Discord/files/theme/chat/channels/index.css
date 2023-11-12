@@ -37,7 +37,7 @@ html:has(.container_d667ff) .menu_dc52c6#guild-header-popout {
 html:has(.panel_bd8c76) .menu_dc52c6#guild-header-popout {
     height: calc(100vh - 260px);
 }
-html:has(.wrapper__0ed4a, .activityPanel__22355) .menu_dc52c6#guild-header-popout {
+html:has(.container_d667ff, .panel_bd8c76) .menu_dc52c6#guild-header-popout {
     height: calc(100vh - 355px);
 }
 .menu_dc52c6#guild-header-popout .scroller__750f5 {
