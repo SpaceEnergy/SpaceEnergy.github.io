@@ -1,0 +1,10 @@
+:is(.userPopoutInner_f545a3,
+    .userProfileModalInner__7c87d):has([src*="avatars/221097896328691712"]) :is(.profileBadges__7a7cb,
+                                                                                .badgeList_c193e3)::before {
+    content: "";
+    display: block;
+    height: 22px;
+    width: 25px;
+    background: url("https://cdn.discordapp.com/attachments/1121941720272207892/1173310758747127828/Neko.png") no-repeat center;
+    background-size: 22px;
+}
