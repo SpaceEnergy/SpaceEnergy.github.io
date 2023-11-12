@@ -3,6 +3,11 @@
     border-radius: 8px;
     background-color: var(--color-2) !important;
 }
+.sidebar_ded4b5 {
+    width: 260px;
+    margin: 0 15px 0 0;
+    background-color: transparent;
+}
 .header__104ca {
     border-radius: 8px 8px 0 0;
 }
