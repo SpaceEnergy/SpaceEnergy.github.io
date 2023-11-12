@@ -1,21 +1,69 @@
 /** Chat Bubbles */
-@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
-:root {
-    /* Chat Bubble */
-    --chat-bubble: 1;                                           /* default: 1 */
-    --chat-bubble-border-radius: 8px;                           /* default: 8px */
-    --chat-bubble-background-color: var(--color-4);             /* default: var(--color-4) */
-    --chat-bubble-border-color: var(--color-4);                 /* default: var(--color-4) */
-    --chat-bubble-code-background-color: #242627;             /* default: #232527 */
-    --chat-bubble-max-width: 100%;                              /* default: 90% */
-    --chat-bubble-box-shadow-h-offset: 0;                       /* default: 0 */
-    --chat-bubble-box-shadow-v-offset: 0;                       /* default: 0 */
-    --chat-bubble-box-shadow-blur: 0;                           /* default: 0 */
-    --chat-bubble-box-shadow-color-h: 0;                        /* default: 0 */
-    --chat-bubble-box-shadow-color-s: 0;                        /* default: 0% */
-    --chat-bubble-box-shadow-color-l: 0;                        /* default: 0% */
-    --chat-bubble-box-shadow-color-a: 0;                        /* default: 0 */
+.groupStart__56db5.cozyMessage__64ce7>.contents_f41bb2,
+.cozyMessage__64ce7:not(.groupStart__56db5)>.contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
+    width: fit-content;
+    margin: 0;
+    padding: 7px 12px;
+    border-radius: 8px;
+    background: var(--color-4);
 }
+
+.cozyMessage__64ce7.automodMessage__410f7:before,
+.cozyMessage__64ce7.ephemeral_c26b64:before,
+.cozyMessage__64ce7.mentioned__58017:before,
+.cozyMessage__64ce7.replying_d7b6ad:before {
+    width: 0;
+}
+
+.groupStart__56db5.cozyMessage__64ce7.mentioned__58017 .contents_f41bb2,
+.cozyMessage__64ce7.mentioned__58017:not(.groupStart__56db5) .contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
+    border: 2px solid #EF8D4B;
+    background: rgba(239, 141, 75, 0.17);
+}
+.cozyMessage__64ce7.mentioned__58017 {
+    background: unset;
+}
+
+.groupStart__56db5.cozyMessage__64ce7.replying_d7b6ad .contents_f41bb2,
+.cozyMessage__64ce7.replying_d7b6ad:not(.groupStart__56db5) .contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *),
+.groupStart__56db5.cozyMessage__64ce7.ephemeral_c26b64 .contents_f41bb2,
+.cozyMessage__64ce7.ephemeral_c26b64:not(.groupStart__56db5) .contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
+    border: 2px solid #4B6FEF;
+    background: rgba(75, 111, 239, 0.17);
+}
+.cozyMessage__64ce7.replying_d7b6ad,
+.cozyMessage__64ce7.ephemeral_c26b64 {
+    background: unset;
+}
+
+.groupStart__56db5.cozyMessage__64ce7.automodMessage__410f7 .contents_f41bb2,
+.cozyMessage__64ce7.automodMessage__410f7:not(.groupStart__56db5) .contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
+    border: 2px solid #EF4B4B;
+    background: rgba(239, 75, 75, 0.17);
+}
+.cozyMessage__64ce7.automodMessage__410f7 {
+    background: unset;
+}
+
+.groupStart__56db5.cozyMessage__64ce7.automodMessage__410f7:hover .contents_f41bb2,
+.cozyMessage__64ce7.automodMessage__410f7:not(.groupStart__56db5):hover .contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
+    border: 2px solid var(--text-danger);
+    background: var(--background-message-automod-hover);
+}
+.cozyMessage__64ce7.automodMessage__410f7:hover {
+    background: var(--background-message-automod-hover);
+}
+
+.groupStart__56db5.cozyMessage__64ce7>.contents_f41bb2 .markup_a7e664 code,
+.cozyMessage__64ce7:not(.groupStart__56db5)>.contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) code {
+    border: 2px solid var(--background);
+    background-color: var(--color-1);
+}
+
+.markup_a7e664 blockquote, .markup_a7e664 pre {
+    max-width: 100%;
+}
+
 
 
 /* Edited message date */
@@ -38,30 +86,6 @@
 }
 .wrapper__5c5cd {
     background-color: var(--color-1);
-}
-
-
-/* Mention message */
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.mentioned-Tre-dv .contents-2MsGLg,
-.cozyMessage-1DWF9U.mentioned-Tre-dv:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    border: 2px solid #EF8D4B;
-    background: linear-gradient(0deg, rgba(239, 141, 75, 0.17) 0%, rgba(239, 141, 75, 0.17) 100%), var(--color-2);
-}
-
-/* Reply message */
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.replying-eZ7p5z .contents-2MsGLg,
-.cozyMessage-1DWF9U.replying-eZ7p5z:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *),
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.ephemeral-2nDdnn .contents-2MsGLg,
-.cozyMessage-1DWF9U.ephemeral-2nDdnn:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    border: 2px solid #4B6FEF;
-    background: linear-gradient(0deg, rgba(75, 111, 239, 0.17) 0%, rgba(75, 111, 239, 0.17) 100%), var(--color-2);
-}
-
-/* Automod message */
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ .contents-2MsGLg,
-.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    border: 2px solid #EF4B4B;
-    background: linear-gradient(0deg, rgba(239, 75, 75, 0.17) 0%, rgba(239, 75, 75, 0.17) 100%), var(--color-2);
 }
 
 

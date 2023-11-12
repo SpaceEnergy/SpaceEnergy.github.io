@@ -36,8 +36,12 @@
     background-color: var(--color-2);
 }
 .channelTextArea__56a36.channelTextAreaDisabled_c43b1c .scrollableContainer__33e06 {
+    margin-left: 5px;
     opacity: 1;
     background-color: transparent;
+}
+.channelTextArea__56a36.channelTextAreaDisabled_c43b1c .attachWrapper__6354f {
+    display: none;
 }
 
 

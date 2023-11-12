@@ -23,3 +23,35 @@
     height: fit-content;
     padding-top: 15px;
 }
+
+
+@media screen and (orientation: portrait) {
+    .container_b2ce9c,
+    .membersWrap__90226,
+    .members__9f47b {
+        width: 63px;
+        min-width: 63px;
+        transition: 0.7s;
+    }
+    .members__9f47b::-webkit-scrollbar {
+        display: none;
+    }
+    .member_aa4760 {
+        margin: 0 8px;
+    }
+
+    /* on hover */
+    .container_b2ce9c:hover,
+    .container_b2ce9c:hover .membersWrap__90226,
+    .container_b2ce9c:hover .members__9f47b {
+        width: 260px;
+        min-width: 260px;
+        transition: 0.7s;
+    }
+    .container_b2ce9c:hover .members__9f47b::-webkit-scrollbar {
+        display: block;
+    }
+    .container_b2ce9c:hover .member_aa4760 {
+        margin: 0 0 0 8px;
+    }
+}

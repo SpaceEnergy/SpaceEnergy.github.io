@@ -28,6 +28,26 @@
 .authBox__7196a .header_feace3 {
     align-items: start;
 }
+.authBox__7196a.chooseAccountAuthBox__0783c .centeringWrapper__319b0 {
+    text-align: start;
+}
+
+
+.authBox__7196a.chooseAccountAuthBox__0783c .list__4e6aa {
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.authBox__7196a.chooseAccountAuthBox__0783c .list__4e6aa:has(.usernameSection_ccd090 [style="color: var(--text-danger);"]) {
+    border: 2.7px solid #f04747;
+}
+
+.authBox__7196a.chooseAccountAuthBox__0783c .centeringWrapper__319b0 .userActions__8fade .button_afdfd9:not(.userActionMenu__8b94a) {
+    background-color: var(--accent);
+}
+.authBox__7196a.chooseAccountAuthBox__0783c .centeringWrapper__319b0 .userActions__8fade .button_afdfd9:not(.userActionMenu__8b94a):hover {
+    background-color: var(--accent-2);
+}
+
 
 .authBox__7196a .input_d266e7 {
     border-radius: 8px;
@@ -36,6 +56,9 @@
 
 .authBox__7196a .linkButton_ba7970.marginBottom20__64605 {
     margin-bottom: 64px;
+}
+.authBox__7196a:has(.mainLoginContainer__58502 .goBackButton__8dc9e) .linkButton_ba7970.marginBottom20__64605 {
+    margin-bottom: 32px;
 }
 
 
