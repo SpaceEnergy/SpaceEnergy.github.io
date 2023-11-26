@@ -1,0 +1,28 @@
+.wrapper__35f8f {
+    margin-top: 5px;
+    border-radius: 8px;
+    background-color: var(--background);
+}
+
+
+.wrapper__35f8f .svgContentLeft__51e80 {
+    fill: var(--color-2);
+}
+.wrapper__35f8f .svgDots__1d789 {
+    fill: var(--color-5);
+}
+.wrapper__35f8f .svgContentRight_df2494 {
+    fill: var(--color-1);
+}
+.wrapper__35f8f .svgContentLines_e7e23e {
+    fill: var(--color-4);
+}
+
+.wrapper__35f8f .svgTag_b3b6f4 {
+    fill: var(--accent);
+}
+
+
+.wrapper__35f8f .buttonSize_dd9019 {
+    width: 100%;
+}

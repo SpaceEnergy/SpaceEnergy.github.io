@@ -1,11 +1,7 @@
-.container_b181b6 .grid__36f14::-webkit-scrollbar {
-    display: none;
-}
-
 .content__23cab div:has(.headerRow__16d8e) {
     position: unset !important;
     width: -webkit-fill-available !important;
-    margin: 15px 15px 0;
+    margin: 0;
 }
 .content__23cab .headerRow__16d8e {
     width: -webkit-fill-available !important;
@@ -18,9 +14,6 @@
     background-color: var(--color-3);
 }
 
-.list__5ced9::-webkit-scrollbar {
-    display: none;
-}
 .list__5ced9 .content__23cab {
     padding: 0 !important;
 }
@@ -28,7 +21,7 @@
     margin: 0;
 }
 .list__5ced9 .headerRow__16d8e {
-    margin: 15px;
+    margin: 0 0 15px;
 }
 
 .tagsContainer_e0ece5 {

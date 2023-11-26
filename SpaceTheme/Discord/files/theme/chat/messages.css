@@ -54,16 +54,19 @@
     background: var(--background-message-automod-hover);
 }
 
+.shiki-root {
+    background-color: var(--color-4) !important;
+}
 .groupStart__56db5.cozyMessage__64ce7>.contents_f41bb2 .markup_a7e664 code,
 .cozyMessage__64ce7:not(.groupStart__56db5)>.contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) code {
     border: 2px solid var(--background);
+    border-radius: 8px;
     background-color: var(--color-1);
 }
 
 .markup_a7e664 blockquote, .markup_a7e664 pre {
     max-width: 100%;
 }
-
 
 
 /* Edited message date */

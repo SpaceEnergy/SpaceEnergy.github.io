@@ -1,0 +1,324 @@
+.codeContainer__1ded4 code::before {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    border-bottom: 2px solid var(--color-2);
+}
+.codeContainer__1ded4 .abnf::before {
+    content: "AUGMENTED BACKUS-NAUR FORM";
+}
+.codeContainer__1ded4 .accesslog::before {
+    content: "APACHE ACCESS LOG";
+}
+.codeContainer__1ded4 .actionscript::before {
+    content: "ACTIONSCRIPT";
+}
+.codeContainer__1ded4 .ada::before {
+    content: "ADA";
+}
+.codeContainer__1ded4 .angelscript::before {
+    content: "ANGELSCRIPT";
+}
+.codeContainer__1ded4 .apache::before {
+    content: "APACHE CONFIG";
+}
+.codeContainer__1ded4 .applescript::before {
+    content: "APPLESCRIPT";
+}
+.codeContainer__1ded4 .arcade::before {
+    content: "ARCGIS ARCADE";
+}
+.codeContainer__1ded4 .arduino::before {
+    content: "ARDUINO";
+}
+.codeContainer__1ded4 .armasm::before {
+    content: "ARM ASSEMBLY";
+}
+.codeContainer__1ded4 .xml::before {
+    content: "HTML, XML";
+}
+.codeContainer__1ded4 .asciidoc::before {
+    content: "ASCIIDOC";
+}
+.codeContainer__1ded4 .aspectj::before {
+    content: "ASPECTJ";
+}
+.codeContainer__1ded4 .autohotkey::before {
+    content: "AUTOHOTKEY";
+}
+.codeContainer__1ded4 .autoit::before {
+    content: "AUTOIT";
+}
+.codeContainer__1ded4 .avrasm::before {
+    content: "AVR ASSEMBLY";
+}
+.codeContainer__1ded4 .awk::before {
+    content: "AVK";
+}
+.codeContainer__1ded4 .axapta::before {
+    content: "X++";
+}
+.codeContainer__1ded4 .bash::before {
+    content: "BASH";
+}
+.codeContainer__1ded4 .basic::before {
+    content: "BASIC";
+}
+.codeContainer__1ded4 .bnf::before {
+    content: "BACKUS–NAUR FORM";
+}
+.codeContainer__1ded4 .brainfuck::before {
+    content: "BRAINFUCK";
+}
+.codeContainer__1ded4 .c::before {
+    content: "C";
+}
+.codeContainer__1ded4 .cal::before {
+    content: "C/AL";
+}
+.codeContainer__1ded4 .capnproto::before {
+    content: "CAP’N PROTO";
+}
+.codeContainer__1ded4 .ceylon::before {
+    content: "CEYLON";
+}
+.codeContainer__1ded4 .clean::before {
+    content: "CLEAN";
+}
+.codeContainer__1ded4 .clojure::before {
+    content: "CLOJURE";
+}
+.codeContainer__1ded4 .clojure-repl::before {
+    content: "CLOJURE REPL";
+}
+.codeContainer__1ded4 .cmake::before {
+    content: "CMAKE";
+}
+.codeContainer__1ded4 .coffeescript::before {
+    content: "COFFEESCRIPT";
+}
+.codeContainer__1ded4 .coq::before {
+    content: "COQ";
+}
+.codeContainer__1ded4 .cos::before {
+    content: "CACHÉ OBJECT SCRIPT";
+}
+.codeContainer__1ded4 .cpp::before {
+    content: "C++";
+}
+.codeContainer__1ded4 .crmsh::before {
+    content: "CRMSH";
+}
+.codeContainer__1ded4 .crystal::before {
+    content: "CRYSTAL";
+}
+.codeContainer__1ded4 .cs::before,
+.codeContainer__1ded4 .csharp::before {
+    content: "C#";
+}
+.codeContainer__1ded4 .csp::before {
+    content: "CSP";
+}
+.codeContainer__1ded4 .css::before {
+    content: "CSS";
+}
+.codeContainer__1ded4 .d::before {
+    content: "D";
+}
+.codeContainer__1ded4 .markdown::before {
+    content: "MARKDOWN";
+}
+.codeContainer__1ded4 .dart::before {
+    content: "DART";
+}
+.codeContainer__1ded4 .delphi::before {
+    content: "DELPHI";
+}
+.codeContainer__1ded4 .diff::before {
+    content: "DIFF";
+}
+.codeContainer__1ded4 .django::before {
+    content: "DJANGO";
+}
+.codeContainer__1ded4 .dns::before {
+    content: "DNS ZONE";
+}
+.codeContainer__1ded4 .dockerfile::before {
+    content: "DOCKERFILE";
+}
+.codeContainer__1ded4 .dos::before {
+    content: "BATCH FILE (DOS)";
+}
+.codeContainer__1ded4 .dsconfig::before {
+    content: "DSCONFIG";
+}
+.codeContainer__1ded4 .dts::before {
+    content: "DEVICE TREE";
+}
+.codeContainer__1ded4 .dust::before {
+    content: "DUST";
+}
+.codeContainer__1ded4 .ebnf::before {
+    content: "EXTENDED BACKUS-NAUR FORM";
+}
+.codeContainer__1ded4 .elixir::before {
+    content: "ELIXIR";
+}
+.codeContainer__1ded4 .elm::before {
+    content: "ELM";
+}
+.codeContainer__1ded4 .ruby::before {
+    content: "RUBY";
+}
+.codeContainer__1ded4 .erb::before {
+    content: "ERB";
+}
+.codeContainer__1ded4 .erlang-repl::before {
+    content: "ERLANG REPL";
+}
+.codeContainer__1ded4 .erlang::before {
+    content: "ERLANG";
+}
+.codeContainer__1ded4 .excel::before {
+    content: "EXCEL FORMULAE";
+}
+.codeContainer__1ded4 .fix::before {
+    content: "FIX";
+}
+.codeContainer__1ded4 .flix::before {
+    content: "FLIX";
+}
+.codeContainer__1ded4 .fortran::before {
+    content: "FORTRAN";
+}
+.codeContainer__1ded4 .fs::before,
+.codeContainer__1ded4 .fsharp::before {
+    content: "F#";
+}
+.codeContainer__1ded4 .gams::before {
+    content: "GAMS";
+}
+.codeContainer__1ded4 .gauss::before {
+    content: "GAUSS";
+}
+.codeContainer__1ded4 .gcode::before {
+    content: "G-CODE (ISO 6983)";
+}
+.codeContainer__1ded4 .gherkin::before {
+    content: "GHERKIN";
+}
+.codeContainer__1ded4 .glsl::before {
+    content: "GLSL";
+}
+.codeContainer__1ded4 .gml::before {
+    content: "GML";
+}
+.codeContainer__1ded4 .go::before {
+    content: "GO";
+}
+.codeContainer__1ded4 .golo::before {
+    content: "GOLO";
+}
+.codeContainer__1ded4 .gradle::before {
+    content: "GRADLE";
+}
+.codeContainer__1ded4 .graphql::before {
+    content: "GRAPHQL";
+}
+.codeContainer__1ded4 .groovy::before {
+    content: "GROOVY";
+}
+.codeContainer__1ded4 .haml::before {
+    content: "HAML";
+}
+.codeContainer__1ded4 .handlebars::before {
+    content: "HANDLEBARS";
+}
+.codeContainer__1ded4 .haskell::before {
+    content: "HASKELL";
+}
+.codeContainer__1ded4 .haxe::before {
+    content: "HAXE";
+}
+.codeContainer__1ded4 .hsp::before {
+    content: "HSP";
+}
+.codeContainer__1ded4 .http::before {
+    content: "HTTP";
+}
+.codeContainer__1ded4 .https::before {
+    content: "HTTPS";
+}
+.codeContainer__1ded4 .hy::before {
+    content: "HY";
+}
+.codeContainer__1ded4 .inform7::before {
+    content: "INFORM 7";
+}
+.codeContainer__1ded4 .ini::before {
+    content: "TOML, INI";
+}
+.codeContainer__1ded4 .irpf90::before {
+    content: "IRPF90";
+}
+.codeContainer__1ded4 .isbl::before {
+    content: "ISBL";
+}
+.codeContainer__1ded4 .java::before {
+    content: "JAVA";
+}
+.codeContainer__1ded4 .js::before,
+.codeContainer__1ded4 .javascript::before {
+    content: "JAVASCRIPT";
+}
+.codeContainer__1ded4 .jboss-cli::before {
+    content: "JBOSS CLI";
+}
+.codeContainer__1ded4 .json::before {
+    content: "JSON";
+}
+.codeContainer__1ded4 .julia::before {
+    content: "JULIA";
+}
+.codeContainer__1ded4 .julia-repl::before {
+    content: "JULIA REPL";
+}
+.codeContainer__1ded4 .kotlin::before {
+    content: "KOTLIN";
+}
+.codeContainer__1ded4 .lasso::before {
+    content: "LASSO";
+}
+.codeContainer__1ded4 .latex::before {
+    content: "LATEX";
+}
+.codeContainer__1ded4 .ldif::before {
+    content: "LDIF";
+}
+.codeContainer__1ded4 .leaf::before {
+    content: "LEAF";
+}
+.codeContainer__1ded4 .less::before {
+    content: "LESS";
+}
+.codeContainer__1ded4 .lisp::before {
+    content: "LISP";
+}
+.codeContainer__1ded4 .livecodeserver::before {
+    content: "LIVECODE";
+}
+.codeContainer__1ded4 .livescript::before {
+    content: "LIVESCRIPT";
+}
+.codeContainer__1ded4 .llvm::before {
+    content: "LLVM IR";
+}
+.codeContainer__1ded4 .lsl::before {
+    content: "LSL (LINDEN SCRIPTING LANGUAGE)";
+}
+.codeContainer__1ded4 .lua::before {
+    content: "LUA";
+}
+.codeContainer__1ded4 .makefile::before {
+    content: "MAKEFILE";
+}
