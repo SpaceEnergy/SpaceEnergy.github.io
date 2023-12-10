@@ -71,3 +71,6 @@
 .message__80c10 .contents_f41bb2 .avatar__08316 {
     z-index: unset;
 }
+.message__80c10.compact__54ecc .contents_f41bb2:has([src*="avatars/682317162010247184"])::before {
+    display: none;
+}

@@ -1,3 +1,7 @@
+.page__9db5c {
+    max-width: unset;
+}
+
 /* Sidebar */
 .sidebar_bdf6b7 {
     height: calc(100vh - 80px);
@@ -15,6 +19,9 @@
 }
 
 /* Main */
+.contentColumn_dc7d36 {
+    height: 100%;
+}
 .contentContainer__23092 {
     position: unset;
     width: 100%;

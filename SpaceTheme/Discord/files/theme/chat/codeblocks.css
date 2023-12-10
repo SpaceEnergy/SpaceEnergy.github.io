@@ -1,43 +1,52 @@
 .codeContainer__1ded4 code::before {
     display: block;
     margin-bottom: 5px;
+    padding-bottom: 2px;
     font-weight: 600;
     border-bottom: 2px solid var(--color-2);
 }
+
 .codeContainer__1ded4 .abnf::before {
     content: "AUGMENTED BACKUS-NAUR FORM";
 }
 .codeContainer__1ded4 .accesslog::before {
     content: "APACHE ACCESS LOG";
 }
-.codeContainer__1ded4 .actionscript::before {
+.codeContainer__1ded4 .actionscript::before,
+.codeContainer__1ded4 .as::before {
     content: "ACTIONSCRIPT";
 }
 .codeContainer__1ded4 .ada::before {
     content: "ADA";
 }
-.codeContainer__1ded4 .angelscript::before {
+.codeContainer__1ded4 .angelscript::before,
+.codeContainer__1ded4 .asc::before {
     content: "ANGELSCRIPT";
 }
-.codeContainer__1ded4 .apache::before {
+.codeContainer__1ded4 .apache::before,
+.codeContainer__1ded4 .apacheconf::before {
     content: "APACHE CONFIG";
 }
-.codeContainer__1ded4 .applescript::before {
+.codeContainer__1ded4 .applescript::before,
+.codeContainer__1ded4 .osascript::before {
     content: "APPLESCRIPT";
 }
 .codeContainer__1ded4 .arcade::before {
     content: "ARCGIS ARCADE";
 }
-.codeContainer__1ded4 .arduino::before {
+.codeContainer__1ded4 .arduino::before,
+.codeContainer__1ded4 .ino::before {
     content: "ARDUINO";
 }
-.codeContainer__1ded4 .armasm::before {
+.codeContainer__1ded4 .armasm::before,
+.codeContainer__1ded4 .arm::before {
     content: "ARM ASSEMBLY";
 }
 .codeContainer__1ded4 .xml::before {
     content: "HTML, XML";
 }
-.codeContainer__1ded4 .asciidoc::before {
+.codeContainer__1ded4 .asciidoc::before,
+.codeContainer__1ded4 .adoc::before {
     content: "ASCIIDOC";
 }
 .codeContainer__1ded4 .aspectj::before {
@@ -321,4 +330,265 @@
 }
 .codeContainer__1ded4 .makefile::before {
     content: "MAKEFILE";
+}
+.codeContainer__1ded4 .mathematica::before {
+    content: "MATHEMATICA";
+}
+.codeContainer__1ded4 .matlab::before {
+    content: "MATLAB";
+}
+.codeContainer__1ded4 .maxima::before {
+    content: "MAXIMA";
+}
+.codeContainer__1ded4 .mel::before {
+    content: "MEL";
+}
+.codeContainer__1ded4 .mercury::before {
+    content: "MERCURY";
+}
+.codeContainer__1ded4 .mipsasm::before {
+    content: "MIPS ASSEMBLY";
+}
+.codeContainer__1ded4 .mizar::before {
+    content: "MIZAR";
+}
+.codeContainer__1ded4 .perl::before {
+    content: "PERL";
+}
+.codeContainer__1ded4 .mojolicious::before {
+    content: "MOJOLICIOUS";
+}
+.codeContainer__1ded4 .monkey::before {
+    content: "MONKEY";
+}
+.codeContainer__1ded4 .moonscript::before {
+    content: "MOONSCRIPT";
+}
+.codeContainer__1ded4 .n1ql::before {
+    content: "N1QL";
+}
+.codeContainer__1ded4 .nestedtext::before {
+    content: "NESTED TEXT";
+}
+.codeContainer__1ded4 .nginx::before {
+    content: "NGINX CONFIG";
+}
+.codeContainer__1ded4 .nim::before {
+    content: "NIM";
+}
+.codeContainer__1ded4 .nix::before {
+    content: "NIX";
+}
+.codeContainer__1ded4 .node-repl::before {
+    content: "NODE REPL";
+}
+.codeContainer__1ded4 .nsis::before {
+    content: "NSIS";
+}
+.codeContainer__1ded4 .objectivec::before {
+    content: "OBJECTIVE-C";
+}
+.codeContainer__1ded4 .ocaml::before {
+    content: "OCAML";
+}
+.codeContainer__1ded4 .openscad::before {
+    content: "OPENSCAD";
+}
+.codeContainer__1ded4 .oxygene::before {
+    content: "OXYGENE";
+}
+.codeContainer__1ded4 .parser3::before {
+    content: "PARSER3";
+}
+.codeContainer__1ded4 .pf::before {
+    content: "PACKET FILTER CONFIG";
+}
+.codeContainer__1ded4 .pgsql::before {
+    content: "POSTGRESQL";
+}
+.codeContainer__1ded4 .php::before {
+    content: "PHP";
+}
+.codeContainer__1ded4 .php-template::before {
+    content: "PHP TEMPLATE";
+}
+.codeContainer__1ded4 .plaintext::before {
+    content: "PLAIN TEXT";
+}
+.codeContainer__1ded4 .pony::before {
+    content: "PONY";
+}
+.codeContainer__1ded4 .powershell::before {
+    content: "POWERSHELL";
+}
+.codeContainer__1ded4 .processing::before {
+    content: "PROCESSING";
+}
+.codeContainer__1ded4 .profile::before {
+    content: "PYTHON PROFILER";
+}
+.codeContainer__1ded4 .prolog::before {
+    content: "PROLOG";
+}
+.codeContainer__1ded4 .properties::before {
+    content: ".PROPERTIES";
+}
+.codeContainer__1ded4 .protobuf::before {
+    content: "PROTOCOL BUFFERS";
+}
+.codeContainer__1ded4 .puppet::before {
+    content: "PUPPET";
+}
+.codeContainer__1ded4 .purebasic::before {
+    content: "PUREBASIC";
+}
+.codeContainer__1ded4 .python::before {
+    content: "PYTHON";
+}
+.codeContainer__1ded4 .python-repl::before {
+    content: "PYTHON-REPL";
+}
+.codeContainer__1ded4 .q::before {
+    content: "Q";
+}
+.codeContainer__1ded4 .qml::before {
+    content: "QML";
+}
+.codeContainer__1ded4 .r::before {
+    content: "R";
+}
+.codeContainer__1ded4 .reasonml::before {
+    content: "REASONML";
+}
+.codeContainer__1ded4 .rib::before {
+    content: "RENDERMAN RIB";
+}
+.codeContainer__1ded4 .roboconf::before {
+    content: "ROBOCONF";
+}
+.codeContainer__1ded4 .routeros::before {
+    content: "MIKROTIK ROUTEROS SCRIPT";
+}
+.codeContainer__1ded4 .rsl::before {
+    content: "RENDERMAN RSL";
+}
+.codeContainer__1ded4 .ruleslanguage::before {
+    content: "ORACLE RULES LANGUAGE";
+}
+.codeContainer__1ded4 .rust::before {
+    content: "RUST";
+}
+.codeContainer__1ded4 .sas::before {
+    content: "SAS";
+}
+.codeContainer__1ded4 .scala::before {
+    content: "SCALA";
+}
+.codeContainer__1ded4 .scheme::before {
+    content: "SCHEME";
+}
+.codeContainer__1ded4 .scilab::before {
+    content: "SCILAB";
+}
+.codeContainer__1ded4 .scss::before {
+    content: "SCSS";
+}
+.codeContainer__1ded4 .shell::before {
+    content: "SHELL SESSION";
+}
+.codeContainer__1ded4 .smali::before {
+    content: "SMALI";
+}
+.codeContainer__1ded4 .smalltalk::before {
+    content: "SMALLTALK";
+}
+.codeContainer__1ded4 .sml::before {
+    content: "SML (STANDARD ML)";
+}
+.codeContainer__1ded4 .sqf::before {
+    content: "SQF";
+}
+.codeContainer__1ded4 .sql::before {
+    content: "SQL";
+}
+.codeContainer__1ded4 .stan::before {
+    content: "STAN";
+}
+.codeContainer__1ded4 .stata::before {
+    content: "STATA";
+}
+.codeContainer__1ded4 .step21::before {
+    content: "STEP PART 21";
+}
+.codeContainer__1ded4 .stylus::before {
+    content: "STYLUS";
+}
+.codeContainer__1ded4 .subunit::before {
+    content: "SUBUNIT";
+}
+.codeContainer__1ded4 .swift::before {
+    content: "SWIFT";
+}
+.codeContainer__1ded4 .taggerscript::before {
+    content: "TAGGER SCRIPT";
+}
+.codeContainer__1ded4 .yaml::before {
+    content: "YAML";
+}
+.codeContainer__1ded4 .tap::before {
+    content: "TEST ANYTHING PROTOCOL";
+}
+.codeContainer__1ded4 .tcl::before {
+    content: "TCL";
+}
+.codeContainer__1ded4 .thrift::before {
+    content: "THRIFT";
+}
+.codeContainer__1ded4 .tp::before {
+    content: "TP";
+}
+.codeContainer__1ded4 .twig::before {
+    content: "TWIG";
+}
+.codeContainer__1ded4 .typescript::before {
+    content: "TYPESCRIPT";
+}
+.codeContainer__1ded4 .vala::before {
+    content: "VALA";
+}
+.codeContainer__1ded4 .vbnet::before {
+    content: "VISUAL BASIC .NET";
+}
+.codeContainer__1ded4 .vbscript::before {
+    content: "VBSCRIPT";
+}
+.codeContainer__1ded4 .vbscript-html::before {
+    content: "VBSCRIPT IN HTML";
+}
+.codeContainer__1ded4 .verilog::before {
+    content: "VERILOG";
+}
+.codeContainer__1ded4 .vhdl::before {
+    content: "VHDL";
+}
+.codeContainer__1ded4 .vim::before {
+    content: "VIM SCRIPT";
+}
+.codeContainer__1ded4 .wasm::before {
+    content: "WEBASSEMBLY";
+}
+.codeContainer__1ded4 .wren::before {
+    content: "WREN";
+}
+.codeContainer__1ded4 .x86asm::before {
+    content: "INTEL X86 ASSEMBLY";
+}
+.codeContainer__1ded4 .xl::before {
+    content: "XL";
+}
+.codeContainer__1ded4 .xquery::before {
+    content: "XQUERY";
+}
+.codeContainer__1ded4 .zephir::before {
+    content: "ZEPHIR";
 }
