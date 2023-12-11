@@ -25,10 +25,10 @@ body {
   position: fixed;
   z-index: -1;
   margin: -15px;
-  min-width: calc(100vw + 25px);
+  min-width: calc(100vw + 50px);
   max-width: 1000vw;
   width: auto;
-  min-height: calc(100vh + 25px);
+  min-height: calc(100vh + 50px);
   height: auto;
   max-height: 1000vh;
   filter: blur(5px) brightness(0.5);
