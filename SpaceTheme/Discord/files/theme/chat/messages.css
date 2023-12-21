@@ -76,8 +76,11 @@
     font-size: 0.625rem;
 }
 .edited_b20dd9:not(.message-translate-indicator),
-.timestamp_cdbd93.latin12CompactTimeStamp__75bf7 time::after {
+.timestamp_cdbd93[class*="CompactTimeStamp"] time::after {
     display: none;
+}
+.timestamp_cdbd93[class*="CompactTimeStamp"] {
+    width: 3.2rem;
 }
 
 
