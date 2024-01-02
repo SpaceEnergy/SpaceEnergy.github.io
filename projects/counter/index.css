@@ -1,0 +1,40 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #111111;
+}
+
+input {
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: end;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #666CFF;
+    background-color: #1e1e1e;
+}
+
+button {
+    padding: 10px;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #181818;
+    transition: border-radius .15s ease-in-out, background-color .15s ease-in-out;
+}
+button:hover {
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #1f1f1f;
+}
