@@ -30,6 +30,12 @@ a {
   display: none;
 }
 
+.btn-container {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
 nav {
   z-index: 1;
   position: absolute;
