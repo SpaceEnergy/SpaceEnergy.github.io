@@ -1,14 +1,14 @@
 let number = 0;
 
-document.getElementById("addOne").onclick = function() {
+document.getElementById("addOne").addEventListener("click", function() {
     number += 1;
     document.getElementById("display").value = number;
-}
-document.getElementById("addTen").onclick = function() {
+})
+document.getElementById("addTen").addEventListener("click", function() {
     number += 10;
     document.getElementById("display").value = number;
-}
-document.getElementById("addHundred").onclick = function() {
+})
+document.getElementById("addHundred").addEventListener("click", function() {
     number += 100;
     document.getElementById("display").value = number;
-}
+})
