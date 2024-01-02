@@ -33,6 +33,16 @@ body {
   position: absolute;
   bottom: 60px;
   width: fit-content;
+  padding: 10px;
   font-size: 22px;
+  text-decoration: none;
   color: #c0c0c0;
+  border-radius: 8px;
+  background-color: #181818;
+  transition: border-radius .15s ease-in-out, background-color .15s ease-in-out;
+}
+.homeButton:hover {
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #1f1f1f;
 }
