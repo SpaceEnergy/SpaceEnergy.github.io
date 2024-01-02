@@ -18,13 +18,21 @@ body {
     background: linear-gradient(90deg,#878cff,#666cff 34%,#878cff 67%,#666cff);
     background-size: 300% 100%;
     -webkit-background-clip: text;
-    animation: Pulse 2s linear infinite;
+    animation: pulse 2s linear infinite;
   }
-@keyframes Pulse {
+@keyframes pulse {
     0% {
       background-position: 100%;
     }
     to {
       background-position:0;
     }
+}
+
+.homeButton {
+  position: absolute;
+  bottom: 60px;
+  width: fit-content;
+  font-size: 22px;
+  color: #c0c0c0;
 }
