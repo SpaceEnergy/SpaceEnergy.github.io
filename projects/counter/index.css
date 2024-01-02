@@ -24,7 +24,14 @@ input {
     background-color: #1e1e1e;
 }
 
+.row {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
 button {
+    width: 100%;
     padding: 10px;
     font-size: 32px;
     border: none;
