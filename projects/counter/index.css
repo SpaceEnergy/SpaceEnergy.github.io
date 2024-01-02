@@ -11,6 +11,7 @@
 
 input {
     height: 50px;
+    max-width: 300px;
     margin-bottom: 20px;
     padding: 5px 10px;
     font-size: 32px;
