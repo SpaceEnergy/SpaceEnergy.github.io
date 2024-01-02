@@ -6,7 +6,7 @@ document.getElementById("removeOne").addEventListener("click", function() {
 })
 document.getElementById("reset").addEventListener("click", function() {
     number = 0;
-    document.getElementById("display").value = number;
+    document.getElementById("display").value = this.ariaPlaceholder;
 })
 document.getElementById("addOne").addEventListener("click", function() {
     number += 1;
