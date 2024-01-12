@@ -1,4 +1,9 @@
 .base__3e6af {
+    margin: 15px;
+    border-radius: 8px;
+}
+
+:has(.titleBar__01af6) .base__3e6af {
     margin: 0 15px 15px;
     border-radius: 8px;
 }

@@ -1,0 +1,24 @@
+.directoryContainer_d3edd9 {
+    background-color: var(--background) !important;
+}
+
+.directoryContainer_d3edd9 .card__834d4 {
+    background-color: var(--color-2);
+}
+.directoryContainer_d3edd9 .card__834d4 .imageContainer_ab0247 {
+    height: unset;
+    margin: 10px 10px 10px 0;
+}
+.directoryContainer_d3edd9 .card__834d4 .imageContainer_ab0247 img {
+    border-radius: 8px;
+}
+
+.directoryContainer_d3edd9 .container__7b33c {
+    background-color: var(--color-2);
+}
+.directoryContainer_d3edd9 .container__7b33c .imageContainer_f364d9 {
+    margin: 10px 10px 0 10px;
+}
+.directoryContainer_d3edd9 .container__7b33c .imageContainer_f364d9 img {
+    border-radius: 8px;
+}

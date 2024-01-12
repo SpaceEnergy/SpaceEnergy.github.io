@@ -1,3 +1,7 @@
+.cozy_f5c119 .messageContent__21e69 {
+    position: unset;
+}
+
 /** Chat Bubbles */
 .groupStart__56db5.cozyMessage__64ce7>.contents_f41bb2,
 .cozyMessage__64ce7:not(.groupStart__56db5)>.contents_f41bb2>.markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
@@ -112,7 +116,7 @@
     height: 2px;
     border: none;
     border-radius: 8px;
-    background-color: #2E2F33;
+    background-color: var(--color-6);
 }
 .divider__8cf56.isUnread__6f880 {
     background-color: #EF4B4B;
@@ -120,9 +124,9 @@
 
 .content_d67847 {
     padding: 8px 10px;
-    border: 2px solid #2E2F33;
+    border: 2px solid var(--color-6);
     border-radius: 80px;
-    background: #1E1E1E;
+    background: var(--color-2);
 }
 
 .isUnread__6f880 .content_d67847 {

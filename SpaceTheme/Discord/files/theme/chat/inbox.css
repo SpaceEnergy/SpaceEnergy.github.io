@@ -1,0 +1,100 @@
+.recentMentionsPopout__826a9 {
+    max-height: 80vh !important;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+.recentMentionsPopout__826a9 .header_f5cc88 {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+.recentMentionsPopout__826a9 [class*="scroller"] {
+    padding: 0;
+    border-radius: 8px;
+}
+
+/* For you */
+.recentMentionsPopout__826a9 .container__2c498 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: var(--color-2);
+}
+
+.recentMentionsPopout__826a9 .row_fd1939 {
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.recentMentionsPopout__826a9 .row_fd1939:hover {
+    background-color: var(--color-4);
+}
+
+.recentMentionsPopout__826a9 .row_fd1939 .tertiary_bc0225 {
+    background-color: var(--color-6);
+}
+
+.container_ded2dc img {
+    height: 40px;
+}
+
+/* Unreads */
+.channel_d48f2d {
+    padding-bottom: 5px;
+}
+.channelHeader__5d30c {
+    position: unset;
+    padding: 0 15px;
+    border-radius: 8px 8px 0 0;
+    background-color: var(--color-1);
+}
+.channelHeader__5d30c:has(.collapsed__8da7d) {
+    border-radius: 8px;
+}
+
+.collapseButton_b18eab {
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    min-height: 32px;
+    margin-left: 10px;
+    padding: 0;
+    border-radius: 100%;
+    background-color: var(--color-6);
+}
+.channelHeader__5d30c .tertiary_bc0225 {
+    background-color: var(--color-6);
+}
+.channelHeader__5d30c .markReadButton__79c2f {
+    margin-left: 10px;
+}
+
+.channel_d48f2d .messages_f7999e {
+    border-radius: 0 0 8px 8px;
+    background-color: var(--color-1);
+}
+
+/* Mentions */
+.container__56e52 {
+    margin-bottom: 5px;
+    padding: 0;
+}
+.container__56e52 .messageContainer_aa7d14 {
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    background-color: var(--color-1);
+}
+
+.hasMore__7f642 {
+    margin-top: 10px;
+    padding: 0 0 5px;
+}
+.hasMore__7f642 .button_afdfd9 {
+    background-color: var(--color-1);
+}

@@ -4,11 +4,17 @@
 
 /* Sidebar */
 .sidebar_bdf6b7 {
-    height: calc(100vh - 80px);
+    height: -webkit-fill-available;
     margin: 15px;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
+}
+.sidebar_bdf6b7 .list__41249 {
+    padding: 5px !important;
+}
+.sidebar_bdf6b7 .list__41249::-webkit-scrollbar {
+    display: none;
 }
 /* Sidebar Header */
 .titleContainer_e558ff {
@@ -17,6 +23,13 @@
     border-radius: 8px;
     background-color: var(--color-3);
 }
+/* Roles */
+.sidebar_bdf6b7 .list__41249 .row__5f051 {
+    margin-left: 0;
+    border-radius: 8px;
+    background-color: var(--color-3);
+}
+
 
 /* Main */
 .contentColumn_dc7d36 {
@@ -35,10 +48,17 @@
     max-width: 100%;
     padding: 0;
 }
+
 /* Main Header */
 .contentWidth_b55791 .header__63c59 {
     margin: 0 0 15px;
     padding: 15px;
     border-radius: 8px;
     background-color: var(--color-3);
+}
+.container_f7092d .headerContainer__947de {
+    position: unset;
+}
+.container_f7092d .content__23cab div[style="height: 195px;"] {
+    display: none;
 }

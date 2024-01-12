@@ -1,0 +1,15 @@
+.root_a28985:has(.footer__89240) {
+    overflow: unset;
+    border-radius: 8px;
+    background-color: var(--color-1);
+    box-shadow: none !important;
+}
+
+.footer__89240 {
+    justify-content: space-between;
+    margin: 0 10px 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+    box-shadow: none !important;
+}

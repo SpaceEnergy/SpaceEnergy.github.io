@@ -9,6 +9,9 @@
     border-radius: 8px;
     background-color: var(--color-2);
 }
+.membersWrap__90226:not(.container_b2ce9c .membersWrap__90226) {
+    margin-left: 15px;
+}
 .members__9f47b {
     width: 260px;
     border-radius: 8px;

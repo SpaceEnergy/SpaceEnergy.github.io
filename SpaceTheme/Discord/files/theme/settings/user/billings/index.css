@@ -1,0 +1,49 @@
+.paymentPane__9cf01 {
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}
+
+.paymentPane__9cf01 .paymentRow__1bb7a {
+    border: none;
+}
+.paymentPane__9cf01 .paymentRowHeader__930f3 {
+    padding: 20px 30px;
+}
+
+.paymentPane__9cf01 .scrollerBase_dc3aa9 {
+    overflow: unset !important;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+}
+.paymentPane__9cf01 .paginator_e620d3 {
+    background-color: unset;
+}
+
+.paymentPane__9cf01 .payment__7d702 {
+    width: auto;
+    margin: 0 10px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.paymentPane__9cf01 .payment__7d702:hover {
+    background-color: var(--color-3);
+}
+.paymentPane__9cf01 .payment__7d702 .expandedInfo__47bad {
+    background-color: var(--color-2);
+}
+
+.paymentPane__9cf01 .pageActions__11ae3 {
+    gap: 5px;
+    margin: 15px 10px 10px;
+    border-radius: 8px;
+    background-color: var(--color-3);
+}
+.paymentPane__9cf01 .pageIndicator__973ca,
+.paymentPane__9cf01 .pageButtonPrev__9ee28,
+.paymentPane__9cf01 .pageButtonNext_b6c1ca {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}

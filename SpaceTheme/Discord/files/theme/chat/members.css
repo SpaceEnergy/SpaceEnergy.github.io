@@ -23,24 +23,9 @@
 
 
 .searchHeaderContainer_c4c100 {
-    z-index: 1;
-    position: fixed;
-    top: 104px;
-    width: -webkit-fill-available;
-    margin: 15px 30px 15px 15px;
+    margin: 15px 15px 0;
     border-radius: 8px;
     background-color: var(--color-2);
-}
-.searchHeaderContainer_c4c100::before {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    left: -15px;
-    top: -15px;
-    height: 15px;
-    width: calc(100% + 30px);
-    border-radius: 8px;
-    background-color: var(--color-1);
 }
 
 
@@ -51,21 +36,8 @@
 
 
 .paginationContainer__7663e {
-    position: fixed;
-    bottom: 15px;
-    width: -webkit-fill-available;
-    margin: auto 30px 15px 15px;
+    margin: 0 15px 15px;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
-}
-.paginationContainer__7663e::before {
-    content: "";
-    position: absolute;
-    left: -15px;
-    bottom: -15px;
-    height: 15px;
-    width: calc(100% + 30px);
-    border-radius: 8px;
-    background-color: var(--color-1);
 }
