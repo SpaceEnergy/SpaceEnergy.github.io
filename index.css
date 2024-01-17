@@ -87,7 +87,7 @@ nav img {
   align-items: center;
   flex-direction: column;
   text-align: right;
-  height: 100vh;
+  height: calc(100vh - 60px);
 }
 
 .header {
@@ -102,7 +102,6 @@ nav img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
 }
 #landing .titel h1 {
   font-weight: 900;
