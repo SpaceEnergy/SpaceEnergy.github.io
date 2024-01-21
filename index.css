@@ -73,7 +73,6 @@ nav img {
 }
 
 .content {
-  overflow-y: scroll;
   padding: 15px;
   margin: 15px;
   border-radius: 8px;
