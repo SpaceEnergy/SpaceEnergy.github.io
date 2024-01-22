@@ -17,7 +17,7 @@
     .auditLog__6c805,
     .item__287de,
     .bannedUser__38b44,
-    .inviteSettingsInviteRow__0d747):has([src*="avatars/701870295195320410"], [style*="avatars/701870295195320410"]) :is(.title__10613,
+    .inviteSettingsInviteRow__0d747):has([src*="avatars/495333777606967306"], [style*="avatars/495333777606967306"]) :is(.title__10613,
                                                                                                                          .userTag__4ca14,
                                                                                                                          .name__02dbd .overflow__87fe8,
                                                                                                                          .username__81ee6,
@@ -37,8 +37,8 @@
                                                                                                                          .username__7a2a6,
                                                                                                                          .username__92ef4) {
     font-weight: 700;
-    text-decoration-color: #00bfe5;
+    text-decoration-color: #00bd8e;
     color: transparent !important;
-    background: linear-gradient(90deg, #901fad 0%,#00bfe5 100%);
+    background: linear-gradient(90deg, #b03801 0%,#00bd8e 100%);
     -webkit-background-clip: text;
 }
