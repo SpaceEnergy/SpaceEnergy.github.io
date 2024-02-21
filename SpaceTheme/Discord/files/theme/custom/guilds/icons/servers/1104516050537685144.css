@@ -2,6 +2,8 @@
 .containerDefault__3187b a[data-list-item-id="channels___1104875221472792668"],
 .containerDefault__3187b a[data-list-item-id="channels___1183490429245730938"],
 .containerDefault__3187b a[data-list-item-id="channels___1104561510715494463"],
+.containerDefault__3187b a[data-list-item-id="channels___1209815012403716166"],
+.containerDefault__3187b a[data-list-item-id="channels___1209815101134082120"],
 .containerDefault__3187b a[data-list-item-id="channels___1104524821909479484"],
 .containerDefault__3187b a[data-list-item-id="channels___1104518841092034630"],
 .containerDefault__3187b a[data-list-item-id="channels___1112389436815187979"],
@@ -28,6 +30,8 @@
 .containerDefault__3187b a[data-list-item-id="channels___1104875221472792668"]::before,
 .containerDefault__3187b a[data-list-item-id="channels___1183490429245730938"]::before,
 .containerDefault__3187b a[data-list-item-id="channels___1104561510715494463"]::before,
+.containerDefault__3187b a[data-list-item-id="channels___1209815012403716166"]::before,
+.containerDefault__3187b a[data-list-item-id="channels___1209815101134082120"]::before,
 .containerDefault__3187b a[data-list-item-id="channels___1104524821909479484"]::before,
 .containerDefault__3187b a[data-list-item-id="channels___1104518841092034630"]::before,
 .containerDefault__3187b a[data-list-item-id="channels___1112389436815187979"]::before,
@@ -74,6 +78,15 @@
     content: "👤";
     background-color: #6b478d40;
 }
+.containerDefault__3187b a[data-list-item-id="channels___1209815012403716166"]::before {
+    content: "🗯️";
+    background-color: #5865f240;
+}
+.containerDefault__3187b a[data-list-item-id="channels___1209815101134082120"]::before {
+    content: "🎮";
+    background-color: #01a9ea40;
+}
+
 .containerDefault__3187b a[data-list-item-id="channels___1104524821909479484"]::before {
     content: "👋";
     background-color: #ffcf2940;
@@ -152,6 +165,8 @@
 .containerDefault__3187b a[data-list-item-id="channels___1104875221472792668"] .iconContainer__3f9b0,
 .containerDefault__3187b a[data-list-item-id="channels___1183490429245730938"] .iconContainer__3f9b0,
 .containerDefault__3187b a[data-list-item-id="channels___1104561510715494463"] .iconContainer__3f9b0,
+.containerDefault__3187b a[data-list-item-id="channels___1209815012403716166"] .iconContainer__3f9b0,
+.containerDefault__3187b a[data-list-item-id="channels___1209815101134082120"] .iconContainer__3f9b0,
 .containerDefault__3187b a[data-list-item-id="channels___1104524821909479484"] .iconContainer__3f9b0,
 .containerDefault__3187b a[data-list-item-id="channels___1104518841092034630"] .iconContainer__3f9b0,
 .containerDefault__3187b a[data-list-item-id="channels___1112389436815187979"] .iconContainer__3f9b0,
