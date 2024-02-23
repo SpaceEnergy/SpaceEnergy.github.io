@@ -1,10 +1,8 @@
-:is(.userPopoutInner_f545a3,
-    .userProfileModalInner__7c87d):has([src*="avatars/495333777606967306"]) :is(.profileBadges__7a7cb,
-                                                                                .badgeList_c193e3)::before {
+:is(.userPopoutInner_f545a3, .userProfileModalInner__7c87d):has([src*="avatars/495333777606967306"]) :is(.profileBadges__7a7cb, .badgeList_c193e3)::before {
     content: "";
     display: block;
     height: 22px;
     width: 25px;
-    background: url("https://cdn.discordapp.com/attachments/1121941720272207892/1176289099825545296/image_324.png") no-repeat center;
+    background: url("https://i.imgur.com/fQeqtnD.png") no-repeat center;
     background-size: 22px;
 }
