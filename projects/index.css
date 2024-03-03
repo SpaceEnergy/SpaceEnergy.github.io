@@ -1,13 +1,13 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-  background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #0a0a0a;
 }
 
 .header {
@@ -19,30 +19,30 @@ body {
     background-size: 300% 100%;
     -webkit-background-clip: text;
     animation: pulse 2s linear infinite;
-  }
+}
 @keyframes pulse {
     0% {
-      background-position: 100%;
+        background-position: 100%;
     }
     to {
-      background-position:0;
+        background-position:0;
     }
 }
 
 .homeButton {
-  position: absolute;
-  bottom: 60px;
-  width: fit-content;
-  padding: 10px;
-  font-size: 22px;
-  text-decoration: none;
-  color: #c0c0c0;
-  border-radius: 8px;
-  background-color: #181818;
-  transition: border-radius .15s ease-in-out, background-color .15s ease-in-out;
+    position: absolute;
+    bottom: 60px;
+    width: fit-content;
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #c0c0c0;
+    border-radius: 8px;
+    background-color: #181818;
+    transition: border-radius .15s ease-in-out, background-color .15s ease-in-out;
 }
 .homeButton:hover {
-  cursor: pointer;
-  border-radius: 12px;
-  background-color: #1f1f1f;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #1f1f1f;
 }
