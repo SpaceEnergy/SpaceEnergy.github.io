@@ -40,5 +40,6 @@
     text-decoration-color: #8E24AA;
     color: transparent !important;
     background: linear-gradient(90deg, #1E88E5 0%, #8E24AA 100%);
+    background-clip: text;
     -webkit-background-clip: text;
 }

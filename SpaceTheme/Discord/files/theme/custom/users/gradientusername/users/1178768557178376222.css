@@ -37,8 +37,9 @@
                                                                                                                          .username__7a2a6,
                                                                                                                          .username__92ef4) {
     font-weight: 700;
-    text-decoration-color: #00bd8e;
+    text-decoration-color: #fff;
     color: transparent !important;
-    background: linear-gradient(90deg, #b03801 0%,#00bd8e 100%);
+    background: linear-gradient(90deg, #4c00ff 0%, #fff 50%, #4c00ff 100%);
+    background-clip: text;
     -webkit-background-clip: text;
 }

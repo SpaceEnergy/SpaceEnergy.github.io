@@ -41,6 +41,7 @@
     color: transparent !important;
     background: linear-gradient(90deg,#878cff,#666cff 34%,#878cff 67%,#666cff);
     background-size: 300% 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     animation: progressPulse__594fa 2s linear infinite;
 }
