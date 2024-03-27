@@ -1,0 +1,38 @@
+.layerContainer_d5a653:has(.messagesPopoutWrap_b3b384) .layer_ec16dd {
+    top: 91.5px !important;
+}
+
+
+.layerContainer_d5a653 .messagesPopoutWrap_b3b384 {
+    width: 600px;
+    max-height: 80vh !important;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+.layerContainer_d5a653 .messagesPopoutWrap_b3b384 .header_f5cc88 {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+.layerContainer_d5a653 .messagesPopoutWrap_b3b384 [class*="scroller"] {
+    padding: 0;
+    border-radius: 8px;
+}
+.layerContainer_d5a653 .messagesPopoutWrap_b3b384 [class*="scroller"]::-webkit-scrollbar {
+    display: none;
+}
+
+.layerContainer_d5a653 .messagesPopoutWrap_b3b384 .messageGroupWrapper_f8c6e9 {
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+.layerContainer_d5a653 .messagesPopoutWrap_b3b384 .footer_a3029c {
+    border-radius: 8px;
+    background-color: var(--color-1);
+}

@@ -5,7 +5,7 @@
 /* Sidebar */
 .sidebar_bdf6b7 {
     height: -webkit-fill-available;
-    margin: 15px;
+    margin: 15px 15px 0;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
@@ -32,13 +32,10 @@
 
 
 /* Main */
-.contentColumn_dc7d36 {
-    height: 100%;
-}
 .contentContainer__23092 {
     position: unset;
     width: 100%;
-    margin: 15px 0;
+    margin: 15px 0 0;
     padding: 15px;
     border-radius: 8px;
     background-color: var(--color-4);
@@ -59,6 +56,6 @@
 .container_f7092d .headerContainer__947de {
     position: unset;
 }
-.container_f7092d .content__23cab div[style="height: 195px;"] {
+.container_f7092d .content__23cab>div:not([aria-hidden*="e"])[style*="height"] {
     display: none;
 }

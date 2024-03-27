@@ -16,6 +16,7 @@
 }
 .wrapper__66cd5:not(.emojiPickerHasTabWrapper__80686) .emojiPicker_b65ce9 {
     height: calc(750px - 58px);
+    border-radius: 8px;
 }
 
 .drawerSizingWrapper__30274,

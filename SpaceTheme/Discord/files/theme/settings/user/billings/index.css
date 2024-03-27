@@ -7,7 +7,8 @@
     border: none;
 }
 .paymentPane__9cf01 .paymentRowHeader__930f3 {
-    padding: 20px 30px;
+    margin-right: 70px;
+    padding: 15px 30px;
 }
 
 .paymentPane__9cf01 .scrollerBase_dc3aa9 {
@@ -19,6 +20,16 @@
 }
 .paymentPane__9cf01 .paginator_e620d3 {
     background-color: unset;
+}
+
+.bottomDivider_a59d97 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: none;
+}
+.bottomDivider_a59d97::-webkit-scrollbar {
+    display: none;
 }
 
 .paymentPane__9cf01 .payment__7d702 {
@@ -43,6 +54,14 @@
 .paymentPane__9cf01 .pageIndicator__973ca,
 .paymentPane__9cf01 .pageButtonPrev__9ee28,
 .paymentPane__9cf01 .pageButtonNext_b6c1ca {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+
+.codeRedemptionRedirect_bc7f36.card__4dc22 {
+    margin-top: 15px;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);

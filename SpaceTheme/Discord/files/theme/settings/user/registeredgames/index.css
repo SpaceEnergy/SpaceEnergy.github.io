@@ -6,7 +6,7 @@
     background-color: var(--accent) !important;
 }
 
-.children_b15c64 .marginTop40__2b1fe {
+.children_b15c64:has(.nowPlayingAdd__7caf1) .marginTop40__2b1fe {
     margin: 0px 0 15px;
     padding: 10px;
     border-radius: 8px;
