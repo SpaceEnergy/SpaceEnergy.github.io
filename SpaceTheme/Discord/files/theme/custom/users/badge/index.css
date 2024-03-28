@@ -1,10 +1,10 @@
 /* Badge Request */
-html:has(.modeSelected__487d6 [data-list-item-id="channels___1126873259758075934"]) .form__13a2c .channelTextArea__2e60f .scrollableContainer__33e06 {
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f {
     display: flex;
     flex-direction: column;
 }
 
-html:has(.modeSelected__487d6 [data-list-item-id="channels___1126873259758075934"]) .form__13a2c .channelTextArea__2e60f .scrollableContainer__33e06::before {
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::before {
     order: -2;
     display: flex;
     padding: 10px 16px 4px;
@@ -17,7 +17,7 @@ html:has(.modeSelected__487d6 [data-list-item-id="channels___1126873259758075934
     color: var(--header-primary);
     background: var(--color-2);
 }
-html:has(.modeSelected__487d6 [data-list-item-id="channels___1126873259758075934"]) .form__13a2c .channelTextArea__2e60f .scrollableContainer__33e06::after {
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::after {
     order: -1;
     display: flex;
     padding: 0 16px 8px;
@@ -30,6 +30,6 @@ html:has(.modeSelected__487d6 [data-list-item-id="channels___1126873259758075934
     background: var(--color-2);
 }
 
-html:has(.modeSelected__487d6 [data-list-item-id="channels___1126873259758075934"], .scrollableContainer__33e06::after) .form__13a2c .inner__9fd0b {
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"], .scrollableContainer_ff917f::after) .form_d8a4a1 .inner__9fd0b {
     border-radius: 0 0 8px 8px;
 }

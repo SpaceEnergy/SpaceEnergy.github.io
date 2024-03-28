@@ -2,40 +2,40 @@
     background-color: var(--background) !important;
 }
 
-.chat__52833 .scroller__6e4c4 {
+.chat__52833 .scroller__59ef4 {
     padding: 0;
     border-radius: 8px;
 }
-.chat__52833 .scroller__6e4c4::-webkit-scrollbar {
+.chat__52833 .scroller__59ef4::-webkit-scrollbar {
     display: none;
 }
 
-.container_df3aa0 {
+.container__3a30a {
     height: 100%;
     padding: 0;
     background-color: transparent !important;
 }
 
-.mainTableContainer__5ffe0 {
+.mainTableContainer__37b54 {
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
 
-.searchHeaderContainer_c4c100 {
+.searchHeaderContainer_a29f84 {
     margin: 15px 15px 0;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
 
-.table_a843c4 {
+.table_c0e94f {
     padding: 74px 15px 77px;
     border: none;
 }
 
 
-.paginationContainer__7663e {
+.paginationContainer_b8c933 {
     margin: 0 15px 15px;
     border: none;
     border-radius: 8px;

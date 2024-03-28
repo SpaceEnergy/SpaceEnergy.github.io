@@ -1,15 +1,15 @@
-.titleBar__01af6 {
-    height: 24px;
-    padding-top: 10px;
+.titleBar__710b0 {
+    height: 34px;
+    padding-top: 0px;
     margin-top: 0px;
     background-color: var(--background);
 }
 
 /* Logo */
-.wordmark__0d178 svg {
+.wordmark__5b8c9 svg {
 	display: none;
 }
-.wordmark__0d178::before {
+.wordmark__5b8c9::before {
 	content: 'Space';
     position: relative;
     top: 6px;
@@ -18,7 +18,7 @@
 	font-weight: 500;
     color: var(--accent-2) ;
 }
-.wordmark__0d178::after {
+.wordmark__5b8c9::after {
 	content: 'Theme';
     position: relative;
     top: 6px;
@@ -29,17 +29,17 @@
 }
 
 /* Close/Maximize/Minimize Buttons */
-.titleBar__01af6 .winButton__88672 {
-    height: 33.333332px;
+.titleBar__710b0 .winButton_f17fb6 {
+    top: 0;
+    height: 34px;
     width: 40px;
-    top: -10px;
 }
-.winButton__88672 svg {
+.winButton_f17fb6 svg {
     color: var(--accent);
 }
-.winButtonClose__73489:hover {
+.winButtonClose__6396d:hover {
     background-color: var(--accent);
 }
-.winButtonClose__73489:hover svg {
+.winButtonClose__6396d:hover svg {
     color: var(--background);
 }

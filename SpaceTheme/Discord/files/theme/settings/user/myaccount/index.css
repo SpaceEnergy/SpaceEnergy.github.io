@@ -1,7 +1,7 @@
-.userInfo__8f826 {
+.userInfo_fb7651 {
     height: 104px;
 }
-.userInfo__8f826 div:has(.profileCardUsernameRow__4cbd8) {
+.userInfo_fb7651 div:has(.profileCardUsernameRow_f8853e) {
     display: grid;
     align-content: center;
 }
@@ -10,6 +10,6 @@
     top: 16px;
     left: 16px;
 }
-.accountProfileCard__22589 .bannerSVGWrapper__3e7b0 {
+.accountProfileCard__744d8 .bannerSVGWrapper__8a38c {
     display: none;
 }

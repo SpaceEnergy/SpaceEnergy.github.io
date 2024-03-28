@@ -1,14 +1,14 @@
 /* Browse Channels v0.1 */
-.container__10dc7,
-.container__10dc7 .scrollerContainer_bf5dbd,
-.container__10dc7 .container__7590f {
+.container__03ec9,
+.container__03ec9 .scrollerContainer_dda72c,
+.container__03ec9 .container__6b2e5 {
     border-radius: 8px;
     background-color: var(--color-1) !important;
 }
-.container__10dc7 .prompt__1b100,
-.container__10dc7 .channelRow__96673 {
+.container__03ec9 .prompt__1b100,
+.container__03ec9 .channelRow__538ef {
     background-color: var(--color-2);
 }
-.optionButtonWrapper__4072c.selected__90dd8 {
+.optionButtonWrapper_c86844.selected__31118 {
     background-color: var(--color-1);
 }

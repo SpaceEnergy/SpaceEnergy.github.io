@@ -1,50 +1,50 @@
-.searchResultsWrap__9f374 {
+.searchResultsWrap__2e184 {
     width: 500px;
     margin-left: 15px;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
-.searchResultsWrap__9f374:has(.pageControl__2dd90) .searchHeader__19d87 {
+.searchResultsWrap__2e184:has(.pageControl__5e095) .searchHeader__4d70e {
     height: 45px;
     margin-bottom: 57px;
     padding: 10px 15px 0;
     border-radius: 8px 8px 0 0;
 }
-.searchHeader__19d87 {
+.searchHeader__4d70e {
     margin: 10px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
-.searchResultsWrap__9f374 .container__68284 {
+.searchResultsWrap__2e184 .container__77df8 {
     position: fixed;
     top: 159px;
     width: 480px;
     border-radius: 0 0 8px 8px;
     background-color: var(--color-1);
 }
-.container__68284 .pageControlContainer_b111b0 {
+.container__77df8 .pageControlContainer__86479 {
     margin: 0;
 }
-.pageControl__2dd90 {
+.pageControl__5e095 {
     padding: 0;
 }
 
-.searchResultsWrap__9f374 .scroller_c8d5ad {
+.searchResultsWrap__2e184 .scroller__5f036 {
     padding: 0 10px 10px;
 }
 
-.searchResultGroup__35ba9 {
+.searchResultGroup_ea38ca {
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
-.searchResultGroup__35ba9 .channelNameContainer_e0c26c {
+.searchResultGroup_ea38ca .channelNameContainer__2d85c {
     padding: 5px 0;
 }
-.searchResult_dcd237 {
+.searchResult__00093 {
     margin-bottom: 5px;
     border-radius: 8px;
     background-color: var(--color-4);

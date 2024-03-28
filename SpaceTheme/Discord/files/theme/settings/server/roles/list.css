@@ -1,30 +1,30 @@
-.customScroller_f72801 .content__23cab:has(.roleRow_c357d5) {
+.customScroller_b96e1e .content__690c5:has(.roleRow_dc2631) {
     max-width: 100%;
     margin-left: 15px;
 }
-.content__23cab:has(.roleRow_c357d5) div[style="height: 60px;"] {
+.content__690c5:has(.roleRow_dc2631) div[style="height: 60px;"] {
     height: 20px !important;
 }
 
-.roleRow_c357d5 {
+.roleRow_dc2631 {
     margin: 0 0 5px;
     border-radius: 8px;
     background-color: var(--color-4);
 }
-.roleRow_c357d5::before {
+.roleRow_dc2631::before {
     display: none;
 }
-.roleRow_c357d5:last-child:after {
+.roleRow_dc2631:last-child:after {
     display: none;
 }
 
-.dragIcon__003d3 {
+.dragIcon_c316eb {
     visibility: visible;
     display: flex;
     align-items: center;
     height: 100%;
     color: var(--accent);
 }
-.dragIcon__003d3:hover {
+.dragIcon_c316eb:hover {
     color: var(--accent-2);
 }

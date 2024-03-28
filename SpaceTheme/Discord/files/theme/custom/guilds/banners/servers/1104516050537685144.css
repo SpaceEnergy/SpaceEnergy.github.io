@@ -1,10 +1,10 @@
-html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1104516050537685144"]) .header__104ca {
+html:has(.blobContainer_c44493.selected_e85eba .selected_ae80f7[data-list-item-id="guildsnav___1104516050537685144"]) .header__77c95 {
     margin: 10px 10px 0;
     background-color: unset !important;
     box-shadow: none;
 }
 
-html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1104516050537685144"]) .clickable__2d589::after {
+html:has(.blobContainer_c44493.selected_e85eba .selected_ae80f7[data-list-item-id="guildsnav___1104516050537685144"]) .clickable__1383f::after {
     content: "";
     position: relative;
     display: flex;
@@ -16,10 +16,10 @@ html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-i
     background-size: cover;
 }
 
-html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1104516050537685144"]) .channelNotice__8f7b2 {
+html:has(.blobContainer_c44493.selected_e85eba .selected_ae80f7[data-list-item-id="guildsnav___1104516050537685144"]) .channelNotice__36ec1 {
     margin: 10px 8px 0;
 }
 
-html:has(.blobContainer__5ee50.selected__98d51 .selected_f5ec8e[data-list-item-id="guildsnav___1104516050537685144"]) div[style="height: 12px;"] {
+html:has(.blobContainer_c44493.selected_e85eba .selected_ae80f7[data-list-item-id="guildsnav___1104516050537685144"]) div[style="height: 12px;"] {
     height: 5px !important;
 }

@@ -1,12 +1,12 @@
-.characterBackground__2820f {
+.characterBackground__1966f {
     background-color: var(--background);
 }
-.artwork__8fc92 {
+.artwork__94141 {
     display: none;
 }
 
 
-.authBox__7196a {
+.authBox__6f336 {
     height: 425px;
     width: 850px;
     padding: 15px;
@@ -15,72 +15,72 @@
     box-shadow: 0px 5px 26px 5px #000;
 }
 
-.authBox__7196a .centeringWrapper__319b0,
-.authBox__7196a .centeringWrapper__319b0 .flex_f5fbb7 {
+.authBox__6f336 .centeringWrapper__5e247,
+.authBox__6f336 .centeringWrapper__5e247 .flex_f18b02 {
     height: 100%;
 }
 
 
-.mainLoginContainer__58502 {
+.mainLoginContainer_f58870 {
     height: calc(425px - 50px);
     margin-right: 15px;
 }
-.authBox__7196a .header_feace3 {
+.authBox__6f336 .header_b79c4b {
     align-items: start;
 }
-.authBox__7196a.chooseAccountAuthBox__0783c .centeringWrapper__319b0 {
+.authBox__6f336.chooseAccountAuthBox__469ac .centeringWrapper__5e247 {
     text-align: start;
 }
 
 
-.authBox__7196a.chooseAccountAuthBox__0783c .list__4e6aa {
+.authBox__6f336.chooseAccountAuthBox__469ac .list__4e6aa {
     border-radius: 8px;
     background-color: var(--color-1);
 }
-.authBox__7196a.chooseAccountAuthBox__0783c .list__4e6aa:has(.usernameSection_ccd090 [style="color: var(--text-danger);"]) {
+.authBox__6f336.chooseAccountAuthBox__469ac .list__4e6aa:has(.usernameSection_e14676 [style="color: var(--text-danger);"]) {
     border: 2.7px solid #f04747;
 }
 
-.authBox__7196a.chooseAccountAuthBox__0783c .centeringWrapper__319b0 .userActions__8fade .button_afdfd9:not(.userActionMenu__8b94a) {
+.authBox__6f336.chooseAccountAuthBox__469ac .centeringWrapper__5e247 .userActions__6955d .button__581d0:not(.userActionMenu_dccbc2) {
     background-color: var(--accent);
 }
-.authBox__7196a.chooseAccountAuthBox__0783c .centeringWrapper__319b0 .userActions__8fade .button_afdfd9:not(.userActionMenu__8b94a):hover {
+.authBox__6f336.chooseAccountAuthBox__469ac .centeringWrapper__5e247 .userActions__6955d .button__581d0:not(.userActionMenu_dccbc2):hover {
     background-color: var(--accent-2);
 }
 
 
-.authBox__7196a .input_d266e7 {
+.authBox__6f336 .input_f27786 {
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
-.authBox__7196a .linkButton_ba7970.marginBottom20__64605 {
+.authBox__6f336 .linkButton__8dff8.marginBottom20__9fcf3 {
     margin-bottom: 64px;
 }
-.authBox__7196a:has(.mainLoginContainer__58502 .goBackButton__8dc9e) .linkButton_ba7970.marginBottom20__64605 {
+.authBox__6f336:has(.mainLoginContainer_f58870 .goBackButton__43fd3) .linkButton__8dff8.marginBottom20__9fcf3 {
     margin-bottom: 32px;
 }
 
 
-.authBox__7196a .verticalSeparator_af74b3 {
+.authBox__6f336 .verticalSeparator__0074c {
     display: none;
 }
 
 
-.qrLogin_ce8b2d {
+.qrLogin_e6e814 {
     height: calc(425px - 30px);
     width: 270px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
-.qrCodeContainer__52c91 {
+.qrCodeContainer__4afc8 {
     margin-bottom: 15px;
 }
 .qrCode_bef5bf {
     border-radius: 8px !important;
 }
 
-.qrLoginInner__86510 .title__0a681 {
+.qrLoginInner_fa4d07 .title__2c816 {
     margin: 0 8px 8px;
 }

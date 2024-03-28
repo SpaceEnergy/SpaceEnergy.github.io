@@ -4,7 +4,7 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_ca50b9 .avatarWrapper_ba5175 {
+.container_debb33 .avatarWrapper__500a6 {
     padding: 5px 8px 5px 8px;
     margin: 0 3.333px;
     border-radius: 8px;
@@ -12,10 +12,10 @@
     background-color: var(--color-1);
     cursor: pointer;
 }
-.avatarWrapper_ba5175:hover {
+.avatarWrapper__500a6:hover {
     background-color: var(--color-3);
 }
-.hoverRoll__041cb {
+.hoverRoll__3ea9e {
     cursor: pointer;
 }
 
@@ -26,13 +26,13 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_ca50b9 .button__4f306 {
+.container_debb33 .button_ae40a4 {
     width: -webkit-fill-available;
     margin: 0 3.333px;
     transition: background-color 0.15s ease-in-out;
     background-color: var(--color-3);
 }
-.container_ca50b9 .button__4f306:hover {
+.container_debb33 .button_ae40a4:hover {
     background-color: var(--color-1) !important;
 }
 
@@ -43,18 +43,18 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_d667ff {
+.container_e1958d {
     margin-bottom: 5px !important;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
-.container_d667ff .button__66e8c {
+.container_e1958d .button_b82d53 {
     background-color: var(--color-3);
     transition: background-color 0.15s ease-in-out;
 }
-.container_d667ff .button__66e8c:hover {
+.container_e1958d .button_b82d53:hover {
     background-color: var(--color-1);
 }
 
@@ -73,7 +73,7 @@
     background-color: var(--color-2) !important;
 }
 
-.panel_bd8c76 .body__709f6 {
+.panel_bd8c76 .body_dc19cb {
     margin: 0 3.333px;
 }
 
@@ -87,7 +87,7 @@
 .panels__58331 {
     background-color: transparent !important;
 }
-.container_ca50b9 {
+.container_debb33 {
     display: grid;
     height: 95px;
     padding: 5px;

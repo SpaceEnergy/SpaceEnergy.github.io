@@ -1,11 +1,11 @@
-.root_a28985:has(.footer__89240) {
+.root_a28985:has(.footer_e0b400) {
     overflow: unset;
     border-radius: 8px;
     background-color: var(--color-1);
     box-shadow: none !important;
 }
 
-.footer__89240 {
+.footer_e0b400 {
     justify-content: space-between;
     margin: 0 10px 10px;
     padding: 10px;

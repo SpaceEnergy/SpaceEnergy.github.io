@@ -1,48 +1,48 @@
-.customColorPicker__3cb6a {
+.customColorPicker_bbc020 {
     border: none;
     border-radius: 8px;
     background: var(--color-2) !important;
     box-shadow: none;
 }
 
-:has(.sectionsContainer_a37883) .customColorPicker__3cb6a {
+:has(.sectionsContainer__45b62) .customColorPicker_bbc020 {
     width: 283px;
 }
-:has(.sectionsContainer_a37883) .layer_ec16dd:has(.customColorPicker__3cb6a) {
+:has(.sectionsContainer__45b62) .layer__6b5c3:has(.customColorPicker_bbc020) {
     margin: 61px -77px 0;
 }
-:has(.customColorPicker__3cb6a) .customizationSection__16fec:has(.colorSwatch__5f5b9) {
+:has(.customColorPicker_bbc020) .customizationSection__0f57e:has(.colorSwatch__74812) {
     padding-bottom: 346px !important;
 }
 
-:has(.colorPicker_d98650) .customColorPicker__3cb6a {
+:has(.colorPicker__6965f) .customColorPicker_bbc020 {
     width: 410px;
 }
-:has(.colorPicker_d98650) .layer_ec16dd:has(.customColorPicker__3cb6a) {
+:has(.colorPicker__6965f) .layer__6b5c3:has(.customColorPicker_bbc020) {
     margin: 61px -150px 0;
 }
-:has(.customColorPicker__3cb6a) .colorPicker_d98650 {
+:has(.customColorPicker_bbc020) .colorPicker__6965f {
     padding-bottom: 271px !important;
 }
 
-.saturation__35997>div {
+.saturation__918ba>div {
     border-radius: 8px;
 }
-.customColorPicker__3cb6a .saturation-white {
+.customColorPicker_bbc020 .saturation-white {
     border-radius: 8px;
 }
-.customColorPicker__3cb6a .saturation-black {
+.customColorPicker_bbc020 .saturation-black {
     border-radius: 7px;
 }
 
-.suggestedColors_b91083 {
+.suggestedColors__513bd {
     flex-wrap: unset;
 }
-.suggestedColor__34249 {
+.suggestedColor__713b5 {
     border: 2px solid var(--color-1);
     border-radius: 8px;
 }
-.suggestedColor__34249:hover {
+.suggestedColor__713b5:hover {
     border: 2px solid var(--accent);
     border-radius: 8px;
 }

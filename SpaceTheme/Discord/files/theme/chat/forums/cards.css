@@ -1,52 +1,52 @@
 /* List */
-.increasedActivityMainCard__916ed {
+.increasedActivityMainCard_e53744 {
     border: 0;
     border-radius: 8px;
     background-color: var(--color-4);
 }
-.increasedActivityMainCard__916ed:hover {
+.increasedActivityMainCard_e53744:hover {
     border: 0;
     background-color: var(--color-2) !important;
 }
-.increasedActivityMainCard__916ed.isOpen__036bf {
+.increasedActivityMainCard_e53744.isOpen__036bf {
     background-color: var(--color-2) !important;
 }
 
-.increasedActivityMainCard__916ed .tags_b7acc4 {
+.increasedActivityMainCard_e53744 .tags_b7acc4 {
     padding: 5px 10px;
     border-radius: 8px;
 }
 
-.increasedActivityMainCard__916ed .replies_c11247 {
+.increasedActivityMainCard_e53744 .replies__1b03e {
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
 
 /* Grid */
-.mainCard__8a660 {
+.mainCard__0ec2c {
     border: 0;
     border-radius: 8px;
     background-color: var(--color-4);
 }
-.mainCard__8a660:hover {
+.mainCard__0ec2c:hover {
     border: 0;
     background-color: var(--color-2) !important;
 }
-.mainCard__8a660.isOpen_d88bb6 {
+.mainCard__0ec2c.isOpen_d88bb6 {
     background-color: var(--color-2) !important;
 }
 
-.mainCard__8a660 .contentPreview_b317ee {
+.mainCard__0ec2c .contentPreview__122fc {
     border: 2px solid var(--color-6);
     background-color: var(--color-2);
 }
-.mainCard__8a660 .contentPreview_b317ee .textContentFooter__5a630 {
+.mainCard__0ec2c .contentPreview__122fc .textContentFooter_e03480 {
     padding: 5px;
     background: var(--color-2);
 }
 
-.mainCard__8a660 .tagPill_d9a5cc {
+.mainCard__0ec2c .tagPill__0704e {
     padding: 5px 10px;
     border-radius: 8px;
     background-color: var(--color-1);

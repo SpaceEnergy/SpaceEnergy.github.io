@@ -1,9 +1,9 @@
-#experiments-tab .h1__90460.title__3e421 {
+#experiments-tab .h1_dc86b3.title__1b7e8 {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
 }
-#experiments-tab .children_b15c64::before {
+#experiments-tab .children_aba8cb::before {
     content: "Experiments are unreleased Discord features. They might not work, or even break your client or get your account disabled. \a\a Only use experiments if you know what you're doing. BetterDiscord is not responsible for any damage caused by enabling experiments.";
     margin: 0 0 15px;
     padding: 25px;
@@ -18,41 +18,41 @@
 }
 
 
-#experiments-tab .children_b15c64 {
+#experiments-tab .children_aba8cb {
     padding: 15px;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
 
-#experiments-tab .children_b15c64 .container__7712a {
+#experiments-tab .children_aba8cb .container__33507 {
     margin-bottom: 5px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
 
-#experiments-tab .children_b15c64 .group_c2a6cb {
+#experiments-tab .children_aba8cb .group_c2a6cb {
     margin-top: 10px;
     padding: 10px 15px;
     border-radius: 8px;
     background-color: var(--color-3);
 }
 
-#experiments-tab .children_b15c64 .group_c2a6cb .h3_de2650.title__3e421 {
+#experiments-tab .children_aba8cb .group_c2a6cb .h3__1f119.title__1b7e8 {
     align-items: center;
     margin: 0;
 }
 
-#experiments-tab .children_b15c64 .group_c2a6cb .divider_a2339a {
+#experiments-tab .children_aba8cb .group_c2a6cb .divider__14bb6 {
     display: none;
 }
 
-#experiments-tab .children_b15c64 .group_c2a6cb .h5__884a2 {
+#experiments-tab .children_aba8cb .group_c2a6cb .h5__28baa {
     margin-top: 10px;
 }
 
 
-#experiments-tab .children_b15c64 .emptyState_c39d41 {
+#experiments-tab .children_aba8cb .emptyState__20005 {
     margin: 30px 0;
 }

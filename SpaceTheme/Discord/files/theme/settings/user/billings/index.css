@@ -1,66 +1,66 @@
-.paymentPane__9cf01 {
+.paymentPane__541d7 {
     border-radius: 8px;
     background-color: var(--color-2) !important;
 }
 
-.paymentPane__9cf01 .paymentRow__1bb7a {
+.paymentPane__541d7 .paymentRow__7568c {
     border: none;
 }
-.paymentPane__9cf01 .paymentRowHeader__930f3 {
+.paymentPane__541d7 .paymentRowHeader__36e9a {
     margin-right: 70px;
     padding: 15px 30px;
 }
 
-.paymentPane__9cf01 .scrollerBase_dc3aa9 {
+.paymentPane__541d7 .scrollerBase_f742b2 {
     overflow: unset !important;
     display: flex;
     flex-direction: column;
     gap: 10px;
     border: none;
 }
-.paymentPane__9cf01 .paginator_e620d3 {
+.paymentPane__541d7 .paginator__28ba5 {
     background-color: unset;
 }
 
-.bottomDivider_a59d97 {
+.bottomDivider_c85b47 {
     display: flex;
     flex-direction: column;
     gap: 5px;
     border: none;
 }
-.bottomDivider_a59d97::-webkit-scrollbar {
+.bottomDivider_c85b47::-webkit-scrollbar {
     display: none;
 }
 
-.paymentPane__9cf01 .payment__7d702 {
+.paymentPane__541d7 .payment_f27ac6 {
     width: auto;
     margin: 0 10px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
-.paymentPane__9cf01 .payment__7d702:hover {
+.paymentPane__541d7 .payment_f27ac6:hover {
     background-color: var(--color-3);
 }
-.paymentPane__9cf01 .payment__7d702 .expandedInfo__47bad {
+.paymentPane__541d7 .payment_f27ac6 .expandedInfo_efc786 {
     background-color: var(--color-2);
 }
 
-.paymentPane__9cf01 .pageActions__11ae3 {
+.paymentPane__541d7 .pageActions_ccda85 {
     gap: 5px;
     margin: 15px 10px 10px;
     border-radius: 8px;
     background-color: var(--color-3);
 }
-.paymentPane__9cf01 .pageIndicator__973ca,
-.paymentPane__9cf01 .pageButtonPrev__9ee28,
-.paymentPane__9cf01 .pageButtonNext_b6c1ca {
+.paymentPane__541d7 .pageIndicator__1821d,
+.paymentPane__541d7 .pageButtonPrev__9c384,
+.paymentPane__541d7 .pageButtonNext__13132 {
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
 
-.codeRedemptionRedirect_bc7f36.card__4dc22 {
+.codeRedemptionRedirect_b3eca7.card__4dc22 {
     margin-top: 15px;
     border: none;
     border-radius: 8px;
