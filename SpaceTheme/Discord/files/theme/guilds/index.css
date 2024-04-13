@@ -13,6 +13,18 @@
 }
 
 
+/* Unread */
+.unreadMentionsIndicatorBottom__9351c {
+    bottom: 130px;
+    width: 100%;
+}
+.unreadMentionsIndicatorBottom__9351c .bar_edc096 {
+    opacity: 1;
+    height: 28px;
+    border-radius: 8px;
+}
+
+
 /* Position */
 .wrapper__216eb.guilds__2b93a {
     width: 80px;

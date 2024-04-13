@@ -58,6 +58,11 @@
     background-color: var(--color-1);
 }
 
+.container_e1958d .buttonIcon__64412 {
+    width: 20px !important;
+    height: 20px !important;
+}
+
 
 /*
 =-=-=-=-=-=-=-=
@@ -66,8 +71,8 @@
 */
 
 .panel_bd8c76 {
-    padding: 12px 8px;
-    margin-bottom: -12px;
+    padding: 12px 8px 8px;
+    margin-bottom: -6px;
     border: none;
     border-radius: 8px 8px 0 0;
     background-color: var(--color-2) !important;
