@@ -32,48 +32,6 @@
 }
 
 
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104518841092034631"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104875221472792668"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1183490429245730938"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1215613548827508776"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104561510715494463"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1209815012403716166"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1209815101134082120"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104524821909479484"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104518841092034630"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1112389436815187979"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1224373306795364432"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104516051733065901"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104526690719387679"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1191846540218736650"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1192344004520595577"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565675327590470"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565711738470470"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565355897790464"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565514450870292"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523856846270546"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523460052520980"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1148015790264692736"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1126864557596479559"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1126864502554624042"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1190661950800142386"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104552173695680583"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523836302573688"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523441157181511"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1194832530810089472"]::before,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104552018414161981"]::before {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 26px;
-    width: 26px;
-    margin: auto 5px;
-    padding: 3px;
-    font-size: 16px;
-    border-radius: 80px;
-}
-
-
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104518841092034631"]::before {
     content: "👮‍♂️";
     background-color: #00aff040;
@@ -197,35 +155,48 @@
 }
 
 
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104518841092034631"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104875221472792668"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1183490429245730938"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1215613548827508776"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104561510715494463"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1209815012403716166"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1209815101134082120"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104524821909479484"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104518841092034630"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1112389436815187979"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1224373306795364432"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104516051733065901"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104526690719387679"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1191846540218736650"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1192344004520595577"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565675327590470"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565711738470470"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565355897790464"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1213565514450870292"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523856846270546"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523460052520980"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1148015790264692736"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1126864557596479559"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1126864502554624042"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1190661950800142386"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104552173695680583"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523836302573688"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104523441157181511"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1194832530810089472"] .iconContainer__6a580,
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104552018414161981"] .iconContainer__6a580 {
+.containerDefault_ae2ea4 a[data-list-item-id^="channels___"]::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 26px;
+    margin: auto 5px;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 80px;
+}
+
+
+.containerDefault_ae2ea4 :is(a[data-list-item-id="channels___1104518841092034631"],
+                             a[data-list-item-id="channels___1104875221472792668"],
+                             a[data-list-item-id="channels___1183490429245730938"],
+                             a[data-list-item-id="channels___1215613548827508776"],
+                             a[data-list-item-id="channels___1104561510715494463"],
+                             a[data-list-item-id="channels___1209815012403716166"],
+                             a[data-list-item-id="channels___1209815101134082120"],
+                             a[data-list-item-id="channels___1104524821909479484"],
+                             a[data-list-item-id="channels___1104518841092034630"],
+                             a[data-list-item-id="channels___1112389436815187979"],
+                             a[data-list-item-id="channels___1224373306795364432"],
+                             a[data-list-item-id="channels___1104516051733065901"],
+                             a[data-list-item-id="channels___1104526690719387679"],
+                             a[data-list-item-id="channels___1191846540218736650"],
+                             a[data-list-item-id="channels___1192344004520595577"],
+                             a[data-list-item-id="channels___1213565675327590470"],
+                             a[data-list-item-id="channels___1213565711738470470"],
+                             a[data-list-item-id="channels___1213565355897790464"],
+                             a[data-list-item-id="channels___1213565514450870292"],
+                             a[data-list-item-id="channels___1104523856846270546"],
+                             a[data-list-item-id="channels___1104523460052520980"],
+                             a[data-list-item-id="channels___1148015790264692736"],
+                             a[data-list-item-id="channels___1126864557596479559"],
+                             a[data-list-item-id="channels___1126864502554624042"],
+                             a[data-list-item-id="channels___1190661950800142386"],
+                             a[data-list-item-id="channels___1104552173695680583"],
+                             a[data-list-item-id="channels___1104523836302573688"],
+                             a[data-list-item-id="channels___1104523441157181511"],
+                             a[data-list-item-id="channels___1194832530810089472"],
+                             a[data-list-item-id="channels___1104552018414161981"]) :is(.iconContainer__6a580, .linkBottom__942a1) {
     margin-left: 37px;
 }

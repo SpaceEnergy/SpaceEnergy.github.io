@@ -1,68 +1,30 @@
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928787683671687269"],      /* moderator-chat */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___942140331892285581"],      /* mod-spam */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___814985548028182609"],      /* rules */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759498922116251658"],      /* announcements */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928781005807030303"],      /* introductions */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759498956815859782"],      /* cool-links */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490590257446986"],      /* mod-logs */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1163568103955894332"],     /* fediverse-posts */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___760115341375438858"],      /* vip-chatter */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759492413470539776"],      /* offtopic */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928782640696401950"],      /* games */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1109877268592988252"],     /* free-games */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___772493538234597387"],      /* bot-spam */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___929438701271015464"],      /* photography */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490330809860126"],      /* collections */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490360086626392"],      /* anime-manga */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759489650015338567"],      /* content-feed */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___940816236101652520"],      /* streams */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490786248228875"],      /* voice-chat */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___760115433617227787"],      /* VIP VC */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491102218125322"],      /* General VC */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1040723150150840332"],      /* Private */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490868423688222"],      /* Gaming Den */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491017199583243"],      /* Music Lounge */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491043317252166"] {     /* AFK */
+.containerDefault_ae2ea4 a[data-list-item-id="channels___928787683671687269"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___942140331892285581"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___814985548028182609"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759498922116251658"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___928781005807030303"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759498956815859782"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759490590257446986"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___1163568103955894332"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___760115341375438858"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759492413470539776"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___928782640696401950"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___1109877268592988252"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___772493538234597387"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___929438701271015464"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759490330809860126"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759490360086626392"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759489650015338567"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___940816236101652520"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759490786248228875"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___760115433617227787"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759491102218125322"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___1040723150150840332"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759490868423688222"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759491017199583243"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___759491043317252166"] {
     padding: 9px 5px;
 }
-
-
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928787683671687269"]::before,      /* moderator-chat */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___942140331892285581"]::before,      /* mod-spam */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___814985548028182609"]::before,      /* rules */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759498922116251658"]::before,      /* announcements */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928781005807030303"]::before,      /* introductions */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759498956815859782"]::before,      /* cool-links */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490590257446986"]::before,      /* mod-logs */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1163568103955894332"]::before,     /* fediverse-posts */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___760115341375438858"]::before,      /* vip-chatter */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759492413470539776"]::before,      /* offtopic */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928782640696401950"]::before,      /* games */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1109877268592988252"]::before,     /* free-games */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___772493538234597387"]::before,      /* bot-spam */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___929438701271015464"]::before,      /* photography */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490330809860126"]::before,      /* collections */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490360086626392"]::before,      /* anime-manga */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759489650015338567"]::before,      /* content-feed */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___940816236101652520"]::before,      /* streams */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490786248228875"]::before,      /* voice-chat */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___760115433617227787"]::before,      /* VIP VC */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491102218125322"]::before,      /* General VC */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1040723150150840332"]::before,     /* Private */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490868423688222"]::before,      /* Gaming Den */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491017199583243"]::before,      /* Music Lounge */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491043317252166"]::before {     /* AFK */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 26px;
-    width: 26px;
-    margin: auto 5px;
-    padding: 3px;
-    font-size: 16px;
-    border-radius: 80px;
-}
-
 
 
 .containerDefault_ae2ea4 a[data-list-item-id="channels___928787683671687269"]::before {      /* moderator-chat */
@@ -167,30 +129,43 @@
 }
 
 
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928787683671687269"] .iconContainer__6a580,      /* moderator-chat */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___942140331892285581"] .iconContainer__6a580,      /* mod-spam */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___814985548028182609"] .iconContainer__6a580,      /* rules */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759498922116251658"] .iconContainer__6a580,      /* announcements */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928781005807030303"] .iconContainer__6a580,      /* introductions */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759498956815859782"] .iconContainer__6a580,      /* cool-links */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490590257446986"] .iconContainer__6a580,      /* mod-logs */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1163568103955894332"] .iconContainer__6a580,     /* fediverse-posts */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___760115341375438858"] .iconContainer__6a580,      /* vip-chatter */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759492413470539776"] .iconContainer__6a580,      /* offtopic */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___928782640696401950"] .iconContainer__6a580,      /* games */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1109877268592988252"] .iconContainer__6a580,     /* free-games */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___772493538234597387"] .iconContainer__6a580,      /* bot-spam */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___929438701271015464"] .iconContainer__6a580,      /* photography */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490330809860126"] .iconContainer__6a580,      /* collections */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490360086626392"] .iconContainer__6a580,      /* anime-manga */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759489650015338567"] .iconContainer__6a580,      /* content-feed */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___940816236101652520"] .iconContainer__6a580,      /* streams */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490786248228875"] .iconContainer__6a580,      /* voice-chat */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___760115433617227787"] .iconContainer__6a580,      /* VIP VC */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491102218125322"] .iconContainer__6a580,      /* General VC */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1040723150150840332"] .iconContainer__6a580,     /* Private */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759490868423688222"] .iconContainer__6a580,      /* Gaming Den */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491017199583243"] .iconContainer__6a580,      /* Music Lounge */
-.containerDefault_ae2ea4 a[data-list-item-id="channels___759491043317252166"] .iconContainer__6a580 {     /* AFK */
+.containerDefault_ae2ea4 a[data-list-item-id^="channels___"]::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 26px;
+    margin: auto 5px;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 80px;
+}
+
+
+.containerDefault_ae2ea4 :is(a[data-list-item-id="channels___928787683671687269"], 
+                             a[data-list-item-id="channels___942140331892285581"], 
+                             a[data-list-item-id="channels___814985548028182609"], 
+                             a[data-list-item-id="channels___759498922116251658"], 
+                             a[data-list-item-id="channels___928781005807030303"], 
+                             a[data-list-item-id="channels___759498956815859782"], 
+                             a[data-list-item-id="channels___759490590257446986"], 
+                             a[data-list-item-id="channels___1163568103955894332"],
+                             a[data-list-item-id="channels___760115341375438858"], 
+                             a[data-list-item-id="channels___759492413470539776"], 
+                             a[data-list-item-id="channels___928782640696401950"], 
+                             a[data-list-item-id="channels___1109877268592988252"],
+                             a[data-list-item-id="channels___772493538234597387"], 
+                             a[data-list-item-id="channels___929438701271015464"], 
+                             a[data-list-item-id="channels___759490330809860126"], 
+                             a[data-list-item-id="channels___759490360086626392"], 
+                             a[data-list-item-id="channels___759489650015338567"], 
+                             a[data-list-item-id="channels___940816236101652520"], 
+                             a[data-list-item-id="channels___759490786248228875"], 
+                             a[data-list-item-id="channels___760115433617227787"], 
+                             a[data-list-item-id="channels___759491102218125322"], 
+                             a[data-list-item-id="channels___1040723150150840332"],
+                             a[data-list-item-id="channels___759490868423688222"], 
+                             a[data-list-item-id="channels___759491017199583243"], 
+                             a[data-list-item-id="channels___759491043317252166"] ) :is(.iconContainer__6a580, .linkBottom__942a1) {
     margin-left: 37px;
 }
