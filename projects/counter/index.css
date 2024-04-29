@@ -32,11 +32,6 @@
     gap: 10px;
     margin: 0;
 }
-@media (max-width: 475px) {
-    .card-container .grid {
-        grid-template-columns: repeat(1,minmax(0,1fr));
-    }
-}
 
 .count-button {
     text-align: center;
@@ -51,4 +46,21 @@
     cursor: pointer;
     border-radius: 26px;
     background-color: #2b2b2b;
+}
+
+
+@media (max-width: 475px) {
+    .card-container .grid {
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+
+    .count-button:nth-child(1) {
+        order: 3;
+    }
+    .count-button:nth-child(2) {
+        order: 2;
+    }
+    .count-button:nth-child(3) {
+        order: 1;
+    }
 }
