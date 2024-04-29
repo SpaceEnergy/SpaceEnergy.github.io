@@ -209,6 +209,9 @@ p, h1, h2, h3, a {
     display: flex;
     margin-bottom: 6px;
 }
+.game-title img {
+    height: 20px;
+}
 
 
 .card .img span {
