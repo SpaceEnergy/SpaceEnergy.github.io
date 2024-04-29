@@ -268,6 +268,7 @@ p, h1, h2, h3, a {
     background-color: #1d1d1d;
 }
 #projects .card .img,
+#javascript .card .img,
 #themes .card .img {
     padding: 0;
 }
