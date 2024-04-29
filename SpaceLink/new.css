@@ -93,7 +93,7 @@ body {
     transition: 180ms;
 }
 .social-media .icon:hover img {
-    filter: brightness(.9);
+    filter: brightness(.8);
 }
 
 
@@ -122,6 +122,10 @@ body {
     justify-content: center;
     gap: 6px;
     margin-bottom: 10px;
+}
+.navigation .back-tab {
+    position: absolute;
+    left: 0;
 }
 .navigation .tab {
     display: flex;
@@ -169,26 +173,6 @@ body {
     grid-row-gap: 10px;
     margin-top: 10px;
 }
-@media (max-width: 760px) {
-    .card-container .grid {
-        grid-template-columns: repeat(3,minmax(0,1fr));
-    }
-
-    #setup .card:nth-child(4) {
-        display: none;
-    }
-}
-@media (max-width: 615px) {
-    .card-container .grid {
-        grid-template-columns: repeat(2,minmax(0,1fr));
-    }
-
-    #setup .card:nth-child(3),
-    #setup .card:nth-child(4) {
-        display: none;
-    }
-}
-
 
 
 .card {
@@ -287,8 +271,6 @@ body {
 
 
 
-
-
 .footer {
     text-align: center;
     max-width: 50rem;
@@ -296,4 +278,72 @@ body {
     padding: 16px;
     font-weight: 800;
     border-radius: 40px;
+}
+
+
+
+
+
+@media (max-width: 760px) {
+    .card-container .grid {
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+
+    #setup .card:nth-child(4) {
+        display: none;
+    }
+}
+
+@media (max-width: 615px) {
+    .header-avatar {
+        margin-right: 16px;
+        max-width: 160px;
+        max-height: 160px;
+    }
+
+
+    .navigation {
+        justify-content: end;
+    }
+    #main.navigation {
+        justify-content: center;
+    }
+
+
+    .card-container .grid {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+
+    #setup .card:nth-child(3),
+    #setup .card:nth-child(4) {
+        display: none;
+    }
+}
+
+@media (max-width: 475px) {
+    .header-avatar {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .header .infos h1 {
+        font-size: 24px;
+    }
+    .header .infos .flag-icon {
+        height: 16px;
+    }
+    .header .infos p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .navigation {
+        justify-content: center;
+        margin-top: 53.2px;
+    }
+    .navigation .back-tab {
+        position: absolute;
+        left: 0;
+        top: -53.2px;
+    }
 }
