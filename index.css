@@ -178,7 +178,7 @@ p, h1, h2, h3, a {
 
 
 .card {
-    padding: 10px 10px 16px;
+    padding: 10px;
     border: 2px solid #2b2b2b;
     border-radius: 16px;
     background-color: #111111;
@@ -204,6 +204,11 @@ p, h1, h2, h3, a {
     background-color: #FF5E5B46;
 }
 
+
+.game-title {
+    display: flex;
+    margin-bottom: 6px;
+}
 
 
 .card .img span {
