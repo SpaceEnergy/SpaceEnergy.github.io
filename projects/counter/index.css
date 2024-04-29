@@ -1,48 +1,54 @@
+.card-container {
+    flex-direction: column;
+}
+
+
 .counter {
     display: flex;
     flex-direction: column;
-    height: fit-content;
-    width: fit-content;
-    margin: 30px;
-    padding: 15px;
-    border-radius: 8px;
+    margin-top: 10px;
+    padding: 16px;
+    border: 2px solid #2b2b2b;
+    border-radius: 26px;
     background-color: #111111;
 }
 
-input {
-    height: 50px;
-    max-width: 300px;
-    margin-bottom: 20px;
-    padding: 5px 10px;
-    font-size: 32px;
-    font-weight: 600;
+.count {
     text-align: end;
-    border: none;
-    outline: none;
-    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    font-size: 24px;
+    font-weight: 800;
+    border: 2px solid #2b2b2b;
+    border-radius: 32px;
     color: #666CFF;
-    background-color: #1e1e1e;
-}
-
-.row {
-    gap: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    font-size: 32px;
-    border: none;
-    outline: none;
-    border-radius: 8px;
-    color: #fff;
     background-color: #181818;
-    transition: border-radius .15s ease-in-out, background-color .15s ease-in-out;
 }
-button:hover {
+
+.card-container .grid {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin: 0;
+}
+@media (max-width: 475px) {
+    .card-container .grid {
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+}
+
+.count-button {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #2b2b2b;
+    border-radius: 40px;
+    background-color: #1e1e1e;
+    transition: 180ms;
+}
+.count-button:hover {
     cursor: pointer;
-    border-radius: 12px;
-    background-color: #1f1f1f;
+    border-radius: 26px;
+    background-color: #2b2b2b;
 }

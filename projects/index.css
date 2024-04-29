@@ -1,48 +1,4 @@
-body {
+.card-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    background: radial-gradient(68.62% 60.75% at 86% 61%,rgba(135, 140, 255, 0.3),rgba(135, 140, 255, 0.04) 100%),radial-gradient(53.01% 41.15% at 11% 27%,rgba(102, 108, 255, 0.3),rgba(102, 108, 255, 0.04) 100%),rgb(10, 10, 10);
-}
-
-.header {
-    margin-top: 0;
-    font-size: 40px;
-    font-weight: 900;
-    color: transparent !important;
-    background: linear-gradient(90deg,#878cff,#666cff 34%,#878cff 67%,#666cff);
-    background-size: 300% 100%;
-    -webkit-background-clip: text;
-    animation: pulse 2s linear infinite;
-}
-@keyframes pulse {
-    0% {
-        background-position: 100%;
-    }
-    to {
-        background-position:0;
-    }
-}
-
-.homeButton {
-    position: absolute;
-    bottom: 60px;
-    width: fit-content;
-    padding: 10px;
-    font-size: 22px;
-    text-decoration: none;
-    color: #c0c0c0;
-    border-radius: 8px;
-    background-color: #181818;
-    transition: border-radius .15s ease-in-out, background-color .15s ease-in-out;
-}
-.homeButton:hover {
-    cursor: pointer;
-    border-radius: 12px;
-    background-color: #1f1f1f;
 }
