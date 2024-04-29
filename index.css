@@ -162,7 +162,7 @@ p, h1, h2, h3, a {
 }
 .card-container {
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 26px;
     background-color: #1e1e1e;
     box-shadow: 0px 6px 30px -15px rgb(0, 0, 0);
 }
@@ -171,16 +171,15 @@ p, h1, h2, h3, a {
     display: grid;
     grid-template-columns: repeat(4,minmax(0,1fr));
     grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    gap: 10px;
     margin-top: 10px;
 }
 
 
 .card {
-    padding: 10px;
+    padding: 10px 10px 16px;
     border: 2px solid #2b2b2b;
-    border-radius: 16px;
+    border-radius: 26px;
     background-color: #111111;
     transition: 180ms;
 }
@@ -260,7 +259,7 @@ p, h1, h2, h3, a {
     max-width: 250px;
     margin-bottom: 6px;
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 26px;
     background-color: #181818;
     transition: 180ms;
 }
@@ -276,7 +275,7 @@ p, h1, h2, h3, a {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: contain;
-    border-radius: 16px;
+    border-radius: 26px;
 }
 
 
