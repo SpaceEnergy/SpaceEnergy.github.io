@@ -341,6 +341,9 @@ body {
         justify-content: center;
         margin-top: 53.2px;
     }
+    #main.navigation {
+        margin-top: 0;
+    }
     .navigation .back-tab {
         position: absolute;
         left: 0;
