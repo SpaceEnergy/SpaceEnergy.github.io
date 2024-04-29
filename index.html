@@ -1,52 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:site_name" content="v1.2.3">
-    <meta property="og:title" content="SpaceHQ">
-    <meta property="og:url" content="https://spaceenergy.github.io">
-    <meta property="og:image" content="./images/Banner.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1300">
-    <meta property="og:image:height" content="577">
-    <meta name="twitter:site" content="v1.2.3">
-    <meta name="twitter:title" content="SpaceHQ">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:src" content="./images/Banner.png">
-    <meta name="theme-color" content="#40009D">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="SpaceLink">
+        <meta property="og:url" content="https://spaceenergy.github.io/SpaceLink">
+        <meta name="theme-color" content="#40009D">
+        <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
+        <link href="/index.css" rel="stylesheet" type="text/css" />
+        <title>SpaceLink</title>
+    </head>
+    <body>
+        <div class="full-content">
+            <div class="note">The page is still under construction</div>
+            <header class="header">
+                <img class="header-avatar" src="/images/avatar.png" alt="SpaceEnergy Logo">
+                <div class="infos">
+                    <h1>SpaceEnergy</h1>
+                    <span style="display: flex;align-items: center;">
+                        <img class="flag-icon" src="/images/de.svg" alt="DE">
+                        <p>Germany • 17 years old</p>
+                    </span>
+                    <div class="social-media">
+                        <a class="icon" href="https://x.com/SpaceEnergy0"><img src="/images/X.svg" alt="X"></a>
+                        <a class="icon" href="https://instagram.com/spaceenergy0"><img src="/images/Instagram.svg" alt="Instagram"></a>
+                        <a class="icon" href="https://github.com/SpaceEnergy"><img src="/images/GitHub.svg" alt="GitHub"></a>
+                        <a class="icon" href="https://discord.gg/7Zv8Xz3Vzn"><img src="/images/Discord.svg" alt="Discord"></a>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <div class="navigation" id="main">
+                    <a href="#general"><div class="tab">General</div></a>
+                    <a href="#projects"><div class="tab">Projects</div></a>
+                    <a href="#setup"><div class="tab">Setup</div></a>
+                    <a href="#rangs"><div class="tab">Game Rangs</div></a>
+                </div>
+                <div class="divider"></div>
 
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
+                <div class="containers">
+                    <div class="card-container" id="general">
+                        <h2>General</h2>
+                        <div class="grid">
+                            <div class="card">
+                                <a href="https://steamcommunity.com/id/SpaceEnergy/">
+                                    <div class="img">
+                                        <span><img src="/images/external-link.svg"></span>
+                                        <img src="/images/steam.png" alt="steam">
+                                    </div>
+                                    <p>Steam</p>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://robertsspaceindustries.com/enlist?referral=STAR-3XMC-H92N">
+                                    <div class="img">
+                                        <span><img src="/images/external-link.svg"></span>
+                                        <img src="/images/starcitizen.png" alt="starcitizen">
+                                    </div>
+                                    <p>StarCitizen Referral</p>
+                                    <p class="disc">STAR-3XMC-H92N</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+                    <div class="card-container" id="projects">
+                        <h2>Projects</h2>
+                        <div class="grid">
+                            <div class="card">
+                                <a href="/projects/spacetheme/">
+                                    <div class="img">
+                                        <span><img src="/images/arrow-right.svg"></span>
+                                        <img src="/images/SpaceThemes.png" alt="SpaceTheme">
+                                    </div>
+                                    <p>SpaceTheme</p>
+                                    <p class="disc">Redesign for programms</p>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://github.com/SpaceEnergy/BetterSteamLibrary">
+                                    <div class="img">
+                                        <span><img src="/images/external-link.svg"></span>
+                                        <img src="/images/bsl.png" alt="BetterSteamLibrary">
+                                    </div>
+                                    <p style="word-break: break-all;">BetterSteamLibrary</p>
+                                    <p class="disc">No more updates since 20.09.2022</p>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="../projects/counter/index.html">
+                                    <div class="img">
+                                        <span><img src="/images/arrow-right.svg"></span>
+                                        <img src="/images/counter.png" alt="counter">
+                                    </div>
+                                    <p>Counter</p>
+                                    <p class="disc">First JavaScript project</p>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="../projects/calculator/index.html">
+                                    <div class="img">
+                                        <span><img src="/images/arrow-right.svg"></span>
+                                        <img src="/images/calculator.png" alt="calculator">
+                                    </div>
+                                    <p>Calculator - SOON</p>
+                                    <p class="disc">Second JavaScript project</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
     
-    <title>SpaceHQ</title>
-  </head>
-  <body>
-    <nav>
-      <a href="https://spaceenergy.github.io" class="nav-logo">
-        <img src="/images/se.png">
-      </a>
-      <div class="nav-tab-links">
-        <a href="https://spaceenergy.github.io/SpaceLink">SpaceLink</a>
-      </div>
-    </nav>
+    
+                    <div class="card-container" id="setup">
+                        <h2>Setup</h2>
+                        <div class="grid">
+                            <div class="card">
+                                <a href="https://a.co/d/9yfiOlP">
+                                    <div class="img">
+                                        <span><img src="/images/external-link.svg"></span>
+                                        <img src="/images/setup/cpu.png" alt="cpu">
+                                    </div>
+                                    <p class="card-title">CPU</p>
+                                    <p>AMD Ryzen 7 5800X3D</p>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://a.co/d/2hdlGbb">
+                                    <div class="img">
+                                        <span><img src="/images/external-link.svg"></span>
+                                        <img src="/images/setup/gpu.png" alt="gpu">
+                                    </div>
+                                    <p class="card-title">GPU</p>
+                                    <p>GIGABYTE RTX 4080 Aero OC</p>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://a.co/d/gp0rfkX">
+                                    <div class="img">
+                                        <span><img src="/images/external-link.svg"></span>
+                                        <img src="/images/setup/memory.png" alt="memory">
+                                    </div>
+                                    <p class="card-title">Memory</p>
+                                    <p>TeamGroup T-Force XTREEM 2x8GB DDR4-3600</p>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://a.co/d/aeedqv0">
+                                    <div class="img">
+                                        <span><img src="/images/external-link.svg"></span>
+                                        <img src="/images/setup/mainboard.png" alt="mainboard">
+                                    </div>
+                                    <p class="card-title">Mainboard</p>
+                                    <p>ASUS Strix B550-F Gaming WIFI II</p>
+                                </a>
+                            </div>
+                        </div>
+                        <a class="show-all" href="/setup/">Show all</a>
+                    </div>
+    
+    
+                    <div class="card-container" id="rangs">
+                        <h2>Game Rangs</h2>
+                        <div class="grid">
+                            <div class="group">
+                                <div class="game-title">
+                                    <img src="" alt="">
+                                    <p>Counter-Strike 2</p>
+                                </div>
+                                <div class="game-rang cs2">
+                                    <img src="" alt="">
+                                    <p>Rang 6</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="content">
-      <section id="landing">
-        <div class="header">
-          <div class="titel">
-            <h1>SpaceHQ</h1>
-            <a href="https://github.com/SpaceEnergy/SpaceEnergy.github.io/commits/main">v1.3.0</a>
-          </div>
+                <div class="footer">
+                    <p>Made by SpaceEnergy with ❤️</p>
+                </div>
+            </div>
         </div>
-      </section>
-    </div>
-    
-    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#666cff', 'X8X3LCYV5');kofiwidget2.draw();</script>
-  </body>
+    </body>
 </html>

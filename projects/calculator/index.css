@@ -28,7 +28,7 @@ body {
 
 input {
     height: 50px;
-    width: 250px;
+    width: calc(350px - 15px);
     margin-bottom: 20px;
     padding: 5px 10px;
     font-size: 32px;
@@ -42,7 +42,7 @@ input {
 
 button {
     height: 60px;
-    width: 60px;
+    width: 80px;
     font-size: 32px;
     border: none;
     outline: none;
