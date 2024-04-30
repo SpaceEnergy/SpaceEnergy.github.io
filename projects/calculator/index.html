@@ -1,48 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SpaceProject - Calculator</title>
+        <meta property="og:title" content="SpaceLink">
+        <meta property="og:url" content="https://spaceenergy.github.io/SpaceLink">
+        <meta name="theme-color" content="#40009D">
         <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="/projects/index.css">
+        <link href="/index.css" rel="stylesheet" type="text/css" />
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <link href="/projects/index.css" rel="stylesheet" type="text/css" />
+        <title>SpaceLink - Calculator</title>
     </head>
     <body>
-        <h1 class="header" id="header">SpaceProject - Calculator</h1>
+        <div class="full-content">
+            <div class="note">The page is still under construction</div>
+            <header class="header">
+                <img class="header-avatar" src="/images/calculator.png">
+                <div class="infos">
+                    <h1>Calculator</h1>
+                    <p>Second JavaScript project</p>
+                </div>
+            </header>
+            <div class="content">
+                <div class="navigation" id="main" style="justify-content: start;">
+                    <a href="../js/"><div class="tab"><img src="/images/arrow-left.svg" style="width:14px;margin-right:6px;">Back</div></a>
+                </div>
+                <div class="divider"></div>
 
-        <div class="calculator">
-            <input type="text" id="display" disabled>
-
-            <div class="grid">
-                <button onclick="appendToDisplay('%')">%</button>
-                <button onclick="appendToDisplay('ce')">CE</button>
-                <button onclick="clearDisplay()">C</button>
-                <button onclick="appendToDisplay('back')">⌫</button>
-                <button onclick="appendToDisplay('7')">7</button>
-                <button onclick="appendToDisplay('8')">8</button>
-                <button onclick="appendToDisplay('9')">9</button>
-                <button onclick="appendToDisplay('/')">÷</button>
-                <button onclick="appendToDisplay('4')">4</button>
-                <button onclick="appendToDisplay('5')">5</button>
-                <button onclick="appendToDisplay('6')">6</button>
-                <button onclick="appendToDisplay('*')">×</button>
-                <button onclick="appendToDisplay('1')">1</button>
-                <button onclick="appendToDisplay('2')">2</button>
-                <button onclick="appendToDisplay('3')">3</button>
-                <button onclick="appendToDisplay('-')">-</button>
-                <button onclick="appendToDisplay('negate')">±</button>
-                <button onclick="appendToDisplay('0')">0</button>
-                <button onclick="appendToDisplay('.')">.</button>
-                <button onclick="appendToDisplay('+')">+</button>
-                <button style="background-color:unset;cursor:default;"></button>
-                <button style="background-color:unset;cursor:default;"></button>
-                <button style="background-color:unset;cursor:default;"></button>
-                <button onclick="calculateResult('=')">=</button>
+                <div class="containers">
+                    <div class="card-container" id="javascript">
+                        <h2>Calculator</h2>
+                        <div class="calculator">
+                            <input class="result" type="text" id="display" placeholder="not working" disabled>
+                            <div class="grid">
+                                <div class="calc-button" onclick="appendToDisplay('7')">7</div>
+                                <div class="calc-button" onclick="appendToDisplay('8')">8</div>
+                                <div class="calc-button" onclick="appendToDisplay('9')">9</div>
+                                <div class="calc-button" onclick="clearDisplay()">C</div>
+                                <div class="calc-button" onclick="appendToDisplay('4')">4</div>
+                                <div class="calc-button" onclick="appendToDisplay('5')">5</div>
+                                <div class="calc-button" onclick="appendToDisplay('6')">6</div>
+                                <div class="calc-button" onclick="appendToDisplay('/')">÷</div>
+                                <div class="calc-button" onclick="appendToDisplay('1')">1</div>
+                                <div class="calc-button" onclick="appendToDisplay('2')">2</div>
+                                <div class="calc-button" onclick="appendToDisplay('3')">3</div>
+                                <div class="calc-button" onclick="appendToDisplay('*')">×</div>
+                                <div class="calc-button" onclick="appendToDisplay('negate')">±</div>
+                                <div class="calc-button" onclick="appendToDisplay('0')">0</div>
+                                <div class="calc-button" onclick="appendToDisplay('.')">.</div>
+                                <div class="calc-button" onclick="appendToDisplay('-')">-</div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div class="calc-button" onclick="appendToDisplay('+')">+</div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div class="calc-button" onclick="calculateResult('=')">=</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Made by SpaceEnergy with ❤️</p>
+                </div>
             </div>
         </div>
 
-        <a class="homeButton" href="../js/">Back</a>
         <script src="index.js"></script>
     </body>
 </html>
