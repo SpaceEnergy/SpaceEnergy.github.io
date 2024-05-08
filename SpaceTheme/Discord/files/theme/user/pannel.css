@@ -12,11 +12,16 @@
     background-color: var(--color-1);
     cursor: pointer;
 }
-.avatarWrapper__500a6:hover {
+.container_debb33 .avatarWrapper__500a6:hover {
     background-color: var(--color-3);
 }
 .hoverRoll__3ea9e {
     cursor: pointer;
+}
+
+.container_debb33 .avatarWrapper__500a6 .title__4a7a9 {
+    width: fit-content;
+
 }
 
 
