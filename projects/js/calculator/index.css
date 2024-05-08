@@ -1,0 +1,66 @@
+.card-container {
+    flex-direction: column;
+}
+
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 16px;
+    border: 2px solid #2b2b2b;
+    border-radius: 26px;
+    background-color: #111111;
+}
+
+.result {
+    text-align: end;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    font-size: 24px;
+    font-weight: 800;
+    border: 2px solid #2b2b2b;
+    border-radius: 32px;
+    color: #666CFF;
+    background-color: #181818;
+}
+
+.card-container .grid {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin: 0;
+}
+
+.calc-button {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #2b2b2b;
+    border-radius: 40px;
+    background-color: #1e1e1e;
+    transition: 180ms;
+}
+.calc-button:hover {
+    cursor: pointer;
+    border-radius: 26px;
+    background-color: #2b2b2b;
+}
+
+
+@media (max-width: 475px) {
+    .calc-button {
+        font-size: 18px;
+    }
+    
+    .count-button:nth-child(1) {
+        order: 3;
+    }
+    .count-button:nth-child(2) {
+        order: 2;
+    }
+    .count-button:nth-child(3) {
+        order: 1;
+    }
+}

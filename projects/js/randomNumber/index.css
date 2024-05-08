@@ -1,0 +1,43 @@
+.card-container {
+    flex-direction: column;
+}
+
+
+.random {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 16px;
+    border: 2px solid #2b2b2b;
+    border-radius: 26px;
+    background-color: #111111;
+}
+
+.count {
+    text-align: end;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    font-size: 24px;
+    font-weight: 800;
+    border: 2px solid #2b2b2b;
+    border-radius: 32px;
+    color: #666CFF;
+    background-color: #181818;
+}
+
+.count-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #2b2b2b;
+    border-radius: 40px;
+    background-color: #1e1e1e;
+    transition: 180ms;
+}
+.count-button:hover {
+    cursor: pointer;
+    border-radius: 26px;
+    background-color: #2b2b2b;
+}
