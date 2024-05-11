@@ -11,6 +11,7 @@
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1224373306795364432"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104516051733065901"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104526690719387679"],
+.containerDefault_ae2ea4 a[data-list-item-id="channels___1238649517902139403"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1191846540218736650"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1192344004520595577"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1213565675327590470"],
@@ -19,14 +20,12 @@
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1213565514450870292"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104523856846270546"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104523460052520980"],
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1148015790264692736"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1126864557596479559"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1126864502554624042"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1190661950800142386"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104552173695680583"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104523836302573688"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104523441157181511"],
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1194832530810089472"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104552018414161981"] {
     padding: 9px 5px;
 }
@@ -85,6 +84,10 @@
     content: "🌐";
     background-color: #61d1ff40;
 }
+.containerDefault_ae2ea4 a[data-list-item-id="channels___1238649517902139403"]::before {
+    content: "🚀";
+    background-color: #f92f6040;
+}
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1191846540218736650"]::before {
     content: "🤖";
     background-color: #cdc5d740;
@@ -117,10 +120,6 @@
     content: "✨";
     background-color: #ffba2540;
 }
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1148015790264692736"]::before {
-    content: "🗿";
-    background-color: #d3d3d340;
-}
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1126864557596479559"]::before {
     content: "👤";
     background-color: #6b478d40;
@@ -144,10 +143,6 @@
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104523441157181511"]::before {
     content: "✨";
     background-color: #ffba2540;
-}
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1194832530810089472"]::before {
-    content: "🗿";
-    background-color: #d3d3d340;
 }
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104552018414161981"]::before {
     content: "🆘";
@@ -181,6 +176,7 @@
                              a[data-list-item-id="channels___1224373306795364432"],
                              a[data-list-item-id="channels___1104516051733065901"],
                              a[data-list-item-id="channels___1104526690719387679"],
+                             a[data-list-item-id="channels___1238649517902139403"],
                              a[data-list-item-id="channels___1191846540218736650"],
                              a[data-list-item-id="channels___1192344004520595577"],
                              a[data-list-item-id="channels___1213565675327590470"],
@@ -189,14 +185,12 @@
                              a[data-list-item-id="channels___1213565514450870292"],
                              a[data-list-item-id="channels___1104523856846270546"],
                              a[data-list-item-id="channels___1104523460052520980"],
-                             a[data-list-item-id="channels___1148015790264692736"],
                              a[data-list-item-id="channels___1126864557596479559"],
                              a[data-list-item-id="channels___1126864502554624042"],
                              a[data-list-item-id="channels___1190661950800142386"],
                              a[data-list-item-id="channels___1104552173695680583"],
                              a[data-list-item-id="channels___1104523836302573688"],
                              a[data-list-item-id="channels___1104523441157181511"],
-                             a[data-list-item-id="channels___1194832530810089472"],
                              a[data-list-item-id="channels___1104552018414161981"]) :is(.iconContainer__6a580, .linkBottom__942a1) {
     margin-left: 37px;
 }
