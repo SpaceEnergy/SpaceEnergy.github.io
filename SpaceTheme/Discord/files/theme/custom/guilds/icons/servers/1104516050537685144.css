@@ -10,7 +10,6 @@
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1112389436815187979"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1224373306795364432"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104516051733065901"],
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104526690719387679"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1238649517902139403"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1191846540218736650"],
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1192344004520595577"],
@@ -79,10 +78,6 @@
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1104516051733065901"]::before {
     content: "💬";
     background-color: #ffffff40;
-}
-.containerDefault_ae2ea4 a[data-list-item-id="channels___1104526690719387679"]::before {
-    content: "🌐";
-    background-color: #61d1ff40;
 }
 .containerDefault_ae2ea4 a[data-list-item-id="channels___1238649517902139403"]::before {
     content: "🚀";
@@ -175,7 +170,6 @@
                              a[data-list-item-id="channels___1112389436815187979"],
                              a[data-list-item-id="channels___1224373306795364432"],
                              a[data-list-item-id="channels___1104516051733065901"],
-                             a[data-list-item-id="channels___1104526690719387679"],
                              a[data-list-item-id="channels___1238649517902139403"],
                              a[data-list-item-id="channels___1191846540218736650"],
                              a[data-list-item-id="channels___1192344004520595577"],
