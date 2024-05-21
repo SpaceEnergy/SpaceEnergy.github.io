@@ -1,0 +1,21 @@
+.session__201cb {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.session__201cb.currentSession__700d9 {
+    margin-top: 10px;
+}
+
+.session__201cb .sessionIcon_df2e9c {
+    color: var(--interactive-normal);
+    background-color: var(--color-4);
+}
+
+.otherSessions_bb9ad2 {
+    gap: 10px;
+}
+.otherSessions_bb9ad2 .children_aba8cb {
+    gap: 5px;
+}

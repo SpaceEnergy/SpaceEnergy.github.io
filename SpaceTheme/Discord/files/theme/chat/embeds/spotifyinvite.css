@@ -1,5 +1,6 @@
 /* Base */
-.invite__2a93b {
+.invite__2a93b:has(.artwork_ea47dd) {
+    display: unset;
     height: fit-content;
     min-width: 500px;
     margin-top: 2.5px;
@@ -8,10 +9,10 @@
     border-radius: 8px;
     background-color: #000 !important;
 }
-.invite__2a93b:has(.state__9cb82) {
+.invite__2a93b:has(.artwork_ea47dd):has(.state__9cb82) {
     padding: 28px 10px 48px;
 }
-.invite__2a93b .fullHeight_b454e6 {
+.invite__2a93b:has(.artwork_ea47dd) .fullHeight_b454e6 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -19,7 +20,7 @@
 }
 
 /* Haeder */
-.invite__2a93b .header__1c712 {
+.invite__2a93b:has(.artwork_ea47dd) .header__1c712 {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -27,17 +28,20 @@
 }
 
 /* Artwork */
-.invite__2a93b .anchor_c8ddc0:has(.artwork_ea47dd) {
+.invite__2a93b:has(.artwork_ea47dd) .anchor_c8ddc0 {
     height: 100px;
 }
-.invite__2a93b .anchor_c8ddc0 .artwork_ea47dd {
+.invite__2a93b:has(.artwork_ea47dd) .anchor_c8ddc0 .artwork_ea47dd {
     border-radius: 8px;
 }
-.coverImageWrapper_d05fe1 {
+.invite__2a93b:has(.artwork_ea47dd) .coverImageWrapper_d05fe1 {
+    position: absolute;
     display: flex;
     max-width: unset;
+    opacity: .6;
 }
-.coverImageActionable__8caed {
+.invite__2a93b:has(.artwork_ea47dd) .coverImageActionable__8caed {
+    height: 100%;
     filter: blur(5px) brightness(.8) !important;
     -webkit-mask: none;
     mask: none !important;
@@ -45,21 +49,21 @@
 }
 
 /* Text */
-.details__22e62,
-.state__9cb82 {
+.invite__2a93b:has(.artwork_ea47dd) .details__22e62,
+.invite__2a93b:has(.artwork_ea47dd) .state__9cb82 {
     max-width: 356px;
     white-space: unset;
 }
-.details__22e62 {
+.invite__2a93b:has(.artwork_ea47dd) .details__22e62 {
     white-space: nowrap;
 }
-.invite__2a93b .details__22e62 .anchor_c8ddc0 {
+.invite__2a93b:has(.artwork_ea47dd) .details__22e62 .anchor_c8ddc0 {
     font-size: 20px;
     font-weight: 600;
     line-height: 22px;
     color: var(--text-normal);
 }
-.invite__2a93b .state__9cb82 {
+.invite__2a93b:has(.artwork_ea47dd) .state__9cb82 {
     filter: brightness(.7);
     font-size: 18px;
     font-weight: 300;
@@ -67,29 +71,29 @@
 }
 
 /* Buttons */
-.invite__2a93b .actionAndParty__316e0 {
+.invite__2a93b:has(.artwork_ea47dd) .actionAndParty__316e0 {
     position: absolute;
     bottom: 10px;
     left: 10px;
     justify-content: space-between;
     width: calc(100% - 20px);
 }
-.invite__2a93b .actionAndParty__316e0 .actionButton__8649e {
+.invite__2a93b:has(.artwork_ea47dd) .actionAndParty__316e0 .actionButton__8649e {
     color: #1ed760;
     backdrop-filter: blur(2px) brightness(0.5);
     background-color: transparent;
     opacity: 1;
 }
-.invite__2a93b .actionAndParty__316e0 .disabledButtonWrapper_b04230 .actionButton__8649e {
+.invite__2a93b:has(.artwork_ea47dd) .actionAndParty__316e0 .disabledButtonWrapper_b04230 .actionButton__8649e {
     filter: brightness(0.5);
 }
-.invite__2a93b .actionAndParty__316e0 .actionButton__8649e {
+.invite__2a93b:has(.artwork_ea47dd) .actionAndParty__316e0 .actionButton__8649e {
     display: none;
 }
-.invite__2a93b:has(.state__9cb82) .actionButton__8649e {
+.invite__2a93b:has(.artwork_ea47dd):has(.state__9cb82) .actionButton__8649e {
     display: block;
 }
-.invite__2a93b .partyMember__7fbef {
+.invite__2a93b:has(.artwork_ea47dd) .partyMember__7fbef {
     margin: 0;
     padding: 5px;
     border-radius: 8px;

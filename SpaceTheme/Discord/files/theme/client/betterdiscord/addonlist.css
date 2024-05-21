@@ -4,7 +4,7 @@
 
 .bd-addon-list {
     display: grid;
-    grid: auto-flow dense/repeat(auto-fit,minmax(30rem,1fr));
+    grid: auto-flow dense/repeat(auto-fit,minmax(20rem,1fr));
     grid-auto-rows: minmax(3rem,auto);
     grid-gap: 15px;
 }

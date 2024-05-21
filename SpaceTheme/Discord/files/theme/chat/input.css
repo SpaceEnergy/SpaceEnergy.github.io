@@ -1,18 +1,20 @@
 /*Normal*/
-.form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f {
+.form__1b569 .channelTextArea_cb604a {
+    width: calc(100% - 32px);
+}
+.form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f,
+.form__1b569 .channelTextArea_cb604a .scrollableContainer_ff917f {
     background-color: var(--color-1);
 }
-.form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f .inner__9fd0b {
+.form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f .inner__9fd0b,
+.form__1b569 .channelTextArea_cb604a .scrollableContainer_ff917f .inner__9fd0b,
+.messageListItem__050f9 .scrollableContainer_ff917f.themedBackground__3a4c0:has(.inner__9fd0b) {
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f .divider__855e3 {
+.form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f .divider__855e3,
+.form__1b569 .channelTextArea_cb604a .scrollableContainer_ff917f .divider__855e3 {
     display: none;
-}
-.channelTextArea_c2094b .channelAttachmentArea__5e46a {
-    margin: 0 0 2.5px;
-    border-radius: 8px;
-    background-color: var(--color-2);
 }
 .replyBar_ed6afc {
     margin: 0 0 2.5px;
@@ -69,7 +71,7 @@
     padding-left: 2.5px;
 }
 .webkit__8d35a .buttons__7ecff {
-    margin-right: 2.5px;
+    margin-right: 2.5px !important;
 }
 .buttons__7ecff .expression-picker-chat-input-button,
 .buttons__7ecff>.button__581d0,
@@ -92,4 +94,15 @@
     padding: 0 4px;
     margin-left: 4px;
     margin-right: 4px;
+}
+
+
+
+
+
+
+.autocomplete__2e602 {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-4);
 }

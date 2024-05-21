@@ -1,0 +1,58 @@
+#experiments-tab .h1_dc86b3.title__1b7e8 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+#experiments-tab .children_aba8cb::before {
+    content: "Experiments are unreleased Discord features. They might not work, or even break your client or get your account disabled. \a\a Only use experiments if you know what you're doing. BetterDiscord is not responsible for any damage caused by enabling experiments.";
+    margin: 0 0 15px;
+    padding: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    white-space: pre-wrap;
+    border: 2px solid #EF4B4B;
+    border-radius: 8px;
+    color: var(--header-primary);
+    background: rgba(239, 75, 75, 0.17);
+}
+
+
+#experiments-tab .children_aba8cb {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+
+#experiments-tab .children_aba8cb .container__33507 {
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+
+#experiments-tab .children_aba8cb .group_c2a6cb {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: var(--color-3);
+}
+
+#experiments-tab .children_aba8cb .group_c2a6cb .h3__1f119.title__1b7e8 {
+    align-items: center;
+    margin: 0;
+}
+
+#experiments-tab .children_aba8cb .group_c2a6cb .divider__14bb6 {
+    display: none;
+}
+
+#experiments-tab .children_aba8cb .group_c2a6cb .h5__28baa {
+    margin-top: 10px;
+}
+
+
+#experiments-tab .children_aba8cb .emptyState__20005 {
+    margin: 30px 0;
+}

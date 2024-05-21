@@ -12,10 +12,10 @@
 
 .positionContainer_f54115,
 .wrapper__0757b:not(.emojiPickerHasTabWrapper__63198) {
-    height: 750px;
+    height: 650px;
 }
 .wrapper__0757b:not(.emojiPickerHasTabWrapper__63198) .emojiPicker__5e2e2 {
-    height: calc(750px - 58px);
+    height: calc(650px - 58px);
     border-radius: 8px;
 }
 
@@ -125,10 +125,10 @@
     max-height: 455px;
     border-radius: 8px;
     background-color: var(--color-3);
-    transform: rotate(-90deg) translateX(-388px) translateY(213.5px);
+    transform: rotate(-90deg) translateX(-288px) translateY(213.5px);
 }
 .wrapper__0757b:not(.emojiPickerHasTabWrapper__63198) .wrapper__45980.categoryList_eac4ac {
-    transform: rotate(-90deg) translateX(-440.5px) translateY(213.5px);
+    transform: rotate(-90deg) translateX(-340.5px) translateY(213.5px);
 }
 
 .wrapper__45980.categoryList_eac4ac .categoryItem__4a642,

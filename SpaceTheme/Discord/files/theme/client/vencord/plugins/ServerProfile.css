@@ -1,0 +1,58 @@
+.root_a28985:has(.vc-gp-root) {
+    border-radius: 8px;
+    background-color: var(--color-4);
+}
+
+.vc-gp-banner {
+    width: calc(100% - 30px);
+    margin: 15px 15px 0;
+    border-radius: 8px;
+}
+
+.vc-gp-header {
+    margin: 15px;
+}
+.vc-gp-header img {
+    border-radius: 16px;
+}
+
+.vc-gp-name {
+    text-transform: none;
+}
+
+.vc-gp-tab-bar {
+    position: relative;
+    gap: 10px;
+    margin: 15px 15px 0;
+    padding: 10px 10px 0;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    background-color: var(--color-1);
+}
+.vc-gp-tab {
+    height: unset;
+    padding: 15px 15px;
+    border: none !important;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.vc-gp-tab:hover {
+    background-color: var(--color-4);
+}
+.vc-gp-tab.vc-gp-selected {
+    background-color: var(--color-4);
+}
+
+.vc-gp-tab-content {
+    height: 250px;
+    margin: 0 15px 15px;
+    padding: 15px 10px 10px;
+    border-radius: 0 0 8px 8px;
+    background-color: var(--color-1);
+}
+
+.vc-gp-scroller .listRow__50619 {
+    margin: 0 0 10px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}

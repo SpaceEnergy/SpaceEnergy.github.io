@@ -1,0 +1,12 @@
+.sidebarRegionScroller__8113e .item__48dda {
+    display: flex;
+}
+
+.sidebarRegionScroller__8113e .item__48dda[data-tab-id]::before {
+    min-height: 18px;
+    min-width: 18px;
+    margin-right: 12px;
+    content: "";
+    background-size: 18px;
+    filter: invert(0.6);
+}

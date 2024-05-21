@@ -22,11 +22,16 @@
 
 /* Nav toolbar buttons */
 .toolbar__62fb5 .iconWrapper_de6cd1 {
-    height: unset;
+    height: 34px;
     margin: 5px 2.5px;
     padding: 5px 18px;
     border-radius: 8px;
     background-color: var(--color-3);
+}
+
+.toolbar__62fb5 .iconWrapper_de6cd1 .iconBadge__20a6b {
+    right: 18px;
+    bottom: 6px;
 }
 
 .inviteToolbar__7cc96 .divider_bdb894 {

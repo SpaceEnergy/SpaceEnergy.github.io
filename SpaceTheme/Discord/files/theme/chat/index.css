@@ -12,6 +12,7 @@
 .chatContent_f087cb .scroller_e412fe {
     border-radius: 8px;
 }
-.form_d8a4a1::before {
+.form_d8a4a1::before,
+.form_d8a4a1::after {
     display: none;
 }
