@@ -1,1 +1,106 @@
-.container_debb33 .avatarWrapper__500a6{padding:5px 8px 5px 8px;margin:0 3.333px;border-radius:8px;transition:background-color .15s ease-in-out;background-color:var(--color-1);cursor:pointer}.container_debb33 .avatarWrapper__500a6:hover{background-color:var(--color-3)}.hoverRoll__3ea9e{cursor:pointer}.container_debb33 .avatarWrapper__500a6 .title__4a7a9{width:fit-content}.container_debb33 .button_ae40a4{width:-webkit-fill-available;margin:0 3.333px;transition:background-color .15s ease-in-out;background-color:var(--color-3)}.container_debb33 .button_ae40a4:hover{background-color:var(--color-1)!important}.container_e1958d{margin-bottom:5px!important;border:none;border-radius:8px;background-color:var(--color-2)}.container_e1958d .button_b82d53{background-color:var(--color-3);transition:background-color .15s ease-in-out}.container_e1958d .button_b82d53:hover{background-color:var(--color-1)}.container_e1958d .buttonIcon__64412{width:20px!important;height:20px!important}.panel_bd8c76{padding:12px 8px 8px;margin-bottom:-6px;border:none;border-radius:8px 8px 0 0;background-color:var(--color-2)!important}.panel_bd8c76 .body_dc19cb{margin:0 3.333px}.panels__58331{background-color:transparent!important}.container_debb33{display:grid;height:95px;padding:5px;margin:0!important;border-radius:8px;background-color:var(--color-2)!important}
+/*
+=-=-=-=-=-=-=-=
+?User Button
+=-=-=-=-=-=-=-=
+*/
+
+.container_debb33 .avatarWrapper__500a6 {
+    padding: 5px 8px 5px 8px;
+    margin: 0 3.333px;
+    border-radius: 8px;
+    transition: background-color 0.15s ease-in-out;
+    background-color: var(--color-1);
+    cursor: pointer;
+}
+.container_debb33 .avatarWrapper__500a6:hover {
+    background-color: var(--color-3);
+}
+.hoverRoll__3ea9e {
+    cursor: pointer;
+}
+
+.container_debb33 .avatarWrapper__500a6 .title__4a7a9 {
+    width: fit-content;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Buttons
+=-=-=-=-=-=-=-=
+*/
+
+.container_debb33 .button_ae40a4 {
+    width: -webkit-fill-available;
+    margin: 0 3.333px;
+    transition: background-color 0.15s ease-in-out;
+    background-color: var(--color-3);
+}
+.container_debb33 .button_ae40a4:hover {
+    background-color: var(--color-1) !important;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Voice
+=-=-=-=-=-=-=-=
+*/
+
+.container_e1958d {
+    margin-bottom: 5px !important;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+.container_e1958d .button_b82d53 {
+    background-color: var(--color-3);
+    transition: background-color 0.15s ease-in-out;
+}
+.container_e1958d .button_b82d53:hover {
+    background-color: var(--color-1);
+}
+
+.container_e1958d .buttonIcon__64412 {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Stream/Games
+=-=-=-=-=-=-=-=
+*/
+
+.panel_bd8c76 {
+    padding: 12px 8px 8px;
+    margin-bottom: -6px;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    background-color: var(--color-2) !important;
+}
+
+.panel_bd8c76 .body_dc19cb {
+    margin: 0 3.333px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Base
+=-=-=-=-=-=-=-=
+*/
+
+.panels__58331 {
+    background-color: transparent !important;
+}
+.container_debb33 {
+    display: grid;
+    height: 95px;
+    padding: 5px;
+    margin: 0 !important;
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}

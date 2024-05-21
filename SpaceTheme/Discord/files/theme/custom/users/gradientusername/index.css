@@ -1,1 +1,35 @@
-html:has(.modeSelected__473f1[data-list-item-id=channels___1126874696097484821]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f{display:flex;flex-direction:column}html:has(.modeSelected__473f1[data-list-item-id=channels___1126874696097484821]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::before{order:-2;display:flex;padding:10px 16px 4px;font-size:14px;font-weight:700;line-height:18px;white-space:pre-wrap;content:"Request Gradient Username:";border-radius:8px 8px 0 0;color:var(--header-primary);background:var(--color-2)}html:has(.modeSelected__473f1[data-list-item-id=channels___1126874696097484821]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::after{order:-1;display:flex;padding:0 16px 8px;font-size:14px;line-height:18px;white-space:pre-wrap;content:"• 1. Color on Left side of the Name \a • 2. Color on Right Side \a • Please wait at least 24 hours for requests to be fulfilled. Requests will not always be taken in instantly.";border-radius:0;color:var(--header-secondary);background:var(--color-2)}html:has(.modeSelected__473f1[data-list-item-id=channels___1126874696097484821],.scrollableContainer_ff917f::after) .form_d8a4a1 .inner__9fd0b{border-radius:0 0 8px 8px}
+/* Gradient Username Request */
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126874696097484821"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f {
+    display: flex;
+    flex-direction: column;
+}
+
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126874696097484821"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::before {
+    order: -2;
+    display: flex;
+    padding: 10px 16px 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    white-space: pre-wrap;
+    content: "Request Gradient Username:";
+    border-radius: 8px 8px 0 0;
+    color: var(--header-primary);
+    background: var(--color-2);
+}
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126874696097484821"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::after {
+    order: -1;
+    display: flex;
+    padding: 0 16px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: pre-wrap;
+    content: "• 1. Color on Left side of the Name \a • 2. Color on Right Side \a • Please wait at least 24 hours for requests to be fulfilled. Requests will not always be taken in instantly.";
+    border-radius: 0;
+    color: var(--header-secondary);
+    background: var(--color-2);
+}
+
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126874696097484821"], .scrollableContainer_ff917f::after) .form_d8a4a1 .inner__9fd0b {
+    border-radius: 0 0 8px 8px;
+}

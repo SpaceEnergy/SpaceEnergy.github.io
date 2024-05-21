@@ -1,1 +1,45 @@
-.titleBar__710b0{height:34px;padding-top:0;margin-top:0;background-color:var(--background)}.wordmark__5b8c9 svg{display:none}.wordmark__5b8c9::before{content:'Space';position:relative;top:6px;left:6px;font-size:16px;font-weight:500;color:var(--accent-2)}.wordmark__5b8c9::after{content:'Theme';position:relative;top:6px;left:6px;font-size:16px;font-weight:900;color:var(--accent)}.titleBar__710b0 .winButton_f17fb6{top:0;height:34px;width:40px}.winButton_f17fb6 svg{color:var(--accent)}.winButtonClose__6396d:hover{background-color:var(--accent)}.winButtonClose__6396d:hover svg{color:var(--background)}
+.titleBar__710b0 {
+    height: 34px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: var(--background);
+}
+
+/* Logo */
+.wordmark__5b8c9 svg {
+	display: none;
+}
+.wordmark__5b8c9::before {
+	content: 'Space';
+    position: relative;
+    top: 6px;
+	left: 6px;
+	font-size: 16px;
+	font-weight: 500;
+    color: var(--accent-2) ;
+}
+.wordmark__5b8c9::after {
+	content: 'Theme';
+    position: relative;
+    top: 6px;
+	left: 6px;
+	font-size: 16px;
+	font-weight: 900;
+    color: var(--accent);
+}
+
+/* Close/Maximize/Minimize Buttons */
+.titleBar__710b0 .winButton_f17fb6 {
+    top: 0;
+    height: 34px;
+    width: 40px;
+}
+.winButton_f17fb6 svg {
+    color: var(--accent);
+}
+.winButtonClose__6396d:hover {
+    background-color: var(--accent);
+}
+.winButtonClose__6396d:hover svg {
+    color: var(--background);
+}

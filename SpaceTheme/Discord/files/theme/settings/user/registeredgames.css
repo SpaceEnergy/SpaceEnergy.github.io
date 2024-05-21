@@ -1,1 +1,27 @@
-.children_aba8cb .activeGame__6d821{border-radius:8px;background-color:var(--color-2)}.children_aba8cb .nowPlaying_a3b60b{background-color:var(--accent)!important}.children_aba8cb:has(.nowPlayingAdd_ab1001) .marginTop40_bda863{margin:0 0 15px;padding:10px;border-radius:8px;background-color:var(--color-2)}.children_aba8cb .game__19f4b.card_dc88cd{margin-top:5px;padding:15px;border-radius:8px;background-color:var(--color-1);box-shadow:none}.children_aba8cb .game__19f4b .removeGame__4f4cb{top:-10px;right:-10px}
+.children_aba8cb .activeGame__6d821 {
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.children_aba8cb .nowPlaying_a3b60b {
+    background-color: var(--accent) !important;
+}
+
+.children_aba8cb:has(.nowPlayingAdd_ab1001) .marginTop40_bda863 {
+    margin: 0px 0 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+.children_aba8cb .game__19f4b.card_dc88cd {
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+    box-shadow: none;
+}
+
+.children_aba8cb .game__19f4b .removeGame__4f4cb {
+    top: -10px;
+    right: -10px;
+}

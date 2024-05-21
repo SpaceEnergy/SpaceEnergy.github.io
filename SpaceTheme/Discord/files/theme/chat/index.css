@@ -1,1 +1,18 @@
-.chat__52833{background-color:transparent}.content__01e65:before{display:none}.chatContent_f087cb{border-radius:8px;background-color:var(--color-1)}.chatContent_f087cb .scroller_e412fe{border-radius:8px}.form_d8a4a1::after,.form_d8a4a1::before{display:none}
+.chat__52833 {
+    background-color: transparent;
+}
+.content__01e65:before {
+    display: none;
+}
+
+.chatContent_f087cb {
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.chatContent_f087cb .scroller_e412fe {
+    border-radius: 8px;
+}
+.form_d8a4a1::before,
+.form_d8a4a1::after {
+    display: none;
+}

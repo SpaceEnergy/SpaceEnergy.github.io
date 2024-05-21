@@ -1,1 +1,14 @@
-.container__03ec9,.container__03ec9 .container__6b2e5,.container__03ec9 .scrollerContainer_dda72c{border-radius:8px;background-color:var(--color-1)!important}.container__03ec9 .channelRow__538ef,.container__03ec9 .prompt__1b100{background-color:var(--color-2)}.optionButtonWrapper_c86844.selected__31118{background-color:var(--color-1)}
+/* Browse Channels v0.1 */
+.container__03ec9,
+.container__03ec9 .scrollerContainer_dda72c,
+.container__03ec9 .container__6b2e5 {
+    border-radius: 8px;
+    background-color: var(--color-1) !important;
+}
+.container__03ec9 .prompt__1b100,
+.container__03ec9 .channelRow__538ef {
+    background-color: var(--color-2);
+}
+.optionButtonWrapper_c86844.selected__31118 {
+    background-color: var(--color-1);
+}

@@ -1,1 +1,379 @@
-.sidebar_e031be>.scrollerBase__65223{margin:0 0 15px;border-radius:8px;background-color:var(--color-2)}.pageWrapper_c182d3,.pageWrapper_c182d3 .scroller__26b89,.scroller__32e73:has(.guildListSection_da3f77){border-radius:8px;background-color:var(--color-1)}.headerContainer_bfb753,.searchHeader__2707c{height:200px;border-radius:8px;background-color:var(--color-2)}.headerContainer_bfb753 .headerImage__9a34a,.searchHeader__2707c .headerImage_bc3304{display:none}.search_e47903 .searchBox__56feb{border-radius:8px;background-color:var(--color-3);box-shadow:none}.search_e47903 .searchBox__56feb:is(:focus,:focus-within){box-shadow:0 0 0 3px var(--accent)}.search_e47903 .searchBox__56feb .searchBoxInput__56498{color:#fff}.card__86773,.container_c83a4f{height:400px;background-color:var(--color-2)!important}img.splashImage__9b574.splashImageHeight__19534{border-radius:8px}.splash_c32fae{width:-webkit-fill-available;margin:10px}.iconMask__4092e{background-color:var(--color-2)!important}.actionButtons_dc4206 .wrapper__4e6b6{background-color:#2b2b2b;border-radius:8px}.searchBar__621ec .searchBarComponent__8f95f{height:100%;text-align:center;white-space:unset;background-color:var(--color-3)}.searchBar__621ec{height:60px;padding:6px;border-radius:8px;background-color:var(--color-2);box-shadow:none;-webkit-box-shadow:none}.channel__0aef5{max-width:unset}.privateChannels__9b518 .scroller__89969{margin:15px 0;border-radius:8px}.scroller__89969{background-color:var(--color-2)!important}.privateChannels__9b518{background-color:var(--background)}.peopleColumn__0c784{margin:0 15px 0 0;border-radius:8px;background-color:var(--color-1)}.peopleColumn__0c784 .searchBar__310d8{height:40px;margin:15px 15px 5px 15px;border-radius:8px;background-color:var(--color-2)}.tabBody_a90ea8{background-color:var(--background)}.peopleList_d2f527{margin:15px;padding:0}.peopleList_d2f527::-webkit-scrollbar{display:none}.peopleList_d2f527>div{display:flex;flex-wrap:wrap}.peopleListItem_dab480{height:auto!important;width:307px;margin:5px!important;padding:8px!important;cursor:default;border:none;border-radius:8px;background-color:var(--color-2)!important}.peopleListItem_dab480 .listItemContents_b18e9d,.peopleListItem_dab480 .listItemContents_c8a1c1,.peopleListItem_dab480 .listItemContents_e97b28{display:flex;flex-wrap:wrap;align-content:space-between;max-width:291px}.peopleListItem_dab480 .userInfo__83819{display:flex;flex:unset;align-items:center;width:100%;height:35px;padding:8px;border-radius:8px;background-color:var(--color-1)}.peopleListItem_dab480 .userInfo__83819:hover{background-color:var(--color-3)}.peopleListItem_dab480 .userInfo__83819 .discriminator__463fe{visibility:hidden!important}.peopleListItem_dab480 .userInfo__83819:hover .discriminator__463fe{visibility:visible!important}.peopleListItem_dab480 .username__267df{overflow:unset}.peopleListItem_dab480 .userInfo__83819:hover .username__267df{overflow:hidden}.peopleListItem_dab480 .actionButton__2b4bb.actionDeny__3ce98,.peopleListItem_dab480 .actions__6ae9f,.peopleListItem_dab480 .actions_bd37ed{width:100%;margin:8px 0 0}.peopleListItem_dab480 .actions__6ae9f .actionButton__2b4bb{margin:0}.peopleListItem_dab480 .actions__6ae9f .actionButton__2b4bb:nth-of-type(2){margin-left:5px}.peopleListItem_dab480 .actionButton__2b4bb{width:100%;margin-left:7px;border-radius:8px;background-color:var(--color-3)}.peopleListItem_dab480 .actionButton__2b4bb:hover{background-color:var(--color-1)}.actionButton__2b4bb:first-child{margin:0}.itemCard_b64118{border:none;background-color:var(--color-3)}.itemCard_b64118 .section__253ec{background-color:var(--color-4)}.emptyCard__204d9{background-color:var(--color-3)}.nowPlayingColumn_b025fe{min-width:420px;background-color:var(--background)}.container__3673d{border-radius:8px}.nowPlayingColumn_b025fe .scroller__7c25e{border:none}.container__3673d{background-color:var(--color-2)}
+/**
+* @name 🪐SpaceTheme🪐
+* @author SpaceEnergy
+* @version alpha
+* @description SpaceTheme for Discord
+* @invite 7Zv8Xz3Vzn
+* @donate https://ko-fi.com/spaceenergy
+* @authorLink https://github.com/SpaceEnergy
+* @website https://spaceenergy.github.io
+**/
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?General
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Discover
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Left Sidebar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Sidebar */
+.sidebar_e031be>.scrollerBase__65223 {
+    margin: 0 0 15px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Main Base
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Base
+=-=-=-=-=-=-=-=
+*/
+
+.pageWrapper_c182d3,
+.pageWrapper_c182d3 .scroller__26b89,
+.scroller__32e73:has(.guildListSection_da3f77) {
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+
+
+/*
+=-=-=-=-=-=-=-=
+?Banner
+=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.searchHeader__2707c,
+.headerContainer_bfb753 {
+    height: 200px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.searchHeader__2707c .headerImage_bc3304,
+.headerContainer_bfb753 .headerImage__9a34a {
+    display: none;
+}
+
+/* Searchbar */
+.search_e47903 .searchBox__56feb {
+    border-radius: 8px;
+    background-color: var(--color-3);
+    box-shadow: none;
+}
+.search_e47903 .searchBox__56feb:is(:focus, :focus-within) {
+    box-shadow: 0 0 0 3px var(--accent);
+}
+.search_e47903 .searchBox__56feb .searchBoxInput__56498 {
+    color: #fff;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Cards
+=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.card__86773,
+.container_c83a4f {
+    height: 400px;
+    background-color: var(--color-2) !important;
+}
+
+/* Banner */
+img.splashImage__9b574.splashImageHeight__19534 {
+    border-radius: 8px;
+}
+.splash_c32fae {
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+
+/* Icon */
+.iconMask__4092e {
+    background-color: var(--color-2) !important;
+}
+
+/* Action Button */
+.actionButtons_dc4206 .wrapper__4e6b6 {
+    background-color: #2b2b2b;
+    border-radius: 8px;
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Friends
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Left Sidebar
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+=-=-=-=-=-=-=-=
+?Find or start a conversation Button
+=-=-=-=-=-=-=-=
+*/
+
+.searchBar__621ec .searchBarComponent__8f95f {
+    height: 100%;
+    text-align: center;
+    white-space: unset;
+    background-color: var(--color-3);
+}
+.searchBar__621ec {
+    height: 60px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Friends
+=-=-=-=-=-=-=-=
+*/
+
+
+.channel__0aef5 {
+    max-width: unset;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Module
+=-=-=-=-=-=-=-=
+*/
+
+.privateChannels__9b518 .scroller__89969 {
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+
+/*
+=-=-=-=-=-=-=-=
+?Background
+=-=-=-=-=-=-=-=
+*/
+
+.scroller__89969 {
+    background-color: var(--color-2) !important;
+}
+.privateChannels__9b518 {
+    background-color: var(--background);
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Middel
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Module */
+.peopleColumn__0c784 {
+    margin: 0 15px 0 0;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+/* Searchbar */
+.peopleColumn__0c784
+.searchBar__310d8 {
+    height: 40px;
+    margin: 15px 15px 5px 15px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+/* Background */
+.tabBody_a90ea8 {
+    background-color: var(--background);
+}
+
+/* Friends List Cards */
+.peopleList_d2f527 {
+    margin: 15px;
+    padding: 0;
+}
+.peopleList_d2f527::-webkit-scrollbar {
+    display: none;
+}
+.peopleList_d2f527>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.peopleListItem_dab480 {
+    height: auto !important;
+    width: 307px;
+    margin: 5px !important;
+    padding: 8px !important;
+    cursor: default;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-2) !important;
+}
+.peopleListItem_dab480 .listItemContents_e97b28,
+.peopleListItem_dab480 .listItemContents_c8a1c1,
+.peopleListItem_dab480 .listItemContents_b18e9d {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    max-width: 291px;
+}
+
+.peopleListItem_dab480 .userInfo__83819 {
+    display: flex;
+    flex: unset;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.peopleListItem_dab480 .userInfo__83819:hover {
+    background-color: var(--color-3);
+}
+.peopleListItem_dab480 .userInfo__83819 .discriminator__463fe {
+    visibility: hidden !important;
+}
+.peopleListItem_dab480 .userInfo__83819:hover .discriminator__463fe {
+    visibility: visible !important;
+}
+
+.peopleListItem_dab480 .username__267df {
+    overflow: unset;
+}
+.peopleListItem_dab480 .userInfo__83819:hover .username__267df {
+    overflow: hidden;
+}
+
+.peopleListItem_dab480 .actions_bd37ed,
+.peopleListItem_dab480 .actions__6ae9f,
+.peopleListItem_dab480 .actionButton__2b4bb.actionDeny__3ce98 {
+    width: 100%;
+    margin: 8px 0 0;
+}
+.peopleListItem_dab480 .actions__6ae9f .actionButton__2b4bb {
+    margin: 0;
+}
+.peopleListItem_dab480 .actions__6ae9f .actionButton__2b4bb:nth-of-type(2) {
+    margin-left: 5px;
+}
+.peopleListItem_dab480 .actionButton__2b4bb {
+    width: 100%;
+    margin-left: 7px;
+    border-radius: 8px;
+    background-color: var(--color-3);
+}
+.peopleListItem_dab480 .actionButton__2b4bb:hover {
+    background-color: var(--color-1);
+}
+.actionButton__2b4bb:first-child {
+    margin: 0;
+}
+
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Active Now
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/* Cards */
+.itemCard_b64118 {
+    border: none;
+    background-color: var(--color-3);
+}
+.itemCard_b64118
+.section__253ec {
+    background-color: var(--color-4);
+}
+.emptyCard__204d9 {
+    background-color: var(--color-3);
+}
+
+/* Module */
+.nowPlayingColumn_b025fe {
+    min-width: 420px;
+    background-color: var(--background);
+}
+.container__3673d {
+    border-radius: 8px;
+}
+.nowPlayingColumn_b025fe
+.scroller__7c25e {
+    border: none;
+}
+
+/* Background */
+.container__3673d {
+    background-color: var(--color-2);
+}

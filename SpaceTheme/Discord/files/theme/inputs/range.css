@@ -1,1 +1,20 @@
-.slider__22e99 .bar_e58961{background:var(--color-2)}.slider__22e99 .barFill__1f56b{background:var(--accent)}.slider__22e99 .grabber_e3daf3{border:none;background:var(--accent-2)}.slider__22e99 .defaultValue__8e777 .markValue_c91c4e{color:var(--accent)}.slider__22e99 .markDash__54545{width:4px;border-radius:8px;background:var(--color-2)}
+.slider__22e99 .bar_e58961 {
+    background: var(--color-2);
+}
+.slider__22e99 .barFill__1f56b {
+    background: var(--accent);
+}
+
+.slider__22e99 .grabber_e3daf3 {
+    border: none;
+    background: var(--accent-2);
+}
+
+.slider__22e99 .defaultValue__8e777 .markValue_c91c4e {
+    color: var(--accent);
+}
+.slider__22e99 .markDash__54545 {
+    width: 4px;
+    border-radius: 8px;
+    background: var(--color-2);
+}

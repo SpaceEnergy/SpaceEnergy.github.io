@@ -1,1 +1,589 @@
-.codeContainer__49b46 code{border:2px solid var(--background);border-radius:8px;background-color:var(--color-1)}.codeContainer__49b46 code::before{display:block;margin-bottom:5px;padding-bottom:2px;font-weight:600;border-bottom:2px solid var(--color-2)}.codeContainer__49b46 .abnf::before{content:"ABNF"}.codeContainer__49b46 .accesslog::before{content:"Access logs"}.codeContainer__49b46 :is(.actionscript,.as)::before{content:"ActionScript"}.codeContainer__49b46 .ada::before{content:"Ada"}.codeContainer__49b46 :is(.angelscript,.asc)::before{content:"AngelScript"}.codeContainer__49b46 :is(.apache,.apacheconf)::before{content:"Apache"}.codeContainer__49b46 :is(.applescript,.osascript)::before{content:"AppleScript"}.codeContainer__49b46 .arcade::before{content:"Arcade"}.codeContainer__49b46 :is(.arduino,.ino)::before{content:"Arduino (C++ w/Arduino libs)"}.codeContainer__49b46 :is(.armasm,.arm)::before{content:"ARM assembler"}.codeContainer__49b46 :is(.xml,.html,.xhtml,.rss,.atom,.xjb,.xsd,.xsl,.plist,.svg)::before{content:"HTML, XML"}.codeContainer__49b46 :is(.asciidoc,.adoc)::before{content:"AsciiDoc"}.codeContainer__49b46 .aspectj::before{content:"AspectJ"}.codeContainer__49b46 .autohotkey::before{content:"AutoHotkey"}.codeContainer__49b46 .autoit::before{content:"AutoIt"}.codeContainer__49b46 .avrasm::before{content:"AVR assembler"}.codeContainer__49b46 :is(.awk,.mawk,.nawk,.gawk)::before{content:"Awk"}.codeContainer__49b46 :is(.axapta,.x\+\+)::before{content:"X++"}.codeContainer__49b46 :is(.bash,.sh,.zsh)::before{content:"Bash"}.codeContainer__49b46 .basic::before{content:"Basic"}.codeContainer__49b46 .bnf::before{content:"BNF"}.codeContainer__49b46 :is(.brainfuck,.bf)::before{content:"Brainfuck"}.codeContainer__49b46 :is(.c,.h)::before{content:"C"}.codeContainer__49b46 .cal::before{content:"C/AL"}.codeContainer__49b46 :is(.capnproto,.capnp)::before{content:"Cap'n Proto"}.codeContainer__49b46 .ceylon::before{content:"CEYLON"}.codeContainer__49b46 .clean::before{content:"CLEAN"}.codeContainer__49b46 :is(.clojure,.clj)::before{content:"Clojure"}.codeContainer__49b46 .clojure-repl::before{content:"Clojure REPL"}.codeContainer__49b46 :is(.cmake,.cmake\.in)::before{content:"CMake"}.codeContainer__49b46 :is(.coffeescript,.coffee,.cson,.iced)::before{content:"CoffeeScript"}.codeContainer__49b46 .coq::before{content:"Coq"}.codeContainer__49b46 :is(.cos,.cls)::before{content:"Cache Object Script"}.codeContainer__49b46 :is(.cpp,.hpp,.cc,.hh,.cxx,.hxx):before{content:"C++"}.codeContainer__49b46 :is(.crmsh,.crm,.pcmk)::before{content:"Crmsh"}.codeContainer__49b46 :is(.crystal,.cr)::before{content:"Crystal"}.codeContainer__49b46 :is(.cs,.csharp)::before{content:"C#"}.codeContainer__49b46 .csp::before{content:"CSP"}.codeContainer__49b46 .css::before{content:"CSS"}.codeContainer__49b46 .d::before{content:"D"}.codeContainer__49b46 :is(.markdown,.md,.mkdown,.mkd)::before{content:"Markdown"}.codeContainer__49b46 .dart::before{content:"Dart"}.codeContainer__49b46 :is(.delphi,.dpr,.dfm,.pas,.pascal)::before{content:"Delphi"}.codeContainer__49b46 :is(.diff,.patch)::before{content:"Diff"}.codeContainer__49b46 :is(.django,.jinja)::before{content:"Django"}.codeContainer__49b46 :is(.dns,.zone,.bind)::before{content:"DNS Zone file"}.codeContainer__49b46 :is(.dockerfile,.docker)::before{content:"Dockerfile"}.codeContainer__49b46 :is(.dos,.bat,.cmd)::before{content:"DOS"}.codeContainer__49b46 .dsconfig::before{content:"dsconfig"}.codeContainer__49b46 .dts::before{content:"DTS (Device Tree)"}.codeContainer__49b46 :is(.dust,.dst)::before{content:"Dust"}.codeContainer__49b46 .ebnf::before{content:"EBNF"}.codeContainer__49b46 .elixir::before{content:"Elixir"}.codeContainer__49b46 .elm::before{content:"Elm"}.codeContainer__49b46 :is(.ruby,.rb,.gemspac,.podspec,.thor,.irb)::before{content:"Ruby"}.codeContainer__49b46 .erb::before{content:"ERB"}.codeContainer__49b46 .erlang-repl::before{content:"Erlang REPL"}.codeContainer__49b46 :is(.erlang,.erl)::before{content:"Erlang"}.codeContainer__49b46 :is(.excel,.xls,.xlsx)::before{content:"Excel"}.codeContainer__49b46 .fix::before{content:"FIX"}.codeContainer__49b46 :is(.fortran,.f90,.f95)::before{content:"Fortran"}.codeContainer__49b46 :is(.fsharp,.fs,.fsx,.fsi,.fsscript)::before{content:"F#"}.codeContainer__49b46 :is(.gams,.gms)::before{content:"Gams"}.codeContainer__49b46 :is(.gauss,.gss)::before{content:"GAUSS"}.codeContainer__49b46 :is(.gcode,.nc)::before{content:"G-Code"}.codeContainer__49b46 .gherkin::before{content:"Gherkin"}.codeContainer__49b46 .glsl::before{content:"GLSL"}.codeContainer__49b46 .gml::before{content:"GML"}.codeContainer__49b46 .go::before{content:"Go"}.codeContainer__49b46 :is(.golo,.gololang)::before{content:"Golo"}.codeContainer__49b46 .gradle::before{content:"Gradle"}.codeContainer__49b46 .graphql::before{content:"GraphQL"}.codeContainer__49b46 .groovy::before{content:"Groovy"}.codeContainer__49b46 .haml::before{content:"Haml"}.codeContainer__49b46 :is(.handlebars,.hbs,.html\.hbs,.html\.handlebars)::before{content:"Handlebars"}.codeContainer__49b46 :is(.haskell,.hs)::before{content:"Haskell"}.codeContainer__49b46 :is(.haxe,.hx)::before{content:"Haxe"}.codeContainer__49b46 .hsp::before{content:"HSP"}.codeContainer__49b46 .http::before{content:"HTTP"}.codeContainer__49b46 .https::before{content:"HTTPS"}.codeContainer__49b46 :is(.hy,.hylang)::before{content:"Hy"}.codeContainer__49b46 :is(.inform7,.i7)::before{content:"Inform7"}.codeContainer__49b46 :is(.ini,.toml)::before{content:"Ini, TOML"}.codeContainer__49b46 .irpf90::before{content:"IRPF90"}.codeContainer__49b46 .isbl::before{content:"ISBL"}.codeContainer__49b46 :is(.java,.jsp)::before{content:"Java"}.codeContainer__49b46 :is(.javascript,.js,.jsx)::before{content:"JavaScript"}.codeContainer__49b46 .jboss-cli::before{content:"JBOSS CLI"}.codeContainer__49b46 .json::before{content:"JSON"}.codeContainer__49b46 :is(.julia,.jl)::before{content:"Julia"}.codeContainer__49b46 .julia-repl::before{content:"Julia REPL"}.codeContainer__49b46 :is(.kotlin,.kt)::before{content:"Kotlin"}.codeContainer__49b46 :is(.lasso,.ls,.lassoscript)::before{content:"Lasso"}.codeContainer__49b46 :is(.latex,.tex)::before{content:"LaTeX"}.codeContainer__49b46 .ldif::before{content:"LDIF"}.codeContainer__49b46 .leaf::before{content:"Leaf"}.codeContainer__49b46 .less::before{content:"Less"}.codeContainer__49b46 .lisp::before{content:"Lisp"}.codeContainer__49b46 .livecodeserver::before{content:"LiveCode Server"}.codeContainer__49b46 :is(.livescript,.ls)::before{content:"LiveScript"}.codeContainer__49b46 .llvm::before{content:"LLVM IR"}.codeContainer__49b46 .lsl::before{content:"LSL (LINDEN SCRIPTING LANGUAGE)"}.codeContainer__49b46 .lua::before{content:"Lua"}.codeContainer__49b46 :is(.makefile,.mk,.mak,.make)::before{content:"Makefile"}.codeContainer__49b46 :is(.mathematica,.mma,.wl)::before{content:"Mathematica"}.codeContainer__49b46 .matlab::before{content:"Matlab"}.codeContainer__49b46 .maxima::before{content:"Maxima"}.codeContainer__49b46 .mel::before{content:"Maya Embedded Language"}.codeContainer__49b46 .mercury::before{content:"Mercury"}.codeContainer__49b46 :is(.mips,.mipsasm)::before{content:"MIPS Assembler"}.codeContainer__49b46 .mizar::before{content:"Mizar"}.codeContainer__49b46 :is(.perl,.pl,.pm)::before{content:"Perl"}.codeContainer__49b46 .mojolicious::before{content:"Mojolicious"}.codeContainer__49b46 .monkey::before{content:"Monkey"}.codeContainer__49b46 .moonscript::before{content:"Moonscript"}.codeContainer__49b46 .n1ql::before{content:"N1QL"}.codeContainer__49b46 .nestedtext::before{content:"Nested text"}.codeContainer__49b46 :is(.nginx,.nginxconf)::before{content:"Nginx"}.codeContainer__49b46 :is(.nim,.nimrod)::before{content:"Nim"}.codeContainer__49b46 .nix::before{content:"Nix"}.codeContainer__49b46 .node-repl::before{content:"NODE REPL"}.codeContainer__49b46 .nsis::before{content:"NSIS"}.codeContainer__49b46 :is(.objectivec,.mm,.objc,.obj-c,.obj-c\+\+,.objective-c\+\+)::before{content:"Objective C"}.codeContainer__49b46 :is(.ocaml,.ml)::before{content:"OCaml"}.codeContainer__49b46 .glsl::before{content:"OpenGL Shading Language"}.codeContainer__49b46 :is(.openscad,.scad)::before{content:"OpenSCAD"}.codeContainer__49b46 .oxygene::before{content:"Oxygene"}.codeContainer__49b46 .parser3::before{content:"Parser3"}.codeContainer__49b46 :is(.pf,.pf\.conf)::before{content:"PF"}.codeContainer__49b46 :is(.pgsql,.postgred,.postgresql)::before{content:"PostgreSQL & PL/pgSQL"}.codeContainer__49b46 .php::before{content:"PHP"}.codeContainer__49b46 .php-template::before{content:"PHP TEMPLATE"}.codeContainer__49b46 :is(.plaintext,.txt,.text)::before{content:"Plaintext"}.codeContainer__49b46 .pony::before{content:"Pony"}.codeContainer__49b46 :is(.powershell,.ps,.ps1)::before{content:"PowerShell"}.codeContainer__49b46 .processing::before{content:"Processing"}.codeContainer__49b46 .profile::before{content:"Python profiler results"}.codeContainer__49b46 .prolog::before{content:"Prolog"}.codeContainer__49b46 .properties::before{content:"Properties"}.codeContainer__49b46 :is(.protobuf,.proto)::before{content:"Protocol Buffers"}.codeContainer__49b46 :is(.puppet,.pp)::before{content:"Puppet"}.codeContainer__49b46 .purebasic::before{content:"PUREBASIC"}.codeContainer__49b46 :is(.python,.py,.gyp)::before{content:"Python"}.codeContainer__49b46 :is(.python-repl,.pycon)::before{content:"Python REPL"}.codeContainer__49b46 :is(.q,.k,.kdb)::before{content:"Q"}.codeContainer__49b46 .qml::before{content:"QML"}.codeContainer__49b46 .r::before{content:"R"}.codeContainer__49b46 :is(.reasonml,.re)::before{content:"ReasonML"}.codeContainer__49b46 .rib::before{content:"RenderMan RIB"}.codeContainer__49b46 :is(.roboconf,.graph,.instances)::before{content:"Roboconf"}.codeContainer__49b46 .routeros::before{content:"MIKROTIK ROUTEROS SCRIPT"}.codeContainer__49b46 .rsl::before{content:"RenderMan RSL"}.codeContainer__49b46 .ruleslanguage::before{content:"Oracle Rules Language"}.codeContainer__49b46 :is(.rust,.rs)::before{content:"Rust"}.codeContainer__49b46 :is(.sas,.SAS)::before{content:"SAS"}.codeContainer__49b46 .scala::before{content:"Scala"}.codeContainer__49b46 .scheme::before{content:"Scheme"}.codeContainer__49b46 :is(.scilab,.sci)::before{content:"Scilab"}.codeContainer__49b46 .scss::before{content:"SCSS"}.codeContainer__49b46 :is(.shell,.console)::before{content:"Shell"}.codeContainer__49b46 .smali::before{content:"Smali"}.codeContainer__49b46 :is(.smalltalk,.st)::before{content:"Smalltalk"}.codeContainer__49b46 .sml::before{content:"SML"}.codeContainer__49b46 .sqf::before{content:"SQF"}.codeContainer__49b46 .sql::before{content:"SQL"}.codeContainer__49b46 :is(.stan,.stanfuncs)::before{content:"Stan"}.codeContainer__49b46 .stata::before{content:"Stata"}.codeContainer__49b46 :is(.step21,.p21,.step,.stp)::before{content:"STEP Part 21"}.codeContainer__49b46 :is(.stylus,.styl)::before{content:"Stylus"}.codeContainer__49b46 .subunit::before{content:"SubUnit"}.codeContainer__49b46 .swift::before{content:"Swift"}.codeContainer__49b46 .taggerscript::before{content:"TAGGER SCRIPT"}.codeContainer__49b46 :is(.yml,.yaml)::before{content:"YAML"}.codeContainer__49b46 .tap::before{content:"Test Anything Protocol"}.codeContainer__49b46 :is(.tcl,.tk)::before{content:"Tcl"}.codeContainer__49b46 .thrift::before{content:"Thrift"}.codeContainer__49b46 .tp::before{content:"TP"}.codeContainer__49b46 :is(.twig,.craftcms)::before{content:"Twig"}.codeContainer__49b46 :is(.typescript,.ts,.tsx,.mts,.cts)::before{content:"TypeScript"}.codeContainer__49b46 .vala::before{content:"Vala"}.codeContainer__49b46 :is(.vbnet,.vb)::before{content:"VB.Net"}.codeContainer__49b46 :is(.vbscript,.vbs)::before{content:"VBScript"}.codeContainer__49b46 .vbscript-html::before{content:"VBScript in HTML"}.codeContainer__49b46 :is(.verilog,.v)::before{content:"Verilog"}.codeContainer__49b46 .vhdl::before{content:"VHDL"}.codeContainer__49b46 .vim::before{content:"Vim Script"}.codeContainer__49b46 .wasm::before{content:"WEBASSEMBLY"}.codeContainer__49b46 .wren::before{content:"WREN"}.codeContainer__49b46 .x86asm::before{content:"x86 Assembly"}.codeContainer__49b46 :is(.xl,.tao)::before{content:"XL"}.codeContainer__49b46 :is(.xquery,.xpath,.xq,.xqm)::before{content:"XQuery"}.codeContainer__49b46 :is(.zephir,.zep)::before{content:"Zephir"}
+.codeContainer__49b46 code {
+    border: 2px solid var(--background);
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+.codeContainer__49b46 code::before {
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    font-weight: 600;
+    border-bottom: 2px solid var(--color-2);
+}
+
+.codeContainer__49b46 .abnf::before {
+    content: "ABNF";
+}
+.codeContainer__49b46 .accesslog::before {
+    content: "Access logs";
+}
+.codeContainer__49b46 :is(.actionscript, .as)::before {
+    content: "ActionScript";
+}
+.codeContainer__49b46 .ada::before {
+    content: "Ada";
+}
+.codeContainer__49b46 :is(.angelscript, .asc)::before {
+    content: "AngelScript";
+}
+.codeContainer__49b46 :is(.apache, .apacheconf)::before {
+    content: "Apache";
+}
+.codeContainer__49b46 :is(.applescript, .osascript)::before {
+    content: "AppleScript";
+}
+.codeContainer__49b46 .arcade::before {
+    content: "Arcade";
+}
+.codeContainer__49b46 :is(.arduino, .ino)::before {
+    content: "Arduino (C++ w/Arduino libs)";
+}
+.codeContainer__49b46 :is(.armasm, .arm)::before {
+    content: "ARM assembler";
+}
+.codeContainer__49b46 :is(.xml, .html, .xhtml, .rss, .atom, .xjb, .xsd, .xsl, .plist, .svg)::before {
+    content: "HTML, XML";
+}
+.codeContainer__49b46 :is(.asciidoc, .adoc)::before {
+    content: "AsciiDoc";
+}
+.codeContainer__49b46 .aspectj::before {
+    content: "AspectJ";
+}
+.codeContainer__49b46 .autohotkey::before {
+    content: "AutoHotkey";
+}
+.codeContainer__49b46 .autoit::before {
+    content: "AutoIt";
+}
+.codeContainer__49b46 .avrasm::before {
+    content: "AVR assembler";
+}
+.codeContainer__49b46 :is(.awk, .mawk, .nawk, .gawk)::before {
+    content: "Awk";
+}
+.codeContainer__49b46 :is(.axapta, .x\+\+)::before {
+    content: "X++";
+}
+.codeContainer__49b46 :is(.bash, .sh, .zsh)::before {
+    content: "Bash";
+}
+.codeContainer__49b46 .basic::before {
+    content: "Basic";
+}
+.codeContainer__49b46 .bnf::before {
+    content: "BNF";
+}
+.codeContainer__49b46 :is(.brainfuck, .bf)::before {
+    content: "Brainfuck";
+}
+.codeContainer__49b46 :is(.c, .h)::before {
+    content: "C";
+}
+.codeContainer__49b46 .cal::before {
+    content: "C/AL";
+}
+.codeContainer__49b46 :is(.capnproto, .capnp)::before {
+    content: "Cap'n Proto";
+}
+.codeContainer__49b46 .ceylon::before {
+    content: "CEYLON";
+}
+.codeContainer__49b46 .clean::before {
+    content: "CLEAN";
+}
+.codeContainer__49b46 :is(.clojure, .clj)::before {
+    content: "Clojure";
+}
+.codeContainer__49b46 .clojure-repl::before {
+    content: "Clojure REPL";
+}
+.codeContainer__49b46 :is(.cmake, .cmake\.in)::before {
+    content: "CMake";
+}
+.codeContainer__49b46 :is(.coffeescript, .coffee, .cson, .iced)::before {
+    content: "CoffeeScript";
+}
+.codeContainer__49b46 .coq::before {
+    content: "Coq";
+}
+.codeContainer__49b46 :is(.cos, .cls)::before {
+    content: "Cache Object Script";
+}
+.codeContainer__49b46 :is(.cpp, .hpp, .cc, .hh, .cxx, .hxx ):before {
+    content: "C++";
+}
+.codeContainer__49b46 :is(.crmsh, .crm, .pcmk)::before {
+    content: "Crmsh";
+}
+.codeContainer__49b46 :is(.crystal, .cr)::before {
+    content: "Crystal";
+}
+.codeContainer__49b46 :is(.cs, .csharp)::before {
+    content: "C#";
+}
+.codeContainer__49b46 .csp::before {
+    content: "CSP";
+}
+.codeContainer__49b46 .css::before {
+    content: "CSS";
+}
+.codeContainer__49b46 .d::before {
+    content: "D";
+}
+.codeContainer__49b46 :is(.markdown, .md, .mkdown, .mkd)::before {
+    content: "Markdown";
+}
+.codeContainer__49b46 .dart::before {
+    content: "Dart";
+}
+.codeContainer__49b46 :is(.delphi, .dpr, .dfm, .pas, .pascal)::before {
+    content: "Delphi";
+}
+.codeContainer__49b46 :is(.diff, .patch)::before {
+    content: "Diff";
+}
+.codeContainer__49b46 :is(.django, .jinja)::before {
+    content: "Django";
+}
+.codeContainer__49b46 :is(.dns, .zone, .bind)::before {
+    content: "DNS Zone file";
+}
+.codeContainer__49b46 :is(.dockerfile, .docker)::before {
+    content: "Dockerfile";
+}
+.codeContainer__49b46 :is(.dos, .bat, .cmd)::before {
+    content: "DOS";
+}
+.codeContainer__49b46 .dsconfig::before {
+    content: "dsconfig";
+}
+.codeContainer__49b46 .dts::before {
+    content: "DTS (Device Tree)";
+}
+.codeContainer__49b46 :is(.dust, .dst)::before {
+    content: "Dust";
+}
+.codeContainer__49b46 .ebnf::before {
+    content: "EBNF";
+}
+.codeContainer__49b46 .elixir::before {
+    content: "Elixir";
+}
+.codeContainer__49b46 .elm::before {
+    content: "Elm";
+}
+.codeContainer__49b46 :is(.ruby, .rb, .gemspac, .podspec, .thor, .irb)::before {
+    content: "Ruby";
+}
+.codeContainer__49b46 .erb::before {
+    content: "ERB";
+}
+.codeContainer__49b46 .erlang-repl::before {
+    content: "Erlang REPL";
+}
+.codeContainer__49b46 :is(.erlang, .erl)::before {
+    content: "Erlang";
+}
+.codeContainer__49b46 :is(.excel, .xls, .xlsx)::before {
+    content: "Excel";
+}
+.codeContainer__49b46 .fix::before {
+    content: "FIX";
+}
+.codeContainer__49b46 :is(.fortran, .f90, .f95)::before {
+    content: "Fortran";
+}
+.codeContainer__49b46 :is(.fsharp, .fs, .fsx, .fsi, .fsscript)::before {
+    content: "F#";
+}
+.codeContainer__49b46 :is(.gams, .gms)::before {
+    content: "Gams";
+}
+.codeContainer__49b46 :is(.gauss, .gss)::before {
+    content: "GAUSS";
+}
+.codeContainer__49b46 :is(.gcode, .nc)::before {
+    content: "G-Code";
+}
+.codeContainer__49b46 .gherkin::before {
+    content: "Gherkin";
+}
+.codeContainer__49b46 .glsl::before {
+    content: "GLSL";
+}
+.codeContainer__49b46 .gml::before {
+    content: "GML";
+}
+.codeContainer__49b46 .go::before {
+    content: "Go";
+}
+.codeContainer__49b46 :is(.golo, .gololang)::before {
+    content: "Golo";
+}
+.codeContainer__49b46 .gradle::before {
+    content: "Gradle";
+}
+.codeContainer__49b46 .graphql::before {
+    content: "GraphQL";
+}
+.codeContainer__49b46 .groovy::before {
+    content: "Groovy";
+}
+.codeContainer__49b46 .haml::before {
+    content: "Haml";
+}
+.codeContainer__49b46 :is(.handlebars, .hbs, .html\.hbs, .html\.handlebars)::before {
+    content: "Handlebars";
+}
+.codeContainer__49b46 :is(.haskell, .hs)::before {
+    content: "Haskell";
+}
+.codeContainer__49b46 :is(.haxe, .hx)::before {
+    content: "Haxe";
+}
+.codeContainer__49b46 .hsp::before {
+    content: "HSP";
+}
+.codeContainer__49b46 .http::before {
+    content: "HTTP";
+}
+.codeContainer__49b46 .https::before {
+    content: "HTTPS";
+}
+.codeContainer__49b46 :is(.hy, .hylang)::before {
+    content: "Hy";
+}
+.codeContainer__49b46 :is(.inform7, .i7)::before {
+    content: "Inform7";
+}
+.codeContainer__49b46 :is(.ini, .toml)::before {
+    content: "Ini, TOML";
+}
+.codeContainer__49b46 .irpf90::before {
+    content: "IRPF90";
+}
+.codeContainer__49b46 .isbl::before {
+    content: "ISBL";
+}
+.codeContainer__49b46 :is(.java, .jsp)::before {
+    content: "Java";
+}
+.codeContainer__49b46 :is(.javascript, .js, .jsx)::before {
+    content: "JavaScript";
+}
+.codeContainer__49b46 .jboss-cli::before {
+    content: "JBOSS CLI";
+}
+.codeContainer__49b46 .json::before {
+    content: "JSON";
+}
+.codeContainer__49b46 :is(.julia, .jl)::before {
+    content: "Julia";
+}
+.codeContainer__49b46 .julia-repl::before {
+    content: "Julia REPL";
+}
+.codeContainer__49b46 :is(.kotlin, .kt)::before {
+    content: "Kotlin";
+}
+.codeContainer__49b46 :is(.lasso, .ls, .lassoscript)::before {
+    content: "Lasso";
+}
+.codeContainer__49b46 :is(.latex, .tex)::before {
+    content: "LaTeX";
+}
+.codeContainer__49b46 .ldif::before {
+    content: "LDIF";
+}
+.codeContainer__49b46 .leaf::before {
+    content: "Leaf";
+}
+.codeContainer__49b46 .less::before {
+    content: "Less";
+}
+.codeContainer__49b46 .lisp::before {
+    content: "Lisp";
+}
+.codeContainer__49b46 .livecodeserver::before {
+    content: "LiveCode Server";
+}
+.codeContainer__49b46 :is(.livescript, .ls)::before {
+    content: "LiveScript";
+}
+.codeContainer__49b46 .llvm::before {
+    content: "LLVM IR";
+}
+.codeContainer__49b46 .lsl::before {
+    content: "LSL (LINDEN SCRIPTING LANGUAGE)";
+}
+.codeContainer__49b46 .lua::before {
+    content: "Lua";
+}
+.codeContainer__49b46 :is(.makefile, .mk, .mak, .make)::before {
+    content: "Makefile";
+}
+.codeContainer__49b46 :is(.mathematica, .mma, .wl)::before {
+    content: "Mathematica";
+}
+.codeContainer__49b46 .matlab::before {
+    content: "Matlab";
+}
+.codeContainer__49b46 .maxima::before {
+    content: "Maxima";
+}
+.codeContainer__49b46 .mel::before {
+    content: "Maya Embedded Language";
+}
+.codeContainer__49b46 .mercury::before {
+    content: "Mercury";
+}
+.codeContainer__49b46 :is(.mips, .mipsasm)::before {
+    content: "MIPS Assembler";
+}
+.codeContainer__49b46 .mizar::before {
+    content: "Mizar";
+}
+.codeContainer__49b46 :is(.perl, .pl, .pm)::before {
+    content: "Perl";
+}
+.codeContainer__49b46 .mojolicious::before {
+    content: "Mojolicious";
+}
+.codeContainer__49b46 .monkey::before {
+    content: "Monkey";
+}
+.codeContainer__49b46 .moonscript::before {
+    content: "Moonscript";
+}
+.codeContainer__49b46 .n1ql::before {
+    content: "N1QL";
+}
+.codeContainer__49b46 .nestedtext::before {
+    content: "Nested text";
+}
+.codeContainer__49b46 :is(.nginx, .nginxconf)::before {
+    content: "Nginx";
+}
+.codeContainer__49b46 :is(.nim, .nimrod)::before {
+    content: "Nim";
+}
+.codeContainer__49b46 .nix::before {
+    content: "Nix";
+}
+.codeContainer__49b46 .node-repl::before {
+    content: "NODE REPL";
+}
+.codeContainer__49b46 .nsis::before {
+    content: "NSIS";
+}
+.codeContainer__49b46 :is(.objectivec, .mm, .objc, .obj-c, .obj-c\+\+, .objective-c\+\+)::before {
+    content: "Objective C";
+}
+.codeContainer__49b46 :is(.ocaml, .ml)::before {
+    content: "OCaml";
+}
+.codeContainer__49b46 .glsl::before {
+    content: "OpenGL Shading Language";
+}
+.codeContainer__49b46 :is(.openscad, .scad)::before {
+    content: "OpenSCAD";
+}
+.codeContainer__49b46 .oxygene::before {
+    content: "Oxygene";
+}
+.codeContainer__49b46 .parser3::before {
+    content: "Parser3";
+}
+.codeContainer__49b46 :is(.pf, .pf\.conf)::before {
+    content: "PF";
+}
+.codeContainer__49b46 :is(.pgsql, .postgred, .postgresql)::before {
+    content: "PostgreSQL & PL/pgSQL";
+}
+.codeContainer__49b46 .php::before {
+    content: "PHP";
+}
+.codeContainer__49b46 .php-template::before {
+    content: "PHP TEMPLATE";
+}
+.codeContainer__49b46 :is(.plaintext, .txt, .text)::before {
+    content: "Plaintext";
+}
+.codeContainer__49b46 .pony::before {
+    content: "Pony";
+}
+.codeContainer__49b46 :is(.powershell, .ps, .ps1)::before {
+    content: "PowerShell";
+}
+.codeContainer__49b46 .processing::before {
+    content: "Processing";
+}
+.codeContainer__49b46 .profile::before {
+    content: "Python profiler results";
+}
+.codeContainer__49b46 .prolog::before {
+    content: "Prolog";
+}
+.codeContainer__49b46 .properties::before {
+    content: "Properties";
+}
+.codeContainer__49b46 :is(.protobuf, .proto)::before {
+    content: "Protocol Buffers";
+}
+.codeContainer__49b46 :is(.puppet, .pp)::before {
+    content: "Puppet";
+}
+.codeContainer__49b46 .purebasic::before {
+    content: "PUREBASIC";
+}
+.codeContainer__49b46 :is(.python, .py, .gyp)::before {
+    content: "Python";
+}
+.codeContainer__49b46 :is(.python-repl, .pycon)::before {
+    content: "Python REPL";
+}
+.codeContainer__49b46 :is(.q, .k, .kdb)::before {
+    content: "Q";
+}
+.codeContainer__49b46 .qml::before {
+    content: "QML";
+}
+.codeContainer__49b46 .r::before {
+    content: "R";
+}
+.codeContainer__49b46 :is(.reasonml, .re)::before {
+    content: "ReasonML";
+}
+.codeContainer__49b46 .rib::before {
+    content: "RenderMan RIB";
+}
+.codeContainer__49b46 :is(.roboconf, .graph, .instances)::before {
+    content: "Roboconf";
+}
+.codeContainer__49b46 .routeros::before {
+    content: "MIKROTIK ROUTEROS SCRIPT";
+}
+.codeContainer__49b46 .rsl::before {
+    content: "RenderMan RSL";
+}
+.codeContainer__49b46 .ruleslanguage::before {
+    content: "Oracle Rules Language";
+}
+.codeContainer__49b46 :is(.rust, .rs)::before {
+    content: "Rust";
+}
+.codeContainer__49b46 :is(.sas, .SAS)::before {
+    content: "SAS";
+}
+.codeContainer__49b46 .scala::before {
+    content: "Scala";
+}
+.codeContainer__49b46 .scheme::before {
+    content: "Scheme";
+}
+.codeContainer__49b46 :is(.scilab, .sci)::before {
+    content: "Scilab";
+}
+.codeContainer__49b46 .scss::before {
+    content: "SCSS";
+}
+.codeContainer__49b46 :is(.shell, .console)::before {
+    content: "Shell";
+}
+.codeContainer__49b46 .smali::before {
+    content: "Smali";
+}
+.codeContainer__49b46 :is(.smalltalk, .st)::before {
+    content: "Smalltalk";
+}
+.codeContainer__49b46 .sml::before {
+    content: "SML";
+}
+.codeContainer__49b46 .sqf::before {
+    content: "SQF";
+}
+.codeContainer__49b46 .sql::before {
+    content: "SQL";
+}
+.codeContainer__49b46 :is(.stan, .stanfuncs)::before {
+    content: "Stan";
+}
+.codeContainer__49b46 .stata::before {
+    content: "Stata";
+}
+.codeContainer__49b46 :is(.step21, .p21, .step, .stp)::before {
+    content: "STEP Part 21";
+}
+.codeContainer__49b46 :is(.stylus, .styl)::before {
+    content: "Stylus";
+}
+.codeContainer__49b46 .subunit::before {
+    content: "SubUnit";
+}
+.codeContainer__49b46 .swift::before {
+    content: "Swift";
+}
+.codeContainer__49b46 .taggerscript::before {
+    content: "TAGGER SCRIPT";
+}
+.codeContainer__49b46 :is(.yml, .yaml)::before {
+    content: "YAML";
+}
+.codeContainer__49b46 .tap::before {
+    content: "Test Anything Protocol";
+}
+.codeContainer__49b46 :is(.tcl, .tk)::before {
+    content: "Tcl";
+}
+.codeContainer__49b46 .thrift::before {
+    content: "Thrift";
+}
+.codeContainer__49b46 .tp::before {
+    content: "TP";
+}
+.codeContainer__49b46 :is(.twig, .craftcms)::before {
+    content: "Twig";
+}
+.codeContainer__49b46 :is(.typescript, .ts, .tsx, .mts, .cts)::before {
+    content: "TypeScript";
+}
+.codeContainer__49b46 .vala::before {
+    content: "Vala";
+}
+.codeContainer__49b46 :is(.vbnet, .vb)::before {
+    content: "VB.Net";
+}
+.codeContainer__49b46 :is(.vbscript, .vbs)::before {
+    content: "VBScript";
+}
+.codeContainer__49b46 .vbscript-html::before {
+    content: "VBScript in HTML";
+}
+.codeContainer__49b46 :is(.verilog, .v)::before {
+    content: "Verilog";
+}
+.codeContainer__49b46 .vhdl::before {
+    content: "VHDL";
+}
+.codeContainer__49b46 .vim::before {
+    content: "Vim Script";
+}
+.codeContainer__49b46 .wasm::before {
+    content: "WEBASSEMBLY";
+}
+.codeContainer__49b46 .wren::before {
+    content: "WREN";
+}
+.codeContainer__49b46 .x86asm::before {
+    content: "x86 Assembly";
+}
+.codeContainer__49b46 :is(.xl, .tao)::before {
+    content: "XL";
+}
+.codeContainer__49b46 :is(.xquery, .xpath, .xq, .xqm)::before {
+    content: "XQuery";
+}
+.codeContainer__49b46 :is(.zephir, .zep)::before {
+    content: "Zephir";
+}

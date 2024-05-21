@@ -1,1 +1,53 @@
-.increasedActivityMainCard_e53744{border:0;border-radius:8px;background-color:var(--color-4)}.increasedActivityMainCard_e53744:hover{border:0;background-color:var(--color-2)!important}.increasedActivityMainCard_e53744.isOpen__036bf{background-color:var(--color-2)!important}.increasedActivityMainCard_e53744 .tags_b7acc4{padding:5px 10px;border-radius:8px}.increasedActivityMainCard_e53744 .replies__1b03e{border-radius:8px;background-color:var(--color-1)}.mainCard__0ec2c{border:0;border-radius:8px;background-color:var(--color-4)}.mainCard__0ec2c:hover{border:0;background-color:var(--color-2)!important}.mainCard__0ec2c.isOpen_d88bb6{background-color:var(--color-2)!important}.mainCard__0ec2c .contentPreview__122fc{border:2px solid var(--color-6);background-color:var(--color-2)}.mainCard__0ec2c .contentPreview__122fc .textContentFooter_e03480{padding:5px;background:var(--color-2)}.mainCard__0ec2c .tagPill__0704e{padding:5px 10px;border-radius:8px;background-color:var(--color-1)}
+/* List */
+.increasedActivityMainCard_e53744 {
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color-4);
+}
+.increasedActivityMainCard_e53744:hover {
+    border: 0;
+    background-color: var(--color-2) !important;
+}
+.increasedActivityMainCard_e53744.isOpen__036bf {
+    background-color: var(--color-2) !important;
+}
+
+.increasedActivityMainCard_e53744 .tags_b7acc4 {
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.increasedActivityMainCard_e53744 .replies__1b03e {
+    border-radius: 8px;
+    background-color: var(--color-1);
+}
+
+
+/* Grid */
+.mainCard__0ec2c {
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color-4);
+}
+.mainCard__0ec2c:hover {
+    border: 0;
+    background-color: var(--color-2) !important;
+}
+.mainCard__0ec2c.isOpen_d88bb6 {
+    background-color: var(--color-2) !important;
+}
+
+.mainCard__0ec2c .contentPreview__122fc {
+    border: 2px solid var(--color-6);
+    background-color: var(--color-2);
+}
+.mainCard__0ec2c .contentPreview__122fc .textContentFooter_e03480 {
+    padding: 5px;
+    background: var(--color-2);
+}
+
+.mainCard__0ec2c .tagPill__0704e {
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: var(--color-1);
+}

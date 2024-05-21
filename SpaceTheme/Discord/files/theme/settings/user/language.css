@@ -1,1 +1,39 @@
-.contentColumn__5f80b:has(.localizedName__796f5) div[role=radiogroup]{display:grid;grid:auto-flow dense/repeat(auto-fit,minmax(15rem,1fr));grid-auto-rows:minmax(3rem,auto);grid-gap:10px}.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e{display:flex;justify-content:center;margin:0;padding:15px;border-radius:8px;background-color:var(--color-2)}.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e:hover{background-color:var(--color-4)}.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e[aria-checked=true]{border:2px solid var(--color-5);background-color:var(--color-4)}.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .option_ae1b08{flex-direction:column}.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .radioBar__70669>div:has(svg){display:none}.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .flag__4b6cd{order:-1;margin-bottom:15px}.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .flag__4b6cd .flagImage__17d76{width:auto;height:40px;margin:0}
+.contentColumn__5f80b:has(.localizedName__796f5) div[role="radiogroup"] {
+    display: grid;
+    grid: auto-flow dense/repeat(auto-fit,minmax(15rem,1fr));
+    grid-auto-rows: minmax(3rem,auto);
+    grid-gap: 10px;
+}
+
+.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e:hover {
+    background-color: var(--color-4);
+}
+.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e[aria-checked="true"] {
+    border: 2px solid var(--color-5);
+    background-color: var(--color-4);
+}
+.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .option_ae1b08 {
+    flex-direction: column;
+}
+
+.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .radioBar__70669>div:has(svg) {
+    display: none;
+}
+
+.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .flag__4b6cd {
+    order: -1;
+    margin-bottom: 15px;
+}
+.contentColumn__5f80b:has(.localizedName__796f5) .item_b7fb7e .flag__4b6cd .flagImage__17d76 {
+    width: auto;
+    height: 40px;
+    margin: 0;
+}
