@@ -1,21 +1,21 @@
-body:has(.standardSidebarView__12528) .session__201cb {
+.session__201cb {
     padding: 10px;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
-body:has(.standardSidebarView__12528) .session__201cb.currentSession__700d9 {
+.session__201cb.currentSession__700d9 {
     margin-top: 10px;
 }
 
-body:has(.standardSidebarView__12528) .session__201cb .sessionIcon_df2e9c {
+.session__201cb .sessionIcon_df2e9c {
     color: var(--interactive-normal);
     background-color: var(--color-4);
 }
 
-body:has(.standardSidebarView__12528) .otherSessions_bb9ad2 {
+.otherSessions_bb9ad2 {
     gap: 10px;
 }
-body:has(.standardSidebarView__12528) .otherSessions_bb9ad2 .children_aba8cb {
+.otherSessions_bb9ad2 .children_aba8cb {
     gap: 5px;
 }

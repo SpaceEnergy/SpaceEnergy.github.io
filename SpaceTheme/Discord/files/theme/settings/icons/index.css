@@ -1,8 +1,8 @@
-body:has(.standardSidebarView__12528) .sidebarRegionScroller__8113e .item__48dda {
+.sidebarRegionScroller__8113e .item__48dda {
     display: flex;
 }
 
-body:has(.standardSidebarView__12528) .sidebarRegionScroller__8113e .item__48dda[data-tab-id]::before {
+.sidebarRegionScroller__8113e .item__48dda[data-tab-id]::before {
     min-height: 18px;
     min-width: 18px;
     margin-right: 12px;

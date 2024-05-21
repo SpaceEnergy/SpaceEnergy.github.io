@@ -1,30 +1,30 @@
-body:has(.standardSidebarView__12528) .customScroller_b96e1e .content__690c5:has(.roleRow_dc2631) {
+.customScroller_b96e1e .content__690c5:has(.roleRow_dc2631) {
     max-width: 100%;
     margin-left: 15px;
 }
-body:has(.standardSidebarView__12528) .content__690c5:has(.roleRow_dc2631) div[style="height: 60px;"] {
+.content__690c5:has(.roleRow_dc2631) div[style="height: 60px;"] {
     height: 20px !important;
 }
 
-body:has(.standardSidebarView__12528) .roleRow_dc2631 {
+.roleRow_dc2631 {
     margin: 0 0 5px;
     border-radius: 8px;
     background-color: var(--color-4);
 }
-body:has(.standardSidebarView__12528) .roleRow_dc2631::before {
+.roleRow_dc2631::before {
     display: none;
 }
-body:has(.standardSidebarView__12528) .roleRow_dc2631:last-child:after {
+.roleRow_dc2631:last-child:after {
     display: none;
 }
 
-body:has(.standardSidebarView__12528) .dragIcon_c316eb {
+.dragIcon_c316eb {
     visibility: visible;
     display: flex;
     align-items: center;
     height: 100%;
     color: var(--accent);
 }
-body:has(.standardSidebarView__12528) .dragIcon_c316eb:hover {
+.dragIcon_c316eb:hover {
     color: var(--accent-2);
 }

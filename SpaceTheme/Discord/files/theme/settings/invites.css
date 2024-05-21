@@ -1,8 +1,8 @@
-body:has(.standardSidebarView__12528) .content__690c5 {
+.content__690c5 {
     max-width: unset !important;
 }
 
-body:has(.standardSidebarView__12528) .inviteSettingsInviteRow__130c9 {
+.inviteSettingsInviteRow__130c9 {
     height: unset;
     margin-bottom: 10px;
     padding: 10px;

@@ -1,68 +1,68 @@
-body:has(.standardSidebarView__12528) .paymentPane__541d7 {
+.paymentPane__541d7 {
     border-radius: 8px;
     background-color: var(--color-2) !important;
 }
 
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .paymentRow__7568c {
+.paymentPane__541d7 .paymentRow__7568c {
     border: none;
 }
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .paymentRowHeader__36e9a {
+.paymentPane__541d7 .paymentRowHeader__36e9a {
     margin-right: 70px;
     padding: 15px 30px;
 }
 
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .scrollerBase_f742b2 {
+.paymentPane__541d7 .scrollerBase_f742b2 {
     overflow: unset !important;
     display: flex;
     flex-direction: column;
     gap: 10px;
     border: none;
 }
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .paginator__28ba5 {
+.paymentPane__541d7 .paginator__28ba5 {
     background-color: unset;
 }
 
-body:has(.standardSidebarView__12528) .bottomDivider_c85b47 {
+.bottomDivider_c85b47 {
     display: flex;
     flex-direction: column;
     gap: 5px;
     border: none;
 }
-body:has(.standardSidebarView__12528) .bottomDivider_c85b47::-webkit-scrollbar {
+.bottomDivider_c85b47::-webkit-scrollbar {
     display: none;
 }
 
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .payment_f27ac6 {
+.paymentPane__541d7 .payment_f27ac6 {
     gap: 0;
     width: auto;
     margin: 0 10px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .payment_f27ac6:hover {
+.paymentPane__541d7 .payment_f27ac6:hover {
     background-color: var(--color-3);
 }
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .payment_f27ac6 .expandedInfo_efc786 {
+.paymentPane__541d7 .payment_f27ac6 .expandedInfo_efc786 {
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .pageActions_ccda85 {
+.paymentPane__541d7 .pageActions_ccda85 {
     gap: 5px;
     margin: 15px 10px 10px;
     border-radius: 8px;
     background-color: var(--color-3);
 }
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .pageIndicator__1821d,
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .pageButtonPrev__9c384,
-body:has(.standardSidebarView__12528) .paymentPane__541d7 .pageButtonNext__13132 {
+.paymentPane__541d7 .pageIndicator__1821d,
+.paymentPane__541d7 .pageButtonPrev__9c384,
+.paymentPane__541d7 .pageButtonNext__13132 {
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
 
-body:has(.standardSidebarView__12528) .codeRedemptionRedirect_b3eca7.card__4dc22 {
+.codeRedemptionRedirect_b3eca7.card__4dc22 {
     margin-top: 15px;
     border: none;
     border-radius: 8px;
