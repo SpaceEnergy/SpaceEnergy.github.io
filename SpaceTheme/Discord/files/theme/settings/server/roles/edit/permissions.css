@@ -1,4 +1,4 @@
-.permissionsForm__8552b {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b {
     display: grid;
     grid: auto-flow dense/repeat(auto-fit,minmax(20rem,1fr));
     grid-auto-rows: minmax(3rem,auto);
@@ -8,25 +8,25 @@
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.permissionsForm__8552b+.permissionsForm__8552b {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b+.permissionsForm__8552b {
     margin-top: 15px;
 }
-.permissionsForm__8552b:has(.text-sm-normal__95a78.marginBottom20__9fcf3) {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b:has(.text-sm-normal__95a78.marginBottom20__9fcf3) {
     padding: 65px 15px 15px;
 }
-.permissionsForm__8552b .h5__28baa {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b .h5__28baa {
     position: absolute;
     transform: translateY(-25px);
 }
-.permissionsForm__8552b:has(.text-sm-normal__95a78.marginBottom20__9fcf3) .h5__28baa {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b:has(.text-sm-normal__95a78.marginBottom20__9fcf3) .h5__28baa {
     transform: translateY(-50px);
 }
-.permissionsForm__8552b .text-sm-normal__95a78.marginBottom20__9fcf3 {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b .text-sm-normal__95a78.marginBottom20__9fcf3 {
     position: absolute;
     transform: translateY(-30px);
 }
 
-.permissionsForm__8552b .container__7ad1e {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b .container__7ad1e {
     position: relative;
     margin-bottom: 0;
     padding: 15px;
@@ -34,7 +34,7 @@
     background-color: var(--color-3);
 }
 
-.permissionsForm__8552b .group__6ae8b {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b .group__6ae8b {
     position: absolute;
     bottom: 15px;
     gap: 10px;
@@ -43,6 +43,6 @@
     border: none;
 }
 
-.permissionsForm__8552b .container__7ad1e .divider__14bb6 {
+body:has(.standardSidebarView__12528) .permissionsForm__8552b .container__7ad1e .divider__14bb6 {
     display: none;
 }

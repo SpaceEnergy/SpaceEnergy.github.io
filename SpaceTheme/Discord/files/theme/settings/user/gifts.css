@@ -1,25 +1,25 @@
-.questsContainer__0b371 .questsCard__20ba2 {
+body:has(.standardSidebarView__12528) .questsContainer__0b371 .questsCard__20ba2 {
     max-height: unset !important;
     margin-bottom: 15px;
     background-color: var(--color-2);
 }
-.questsContainer__0b371 .questsCard__20ba2+.questsCard__20ba2 {
+body:has(.standardSidebarView__12528) .questsContainer__0b371 .questsCard__20ba2+.questsCard__20ba2 {
     margin-top: 15px;
 }
 
-.questsContainer__0b371 .outerContainer__35e1f {
+body:has(.standardSidebarView__12528) .questsContainer__0b371 .outerContainer__35e1f {
     margin: 15px 15px 0;
     border-radius: 8px;
 }
 
-.questsContainer__0b371 .outerContainer_a76fe9 {
+body:has(.standardSidebarView__12528) .questsContainer__0b371 .outerContainer_a76fe9 {
     padding: 15px;
     background-color: unset;
 }
 
-.questsContainer__0b371 .questRewardTile__0a963 {
+body:has(.standardSidebarView__12528) .questsContainer__0b371 .questRewardTile__0a963 {
     border-radius: 8px;
 }
-.questsContainer__0b371 .rewardTileExpired__73fac {
+body:has(.standardSidebarView__12528) .questsContainer__0b371 .rewardTileExpired__73fac {
     background-color: unset;
 }
