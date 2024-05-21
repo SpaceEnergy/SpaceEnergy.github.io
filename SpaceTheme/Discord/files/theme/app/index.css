@@ -1,9 +1,1 @@
-.base_c0676e {
-    margin: 15px;
-    border-radius: 8px;
-}
-
-:has(.titleBar__710b0) .base_c0676e {
-    margin: 0 15px 15px;
-    border-radius: 8px;
-}
+.base_c0676e{margin:15px;border-radius:8px}:has(.titleBar__710b0) .base_c0676e{margin:0 15px 15px;border-radius:8px}

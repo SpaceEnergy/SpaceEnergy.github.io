@@ -1,7 +1,1 @@
-.chat_f9a759 {
-    border-radius: 8px;
-    background-color: var(--color-1);
-}
-.chat_f9a759::before {
-    display: none;
-}
+.chat_f9a759{border-radius:8px;background-color:var(--color-1)}.chat_f9a759::before{display:none}

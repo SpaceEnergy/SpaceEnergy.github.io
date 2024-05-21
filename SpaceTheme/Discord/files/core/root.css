@@ -1,15 +1,1 @@
-:root {
-    /* Theme Settings */
-    --color-1: #111111;
-    --color-2: #1e1e1e;
-    --color-3: #141414;
-    --color-4: #181818;
-    --color-5: #26292c;
-    --color-6: #262629;
-    --accent: #666CFF;
-    --accent-2: #878CFF;
-    --background: #0a0a0a;
-    
-    /* Custom Home Icon */
-    --home-icon: url("/assets/99e79fc8aff1ebe7fd97fb5fd799a2bd.webp");
-}
+:root{--color-1:#111111;--color-2:#1e1e1e;--color-3:#141414;--color-4:#181818;--color-5:#26292c;--color-6:#262629;--accent:#666CFF;--accent-2:#878CFF;--background:#0a0a0a;--home-icon:url("/assets/99e79fc8aff1ebe7fd97fb5fd799a2bd.webp")}

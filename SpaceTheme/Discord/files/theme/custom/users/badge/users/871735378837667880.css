@@ -1,18 +1,1 @@
-.contents_d3ae0d:has(.avatar__08316[src*="avatars//871735378837667880"]) :is(.header__6a14d, .username__0b0e7, .headerText_bd68ec) {
-    display: flex;
-}
-:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/871735378837667880"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
-.contents_d3ae0d:has(.avatar__08316[src*="avatars/871735378837667880"]) .username__0b0e7::after {
-    content: "";
-    display: block;
-    height: 22px;
-    width: 22px;
-    background: url("https://i.imgur.com/cZFJHs9.png") no-repeat center;
-    background-size: 9px;
-}
-.contents_d3ae0d:has(.avatar__08316[src*="avatars//871735378837667880"]) .username__0b0e7::after {
-    height: 20px;
-    width: 20px;
-    margin-left: 0.25rem;
-    background-size: 8px;
-}
+.contents_d3ae0d:has(.avatar__08316[src*="avatars//871735378837667880"]) :is(.header__6a14d,.username__0b0e7,.headerText_bd68ec){display:flex}.contents_d3ae0d:has(.avatar__08316[src*="avatars/871735378837667880"]) .username__0b0e7::after,:is(.userPopoutOuter_d67f56,.userProfileModalOuter__90b4a):has([src*="avatars/871735378837667880"]) :is(.profileBadges__1f2ab,.badgeList__126b0)::before{content:"";display:block;height:22px;width:22px;background:url(https://i.imgur.com/cZFJHs9.png) no-repeat center;background-size:9px}.contents_d3ae0d:has(.avatar__08316[src*="avatars//871735378837667880"]) .username__0b0e7::after{height:20px;width:20px;margin-left:.25rem;background-size:8px}
