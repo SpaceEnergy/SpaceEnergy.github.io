@@ -9,7 +9,15 @@
     --accent: #666CFF;
     --accent-2: #878CFF;
     --background: #0a0a0a;
-    
+
+    /* Font */
+    --font: "Be Vietnam Pro";
+
     /* Custom Home Icon */
-    --home-icon: url("/assets/99e79fc8aff1ebe7fd97fb5fd799a2bd.webp");
+    --home-icon: url("https://discord.com/assets/99e79fc8aff1ebe7fd97fb5fd799a2bd.webp");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro");
+::-webkit-input-placeholder, * {
+    font-family: var(--font) !important;
 }
