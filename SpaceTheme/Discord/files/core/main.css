@@ -73,9 +73,7 @@
 @import url("../theme/guilds/index.css");
 @import url("../theme/inputs/button.css");
 @import url("../theme/inputs/color.css");
-@import url("../theme/inputs/date.css");
 @import url("../theme/inputs/dropdown.css");
-@import url("../theme/inputs/index.css");
 @import url("../theme/inputs/radiobutton.css");
 @import url("../theme/inputs/range.css");
 @import url("../theme/inputs/switch.css");
@@ -92,13 +90,11 @@
 @import url("../theme/settings/server/roles/list.css");
 @import url("../theme/settings/server/appdirectory.css");
 @import url("../theme/settings/server/emoji.css");
-@import url("../theme/settings/server/index.css");
 @import url("../theme/settings/user/billings.css");
 @import url("../theme/settings/user/connections.css");
 @import url("../theme/settings/user/devices.css");
 @import url("../theme/settings/user/family.css");
 @import url("../theme/settings/user/gifts.css");
-@import url("../theme/settings/user/index.css");
 @import url("../theme/settings/user/language.css");
 @import url("../theme/settings/user/myaccount.css");
 @import url("../theme/settings/user/privacy.css");
