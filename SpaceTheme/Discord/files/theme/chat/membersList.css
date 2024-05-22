@@ -34,7 +34,7 @@
     .members__573eb {
         width: 63px;
         min-width: 63px;
-        transition: 0.7s;
+        /*transition: 0.7s;*/
     }
     .members__573eb::-webkit-scrollbar {
         display: none;
@@ -49,7 +49,7 @@
     .container_f79ab4:hover .members__573eb {
         width: 260px;
         min-width: 260px;
-        transition: 0.7s;
+        /*transition: 0.7s;*/
     }
     .container_f79ab4:hover .members__573eb::-webkit-scrollbar {
         display: block;

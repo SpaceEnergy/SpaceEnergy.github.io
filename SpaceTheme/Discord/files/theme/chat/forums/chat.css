@@ -4,7 +4,7 @@
     margin: auto 5px;
     border-radius: 8px;
     background: var(--accent-2);
-    transition: height 0.3s ease-in-out;
+    /*transition: height 0.3s ease-in-out;*/
 }
 .resizeHandle_cc9d34:hover {
     height: 210px;

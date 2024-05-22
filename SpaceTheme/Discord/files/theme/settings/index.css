@@ -36,7 +36,7 @@
         overflow: hidden;
         width: 60px;
         min-width: 60px;
-        transition: 0.7s;
+        /*transition: 0.7s;*/
     }
     .sidebarRegionScroller__8113e .sidebar__02e8d::-webkit-scrollbar {
         display: none;
@@ -46,7 +46,7 @@
     .sidebarRegionScroller__8113e:hover .sidebar__02e8d {
         width: 260px;
         min-width: 260px;
-        transition: 0.7s;
+        /*transition: 0.7s;*/
     }
     .sidebarRegionScroller__8113e:hover .sidebar__02e8d::-webkit-scrollbar {
         display: block;

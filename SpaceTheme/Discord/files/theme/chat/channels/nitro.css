@@ -4,10 +4,10 @@
 .bar_ef682d {
     height: 6px;
     border-radius: 8px;
-    background: -webkit-gradient(linear,left top,right top,from(var(--guild-boosting-blue)),color-stop(34%,var(--guild-boosting-purple)),color-stop(67%,var(--guild-boosting-blue)),to(var(--guild-boosting-purple)));
+    /*background: -webkit-gradient(linear,left top,right top,from(var(--guild-boosting-blue)),color-stop(34%,var(--guild-boosting-purple)),color-stop(67%,var(--guild-boosting-blue)),to(var(--guild-boosting-purple)));
     background: linear-gradient(90deg,var(--guild-boosting-blue),var(--guild-boosting-purple) 34%,var(--guild-boosting-blue) 67%,var(--guild-boosting-purple));
     background-size: 300% 100%;
-    animation: progressPulse_a2c1e3 2s linear infinite;
+    animation: progressPulse_a2c1e3 2s linear infinite;*/
 }
 .tadaIcon__5e3cc {
     display: none;
