@@ -8,7 +8,7 @@
     padding: 5px 8px 5px 8px;
     margin: 0 3.333px;
     border-radius: 8px;
-    /*transition: background-color 0.15s ease-in-out;*/
+    transition: background-color 0.15s ease-in-out;
     background-color: var(--color-1);
     cursor: pointer;
 }
@@ -33,7 +33,7 @@
 .container_debb33 .button_ae40a4 {
     width: -webkit-fill-available;
     margin: 0 3.333px;
-    /*transition: background-color 0.15s ease-in-out;*/
+    transition: background-color 0.15s ease-in-out;
     background-color: var(--color-3);
 }
 .container_debb33 .button_ae40a4:hover {
@@ -56,7 +56,7 @@
 
 .container_e1958d .button_b82d53 {
     background-color: var(--color-3);
-    /*transition: background-color 0.15s ease-in-out;*/
+    transition: background-color 0.15s ease-in-out;
 }
 .container_e1958d .button_b82d53:hover {
     background-color: var(--color-1);

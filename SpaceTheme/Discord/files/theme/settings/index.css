@@ -31,7 +31,7 @@
     padding: 15px 10px 15px;
 }
 
-/*
+
 @media screen and (orientation: portrait) {
     .sidebarRegionScroller__8113e .sidebar__02e8d {
         overflow: hidden;
@@ -43,6 +43,7 @@
         display: none;
     }
 
+    /* on hover */
     .sidebarRegionScroller__8113e:hover .sidebar__02e8d {
         width: 260px;
         min-width: 260px;
@@ -52,7 +53,6 @@
         display: block;
     }
 }
-*/
 
 
 /* Main Content */
