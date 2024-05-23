@@ -1,5 +1,5 @@
 :root {
-    /* Theme Settings */
+    /* Colors */
     --color-1: #111111;
     --color-2: #1e1e1e;
     --color-3: #141414;
@@ -10,14 +10,11 @@
     --accent-2: #878CFF;
     --background: #0a0a0a;
 
-    /* Font */
-    --font: "Be Vietnam Pro";
-
     /* Custom Home Icon */
-    --home-icon: url("https://discord.com/assets/99e79fc8aff1ebe7fd97fb5fd799a2bd.webp");
+    --home-icon: url("https://discord.com/assets/99e79fc8aff1ebe7fd97fb5fd799a2bd.webp"); /* The URL can be changed to any other image URL. GIF's are also supported. */
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro');
 ::-webkit-input-placeholder, * {
-    font-family: var(--font) !important;
+    font-family: "Be Vietnam Pro" !important;
 }
