@@ -78,6 +78,7 @@
 @import url("../theme/inputs/switch.css");
 @import url("../theme/other/context.css");
 @import url("../theme/other/modals.css");
+/*
 @import url("../theme/settings/channel/permissions.css");
 @import url("../theme/settings/icons/channel.css");
 @import url("../theme/settings/icons/index.css");
@@ -100,6 +101,7 @@
 @import url("../theme/settings/user/registeredgames.css");
 @import url("../theme/settings/index.css");
 @import url("../theme/settings/invites.css");
+*/
 @import url("../theme/user/profile/modal/index.css");
 @import url("../theme/user/profile/modal/spotifyactivity.css");
 @import url("../theme/user/profile/popout/index.css");
