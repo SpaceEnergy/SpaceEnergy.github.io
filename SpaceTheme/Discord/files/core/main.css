@@ -43,7 +43,7 @@
 @import url("../theme/client/vencord/plugins/ServerProfile.css");
 @import url("../theme/client/vencord/addonlist.css");
 @import url("../theme/client/vencord/index.css");
-
+/*
 @import url("../theme/custom/guilds/banners/servers/1104516050537685144.css");
 @import url("../theme/custom/guilds/banners/index.css");
 @import url("../theme/custom/guilds/banners/servers/1104516050537685144.css");
@@ -68,7 +68,7 @@
 @import url("../theme/custom/users/gradientusername/users/770013098689953832.css");
 @import url("../theme/custom/users/gradientusername/users/871735378837667880.css");
 @import url("../theme/custom/users/gradientusername/index.css");
-
+*/
 @import url("../theme/guilds/always.css");
 @import url("../theme/guilds/folder.css");
 @import url("../theme/guilds/index.css");
