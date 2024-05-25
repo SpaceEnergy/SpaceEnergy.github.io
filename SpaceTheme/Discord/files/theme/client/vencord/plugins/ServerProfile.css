@@ -51,6 +51,10 @@
     background-color: var(--color-1);
 }
 
+.vc-gp-scroller {
+    height: 100%;
+}
+
 .vc-gp-scroller .listRow__50619 {
     margin: 0 0 10px;
     border-radius: 8px;
