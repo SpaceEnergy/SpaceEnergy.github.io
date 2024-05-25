@@ -9,6 +9,7 @@
 .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f .inner__9fd0b,
 .form__1b569 .channelTextArea_cb604a .scrollableContainer_ff917f .inner__9fd0b,
 .messageListItem__050f9 .scrollableContainer_ff917f.themedBackground__3a4c0:has(.inner__9fd0b) {
+    padding: 0 2.5px;
     border-radius: 8px;
     background-color: var(--color-2);
 }
@@ -70,7 +71,7 @@
 .sansAttachButton__5f863 {
     padding-left: 2.5px;
 }
-.webkit__8d35a .buttons__7ecff {
+.buttons__7ecff {
     margin-right: 2.5px !important;
 }
 .buttons__7ecff .expression-picker-chat-input-button,
