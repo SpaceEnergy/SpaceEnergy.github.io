@@ -105,5 +105,5 @@
 .autocomplete__2e602 {
     padding: 10px;
     border-radius: 8px;
-    background-color: var(--color-4);
+    background-color: var(--color-4) !important;
 }
