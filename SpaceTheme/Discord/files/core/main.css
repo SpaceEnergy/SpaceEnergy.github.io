@@ -57,18 +57,9 @@
 @import url("../theme/custom/users/badge/users/770013098689953832.css");
 @import url("../theme/custom/users/badge/users/871735378837667880.css");
 @import url("../theme/custom/users/badge/index.css");
-@import url("../theme/custom/users/gradientusername/users/1178768557178376222.css");
-@import url("../theme/custom/users/gradientusername/users/132176532767637505.css");
-@import url("../theme/custom/users/gradientusername/users/221097896328691712.css");
-@import url("../theme/custom/users/gradientusername/users/495333777606967306.css");
-@import url("../theme/custom/users/gradientusername/users/496855814791888898.css");
-@import url("../theme/custom/users/gradientusername/users/579703530164846592.css");
-@import url("../theme/custom/users/gradientusername/users/682317162010247184.css");
-@import url("../theme/custom/users/gradientusername/users/701870295195320410.css");
-@import url("../theme/custom/users/gradientusername/users/770013098689953832.css");
-@import url("../theme/custom/users/gradientusername/users/871735378837667880.css");
-@import url("../theme/custom/users/gradientusername/index.css");
 */
+@import url("../theme/custom/users/gradientusername.css");
+
 @import url("../theme/guilds/always.css");
 @import url("../theme/guilds/folder.css");
 @import url("../theme/guilds/index.css");
