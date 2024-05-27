@@ -134,8 +134,6 @@ html:has(.modeSelected__473f1 [data-list-item-id="channels___1126874696097484821
                                                                                                                     .text-lg-semibold__9539a) {
     text-decoration-color: #878cff;
     background: linear-gradient(90deg,#878cff,#666cff 34%,#878cff 67%,#666cff);
-    background-size: 300% 100%;
-    animation: progressPulse_a2c1e3 2s linear infinite;
 }
 
 :is(.container_debb33,
