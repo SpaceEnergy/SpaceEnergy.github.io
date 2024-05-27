@@ -59,8 +59,8 @@ html:has(.modeSelected__473f1 [data-list-item-id="channels___1126874696097484821
                                                                                                                     .text-lg-semibold__9539a) {
     font-weight: 700;
     color: transparent !important;
-    background-clip: text;
-    -webkit-background-clip: text;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
 }
 
 
