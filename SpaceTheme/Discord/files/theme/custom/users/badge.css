@@ -1,0 +1,105 @@
+/* Badge Request */
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f {
+    display: flex;
+    flex-direction: column;
+}
+
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::before {
+    order: -2;
+    display: flex;
+    padding: 10px 16px 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    white-space: pre-wrap;
+    content: "Request a Custom Badge for you:";
+    border-radius: 8px 8px 0 0;
+    color: var(--header-primary);
+    background: var(--color-2);
+}
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"]) .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::after {
+    order: -1;
+    display: flex;
+    padding: 0 16px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: pre-wrap;
+    content: "• Send the badge as a picture (.svg) \a  • Please wait at least 24 hours for requests to be fulfilled. Requests will not always be taken in instantly.";
+    border-radius: 0;
+    color: var(--header-secondary);
+    background: var(--color-2);
+}
+
+html:has(.modeSelected__473f1 [data-list-item-id="channels___1126873259758075934"], .scrollableContainer_ff917f::after) .form_d8a4a1 .inner__9fd0b {
+    border-radius: 0 0 8px 8px;
+}
+
+
+
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/221097896328691712"],
+                                   [src*="avatars/495333777606967306"],
+                                   [src*="avatars/682317162010247184"],
+                                   [src*="avatars/770013098689953832"],
+                                   [src*="avatars/871735378837667880"],
+                                   [src*="avatars/1178768557178376222"]) :is(.header__6a14d, .username__0b0e7, .headerText_bd68ec) {
+    display: flex;
+}
+:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/221097896328691712"],
+                                                                [src*="avatars/495333777606967306"],
+                                                                [src*="avatars/682317162010247184"],
+                                                                [src*="avatars/770013098689953832"],
+                                                                [src*="avatars/871735378837667880"],
+                                                                [src*="avatars/1178768557178376222"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/221097896328691712"],
+                                   [src*="avatars/495333777606967306"],
+                                   [src*="avatars/682317162010247184"],
+                                   [src*="avatars/770013098689953832"],
+                                   [src*="avatars/871735378837667880"],
+                                   [src*="avatars/1178768557178376222"]) .username__0b0e7::after {
+    content: "";
+    display: block;
+    height: 22px;
+    width: 22px;
+    background-size: 20px;
+}
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/221097896328691712"],
+                     .avatar__08316[src*="avatars/495333777606967306"],
+                     .avatar__08316[src*="avatars/682317162010247184"],
+                     .avatar__08316[src*="avatars/770013098689953832"],
+                     .avatar__08316[src*="avatars/871735378837667880"],
+                     .avatar__08316[src*="avatars/1178768557178376222"]) .username__0b0e7::after {
+    height: 20px;
+    width: 20px;
+    margin-left: 0.25rem;
+}
+
+
+:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/221097896328691712"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/221097896328691712"]) .username__0b0e7::after {
+    background: url("./src/221097896328691712.svg") no-repeat center;
+}
+
+:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/495333777606967306"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/495333777606967306"]) .username__0b0e7::after {
+    background: url("./src/495333777606967306.svg") no-repeat center;
+}
+
+:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/682317162010247184"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/682317162010247184"]) .username__0b0e7::after {
+    background: url("./src/682317162010247184.svg") no-repeat center;
+}
+
+:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/770013098689953832"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/770013098689953832"]) .username__0b0e7::after {
+    background: url("https://i.imgur.com/58neJtR.png") no-repeat center;
+}
+
+:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/871735378837667880"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/871735378837667880"]) .username__0b0e7::after {
+    background: url("https://i.imgur.com/cZFJHs9.png") no-repeat center;
+}
+
+:is(.userPopoutOuter_d67f56, .userProfileModalOuter__90b4a):has([src*="avatars/1178768557178376222"]) :is(.profileBadges__1f2ab, .badgeList__126b0)::before,
+.contents_d3ae0d:has(.avatar__08316[src*="avatars/1178768557178376222"]) .username__0b0e7::after {
+    background: url("https://i.imgur.com/5v11rfO.png") no-repeat center;
+}
