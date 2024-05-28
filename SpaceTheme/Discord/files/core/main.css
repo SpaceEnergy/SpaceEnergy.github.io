@@ -43,21 +43,14 @@
 @import url("../theme/client/vencord/plugins/ServerProfile.css");
 @import url("../theme/client/vencord/addonlist.css");
 @import url("../theme/client/vencord/index.css");
+
 /*
-@import url("../theme/custom/guilds/banners/servers/1104516050537685144.css");
-@import url("../theme/custom/guilds/banners/index.css");
-@import url("../theme/custom/guilds/banners/servers/1104516050537685144.css");
 @import url("../theme/custom/guilds/icons/servers/221389586515886081.css");
 @import url("../theme/custom/guilds/icons/servers/1104516050537685144.css");
 @import url("../theme/custom/guilds/icons/index.css");
-@import url("../theme/custom/users/badge/users/1178768557178376222.css");
-@import url("../theme/custom/users/badge/users/221097896328691712.css");
-@import url("../theme/custom/users/badge/users/495333777606967306.css");
-@import url("../theme/custom/users/badge/users/682317162010247184.css");
-@import url("../theme/custom/users/badge/users/770013098689953832.css");
-@import url("../theme/custom/users/badge/users/871735378837667880.css");
-@import url("../theme/custom/users/badge/index.css");
 */
+
+@import url("../theme/custom/users/badge.css");
 @import url("../theme/custom/users/gradientusername.css");
 
 @import url("../theme/guilds/always.css");
@@ -71,6 +64,7 @@
 @import url("../theme/inputs/switch.css");
 @import url("../theme/other/context.css");
 @import url("../theme/other/modals.css");
+
 /*
 @import url("../theme/settings/channel/permissions.css");
 @import url("../theme/settings/icons/channel.css");
