@@ -1,18 +1,18 @@
-.chat__52833 {
+.chat_a7d72e {
     background-color: transparent;
 }
-.content__01e65:before {
+.content_a7d72e:before {
     display: none;
 }
 
-.chatContent_f087cb {
+.chatContent_a7d72e {
     border-radius: 8px;
     background-color: var(--color-1);
 }
-.chatContent_f087cb .scroller_e412fe {
+.chatContent_a7d72e .scroller_e2e187 {
     border-radius: 8px;
 }
-.form_d8a4a1::before,
-.form_d8a4a1::after {
+.form_a7d72e::before,
+.form_a7d72e::after {
     display: none;
 }

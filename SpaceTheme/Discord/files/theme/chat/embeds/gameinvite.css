@@ -1,20 +1,20 @@
-.invite__2a93b {
+.invite_cdcad9 {
     display: flex;
     gap: 10px;
-    border-radius: 8px;
+    border-radius: var(--border-radius-large);
     background-color: var(--color-2) !important;
 }
 
 
-.coverImageWrapper_d05fe1 {
+.coverImageWrapper_cdcad9 {
     position: unset;
     opacity: 1;
 }
 
-.coverImageNotActionable__8e34a {
+.coverImageNotActionable_cdcad9 {
     filter: grayscale(0);
 }
-.coverImage__12e65 {
+.coverImage_cdcad9 {
     height: 100px;
     mask: none;
 }

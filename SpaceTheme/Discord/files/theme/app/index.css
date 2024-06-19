@@ -1,9 +1,9 @@
-.base_c0676e {
-    margin: 15px;
-    border-radius: 8px;
+.base_a4d4d9 {
+    margin: var(--margin-large);
+    border-radius: var(--border-radius-large);
 }
 
-:has(.titleBar__710b0) .base_c0676e {
-    margin: 0 15px 15px;
-    border-radius: 8px;
+:has(.titleBar_a934d8) .base_a4d4d9 {
+    margin: 0 var(--margin-large) var(--margin-large);
+    border-radius: var(--border-radius-large);
 }

@@ -4,7 +4,7 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_debb33 .avatarWrapper__500a6 {
+.container_b2ca13 .avatarWrapper_b2ca13 {
     padding: 5px 8px 5px 8px;
     margin: 0 3.333px;
     border-radius: 8px;
@@ -12,14 +12,14 @@
     background-color: var(--color-1);
     cursor: pointer;
 }
-.container_debb33 .avatarWrapper__500a6:hover {
+.container_b2ca13 .avatarWrapper_b2ca13:hover {
     background-color: var(--color-3);
 }
-.hoverRoll__3ea9e {
+.hoverRoll_c0d6c6 {
     cursor: pointer;
 }
 
-.container_debb33 .avatarWrapper__500a6 .title__4a7a9 {
+.container_b2ca13 .avatarWrapper_b2ca13 .title_d1da5f {
     width: fit-content;
 }
 
@@ -30,13 +30,13 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_debb33 .button_ae40a4 {
+.container_b2ca13 .button_f67531 {
     width: -webkit-fill-available;
     margin: 0 3.333px;
     transition: background-color 0.15s ease-in-out;
     background-color: var(--color-3);
 }
-.container_debb33 .button_ae40a4:hover {
+.container_b2ca13 .button_f67531:hover {
     background-color: var(--color-1) !important;
 }
 
@@ -47,22 +47,22 @@
 =-=-=-=-=-=-=-=
 */
 
-.container_e1958d {
+.container_adcaac {
     margin-bottom: 5px !important;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
-.container_e1958d .button_b82d53 {
+.container_adcaac .button_adcaac {
     background-color: var(--color-3);
     transition: background-color 0.15s ease-in-out;
 }
-.container_e1958d .button_b82d53:hover {
+.container_adcaac .button_adcaac:hover {
     background-color: var(--color-1);
 }
 
-.container_e1958d .buttonIcon__64412 {
+.container_adcaac .buttonIcon_adcaac {
     width: 20px !important;
     height: 20px !important;
 }
@@ -74,7 +74,7 @@
 =-=-=-=-=-=-=-=
 */
 
-.panel_bd8c76 {
+.panel_bf1a22 {
     padding: 12px 8px 8px;
     margin-bottom: -6px;
     border: none;
@@ -82,7 +82,7 @@
     background-color: var(--color-2) !important;
 }
 
-.panel_bd8c76 .body_dc19cb {
+.panel_bf1a22 .body_bf1a22 {
     margin: 0 3.333px;
 }
 
@@ -93,10 +93,10 @@
 =-=-=-=-=-=-=-=
 */
 
-.panels__58331 {
+.panels_a4d4d9 {
     background-color: transparent !important;
 }
-.container_debb33 {
+.container_b2ca13 {
     display: grid;
     height: 95px;
     padding: 5px;

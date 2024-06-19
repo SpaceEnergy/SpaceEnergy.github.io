@@ -1,7 +1,7 @@
-.container__827e6 {
+.container_e40c16 {
     top: 0 !important;
-    margin: 0 15px 15px;
+    margin: 0 var(--margin-large) var(--margin-large);
     padding-top: 0;
-    border-radius: 8px;
+    border-radius: var(--border-radius-large);
     background-color: var(--color-2);
 }

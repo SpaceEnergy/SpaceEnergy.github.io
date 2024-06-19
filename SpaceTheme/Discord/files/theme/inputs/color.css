@@ -5,23 +5,23 @@
     box-shadow: none;
 }
 
-:has(.sectionsContainer__45b62) .customColorPicker_bbc020 {
+:has(.sectionsContainer_b45d91) .customColorPicker_bbc020 {
     width: 283px;
 }
-:has(.sectionsContainer__45b62) .layer__6b5c3:has(.customColorPicker_bbc020) {
+:has(.sectionsContainer_b45d91) .layer_cd0de5:has(.customColorPicker_bbc020) {
     margin: 61px -77px 0;
 }
-:has(.customColorPicker_bbc020) .customizationSection__0f57e:has(.colorSwatch__74812) {
+:has(.customColorPicker_bbc020) .customizationSection_b3a5c2:has(.colorSwatch_c66781) {
     padding-bottom: 346px !important;
 }
 
-:has(.colorPicker__6965f) .customColorPicker_bbc020 {
+:has(.colorPicker_da1bd9) .customColorPicker_bbc020 {
     width: 410px;
 }
-:has(.colorPicker__6965f) .layer__6b5c3:has(.customColorPicker_bbc020) {
+:has(.colorPicker_da1bd9) .layer_cd0de5:has(.customColorPicker_bbc020) {
     margin: 61px -150px 0;
 }
-:has(.customColorPicker_bbc020) .colorPicker__6965f {
+:has(.customColorPicker_bbc020) .colorPicker_da1bd9 {
     padding-bottom: 271px !important;
 }
 

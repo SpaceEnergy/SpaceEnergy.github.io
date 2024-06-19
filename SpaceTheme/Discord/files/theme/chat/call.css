@@ -1,15 +1,15 @@
 /* Navbar */
-.root__3eef0.idle_d696d0 .topControls_e834ab {
+.root_dd069c.idle_dd069c .topControls_dd069c {
     opacity: 1;
     transform: unset;
 }
 
 
 /* Base */
-.callContainer__1477d {
+.callContainer_d880dc {
     background-color: var(--background);
 }
-.videoGridWrapper__23cdc {
+.videoGridWrapper_bae578 {
     margin-top: 70px;
     border-radius: 8px;
     background-color: var(--color-1);
@@ -17,13 +17,13 @@
 
 
 /* Gradient */
-.videoControls_af6621 .gradientContainer_cdada6 {
+.videoControls_dd069c .gradientContainer_dd069c {
     display: none;
 }
 
 
 /* Toolbar */
-.root__3eef0.idle_d696d0 .bottomControls__72d8d {
+.root_dd069c.idle_dd069c .bottomControls_dd069c {
     opacity: 1;
     transform: unset;
 }

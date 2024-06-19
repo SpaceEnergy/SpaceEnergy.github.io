@@ -1,24 +1,24 @@
-.expandedFolderBackground_b1385f {
+.expandedFolderBackground_bc7085 {
     width: 64px;
     inset: -9px 8px 0;
     border-radius: 16px;
     background-color: var(--color-5);
 }
-.wrapper__832f2 {
+.wrapper_bc7085 {
     margin: 17px 0 8px;
 }
-.wrapper__832f2:has(.expandedFolderBackground_b1385f.collapsed__98ad5) {
+.wrapper_bc7085:has(.expandedFolderBackground_bc7085.collapsed_bc7085) {
     margin: 0;
 }
-.expandedFolderIconWrapper__324c1 {
+.expandedFolderIconWrapper_bc7085 {
     background-color: var(--color-2);
 }
 
 /* Folder Icon Color */
-.closedFolderIconWrapper__722d5 {
+.closedFolderIconWrapper_bc7085 {
     display: none;
 }
-.folderIconWrapper__11165:not([style=""])::before {
+.folderIconWrapper_bc7085:not([style=""])::before {
     position: absolute;
     content: "";
     width: 18px;

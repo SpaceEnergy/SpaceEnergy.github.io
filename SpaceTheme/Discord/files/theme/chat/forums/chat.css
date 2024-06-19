@@ -1,4 +1,4 @@
-.resizeHandle_cc9d34 {
+.resizeHandle_d1c246 {
     height: 200px;
     width: 5px;
     margin: auto 5px;
@@ -6,26 +6,26 @@
     background: var(--accent-2);
     transition: height 0.3s ease-in-out;
 }
-.resizeHandle_cc9d34:hover {
+.resizeHandle_d1c246:hover {
     height: 210px;
     background: var(--accent);
 }
-.container__694a1 {
+.container_d1c246 {
     background: var(--background);
 }
 
-.container__694a1 .chatHeaderBar__9e6ac {
+.container_d1c246 .chatHeaderBar_e2f46e {
     margin: 10px;
     border-radius: 8px;
     background-color: var(--color-2);
 }
 
-.container__68e43 {
+.container_b385c8 {
     margin: 10px 15px 10px 30px;
     border: none;
     border-radius: 8px;
     background-color: var(--color-2);
 }
-.divider__4df9f {
+.divider_af45f8 {
     display: none;
 }

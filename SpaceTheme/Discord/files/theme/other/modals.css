@@ -1,11 +1,11 @@
-.root_a28985:has(.footer_e0b400) {
+.root_f9a4c9:has(.footer_f9a4c9) {
     overflow: unset;
     border-radius: 8px;
     background-color: var(--color-1);
     box-shadow: none !important;
 }
 
-.footer_e0b400 {
+.footer_f9a4c9 {
     justify-content: space-between;
     margin: 0 10px 10px;
     padding: 10px;
@@ -16,7 +16,7 @@
 
 
 /* Create Server Modal */
-.templatesList__7837c {
+.templatesList_fc9dae {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10px;
@@ -26,11 +26,11 @@
     border-radius: 8px;
 }
 
-.templatesList__7837c .optionHeader_e0be1e {
+.templatesList_fc9dae .optionHeader_fc9dae {
     display: none;
 }
 
-.templatesList__7837c .container__9dd63 {
+.templatesList_fc9dae .container_a47d49 {
     flex-direction: column;
     align-items: center;
     margin: 0;
@@ -38,14 +38,14 @@
     border: none;
     background-color: var(--color-2);
 }
-.templatesList__7837c .container__9dd63:hover {
+.templatesList_fc9dae .container_a47d49:hover {
     background-color: var(--color-4);
 }
 
-.templatesList__7837c .container__9dd63 .icon__2df73 {
+.templatesList_fc9dae .container_a47d49 .icon_a47d49 {
     margin: 0 0 5px;
 }
 
-.templatesList__7837c .container__9dd63 .arrow__5e540 {
+.templatesList_fc9dae .container_a47d49 .arrow_a47d49 {
     margin: 10px auto 0;
 }

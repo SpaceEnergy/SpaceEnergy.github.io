@@ -1,14 +1,10 @@
-.container_bc43c1 {
+.container_c75f85 {
     padding: 0 0 5px 8px;
 }
-.bar_ef682d {
+.bar_c75f85 {
     height: 6px;
-    border-radius: 8px;
-    background: -webkit-gradient(linear,left top,right top,from(var(--guild-boosting-blue)),color-stop(34%,var(--guild-boosting-purple)),color-stop(67%,var(--guild-boosting-blue)),to(var(--guild-boosting-purple)));
-    background: linear-gradient(90deg,var(--guild-boosting-blue),var(--guild-boosting-purple) 34%,var(--guild-boosting-blue) 67%,var(--guild-boosting-purple));
-    background-size: 300% 100%;
-    animation: progressPulse_a2c1e3 2s linear infinite;
+    border-radius: var(--border-radius-large);
 }
-.tadaIcon__5e3cc {
+.tadaIcon_c75f85 {
     display: none;
 }

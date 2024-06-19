@@ -24,29 +24,29 @@
 
 
 /* Grid */
-.mainCard__0ec2c {
+.mainCard_a6d69a {
     border: 0;
     border-radius: 8px;
     background-color: var(--color-4);
 }
-.mainCard__0ec2c:hover {
+.mainCard_a6d69a:hover {
     border: 0;
     background-color: var(--color-2) !important;
 }
-.mainCard__0ec2c.isOpen_d88bb6 {
+.mainCard_a6d69a.isOpen_a57509 {
     background-color: var(--color-2) !important;
 }
 
-.mainCard__0ec2c .contentPreview__122fc {
+.mainCard_a6d69a .contentPreview_a57509 {
     border: 2px solid var(--color-6);
     background-color: var(--color-2);
 }
-.mainCard__0ec2c .contentPreview__122fc .textContentFooter_e03480 {
+.mainCard_a6d69a .contentPreview_a57509 .textContentFooter_a57509 {
     padding: 5px;
     background: var(--color-2);
 }
 
-.mainCard__0ec2c .tagPill__0704e {
+.mainCard_a6d69a .tagPill_a57509 {
     padding: 5px 10px;
     border-radius: 8px;
     background-color: var(--color-1);

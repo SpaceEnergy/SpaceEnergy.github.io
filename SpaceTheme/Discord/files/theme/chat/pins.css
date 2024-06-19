@@ -1,9 +1,9 @@
-.layerContainer_a2fcaa:has(.messagesPopoutWrap__10dd1) .layer__6b5c3 {
+.layerContainer_cd0de5:has(.messagesPopoutWrap_ac90a2) .layer_cd0de5 {
     top: 91.5px !important;
 }
 
 
-.layerContainer_a2fcaa .messagesPopoutWrap__10dd1 {
+.layerContainer_cd0de5 .messagesPopoutWrap_ac90a2 {
     width: 600px;
     max-height: 80vh !important;
     padding: 10px;
@@ -11,28 +11,28 @@
     background-color: var(--color-2);
 }
 
-.layerContainer_a2fcaa .messagesPopoutWrap__10dd1 .header__21b33 {
+.layerContainer_cd0de5 .messagesPopoutWrap_ac90a2 .header_ac90a2 {
     margin-bottom: 10px;
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
-.layerContainer_a2fcaa .messagesPopoutWrap__10dd1 [class*="scroller"] {
+.layerContainer_cd0de5 .messagesPopoutWrap_ac90a2 [class*="scroller"] {
     padding: 0;
     border-radius: 8px;
 }
-.layerContainer_a2fcaa .messagesPopoutWrap__10dd1 [class*="scroller"]::-webkit-scrollbar {
+.layerContainer_cd0de5 .messagesPopoutWrap_ac90a2 [class*="scroller"]::-webkit-scrollbar {
     display: none;
 }
 
-.layerContainer_a2fcaa .messagesPopoutWrap__10dd1 .messageGroupWrapper__1fce2 {
+.layerContainer_cd0de5 .messagesPopoutWrap_ac90a2 .messageGroupWrapper_ac90a2 {
     margin-bottom: 5px;
     border: none;
     border-radius: 8px;
     background-color: var(--color-1);
 }
 
-.layerContainer_a2fcaa .messagesPopoutWrap__10dd1 .footer__6b9ef {
+.layerContainer_cd0de5 .messagesPopoutWrap_ac90a2 .footer_ac90a2 {
     border-radius: 8px;
     background-color: var(--color-1);
 }

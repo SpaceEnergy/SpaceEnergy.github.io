@@ -1,4 +1,4 @@
-.titleBar__710b0 {
+.titleBar_a934d8 {
     height: 34px;
     padding-top: 0px;
     margin-top: 0px;
@@ -6,10 +6,10 @@
 }
 
 /* Logo */
-.wordmark__5b8c9 svg {
+.wordmark_a934d8 svg {
 	display: none;
 }
-.wordmark__5b8c9::before {
+.wordmark_a934d8::before {
 	content: 'Space';
     position: relative;
     top: 6px;
@@ -18,7 +18,7 @@
 	font-weight: 500;
     color: var(--accent-2) ;
 }
-.wordmark__5b8c9::after {
+.wordmark_a934d8::after {
 	content: 'Theme';
     position: relative;
     top: 6px;
@@ -29,17 +29,17 @@
 }
 
 /* Close/Maximize/Minimize Buttons */
-.titleBar__710b0 .winButton_f17fb6 {
+.titleBar_a934d8 .winButton_a934d8 {
     top: 0;
     height: 34px;
     width: 40px;
 }
-.winButton_f17fb6 svg {
+.winButton_a934d8 svg {
     color: var(--accent);
 }
-.winButtonClose__6396d:hover {
+.winButtonClose_a934d8:hover {
     background-color: var(--accent);
 }
-.winButtonClose__6396d:hover svg {
+.winButtonClose_a934d8:hover svg {
     color: var(--background);
 }

@@ -1,5 +1,5 @@
-.banner_dee758 {
+.banner_a75489 {
     height: 200px;
-    margin: -5px -5px 15px -5px;
-    border-radius: 8px;
+    margin: -5px -5px var(--margin-large) -5px;
+    border-radius: var(--border-radius-large);
 }

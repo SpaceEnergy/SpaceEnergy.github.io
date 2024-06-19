@@ -10,6 +10,14 @@
     --accent-2: #878CFF;
     --background: #0a0a0a;
 
+    /* Theme Settings */
+    --border-radius-large: 8px;
+    --border-radius-medium: 4px;
+
+    --margin-large: 16px;
+    --margin-medium: 12px;
+    --margin-small: 6px;
+
     /* Custom Home Icon */
     --home-icon: url("https://discord.com/assets/99e79fc8aff1ebe7fd97fb5fd799a2bd.webp"); /* The URL can be changed to any other image URL. GIF's are also supported. */
 }

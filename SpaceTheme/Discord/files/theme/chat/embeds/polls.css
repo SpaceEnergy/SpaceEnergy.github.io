@@ -1,34 +1,34 @@
-.questionInput_f6087f {
+.questionInput_f24a96 {
     max-height: 220px;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--border-radius-large);
 }
-.questionInput_f6087f::-webkit-scrollbar {
+.questionInput_f24a96::-webkit-scrollbar {
     display: none;
 }
-.defaultTextInputWrapper__87159 {
+.defaultTextInputWrapper_d274ca {
     border: none;
-    border-radius: 8px;
+    border-radius: var(--border-radius-large);
 }
-.addAnswerButton__1308f {
-    border-radius: 8px;
+.addAnswerButton_f24a96 {
+    border-radius: var(--border-radius-large);
 }
-.pollContainer_cfb8c7 {
+.pollContainer_b558d0 {
     background-color: var(--color-2);
 }
-.pollContainer_cfb8c7 .answerInner_b97752 {
+.pollContainer_b558d0 .answerInner_cf2c85 {
     border: none !important;
     outline: none !important;
     background-color: var(--color-1);
 }
-.pollContainer_cfb8c7 .answerInner_b97752:hover {
+.pollContainer_b558d0 .answerInner_cf2c85:hover {
     background-color: var(--color-4);
 }
-.pollContainer_cfb8c7 .answerInner_b97752.selected__93ede {
+.pollContainer_b558d0 .answerInner_cf2c85.selected_cf2c85 {
     background-color: var(--color-3);
 }
-.votePercentageBar_ba9103 {
-    border-radius: 8px;
+.votePercentageBar_cf2c85 {
+    border-radius: var(--border-radius-large);
     background-color: var(--accent);
     opacity: 0.3;
 }

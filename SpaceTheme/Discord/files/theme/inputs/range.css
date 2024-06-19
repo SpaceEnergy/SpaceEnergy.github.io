@@ -1,19 +1,19 @@
-.slider__22e99 .bar_e58961 {
+.slider_c7a159 .bar_c7a159 {
     background: var(--color-2);
 }
-.slider__22e99 .barFill__1f56b {
+.slider_c7a159 .barFill_c7a159 {
     background: var(--accent);
 }
 
-.slider__22e99 .grabber_e3daf3 {
+.slider_c7a159 .grabber_c7a159 {
     border: none;
     background: var(--accent-2);
 }
 
-.slider__22e99 .defaultValue__8e777 .markValue_c91c4e {
+.slider_c7a159 .defaultValue_c7a159 .markValue_c7a159 {
     color: var(--accent);
 }
-.slider__22e99 .markDash__54545 {
+.slider_c7a159 .markDash_c7a159 {
     width: 4px;
     border-radius: 8px;
     background: var(--color-2);

@@ -1,11 +1,11 @@
-.hasBanner__04337 .header__77c95 {
-    margin: 10px 10px 0;
+.hasBanner_fd6364 .header_fd6364 {
+    margin: var(--margin-medium) var(--margin-medium) 0;
 }
-.animatedContainer__0e828 {
+.animatedContainer_fd6364 {
     width: calc(100% - 20px);
-    margin: 10px 10px 0;
-    border-radius: 8px;
+    margin: var(--margin-medium) var(--margin-medium) 0;
+    border-radius: var(--border-radius-large);
 }
-.bannerImage_c73a57 {
+.bannerImage_fd6364 {
     width: 100%;
 }
