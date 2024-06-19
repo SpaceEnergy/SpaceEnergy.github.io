@@ -1,4 +1,4 @@
-.contents_d3ae0d .anchor_c8ddc0[href*="spotify.com"] {
+.contents_ec86aa .anchor_af404b[href*="spotify.com"] {
     padding: 16px 4px 10px;
     border-radius: 4px;
     font-size: 0;
@@ -6,13 +6,13 @@
     background-color: #1db95440;
     border-radius: 4px;
 }
-.contents_d3ae0d .anchor_c8ddc0[href*="spotify.com"]::after {
+.contents_ec86aa .anchor_af404b[href*="spotify.com"]::after {
     position: relative;
     top: 2px;
     font-size: 1rem;
     content: "Spotify";
 }
-.contents_d3ae0d .anchor_c8ddc0[href*="spotify.com"]::before {
+.contents_ec86aa .anchor_af404b[href*="spotify.com"]::before {
     position: relative;
     top: 5px;
     margin-right: 4px;
