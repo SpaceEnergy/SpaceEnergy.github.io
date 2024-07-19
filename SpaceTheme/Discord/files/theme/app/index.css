@@ -1,9 +1,0 @@
-.base_a4d4d9 {
-    margin: var(--margin-large);
-    border-radius: var(--border-radius-large);
-}
-
-:has(.titleBar_a934d8) .base_a4d4d9 {
-    margin: 0 var(--margin-large) var(--margin-large);
-    border-radius: var(--border-radius-large);
-}
