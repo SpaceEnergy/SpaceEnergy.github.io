@@ -228,7 +228,10 @@ p, h1, h2, h3, a {
 }
 #setup .card .img span,
 #pc .card .img span,
-#nas .card .img span {
+#vr .card .img span,
+#\/3d-printer .card .img span,
+#nas .card .img span,
+#smart-home .card .img span {
     background-color: #0a0a0a46;
 }
 .card .img span img {
