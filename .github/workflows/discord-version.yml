@@ -17,12 +17,17 @@ jobs:
         id: fetch_release
         run: |
           GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
-          
+
           latest_release=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-          https://api.github.com/repos/SpaceTheme/Discord/releases | jq -r '.[0].tag_name')
-          
+          https://api.github.com/repos/SpaceTheme/Discord/releases | jq -r '.[0].tag_name // empty')
+
+          if [ -z "$latest_release" ]; then
+            echo "No releases found."
+            echo "changed=false" >> $GITHUB_ENV
+            exit 1  # Exit if no release is found
+          fi
+
           echo "${latest_release}" > data/discord.txt
-          
           echo "discord_version=${latest_release}" >> $GITHUB_ENV
 
       - name: Check if version has changed
