@@ -1,0 +1,32 @@
+name: Fetch Latest Version Discord
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  fetch_latest_release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch latest release
+        run: |
+          # Setze deine GitHub-Token-Umgebungsvariable
+          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+
+          # Hole die neueste Release-Version
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          https://api.github.com/repos/SpaceTheme/Steam/releases \
+          | jq -r '.[0].tag_name' > version-steam.txt
+
+      - name: Commit and push latest release
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add version-steam.txt
+          git commit -m "Update latest version" || echo "No changes to commit"
+          git push || echo "No changes to push"
