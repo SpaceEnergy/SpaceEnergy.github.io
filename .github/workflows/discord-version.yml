@@ -45,6 +45,7 @@ jobs:
           else
             echo "File does not exist, creating new one."
             echo "changed=true" >> $GITHUB_ENV
+          fi  # Closing the if statement properly
 
       - name: Commit and push latest release
         if: env.changed == 'true'
