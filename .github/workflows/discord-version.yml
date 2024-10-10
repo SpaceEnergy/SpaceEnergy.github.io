@@ -16,21 +16,20 @@ jobs:
         id: fetch_release
         run: |
           GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
-          mkdir -p output
           
           latest_release=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
           https://api.github.com/repos/SpaceTheme/Discord/releases | jq -r '.[0].tag_name')
           
           echo "${latest_release}" > data/discord.txt
           
-          echo "latest_release=${latest_release}" >> $GITHUB_ENV
+          echo "discord_version=${latest_release}" >> $GITHUB_ENV
 
       - name: Check if version has changed
         id: check_version
         run: |
           if [ -f data/discord.txt ]; then
             existing_version=$(cat data/discord.txt)
-            if [ "$existing_version" = "${{ env.latest_release }}" ]; then
+            if [ "$existing_version" = "${{ env.discord_version }}" ]; then
               echo "Version has not changed."
               echo "changed=false" >> $GITHUB_ENV
             else
@@ -47,5 +46,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git config --local user.email "action@github.com"
           git add data/discord.txt
-          git commit -m "Update to latest DiscordTheme version: ${{ env.latest_release }}" || echo "No changes to commit"
+          git commit -m "Update to latest DiscordTheme version: ${{ env.discord_version }}" || echo "No changes to commit"
           git push || echo "No changes to push"
