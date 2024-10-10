@@ -1,8 +1,9 @@
 name: Fetch Latest Version Steam
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'  # Führe den Workflow alle 2 Stunden aus
+  push:
+    branches:
+      - main
 
 jobs:
   fetch_latest_release:
