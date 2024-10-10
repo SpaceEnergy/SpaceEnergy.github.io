@@ -1,9 +1,8 @@
 name: Fetch Latest Version Discord
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   fetch_latest_release:
@@ -14,44 +13,19 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Fetch latest release
-        id: fetch_release
         run: |
+          # Setze deine GitHub-Token-Umgebungsvariable
           GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
 
-          latest_release=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-          https://api.github.com/repos/SpaceTheme/Discord/releases | jq -r '.[0].tag_name // empty')
-
-          if [ -z "$latest_release" ]; then
-            echo "No releases found."
-            echo "changed=false" >> $GITHUB_ENV
-            exit 1  # Exit if no release is found
-          fi
-
-          echo "${latest_release}" > data/discord.txt
-          echo "discord_version=${latest_release}" >> $GITHUB_ENV
-
-      - name: Check if version has changed
-        id: check_version
-        run: |
-          if [ -f data/discord.txt ]; then
-            existing_version=$(cat data/discord.txt)
-            if [ "$existing_version" = "${{ env.discord_version }}" ]; then
-              echo "Version has not changed."
-              echo "changed=false" >> $GITHUB_ENV
-            else
-              echo "Version has changed."
-              echo "changed=true" >> $GITHUB_ENV
-            fi
-          else
-            echo "File does not exist, creating new one."
-            echo "changed=true" >> $GITHUB_ENV
-          fi  # Closing the if statement properly
+          # Hole die neueste Release-Version
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          https://api.github.com/repos/SpaceTheme/Discord/releases \
+          | jq -r '.[0].tag_name' > data/discord.txt
 
       - name: Commit and push latest release
-        if: env.changed == 'true'
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "action@github.com"
           git add data/discord.txt
-          git commit -m "Update to latest DiscordTheme version: ${{ env.discord_version }}" || echo "No changes to commit"
+          git commit -m "Update latest DiscordTheme version" || echo "No new DiscordTheme version"
           git push || echo "No changes to push"
