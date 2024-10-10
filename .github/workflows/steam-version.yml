@@ -1,4 +1,4 @@
-name: Fetch Latest Version Discord
+name: Fetch Latest Version Steam
 
 on:
   push:
