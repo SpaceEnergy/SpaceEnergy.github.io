@@ -25,6 +25,19 @@
     background-color: #181818;
 }
 
+.card-container .grid .count {
+    text-align: center;
+    outline: none;
+}
+
+.card-container .grid {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin: 0;
+}
+
 .count-button {
     display: flex;
     justify-content: center;
