@@ -1,7 +1,7 @@
 async function fetchLatestRelease() {
     const urls = [
-        { url: 'https://spaceenergy.github.io/version-discord.txt', elementId: 'discord' },
-        { url: 'https://spaceenergy.github.io/version-steam.txt', elementId: 'steam' },
+        { url: 'https://spaceenergy.github.io/data/discord.txt', elementId: 'discord' },
+        { url: 'https://spaceenergy.github.io/data/steam.txt', elementId: 'steam' },
     ];
 
     try {
