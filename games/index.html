@@ -9,6 +9,7 @@
         <meta name="theme-color" content="#40009D">
         <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
         <link href="/index.css" rel="stylesheet" type="text/css" />
+        <link href="index.css" rel="stylesheet" type="text/css" />
         <title>SpaceLink - JavaScript</title>
     </head>
     <body>
@@ -33,51 +34,23 @@
             <div class="content">
                 <div class="navigation" id="main">
                     <a href="../../" class="back-tab"><div class="tab"><img src="/images/arrow-left.svg" style="width:14px;margin-right:6px;">Back</div></a>
-                    <a href="#javascript"><div class="tab">JavaScript</div></a>
+                    <a href="#games"><div class="tab">Games</div></a>
                 </div>
                 <div class="divider"></div>
 
                 <div class="containers">
-                    <div class="card-container" id="javascript">
-                        <h2>JavaScript</h2>
-                        <div class="grid">
-                            <div class="card">
-                                <a href="./counter/">
-                                    <div class="img img-radius">
-                                        <span><img src="/images/arrow-right.svg"></span>
-                                        <img src="/images/counter.png">
-                                    </div>
-                                    <p>Counter</p>
-                                    <p class="disc">First JavaScript project</p>
-                                </a>
-                            </div>
-                            <div class="card">
-                                <a href="./randomNumber/">
-                                    <div class="img img-radius">
-                                        <span><img src="/images/arrow-right.svg"></span>
-                                        <img src="/images/randomNumber.png">
-                                    </div>
-                                    <p>Random number</p>
-                                    <p class="disc">Second JavaScript project</p>
-                                </a>
-                            </div>
-                            <div class="card">
-                                <a href="./calculator/">
-                                    <div class="img img-radius">
-                                        <span><img src="/images/arrow-right.svg"></span>
-                                        <img src="/images/calculator.png">
-                                    </div>
-                                    <p>Calculator - SOON</p>
-                                    <p class="disc">Third JavaScript project</p>
-                                </a>
-                            </div>
-                        </div>
+                    <div class="card-container" id="games">
+                        <h2>Games</h2>
+                        <div class="grid" id="gamesContainer"></div>
+                        <div class="loading">Loading games...</div>
                     </div>
                 </div>
                 <div class="footer">
-                    <p>Made by SpaceEnergy with ❤️<br/>© 2022-2024 SpaceEnergy</p>
+                    <p>Made by SpaceEnergy & <a href="https://github.com/noxygalaxy">Noxy</a> with ❤️<br/>© 2022-2024 SpaceEnergy</p>
                 </div>
             </div>
         </div>
+
+        <script src="index.js"></script>
     </body>
 </html>
