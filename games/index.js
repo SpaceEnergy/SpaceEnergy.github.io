@@ -171,7 +171,7 @@ async function loadGames() {
     } catch (error) {
         document.getElementById('gamesContainer').innerHTML = `
             <div class="error">
-                Error loading games. Please try again later.
+                Please try again later.
             </div>
         `;
         console.error('Error loading games:', error);
