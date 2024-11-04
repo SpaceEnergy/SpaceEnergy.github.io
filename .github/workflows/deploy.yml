@@ -19,4 +19,4 @@ jobs:
     - name: Run script with API Token
       env:
         API_TOKEN: ${{ secrets.API_TOKEN }}
-      run: node \games\index.js
+      run: node /games/index.js
