@@ -271,7 +271,8 @@ p, h1, h2, h3, a {
 }
 #projects .card .img,
 #javascript .card .img,
-#themes .card .img {
+#themes .card .img,
+#fillaments .card .img {
     padding: 0;
 }
 .card .img img {
