@@ -269,18 +269,17 @@ p, h1, h2, h3, a {
 .card:hover .img {
     background-color: #1d1d1d;
 }
-#projects .card .img,
-#javascript .card .img,
-#themes .card .img,
-#fillaments .card .img {
-    padding: 0;
-}
+
 .card .img img {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: contain;
 }
-.card .img-radius img {
+
+.no-padding-img {
+    padding: 0 !important;
+}
+.no-padding-img img {
     border-radius: 26px;
 }
 
