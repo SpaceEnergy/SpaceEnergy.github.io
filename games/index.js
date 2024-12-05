@@ -1,4 +1,4 @@
-const STEAM_API_KEY = process.env.API_KEY;
+const STEAM_API_KEY = 'api_key';
 const STEAM_ID = '76561199251838449';
 
 const gameNamesCache = new Map();
