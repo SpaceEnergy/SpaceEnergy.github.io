@@ -23,11 +23,17 @@
 
 
 
+.card {
+    padding: 12px;
+}
+
+
 .card .img {
     max-width: unset;
 }
 .card .img img {
     aspect-ratio: unset;
+    border-radius: 18px;
 }
 
 
