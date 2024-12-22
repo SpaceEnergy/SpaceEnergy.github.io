@@ -19,6 +19,28 @@ p, h1, h2, h3, a {
 }
 
 
+*::-webkit-scrollbar {
+    width: 14px;
+}
+  
+*::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+  
+*::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: rgb(135, 140, 255);
+}
+  
+*::-webkit-scrollbar-thumb:hover {
+    border: 3px solid transparent;
+    background-color: rgb(102, 108, 255);
+}
+
+
+
 .full-content {
     margin: 16px 16px 0;
 }
