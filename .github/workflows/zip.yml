@@ -15,12 +15,12 @@ jobs:
         run: |
           zip -r SpaceTheme_for_Steam.zip .
 
-      - name: Upload ZIP as a release draft
+      - name: Create Draft Release
+        id: create_release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Create a new release draft with the ZIP file
-          curl -X POST \
+          response=$(curl -X POST \
             -H "Authorization: token $GITHUB_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/releases \
@@ -29,20 +29,21 @@ jobs:
             "tag_name": "space-theme-release",
             "target_commitish": "${{ github.sha }}",
             "name": "SpaceTheme Release",
-            "body": "This is a draft release containing SpaceTheme_for_${{ github.repository }}.zip.",
+            "body": "This release contains the ZIP file SpaceTheme_for_Steam.zip.",
             "draft": true
           }
-          EOF
+          EOF\n)
 
-          # Fetch the release ID
-          RELEASE_ID=$(curl -H "Authorization: token $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/releases/latest \
-            | jq -r '.id')
+          echo "$response" > response.json
+          RELEASE_ID=$(jq -r '.id' response.json)
+          echo "release_id=$RELEASE_ID" >> $GITHUB_ENV
 
-          # Upload the ZIP to the release
+      - name: Upload ZIP to Draft Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           curl -X POST \
             -H "Authorization: token $GITHUB_TOKEN" \
             -H "Content-Type: application/zip" \
             --data-binary @SpaceTheme_for_Steam.zip \
-            https://uploads.github.com/repos/${{ github.repository }}/releases/$RELEASE_ID/assets?name=SpaceTheme_for_${{ github.repository }}.zip
+            "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ env.release_id }}/assets?name=SpaceTheme_for_Steam.zip"
