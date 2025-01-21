@@ -32,10 +32,10 @@ jobs:
             "body": "This release contains the ZIP file SpaceTheme_for_Steam.zip.",
             "draft": true
           }
-          EOF\n)
+          EOF)
 
-          echo "$response" > response.json
-          RELEASE_ID=$(jq -r '.id' response.json)
+          # Extract release_id using bash
+          RELEASE_ID=$(echo "$response" | grep -oP '"id":\s*\K[0-9]+')
           echo "release_id=$RELEASE_ID" >> $GITHUB_ENV
 
       - name: Upload ZIP to Draft Release
