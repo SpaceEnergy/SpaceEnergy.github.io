@@ -36,14 +36,24 @@ jobs:
 
           # Extract release_id using bash
           RELEASE_ID=$(echo "$response" | grep -oP '"id":\s*\K[0-9]+')
-          echo "release_id=$RELEASE_ID" >> $GITHUB_ENV
+
+          # Validate release_id
+          if [[ -z "$RELEASE_ID" ]]; then
+            echo "Failed to extract release ID."
+            echo "$response"
+            exit 1
+          fi
+
+          # Save to GITHUB_ENV
+          echo "release_id=${RELEASE_ID}" >> $GITHUB_ENV
 
       - name: Upload ZIP to Draft Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          release_id: ${{ env.release_id }}
         run: |
           curl -X POST \
             -H "Authorization: token $GITHUB_TOKEN" \
             -H "Content-Type: application/zip" \
             --data-binary @SpaceTheme_for_Steam.zip \
-            "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ env.release_id }}/assets?name=SpaceTheme_for_Steam.zip"
+            "https://uploads.github.com/repos/${{ github.repository }}/releases/${release_id}/assets?name=SpaceTheme_for_Steam.zip"
