@@ -314,7 +314,6 @@ p, h1, h2, h3, a {
 .card p {
     font-weight: 800;
     font-size: 14px;
-    margin-left: 6px;
 }
 .card .disc {
     font-weight: 500;
