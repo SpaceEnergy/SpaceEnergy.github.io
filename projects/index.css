@@ -1,4 +1,15 @@
 .card-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 16px;
+    border: 2px solid #2b2b2b;
+    border-radius: 26px;
+    background-color: #111111;
 }
