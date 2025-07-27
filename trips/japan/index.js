@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="${imgPath}">
                             <div class="img">
                                 <span><img src="/images/expande.svg"></span>
-                                <img src="${imgPath}">
+                                <img src="${imgPath}" loading="lazy">
                             </div>
                         </a>
                     `;
