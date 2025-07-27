@@ -1,0 +1,15 @@
+.card {
+    padding: 0;
+    border: none;
+    outline: 2px solid #2b2b2b;
+}
+
+.card .img {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.card .img>img {
+    object-fit: cover;
+}
