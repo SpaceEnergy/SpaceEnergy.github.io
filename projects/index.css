@@ -1,10 +1,10 @@
-.card-container {
+.card-container:not(#spacetheme) {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container {
+.container:not(:has(#spacetheme)) {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -12,4 +12,11 @@
     border: 2px solid #2b2b2b;
     border-radius: 26px;
     background-color: #111111;
+}
+
+
+
+.card-container#spacetheme .card:not(.kofi-card) .img:not(.no-padding-img) {
+    padding: 34px;
+    background: #0a0a0a;
 }
