@@ -5,11 +5,138 @@
 }
 
 .card .img {
+    position: relative;
     overflow: hidden;
     margin: 0;
     padding: 0;
+    aspect-ratio: 1 / 1;
 }
 
-.card .img>img {
+.card .img > img,
+.card .img > video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+
+.card .img span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #2b2b2b;
+    border-radius: 40px;
+    backdrop-filter: blur(8px);
+    background-color: #1e1e1e46;
+    opacity: 1;
+    transform: none;
+}
+
+.card .img span.left {
+    left: 10px;
+    right: auto;
+}
+
+.card .img span img {
+    width: 12px;
+    height: 12px;
+    border-radius: 0;
+}
+
+.media-viewer {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 48px;
+    background: rgba(0, 0, 0, 0.88);
+}
+
+.media-viewer.active {
+    display: flex;
+}
+
+.media-viewer .viewer-backdrop {
+    position: absolute;
+    inset: 0;
+}
+
+.media-viewer .viewer-stage {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min(100vw, 1600px);
+    max-height: min(100vh, 1200px);
+}
+
+.media-viewer .viewer-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.media-viewer .viewer-media img,
+.media-viewer .viewer-media video {
+    display: block;
+    max-width: min(100vw - 40px, 1520px);
+    max-height: min(100vh - 20px, 1160px);
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 24px;
+    background: #000;
+}
+
+.media-viewer .viewer-nav,
+.media-viewer .viewer-close {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 999px;
+    background: rgba(10, 10, 10, 0.75);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.media-viewer .viewer-nav {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.media-viewer .viewer-nav.prev {
+    left: 12px;
+}
+
+.media-viewer .viewer-nav.next {
+    right: 12px;
+}
+
+.media-viewer .viewer-close {
+    top: 12px;
+    right: 12px;
+}
+
+body.viewer-open {
+    overflow: hidden;
 }

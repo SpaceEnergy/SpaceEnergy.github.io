@@ -247,6 +247,13 @@ p, h1, h2, h3, a {
     border-radius: 40px;
     backdrop-filter: blur(8px);
     background-color: #1e1e1e46;
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+.card .img span.left {
+    left: 10px;
+    right: auto;
 }
 #setup .card .img span,
 #pc .card .img span,
