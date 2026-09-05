@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         stage.innerHTML = `
             <div class="viewer-media">
                 ${isVideo
-                    ? `<video src="${mediaPath}" controls autoplay playsinline></video>`
+                    ? `<video src="${mediaPath}" poster="${mediaPath.replace(/\.webm$/i, '.poster.webp')}" controls autoplay playsinline></video>`
                     : `<img src="${mediaPath}" alt="">`
                 }
             </div>
@@ -148,6 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const filename = media.src || '';
                     const isVideo = media.type === 'video' || /\.(mp4|mov|m4v|mkv|webm|avi|mpeg|mpg)$/i.test(filename);
                     const mediaPath = `/images/japan2/${location}/${filename}`;
+                    const posterPath = `/images/japan2/${location}/${filename.replace(/\.webm$/i, '.poster.webp')}`;
                     const entry = {
                         ...media,
                         location,
@@ -164,7 +165,9 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="img">
                                 ${isVideo ? '<span class="left"><img src="/images/video.svg" alt=""></span>' : ''}
                                 <span><img src="/images/expande.svg" alt=""></span>
-                                <img src="${mediaPath}" loading="lazy" alt="" decoding="async">
+                                ${isVideo
+                                    ? `<video src="${mediaPath}" poster="${posterPath}" muted playsinline preload="metadata"></video>`
+                                    : `<img src="${mediaPath}" loading="lazy" alt="" decoding="async">`}
                             </div>
                         </a>
                     `;
