@@ -9,11 +9,11 @@ recompress_image() {
     local input="$1"
     local output="$2"
     if command -v magick >/dev/null 2>&1; then
-        magick "$input" -auto-orient -quality 80 "$output" >/dev/null 2>&1
+        magick "$input" -auto-orient -quality 84 "$output" >/dev/null 2>&1
     elif command -v cwebp >/dev/null 2>&1; then
-        cwebp -q 80 "$input" -o "$output" >/dev/null 2>&1
+        cwebp -q 84 "$input" -o "$output" >/dev/null 2>&1
     elif command -v ffmpeg >/dev/null 2>&1; then
-        ffmpeg -y -i "$input" -frames:v 1 -q:v 80 "$output" >/dev/null 2>&1
+        ffmpeg -y -i "$input" -frames:v 1 -q:v 84 "$output" >/dev/null 2>&1
     else
         echo "No image converter found" >&2
         exit 1
@@ -24,11 +24,22 @@ recompress_webm() {
     local input="$1"
     local output="$2"
     if command -v ffmpeg >/dev/null 2>&1; then
-        ffmpeg -y -i "$input" -c:v libvpx-vp9 -crf 50 -b:v 0 -c:a libopus -b:a 64k -pix_fmt yuv420p "$output" >/dev/null 2>&1
+        ffmpeg -y -i "$input" -c:v libvpx-vp9 -crf 40 -b:v 0 -c:a libopus -b:a 64k -pix_fmt yuv420p "$output" >/dev/null 2>&1
     else
         echo "No ffmpeg found" >&2
         exit 1
     fi
+}
+
+create_video_poster() {
+    local input="$1"
+    local output="$2"
+    if [ -e "$output" ]; then
+        log "Skipping existing poster: $(basename "$output")"
+        return
+    fi
+    log "Creating video poster: $(basename "$output")"
+    ffmpeg -y -ss 0.5 -i "$input" -frames:v 1 -vf "scale='min(640,iw)':-2" -c:v libwebp -quality 75 "$output" >/dev/null 2>&1
 }
 
 output_file="media.json"
@@ -39,33 +50,26 @@ for dir in */; do
     dir_name="${dir%/}"
     entries_file=$(mktemp)
 
-    while IFS= read -r webp; do
-        [ -e "$webp" ] || continue
-        log "Recompressing existing WebP: $(basename "$webp")"
-        tmp="${webp}.tmp.webp"
-        recompress_image "$webp" "$tmp"
-        mv "$tmp" "$webp"
-        printf 'image\t%s\n' "$(basename "$webp")" >> "$entries_file"
-    done < <(find "$dir" -maxdepth 1 -type f -iname '*.webp' | sort)
-
     while IFS= read -r webm; do
         [ -e "$webm" ] || continue
-        log "Recompressing existing WebM: $(basename "$webm")"
-        tmp="${webm}.tmp.webm"
-        recompress_webm "$webm" "$tmp"
-        mv "$tmp" "$webm"
+        log "Skipping existing WebM: $(basename "$webm")"
+        poster="${webm%.webm}.poster.webp"
+        create_video_poster "$webm" "$poster"
         printf 'video\t%s\n' "$(basename "$webm")" >> "$entries_file"
     done < <(find "$dir" -maxdepth 1 -type f -iname '*.webm' | sort)
+
+    while IFS= read -r webp; do
+        [ -e "$webp" ] || continue
+        log "Skipping existing WebP: $(basename "$webp")"
+        printf 'image\t%s\n' "$(basename "$webp")" >> "$entries_file"
+    done < <(find "$dir" -maxdepth 1 -type f -iname '*.webp' ! -name '*.poster.webp' | sort)
 
     for img in "$dir"*.png "$dir"*.jpg "$dir"*.jpeg "$dir"*.JPG; do
         [ -e "$img" ] || continue
         base="${img%.*}"
         output="$base.webp"
         if [ -e "$output" ]; then
-            log "Recompressing existing WebP: $(basename "$output")"
-            tmp="$output.tmp.webp"
-            recompress_image "$output" "$tmp"
-            mv "$tmp" "$output"
+            log "Skipping existing WebP: $(basename "$output")"
             rm -f "$img"
             printf 'image\t%s\n' "$(basename "$output")" >> "$entries_file"
             continue
@@ -83,26 +87,16 @@ for dir in */; do
         base="${video%.*}"
         output="$base.webm"
         if [ -e "$output" ]; then
-            log "Recompressing existing WebM: $(basename "$output")"
-            if command -v ffmpeg >/dev/null 2>&1; then
-                recompress_webm "$output" "$output.tmp.webm"
-                mv "$output.tmp.webm" "$output"
-            else
-                echo "No ffmpeg found" >&2
-                exit 1
-            fi
+            log "Skipping existing WebM: $(basename "$output")"
+            create_video_poster "$output" "$base.poster.webp"
             rm -f "$video"
             printf 'video\t%s\n' "$(basename "$output")" >> "$entries_file"
             continue
         fi
 
         log "Converting video: $(basename "$video")"
-        if command -v ffmpeg >/dev/null 2>&1; then
-            recompress_webm "$video" "$output"
-        else
-            echo "No ffmpeg found" >&2
-            exit 1
-        fi
+        recompress_webm "$video" "$output"
+        create_video_poster "$output" "$base.poster.webp"
         rm -f "$video"
         printf 'video\t%s\n' "$(basename "$output")" >> "$entries_file"
     done < <(find "$dir" -maxdepth 1 -type f \( -iname '*.mp4' -o -iname '*.mov' -o -iname '*.mkv' -o -iname '*.m4v' -o -iname '*.avi' -o -iname '*.mpg' -o -iname '*.mpeg' -o -iname '*.mts' -o -iname '*.m2ts' \) | sort)
